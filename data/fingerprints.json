@@ -1,0 +1,47 @@
+[
+  {
+    "client": "python urllib",
+    "http": "HTTP/1.1",
+    "ja3_hash": "4bdac5abde98465c2a2ffd5401d73cfd",
+    "ja4": "t13d1713h1_ab0a1bf427ad_89ab6efea773",
+    "akamai_fp": null,
+    "akamai_hash": null,
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Appl"
+  },
+  {
+    "client": "curl",
+    "http": "h2",
+    "ja3_hash": "375c6162a492dfbf2795909110ce8424",
+    "ja4": "t13d497h2_0d8feac7bc37_7395dae3b2f3",
+    "akamai_fp": "3:100;4:10485760;2:0|1048510465|0|m,s,a,p",
+    "akamai_hash": "64a832f547be33249bf4d33e8a46c5dc",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Appl"
+  },
+  {
+    "client": "chromium headless, default",
+    "http": "h2",
+    "ja3_hash": "9c691d29f4ecd8edea0c01b2cee97289",
+    "ja4": "t13d1516h2_8daaf6152771_806a8c22fdea",
+    "akamai_fp": "1:65536;2:0;4:6291456;6:262144|15663105|0|m,a,s,p",
+    "akamai_hash": "52d84b11737d980aef856699f885ca86",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Appl"
+  },
+  {
+    "client": "chromium headless, hardened",
+    "http": "h2",
+    "ja3_hash": "f98c7178db232232eeaed651bd33ba86",
+    "ja4": "t13d1516h2_8daaf6152771_806a8c22fdea",
+    "akamai_fp": "1:65536;2:0;4:6291456;6:262144|15663105|0|m,a,s,p",
+    "akamai_hash": "52d84b11737d980aef856699f885ca86",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Appl"
+  },
+  {
+    "client": "chromium headful",
+    "http": "h2",
+    "ja3_hash": "1131b78c7c30672df1ea4abc7118e9cf",
+    "ja4": "t13d1516h2_8daaf6152771_806a8c22fdea",
+    "akamai_fp": "1:65536;2:0;4:6291456;6:262144|15663105|0|m,a,s,p",
+    "akamai_hash": "52d84b11737d980aef856699f885ca86",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Appl"
+  }
+]

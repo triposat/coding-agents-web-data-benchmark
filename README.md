@@ -2,8 +2,34 @@
 
 Everything behind the article, so the numbers can be re-derived rather than trusted.
 
+```bash
+python3 verify.py ../coding-agents-web-data-benchmark.md
+```
+
+Re-derives every figure the article cites from the data in this repo and checks the
+article still says them. No network, no credentials. It parses the article's tables and
+compares specific cells, so a wrong number fails even when that number appears correctly
+somewhere else. It also fails if a credential is present anywhere in the tree.
+
 Measured on 2026-08-31 from a single machine in one location. Every figure in the
 article comes from a file in `data/` or `runs/`.
+
+## Measuring the refusal layer, not just the outcome
+
+Two probes ask *why* a site refuses rather than *whether* it did.
+
+| Script | Question | Data |
+|---|---|---|
+| `scripts/probe_fingerprints.py` | what does a server actually see from each client | `data/fingerprints.json` |
+| `scripts/probe_refusal_layer.py` | at which layer do 15 sites refuse | `data/refusal_layer.json` |
+| `scripts/probe_ip_vs_fingerprint.py` | does changing the egress move what hardening could not | same file |
+| `scripts/probe_tool_groups.py` | what the MCP server's `GROUPS` selector exposes | — |
+
+The first two need no credentials. The third needs `BD_KEY`.
+
+Headline: three Chromium variants, default, hardened and headful, produce a byte-identical
+HTTP/2 fingerprint, and JA3 is not stable enough to be what anyone keys on. Across 15
+sites, 11 treated all three local clients the same.
 
 ## What was measured
 

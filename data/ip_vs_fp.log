@@ -1,0 +1,18 @@
+  amazon        local(all 3)=http_503         brightdata=http_429               77b
+  walmart       local(all 3)=challenge_page   brightdata=challenge_page   1,278,956b
+  bestbuy       local(all 3)=timeout          brightdata=challenge_page   2,277,649b
+  target        local(all 3)=challenge_page   brightdata=challenge_page   1,290,728b
+  newegg        local(all 3)=http_403         brightdata=ok                835,266b
+  etsy          local(all 3)=http_403         brightdata=http_402              252b
+  ebay          local(all 3)=http_403         brightdata=ok               2,764,484b
+  homedepot     local(all 3)=http_403         brightdata=ok               1,136,490b
+  booking       local(all 3)=thin_body        brightdata=challenge_page   1,400,474b
+  indeed        local(all 3)=http_403         brightdata=challenge_page   2,197,489b
+  zillow        local(all 3)=http_403         brightdata=http_402              252b
+  ticketmaster  local(all 3)=ok               brightdata=http_502                0b
+  glassdoor     local(all 3)=challenge_page   brightdata=challenge_page    535,913b
+  crunchbase    local(all 3)=http_403         brightdata=http_402              252b
+  yelp          local(all 3)=http_403         brightdata=ok               1,053,032b
+
+  reachable from this machine, best local client: 0/15
+  reachable through Bright Data's egress:         4/15

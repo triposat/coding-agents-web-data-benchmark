@@ -1,0 +1,15 @@
+  amazon        urllib=http_503         curl=http_503         chromium=http_503
+  walmart       urllib=challenge_page   curl=challenge_page   chromium=challenge_page
+  bestbuy       urllib=timeout          curl=thin_body        chromium=thin_body
+  target        urllib=challenge_page   curl=challenge_page   chromium=challenge_page
+  newegg        urllib=http_403         curl=http_403         chromium=http_403
+  etsy          urllib=http_403         curl=http_403         chromium=http_403
+  ebay          urllib=http_403         curl=http_403         chromium=http_403
+  homedepot     urllib=http_403         curl=http_403         chromium=http_403
+  booking       urllib=thin_body        curl=thin_body        chromium=challenge_page
+  indeed        urllib=http_403         curl=http_403         chromium=http_403
+  zillow        urllib=http_403         curl=http_403         chromium=http_403
+  ticketmaster  urllib=ok               curl=ok               chromium=http_403
+  glassdoor     urllib=challenge_page   curl=http_403         chromium=http_403
+  crunchbase    urllib=http_403         curl=http_403         chromium=http_403
+  yelp          urllib=http_403         curl=http_403         chromium=http_403
