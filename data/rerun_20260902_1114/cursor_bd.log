@@ -1,0 +1,44 @@
+Fetching 41 product pages via Bright Data Web Unlocker (zone=web_unlocker)...
+[1/41] S02 target     -> http_401
+[2/41] S02 amazon     -> http_401
+[3/41] S01 amazon     -> http_401
+[4/41] S01 bestbuy    -> http_401
+[5/41] S02 bestbuy    -> http_401
+[6/41] S01 walmart    -> http_401
+[7/41] S03 walmart    -> http_401
+[8/41] S03 target     -> http_401
+[9/41] S02 walmart    -> http_401
+[10/41] S03 bestbuy    -> http_401
+[11/41] S03 amazon     -> http_401
+[12/41] S04 bestbuy    -> http_401
+[13/41] S04 walmart    -> http_401
+[14/41] S04 newegg     -> http_401
+[15/41] S05 bestbuy    -> http_401
+[16/41] S05 target     -> http_401
+[17/41] S04 amazon     -> http_401
+[18/41] S05 amazon     -> http_401
+[19/41] S06 target     -> http_401
+[20/41] S06 bestbuy    -> http_401
+[21/41] S05 walmart    -> http_401
+[22/41] S06 newegg     -> http_401
+[23/41] S06 amazon     -> http_401
+[24/41] S05 newegg     -> http_401
+[25/41] S07 walmart    -> http_401
+[26/41] S06 walmart    -> http_401
+[27/41] S07 newegg     -> http_401
+[28/41] S07 bestbuy    -> http_401
+[29/41] S07 target     -> http_401
+[30/41] S07 amazon     -> http_401
+[31/41] S08 walmart    -> http_401
+[32/41] S08 target     -> http_401
+[33/41] S08 amazon     -> http_401
+[34/41] S09 bestbuy    -> http_401
+[35/41] S09 amazon     -> http_401
+[36/41] S09 target     -> http_401
+[37/41] S10 amazon     -> http_401
+[38/41] S09 newegg     -> http_401
+[39/41] S10 bestbuy    -> http_401
+[40/41] S10 walmart    -> http_401
+[41/41] S09 walmart    -> http_401
+
+Wrote /Users/triposat/Desktop/Bdata Cursor/bench/runs_isolated/cursor_bd/results.json: 0/41 pages collected all 4 fields.

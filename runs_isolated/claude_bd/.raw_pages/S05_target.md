@@ -4,9 +4,9 @@ Logitech MX Master 3S Wireless Mouse with Quiet Clicks 910006581 : Target
 
 [skip to main content](#content)[skip to footer](#footerHeader)
 
-Ship to 44691
+Ship to 10118
 
-Wadsworth
+Chelsea 23rd and 8th
 
 [Target Circle™](/circle)[Target Circle™ Card](/circlecard)[Target Circle 360™](/l/target-circle-360/-/N-2rguk)[Registry & Wish List](/gift-registry)[Weekly Ad](/weekly-ad)[Find Stores](/store-locator/find-stores)
 
@@ -24,8 +24,6 @@ Wadsworth
 
 search
 
-Ask Target
-
 [
 
 ](/account?prehydrateClick=true)[
@@ -33,8 +31,6 @@ Ask Target
 Account](/account?prehydrateClick=true)[
 
 ](/cart?prehydrateClick=true)
-
-Ask Target
 
 Sponsored
 
@@ -66,29 +62,11 @@ Show more images
 
 11
 
-$114.99
+$109.99
 
-Out of stock
-
-Notify me when available
+PickupDeliveryShipping
 
 Add to cart
-
-* * *
-
-Add plans or services
-
-Make your selection before adding to cart
-
-2 Year Electronics Protection Plan ($100-$124.99) - Allstate
-
-$17.00
-
-* * *
-
-Free & easy returns
-
-Return this item in store within 30 days for a full refund.
 
 [
 
@@ -101,8 +79,6 @@ Sold & shipped by Spacebound
 ](/sp/spacebound/-/N-10019761)
 
 Report this item
-
-[Skip to next section](#skip)
 
 Eligible for registries and wish lists
 
@@ -169,8 +145,6 @@ Sponsored
 
 Sponsored
 
-Sponsored
-
 ### Get top deals, latest trends, and more.
 
 Email address
@@ -183,4 +157,12 @@ Sign up
 
 ](https://www.target.com/c/terms-conditions/-/N-4sr7l)
 
-## 
+## Footer
+
+## Loading screen
+
+### 
+
+Loading content
+
+Still load

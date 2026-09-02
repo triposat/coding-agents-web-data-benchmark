@@ -4,9 +4,9 @@ Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation : Target
 
 [skip to main content](#content)[skip to footer](#footerHeader)
 
-Ship to 44904
+Ship to 30308
 
-Mansfield
+Atlanta Midtown
 
 [Target Circle™](/circle)[Target Circle™ Card](/circlecard)[Target Circle 360™](/l/target-circle-360/-/N-2rguk)[Registry & Wish List](/gift-registry)[Weekly Ad](/weekly-ad)[Find Stores](/store-locator/find-stores)
 
@@ -24,8 +24,6 @@ Mansfield
 
 search
 
-Ask Target
-
 [
 
 ](/account?prehydrateClick=true)[
@@ -33,8 +31,6 @@ Ask Target
 Account](/account?prehydrateClick=true)[
 
 ](/cart?prehydrateClick=true)
-
-Ask Target
 
 Sponsored
 
@@ -66,23 +62,31 @@ Show more images
 
 3.93 out of 5 stars
 
-2,037
+2,044
 
-[111 Questions](#)
+[110 Questions](#)
 
 Bestseller
 
 Rarely returned
 
-$249.99
+$224.99 reg $249.99
 
-PickupReady within 2 hoursDeliveryCheck availabilityShippingArrives by Thu, Sep 3
+Sale save $25.00 (10% off)
 
-Pick up at Mansfield
+When purchased online
+
+PickupReady within 2 hoursDeliveryCheck availabilityShippingGet it tomorrow
+
+Pick up at Atlanta Midtown
 
 Check other stores
 
 Ready within 2 hours for pickup inside the store
+
+Qty
+
+1
 
 Add to cart
 
@@ -115,24 +119,6 @@ Sign in
 Add to list
 
 ## Get the AirPods Pro 3 starting at $24/mo.
-
-[
-
-Save 5% every day
-
-With Target Circle™ Card (restrictions apply)
-
-
-
-](/circlecard?cpng=redcard9235)
-
-4 interest-free payments or as low as $24/mo
-
-With Affirm
-
-Pay in 4
-
-Pay in 4 interest-free payments of $62.50
 
 ## At a glance
 
@@ -200,7 +186,7 @@ Show more
 
 ### Shipping & Returns
 
-### Q&A (111)
+### Q&A (110)
 
 ## Additional product information and recommendations
 
@@ -248,16 +234,4 @@ Sign up
 
 [Privacy policy
 
-](https://www.target.com/c/target-privacy-policy/-/N-4sr7p)[Terms
-
-](https://www.target.com/c/terms-conditions/-/N-4sr7l)
-
-## Footer
-
-![Image of Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation](https://target.scene7.com/is/image/Target/GUEST_d1b8c229-751b-430b-a0fb-521d7777a784?qlt=65&fmt=webp&hei=160&wid=160)
-
-[Shop all Apple](/b/apple/-/N-5y3ej)
-
-### 
-
-Apple 
+](https://www.target.com/c/tar

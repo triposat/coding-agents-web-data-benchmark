@@ -76,7 +76,7 @@ Cancel
 
 Hero image 0 of Seagate Backup Plus Slim Portable 2TB External Hard Drive USB 3.0, Black, 0 of 7
 
-100+ bought since yesterdayOverall pick
+1K+ bought in past monthOverall pick
 
 [Visit the Seagate Store](/brand/seagate/10023846)
 
@@ -86,7 +86,7 @@ Hero image 0 of Seagate Backup Plus Slim Portable 2TB External Hard Drive USB 3.
 
 (4.4)
 
-[4,501 ratings](#)
+[4,502 ratings](#)
 
 * * *
 
@@ -171,7 +171,7 @@ Shipping
 
 Arrives today
 
-Order within 8 hr 22 min
+Order within 6 hr 38 min
 
 Free
 
@@ -179,21 +179,21 @@ Free
 
 Pickup
 
-Check nearby
+Get it nearby
 
 ![](//i5.walmartimages.com/dfw/63fd9f59-d930/2bac0e2b-cda4-4053-8a8e-8e8a0195b579/v1/Delivery_GroceryBag_Circle_Blue.svg)
 
 Delivery
 
-Out of stock
+Not available
 
-Ships toSacramento, 95829
+Ships toPhiladelphia, 19115
 
 Arrives by Today
 
 .
 
-Order within 8 hr 22 min
+Order within 6 hr 38 min
 
 Low stock
 
@@ -218,6 +218,36 @@ This item is gift eligibleLearn more
 Add to list
 
 Add to registry
+
+[
+
+### 50+ bought in past month Seagate FireCuda X Vault 8TB External Gaming Hard Drive with USB-C Connection and RGB Lighting $299.00
+
+](https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-item-top~desktop~&pos=1&tax=3944_1089430_1073804_514537&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FSeagate-FireCuda-Vault%2F18600063527%3FadsRedirect%3Dtrue&adUid=99b64890-6a17-4c3c-a148-88b790a0e44d&mloc=sp-item-top&pltfm=desktop&pgId=790131533&pt=item&spQs=NwETqtwGNNLDbyY1rbW3sVxJp2WYRQCFgwy3wx_GoDMslfOk3dqJhc1pLJkajeKbJYRqxGAq749IZqX-0QUgVw681QtFtNSSJwgd2IhFXQE-urbSpS6SlJkVslW5i5zJ6aU6TXLrHhkXYZhYWhI0fCnxhPQtaFT28Rj7_bdoF3H21_O3xD68XjgqjmXDF5N4sKDrb_u8UJ-PMj7t4mpEIf0vdIuBSviepn7PfQZzvvTnJR8v1vBu1Qz_PtB5VSBdt2yh7CYEjFkLQa1KwHEIayWCZZaTZUkBWNkKTmVuAnM&storeId=5130&specificity=&specificityScore=&couponState=na&bkt=ace1_14238%7Cace2_14401%7Cace3_default%7Cbb_1_14514%7Cbb_2_14536%7Cbb_5_14545&/ip/Seagate-FireCuda-Vault/18600063527)
+
+50+ bought in past month
+
+![Seagate FireCuda X Vault 8TB External Gaming Hard Drive with USB-C Connection and RGB Lighting](https://i5.walmartimages.com/seo/Seagate-FireCuda-Vault_55253a27-be61-49da-b649-dc5934c473b3.aa522db16febae2304d58d7ce80fe54e.jpeg?odnHeight=320&odnWidth=320&odnBg=FFFFFF)
+
+$29900
+
+current price $299.00
+
+### Seagate FireCuda X Vault 8TB External Gaming Hard Drive with USB-C Connection and RGB Lighting
+
+3.7 out of 5 stars
+
+153.7 out of 5 Stars. 15 reviews
+
+Delivery available
+
+Shipping arrives tomorrow
+
+Pickup today
+
+Add to cart
+
+Sponsored
 
 We’d love to hear what you think!
 

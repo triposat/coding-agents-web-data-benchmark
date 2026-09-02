@@ -60,9 +60,9 @@ SKU: 6461979
 
 [
 
-Rating 4.8 out of 5 stars with 332 reviews
+Rating 4.8 out of 5 stars with 333 reviews
 
-4.8(332)
+4.8(333)
 
 ](#tabbed-customerreviews)
 
@@ -171,57 +171,6 @@ See all specifications
 
 ## Reviews
 
-## Featured products
-
-Sponsored
-
-[![The latest deals on the latest tech for home, work or play.](https://retailmedia-static.criteo.com/creativeassets-live/2ebc1eba4b60112ad989848cd6aec068f5061df513a965823120704907a3cf3a.png)](https://www.bestbuy.com/site/searchpage.jsp?_dyncharset=UTF-8&ks=960&sc=Global&list=y&usc=All+Categories&type=page&id=pcat17071&iht=n&seeAll=&cp=1&browsedCategory=abcat0504001&st=categoryid%24abcat0504001&qp=brand_facet%3DBrand~Seagate)
-
-*   [![](https://pisces.bbystatic.com/image2/BestBuy_US/images/products/370420e3-01a0-4632-a164-80ef65c878ca.jpg;maxHeight=100;maxWidth=150)](https://www.bestbuy.com/product/seagate-seagate-one-touch-desktop-hdd-8-tb-space-gray/J37C5H546R/sku/6672836)
-    
-    [Seagate - Seagate One Touch Desktop HDD 8 TB - Space Gray](https://www.bestbuy.com/product/seagate-seagate-one-touch-desktop-hdd-8-tb-space-gray/J37C5H546R/sku/6672836)
-    
-    [
-    
-    Rating 4.3 out of 5 stars with 6 reviews
-    
-    (6)
-    
-    ](https://www.bestbuy.com/product/seagate-seagate-one-touch-desktop-hdd-8-tb-space-gray/J37C5H546R/sku/6672836#tabbed-customerreviews)
-    
-    $289.99$28999
-    
-*   [![](https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6461/6461967_sd.jpg;maxHeight=100;maxWidth=150)](https://www.bestbuy.com/product/seagate-expansion-2tb-external-usb-3-0-portable-hard-drive-with-rescue-data-recovery-services-black/J37C5H48WF/sku/6461967)
-    
-    [Seagate - Expansion 2TB External USB 3.0 Portable Hard Drive with Rescue Data Recovery Services - Black](https://www.bestbuy.com/product/seagate-expansion-2tb-external-usb-3-0-portable-hard-drive-with-rescue-data-recovery-services-black/J37C5H48WF/sku/6461967)
-    
-    [
-    
-    Rating 4.7 out of 5 stars with 764 reviews
-    
-    (764)
-    
-    ](https://www.bestbuy.com/product/seagate-expansion-2tb-external-usb-3-0-portable-hard-drive-with-rescue-data-recovery-services-black/J37C5H48WF/sku/6461967#tabbed-customerreviews)
-    
-    $129.99$12999
-    
-    The price was $149.99
-    
-*   [![](https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7caed0f6-763a-4c01-947a-b0de68b19245.jpg;maxHeight=100;maxWidth=150)](https://www.bestbuy.com/product/lacie-rugged-5tb-external-usb-c-usb-3-1-gen-1-portable-hard-drive-orange-silver/J37C5HKJ4L/sku/6299877)
-    
-    [LaCie - Rugged 5TB External USB-C, USB 3.1 Gen 1 Portable Hard Drive - Orange/Silver](https://www.bestbuy.com/product/lacie-rugged-5tb-external-usb-c-usb-3-1-gen-1-portable-hard-drive-orange-silver/J37C5HKJ4L/sku/6299877)
-    
-    [
-    
-    Rating 4.7 out of 5 stars with 903 reviews
-    
-    (903)
-    
-    ](https://www.bestbuy.com/product/lacie-rugged-5tb-external-usb-c-usb-3-1-gen-1-portable-hard-drive-orange-silver/J37C5HKJ4L/sku/6299877#tabbed-customerreviews)
-    
-    $239.99$23999
-    
-
 Questions & Answers
 
 *   **What is the total storage capacity of this Seagate drive?**
@@ -261,4 +210,4 @@ Ask a question
 
 ](https://www.bestbuy.com/site/questions/submission/6461979?campaignId=QA_&return=)
 
-See more question
+See more questions

@@ -113,7 +113,7 @@ Current price is USD$275.00
 
 Price when purchased online
 
-*   Free shipping
+*   Shipping of this product may be restricted
 *   ![](//i5.walmartimages.com/dfw/63fd9f59-e685/7e6c8c3a-3ba7-437a-a066-de3ad3a6a15a/v1/roundReturn.svg)Free 30-day returns
 
 Add to cart
@@ -144,9 +144,7 @@ How do you want your item?
 
 Shipping
 
-Arrives Sep 3
-
-Free
+Location restricted
 
 ![](//i5.walmartimages.com/dfw/63fd9f59-4505/fe62ce97-49d1-48eb-a181-4a26f80691a6/v1/CarWithTrunkOpen_Circle_Blue.svg)
 
@@ -158,11 +156,17 @@ Not available
 
 Delivery
 
+Location restricted
+
+Ships toJersey City, 07306
+
 Not available
 
-Ships toPittsburgh, 15219
+warning:
 
-Arrives by Thu, Sep 3
+ Shipping of this item is restricted. Please update your address to view eligibility in your area.
+
+Update address
 
 * * *
 
@@ -188,23 +192,41 @@ Add to list
 
 Add to registry
 
-## More seller options (3)
+Other sellers
 
-Starting from $279.90Compare all sellers
+Compare all 3 sellers
+
+$299.99
+
++Free shipping
+
+Shipping, arrives by **tomorrow** to Jersey City, 07306
+
+Sold and shipped by [Datavision Computer Video](https://www.walmart.com/global/seller/535)
+
+Free 30-day returns
+
+Details
+
+Add to cart
 
 [
 
-### Verbatim Pocket 1TB Portable SSD, USB 3.2 Gen 2 USB-C, Black/Gray $149.99
+### Verbatim Pocket 1TB Portable SSD, USB 3.2 Gen 2 USB-C, Black/Gray $139.99
 
-](https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-item-top~desktop~&pos=1&tax=3944_1089430_1073804_514537&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FVerbatim-32190-Pocket-SSD-USB-3-2-Gen-2-1TB-Black-Gray%2F20348456641%3FadsRedirect%3Dtrue&adUid=4f5b07f2-bfcc-40fe-a253-162091b4d09b&mloc=sp-item-top&pltfm=desktop&pgId=156019443&pt=item&spQs=eybZ8NSTy38nJdGABO5_lq8dDwrFUS45XX76uWbd8zNUX3zGJjEO-kC4wLQrCOKHTlKZ7tmPPJ6Vjx4rYsWEHoZYcwhQ5EV_tyxwYr-Pljk-urbSpS6SlJkVslW5i5zJuwMSlSGqr8GVYqb6hQ1GJCi3aU3zWnlyR128jUAwGZqt5KCA13UPzDWRMfxBYTlk_WdT-_N_9kd41t3i8FoHWlcqXnTMLovIooweTgMnJGO3bKHsJgSMWQtBrUrAcQhrJYJllpNlSQFY2QpOZW4Ccw&storeId=5040&specificity=&specificityScore=&couponState=na&bkt=ace1_14237%7Cace2_default%7Cace3_default%7Cbb_1_14513%7Cbb_2_14536%7Cbb_5_14544&/ip/Verbatim-32190-Pocket-SSD-USB-3-2-Gen-2-1TB-Black-Gray/20348456641)
+](https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-item-top~desktop~&pos=1&tax=3944_1089430_1073804_514537&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FVerbatim-32190-Pocket-SSD-USB-3-2-Gen-2-1TB-Black-Gray%2F20348456641%3FadsRedirect%3Dtrue&adUid=f2a3623f-d69b-4b05-b6e8-24af8a7e602e&mloc=sp-item-top&pltfm=desktop&pgId=156019443&pt=item&spQs=eybZ8NSTy38nJdGABO5_lq8dDwrFUS45XX76uWbd8zNUX3zGJjEO-kC4wLQrCOKHKuAf8kIj35ol70kq_V7oGWXdCkXEWDVM3hHFe4QZ3y4WpUVORHk2hYMhZ3Szh2ApPzv9UJ4bPcTWWyeDiBfe8Z2LyEArFBmvSUqDLkQabmlxlss1a7n1pERsII1TEeaznqDXQkCBCJ3UZ0kDCfcPqAmfYhU7Rzd9ALEcldVdwvniFqyNpoWm3zviGP3K1FFv0SlvaAfoUEvpgv_-4NfJ6wixVXzPfCqfRsINjzPIrfjDU5etrm24XPMEKO7h6hKd&storeId=5447&specificity=&specificityScore=&couponState=na&bkt=ace1_14238%7Cace2_default%7Cace3_default%7Cbb_1_14513%7Cbb_2_14536%7Cbb_5_14544&/ip/Verbatim-32190-Pocket-SSD-USB-3-2-Gen-2-1TB-Black-Gray/20348456641)
 
 ![Verbatim Pocket 1TB Portable SSD, USB 3.2 Gen 2 USB-C, Black/Gray](https://i5.walmartimages.com/seo/Verbatim-32190-Pocket-SSD-USB-3-2-Gen-2-1TB-Black-Gray_a64b0eb3-aab7-487e-a5ba-1e79a52ff1e5.ceaf9fac871b479e6844ad827b93e428.jpeg?odnHeight=320&odnWidth=320&odnBg=FFFFFF)
 
-$14999
+$13999
 
-current price $149.99
+current price $139.99
 
 ### Verbatim Pocket 1TB Portable SSD, USB 3.2 Gen 2 USB-C, Black/Gray
+
+4.5 out of 5 stars
+
+24.5 out of 5 Stars. 2 reviews
 
 Shipping arrives tomorrow
 

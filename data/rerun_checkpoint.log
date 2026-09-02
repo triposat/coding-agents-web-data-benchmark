@@ -1,0 +1,12 @@
+durability re-run 2026-09-02T11:14:43Z -> /Users/triposat/Desktop/Bdata Cursor/bench/data/rerun_20260902_1114
+-- cursor_bd/tracker.py
+-- cursor_nobd/scripts/scrape.py
+-- claude_nobd/run.py
+Terminated: 15
+originals restored; re-run output is in /Users/triposat/Desktop/Bdata Cursor/bench/data/rerun_20260902_1114
+-- claude_bd/tracker.py
+Terminated: 15
+originals restored; re-run output is in /Users/triposat/Desktop/Bdata Cursor/bench/data/rerun_20260902_1114
+./rerun.sh: line 67: syntax error near unexpected token `else'
+./rerun.sh: line 67: `  else'
+originals restored; re-run output is in /Users/triposat/Desktop/Bdata Cursor/bench/data/rerun_20260902_1114

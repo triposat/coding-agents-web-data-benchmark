@@ -17,6 +17,11 @@
         "retailer": "ebay.com",
         "url": "https://www.ebay.com/itm/385840234596",
         "title": "Anker 737 Power Bank 24000mAh 3-Port Portable Charger ..."
+      },
+      {
+        "retailer": "bhphotovideo.com",
+        "url": "https://www.bhphotovideo.com/c/product/1766916-REG/anker_a1289011_737_power_bank_24_000mah.html",
+        "title": "Anker 737 USB-C 24000 mAh Power Bank"
       }
     ]
   },
@@ -53,13 +58,18 @@
     "new_listings": [
       {
         "retailer": "bose.com",
-        "url": "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html?srsltid=AfmBOoogakHNmqS9_kEhslZWlH4btMPaqK0sjm4bOlE4oCU7W2GeiWjK",
+        "url": "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html?srsltid=AfmBOop_71hta0JYmebigfwf-DugWRL5SA7VoRz0HEwoiMOZ5R_FcoT1",
         "title": "Bose QuietComfort Ultra Earbuds (2nd Gen)"
       },
       {
         "retailer": "dell.com",
         "url": "https://www.dell.com/en-us/shop/bose-quietcomfort-ultra-earbuds-2nd-gen-black/apd/ad421779/audio",
         "title": "Bose QuietComfort Ultra Earbuds (2nd Gen) - Black"
+      },
+      {
+        "retailer": "verizon.com",
+        "url": "https://www.verizon.com/products/bose-quietcomfort-ultra-wireless-noise-canceling-earbuds/",
+        "title": "Bose QuietComfort Ultra Wireless Noise Canceling Earbuds"
       }
     ]
   },
@@ -85,7 +95,7 @@
     "new_listings": [
       {
         "retailer": "razer.com",
-        "url": "https://www.razer.com/gaming-mice/razer-deathadder-v3?srsltid=AfmBOoqvM2hyO6YHPA-2BN6OF-SrnnIn8MZu4FhN8A0o9lNI_T5yMJIw",
+        "url": "https://www.razer.com/gaming-mice/razer-deathadder-v3?srsltid=AfmBOopb2RDA2BLfh8tV4JTQy1MMf2oJt_jsMwhSih99MX0y2xVK6dvP",
         "title": "Razer DeathAdder V3 | Razer United States"
       },
       {
@@ -101,13 +111,18 @@
     "new_listings": [
       {
         "retailer": "samsung.com",
-        "url": "https://www.samsung.com/us/memory-storage/portable-ssd/portable-ssd-t7-usb-3-2-1tb-blue-sku-mu-pc1t0h-am/",
-        "title": "Portable SSD T7 1TB USB 3.2"
+        "url": "https://www.samsung.com/us/memory-storage/portable-ssd/portable-ssd-t7-usb-3-2-1tb-gray-sku-mu-pc1t0t-am/",
+        "title": "Portable SSD T7 1 TB USB 3.2 Gen 2 (Gray)"
       },
       {
         "retailer": "ebay.com",
         "url": "https://www.ebay.com/shop/samsung-t7?_nkw=samsung+t7",
         "title": "Samsung T7"
+      },
+      {
+        "retailer": "bhphotovideo.com",
+        "url": "https://www.bhphotovideo.com/c/product/1559836-REG/samsung_mu_pc1t0t_am_1tb_t7_portable_ssd.html",
+        "title": "Samsung 1TB T7 Portable SSD (Titan Gray)"
       }
     ]
   },
@@ -126,14 +141,9 @@
         "title": "SANDISK Extreme PRO 1 TB Class 3/UHS I (U3) V30 ..."
       },
       {
-        "retailer": "ebay.com",
-        "url": "https://www.ebay.com/shop/sandisk-extreme-pro-1-tb?_nkw=sandisk+extreme+pro+1+tb",
-        "title": "Sandisk Extreme Pro 1TB"
-      },
-      {
-        "retailer": "bulkmemorycards.com",
-        "url": "https://bulkmemorycards.com/shop/microsd-cards/microsd-class-10/1tb-microsd-sandisk-extreme-pro-sdxc-v30-u3-a2-uhs-1/",
-        "title": "1TB MicroSD SanDisk Extreme Pro SDXC V30 U3 A2 UHS-1"
+        "retailer": "pricerunner.com",
+        "url": "https://www.pricerunner.com/pl/61-3202208878/Memory-Cards-USB-Flash-Drives/SanDisk-MicroSDXC-Extreme-Pro-1TB-200MB-s-A2-V30-UHS-I-C10-Compare-Prices",
+        "title": "SanDisk Extreme Pro MicroSDXC Class10 UHS-I U3 V30 ..."
       }
     ]
   },
@@ -159,7 +169,7 @@
     "new_listings": [
       {
         "retailer": "electronics.sony.com",
-        "url": "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm5-b?srsltid=AfmBOorXoee3M_dCZiWOKubRV4x0VAB2YgvLp6emDjYvVsMfHvOEWW6i",
+        "url": "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm5-b?srsltid=AfmBOorS90CivQn7-kptLIcfBUrW_O5Q7vhgt3Zx4bDH6yoW3MaJxPeh",
         "title": "Sony WH-1000XM5 Premium Wireless Noise Canceling ..."
       }
     ]

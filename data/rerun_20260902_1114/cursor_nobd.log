@@ -1,0 +1,115 @@
+Fetching 41 product pages across 10 products...
+[1/41] S01 bestbuy -> https://www.bestbuy.com/product/anker-power-bank-24000mah-140w-3-port-black/JJ85865GV2/sku/6553403
+  [S01/bestbuy] static incomplete (fetch_error: HTTPError: Failed to perform, curl: (92) HTTP/2 stream 1 reset by server (error 0x2 INTERNAL_ERROR). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.); trying headless-browser render
+    status='fetch_error: Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bestbuy.com/product/anker-power-bank-24000mah-140w-3-port-black/JJ85865GV2/sku/6553403\nCall log:\n  - navigating to "https://www.bestbuy.com/product/anker-power-bank-24000mah-140w-3-port-black/JJ85865GV2/sku/6553403", waiting until "domcontentloaded"\n' (1.4s)
+[2/41] S01 amazon -> https://www.amazon.com/dp/B09VPHVT2Z
+  [S01/amazon] static incomplete (no_price_shown (item not offered for shipping to this network's detected region)); trying headless-browser render
+    status="no_price_shown (item not offered for shipping to this network's detected region)" (8.6s)
+[3/41] S01 walmart -> https://www.walmart.com/ip/1425654143
+    status='ok' (2.4s)
+[4/41] S02 bestbuy -> https://www.bestbuy.com/product/apple-airpods-pro-2-wireless-active-noise-cancelling-earbuds-with-hearing-aid-feature-white/JJGCQ88C8X/sku/10129617
+  [S02/bestbuy] static incomplete (fetch_error: HTTPError: Failed to perform, curl: (92) HTTP/2 stream 1 reset by server (error 0x2 INTERNAL_ERROR). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.); trying headless-browser render
+    status='fetch_error: Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bestbuy.com/product/apple-airpods-pro-2-wireless-active-noise-cancelling-earbuds-with-hearing-aid-feature-white/JJGCQ88C8X/sku/10129617\nCall log:\n  - navigating to "https://www.bestbuy.com/product/apple-airpods-pro-2-wireless-active-noise-cancelling-earbuds-with-hearing-aid-feature-white/JJGCQ88C8X/sku/10129617", waiting until "domcontentloaded"\n' (0.8s)
+[5/41] S02 target -> https://www.target.com/p/-/A-85978609
+  [S02/target] static incomplete (partial_data_missing (target price/availability require JS rendering)); trying headless-browser render
+    status='ok' (8.4s)
+[6/41] S02 amazon -> https://www.amazon.com/dp/B0D1XD1ZV3
+  [S02/amazon] static incomplete (no_price_shown (item not offered for shipping to this network's detected region)); trying headless-browser render
+    status="no_price_shown (item not offered for shipping to this network's detected region)" (8.2s)
+[7/41] S02 walmart -> https://www.walmart.com/ip/17835006350
+    status='ok' (2.1s)
+[8/41] S03 bestbuy -> https://www.bestbuy.com/product/apple-airtag-4-pack-2nd-generation-2026-white/JJGCQLTTF3/sku/6377586
+  [S03/bestbuy] static incomplete (fetch_error: HTTPError: Failed to perform, curl: (92) HTTP/2 stream 1 reset by server (error 0x2 INTERNAL_ERROR). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.); trying headless-browser render
+    status='fetch_error: Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bestbuy.com/product/apple-airtag-4-pack-2nd-generation-2026-white/JJGCQLTTF3/sku/6377586\nCall log:\n  - navigating to "https://www.bestbuy.com/product/apple-airtag-4-pack-2nd-generation-2026-white/JJGCQLTTF3/sku/6377586", waiting until "domcontentloaded"\n' (0.6s)
+[9/41] S03 target -> https://www.target.com/p/-/A-79673471
+  [S03/target] static incomplete (partial_data_missing (target price/availability require JS rendering)); trying headless-browser render
+    status='ok' (8.4s)
+[10/41] S03 amazon -> https://www.amazon.com/dp/B0GJTXVN9Z
+  [S03/amazon] static incomplete (no_price_shown (item not offered for shipping to this network's detected region)); trying headless-browser render
+    status="no_price_shown (item not offered for shipping to this network's detected region)" (7.5s)
+[11/41] S03 walmart -> https://www.walmart.com/ip/5395277557
+    status='ok' (2.4s)
+[12/41] S04 bestbuy -> https://www.bestbuy.com/product/bose-quietcomfort-ultra-2nd-gen-true-wireless-noise-cancelling-in-ear-earbuds-midnight-violet/J7C5V6WCWL/sku/12333019
+  [S04/bestbuy] static incomplete (fetch_error: HTTPError: Failed to perform, curl: (92) HTTP/2 stream 1 reset by server (error 0x2 INTERNAL_ERROR). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.); trying headless-browser render
+    status='fetch_error: Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bestbuy.com/product/bose-quietcomfort-ultra-2nd-gen-true-wireless-noise-cancelling-in-ear-earbuds-midnight-violet/J7C5V6WCWL/sku/12333019\nCall log:\n  - navigating to "https://www.bestbuy.com/product/bose-quietcomfort-ultra-2nd-gen-true-wireless-noise-cancelling-in-ear-earbuds-midnight-violet/J7C5V6WCWL/sku/12333019", waiting until "domcontentloaded"\n' (0.5s)
+[13/41] S04 amazon -> https://www.amazon.com/dp/B0CD2FSRDD
+  [S04/amazon] static incomplete (no_price_shown (item not offered for shipping to this network's detected region)); trying headless-browser render
+    status="no_price_shown (item not offered for shipping to this network's detected region)" (8.6s)
+[14/41] S04 newegg -> https://www.newegg.com/bose-896637-0030-earbud-deep-plum/p/N82E16826627172
+  [S04/newegg] static incomplete (blocked_by_bot_protection (are you a human)); trying headless-browser render
+    status='blocked_by_bot_protection (are you a human)' (5.9s)
+[15/41] S04 walmart -> https://www.walmart.com/ip/15853556239
+  [S04/walmart] static incomplete (partial_data_missing); trying headless-browser render
+    status='partial_data_missing' (8.0s)
+[16/41] S05 bestbuy -> https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199
+  [S05/bestbuy] static incomplete (fetch_error: HTTPError: Failed to perform, curl: (92) HTTP/2 stream 1 reset by server (error 0x2 INTERNAL_ERROR). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.); trying headless-browser render
+    status='fetch_error: Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199\nCall log:\n  - navigating to "https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199", waiting until "domcontentloaded"\n' (0.5s)
+[17/41] S05 target -> https://www.target.com/p/-/A-1008322060
+  [S05/target] static incomplete (partial_data_missing (target price/availability require JS rendering)); trying headless-browser render
+    status='ok' (7.6s)
+[18/41] S05 amazon -> https://www.amazon.com/dp/B09HM94VDS
+  [S05/amazon] static incomplete (no_price_shown (listing marked unavailable)); trying headless-browser render
+    status='no_price_shown (listing marked unavailable)' (8.5s)
+[19/41] S05 newegg -> https://www.newegg.com/logitech-910-006558-mx-master-3s-usb-type-c-dual/p/N82E16826197552
+  [S05/newegg] static incomplete (blocked_by_bot_protection (are you a human)); trying headless-browser render
+    status='blocked_by_bot_protection (are you a human)' (5.5s)
+[20/41] S05 walmart -> https://www.walmart.com/ip/731473988
+    status='ok' (2.7s)
+[21/41] S06 bestbuy -> https://www.bestbuy.com/product/razer-deathadder-v3-lightweight-optical-gaming-mouse-with-8k-hz-hyperpolling-technology-wired-black/J39HWFQKZW/sku/10736128
+  [S06/bestbuy] static incomplete (fetch_error: HTTPError: Failed to perform, curl: (92) HTTP/2 stream 1 reset by server (error 0x2 INTERNAL_ERROR). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.); trying headless-browser render
+    status='fetch_error: Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bestbuy.com/product/razer-deathadder-v3-lightweight-optical-gaming-mouse-with-8k-hz-hyperpolling-technology-wired-black/J39HWFQKZW/sku/10736128\nCall log:\n  - navigating to "https://www.bestbuy.com/product/razer-deathadder-v3-lightweight-optical-gaming-mouse-with-8k-hz-hyperpolling-technology-wired-black/J39HWFQKZW/sku/10736128", waiting until "domcontentloaded"\n' (0.4s)
+[22/41] S06 target -> https://www.target.com/p/-/A-94720129
+  [S06/target] static incomplete (partial_data_missing (target price/availability require JS rendering)); trying headless-browser render
+    status='ok' (11.2s)
+[23/41] S06 amazon -> https://www.amazon.com/dp/B0B6XTDJS1
+    status='ok' (2.4s)
+[24/41] S06 newegg -> https://www.newegg.com/razer-deathadder-v3-usb-wired/p/N82E16826153342
+  [S06/newegg] static incomplete (blocked_by_bot_protection (are you a human)); trying headless-browser render
+    status='blocked_by_bot_protection (are you a human)' (6.7s)
+[25/41] S06 walmart -> https://www.walmart.com/ip/1281151624
+    status='ok' (3.2s)
+[26/41] S07 bestbuy -> https://www.bestbuy.com/product/samsung-t7-1tb-external-usb-3-2-gen-2-portable-ssd-with-hardware-encryption-titan-gray/J3ZYGCQG8H/sku/6408299
+  [S07/bestbuy] static incomplete (fetch_error: HTTPError: Failed to perform, curl: (92) HTTP/2 stream 1 reset by server (error 0x2 INTERNAL_ERROR). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.); trying headless-browser render
+    status='fetch_error: Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bestbuy.com/product/samsung-t7-1tb-external-usb-3-2-gen-2-portable-ssd-with-hardware-encryption-titan-gray/J3ZYGCQG8H/sku/6408299\nCall log:\n  - navigating to "https://www.bestbuy.com/product/samsung-t7-1tb-external-usb-3-2-gen-2-portable-ssd-with-hardware-encryption-titan-gray/J3ZYGCQG8H/sku/6408299", waiting until "domcontentloaded"\n' (0.7s)
+[27/41] S07 target -> https://www.target.com/p/-/A-93111660
+  [S07/target] static incomplete (partial_data_missing (target price/availability require JS rendering)); trying headless-browser render
+    status='ok' (15.1s)
+[28/41] S07 amazon -> https://www.amazon.com/dp/B0874XN4D8
+    status='ok' (2.3s)
+[29/41] S07 newegg -> https://www.newegg.com/samsung-t7-1tb-usb-3-2-gen-2/p/N82E16820147767
+  [S07/newegg] static incomplete (blocked_by_bot_protection (are you a human)); trying headless-browser render
+    status='blocked_by_bot_protection (are you a human)' (5.3s)
+[30/41] S07 walmart -> https://www.walmart.com/ip/156019443
+    status='ok' (2.4s)
+[31/41] S08 target -> https://www.target.com/p/-/A-52908863
+  [S08/target] static incomplete (partial_data_missing (target price/availability require JS rendering)); trying headless-browser render
+    status='ok' (10.1s)
+[32/41] S08 amazon -> https://www.amazon.com/dp/B09X7MPX8L
+  [S08/amazon] static incomplete (no_price_shown (item not offered for shipping to this network's detected region)); trying headless-browser render
+    status="no_price_shown (item not offered for shipping to this network's detected region)" (8.4s)
+[33/41] S08 walmart -> https://www.walmart.com/ip/2353663889
+    status='ok' (2.9s)
+[34/41] S09 bestbuy -> https://www.bestbuy.com/product/seagate-expansion-5tb-external-usb-3-0-portable-hard-drive-with-rescue-data-recovery-services-black/J37C5H48K5/sku/6461979
+  [S09/bestbuy] static incomplete (fetch_error: HTTPError: Failed to perform, curl: (92) HTTP/2 stream 1 reset by server (error 0x2 INTERNAL_ERROR). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.); trying headless-browser render
+    status='fetch_error: Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bestbuy.com/product/seagate-expansion-5tb-external-usb-3-0-portable-hard-drive-with-rescue-data-recovery-services-black/J37C5H48K5/sku/6461979\nCall log:\n  - navigating to "https://www.bestbuy.com/product/seagate-expansion-5tb-external-usb-3-0-portable-hard-drive-with-rescue-data-recovery-services-black/J37C5H48K5/sku/6461979", waiting until "domcontentloaded"\n' (0.7s)
+[35/41] S09 target -> https://www.target.com/p/-/A-1004710383
+  [S09/target] static incomplete (partial_data_missing (target price/availability require JS rendering)); trying headless-browser render
+    status='ok' (10.4s)
+[36/41] S09 amazon -> https://www.amazon.com/dp/B07CRG94G3
+  [S09/amazon] static incomplete (no_offer_shown (amazon buy-box not present for this item/region)); trying headless-browser render
+    status='no_offer_shown (amazon buy-box not present for this item/region)' (8.0s)
+[37/41] S09 newegg -> https://www.newegg.com/seagate-model-stkm2000400-2tb/p/N82E16822184950
+  [S09/newegg] static incomplete (blocked_by_bot_protection (are you a human)); trying headless-browser render
+    status='blocked_by_bot_protection (are you a human)' (5.5s)
+[38/41] S09 walmart -> https://www.walmart.com/ip/790131533
+    status='ok' (3.6s)
+[39/41] S10 bestbuy -> https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-cancelling-over-the-ear-headphones-black/J7XSRH5CXG/sku/10890357
+  [S10/bestbuy] static incomplete (fetch_error: HTTPError: Failed to perform, curl: (92) HTTP/2 stream 1 reset by server (error 0x2 INTERNAL_ERROR). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.); trying headless-browser render
+    status='fetch_error: Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-cancelling-over-the-ear-headphones-black/J7XSRH5CXG/sku/10890357\nCall log:\n  - navigating to "https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-cancelling-over-the-ear-headphones-black/J7XSRH5CXG/sku/10890357", waiting until "domcontentloaded"\n' (0.5s)
+[40/41] S10 amazon -> https://www.amazon.com/dp/B09XS7JWHH
+    status='ok' (2.4s)
+[41/41] S10 walmart -> https://www.walmart.com/ip/386006068
+    status='ok' (2.2s)
+
+Wrote 41 rows to /Users/triposat/Desktop/Bdata Cursor/bench/runs_isolated/cursor_nobd/results.json
+Fully collected (all 4 fields): 19/41

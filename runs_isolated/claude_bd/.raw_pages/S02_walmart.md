@@ -176,7 +176,7 @@ Shipping
 
 Arrives today
 
-Order within 6 hr 29 min
+Order within 9 hr 34 min
 
 Free
 
@@ -184,7 +184,7 @@ Free
 
 Pickup
 
-As soon as 11am  
+As soon as 3pm  
 today
 
 Free
@@ -193,15 +193,16 @@ Free
 
 Delivery
 
-As soon as 20 mins
+As soon as 3pm  
+today
 
-Ships toBrentwood, 37027
+Ships toSacramento, 95829
 
 Arrives by Today
 
 .
 
-Order within 6 hr 29 min
+Order within 9 hr 34 min
 
 * * *
 
@@ -227,7 +228,7 @@ Add to registry
 
 ## More seller options (2)
 
-Starting from $251.21Compare all sellers
+Starting from $247.00Compare all sellers
 
 We’d love to hear what you think!
 

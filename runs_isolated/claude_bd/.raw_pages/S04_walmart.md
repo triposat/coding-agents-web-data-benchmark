@@ -94,7 +94,7 @@ Overall pick
 
 * * *
 
-[Bose QuietComfort Ultra Earbuds II, Wireless Noise Cancelling Earbuds, Black](/ip/Bose-QuietComfort-Ultra-Earbuds-II-Wireless-Noise-Cancelling-Earbuds-Black/15853556239)[Bose QuietComfort Ultra Earbuds II Wireless Noise Cancelling Earbuds Black](/ip/Bose-QuietComfort-Ultra-Earbuds-II-Wireless-Noise-Cancelling-Earbuds-Black/15853556239)[Bose QuietComfort Ultra Earbuds II Wireless Noise Cancelling Earbuds Midnight Violet](/ip/Bose-QuietComfort-Ultra-Earbuds-II-Wireless-Noise-Cancelling-Earbuds-Midnight-Violet/17655408923)[Bose QuietComfort Ultra Earbuds II Wireless Noise Cancelling Earbuds White](/ip/Bose-QuietComfort-Ultra-Earbuds-II-Wireless-Noise-Cancelling-Earbuds-White/15864510101)[Bose QuietComfort Ultra Earbuds II Wireless Noise Cancelling Earbuds Desert Gold](/ip/Bose-QuietComfort-Ultra-Earbuds-II-Wireless-Noise-Cancelling-Earbuds-Desert-Gold/17668570271)[Bose QuietComfort Ultra Earbuds II Wireless Noise Cancelling Earbuds Deep Plum](/ip/Bose-QuietComfort-Ultra-Earbuds-II-Wireless-Noise-Cancelling-Earbuds-Deep-Plum/17605816659)
+[Bose QuietComfort Ultra Earbuds II, Wireless Noise Cancelling Earbuds, Black](/ip/Bose-QuietComfort-Ultra-Earbuds-II-Wireless-Noise-Cancelling-Earbuds-Black/15853556239)[Bose QuietComfort Ultra Earbuds II Wireless Noise Cancelling Earbuds Black](/ip/Bose-QuietComfort-Ultra-Earbuds-II-Wireless-Noise-Cancelling-Earbuds-Black/15853556239)[Bose QuietComfort Ultra Earbuds II Wireless Noise Cancelling Earbuds Midnight Violet](/ip/Bose-QuietComfort-Ultra-Earbuds-II-Wireless-Noise-Cancelling-Earbuds-Midnight-Violet/17655408923)[Bose QuietComfort Ultra Earbuds II Wireless Noise Cancelling Earbuds White](/ip/Bose-QuietComfort-Ultra-Earbuds-II-Wireless-Noise-Cancelling-Earbuds-White/15864510101)[Bose QuietComfort Ultra Earbuds II Wireless Noise Cancelling Earbuds Desert Gold](/ip/Bose-QuietComfort-Ultra-Earbuds-II-Wireless-Noise-Cancelling-Earbuds-Desert-Gold/17668570271)
 
 Actual Color:Black
 
@@ -102,15 +102,11 @@ Black, $299.00
 
 $299.00
 
-Deep Plum, $299.00
+Gold, $299.00
 
 $299.00
 
-Desert Gold, $299.00
-
-$299.00
-
-Midnight Violet, $299.00
+Purple, $299.00
 
 $299.00
 
@@ -182,7 +178,7 @@ Shipping
 
 Arrives today
 
-Order within 6 hr 27 min
+Order within 7 hr 30 min
 
 Free
 
@@ -190,21 +186,24 @@ Free
 
 Pickup
 
-Get it nearby
+As soon as 10am  
+today
+
+Free
 
 ![](//i5.walmartimages.com/dfw/63fd9f59-d930/2bac0e2b-cda4-4053-8a8e-8e8a0195b579/v1/Delivery_GroceryBag_Circle_Blue.svg)
 
 Delivery
 
-Out of stock
+As soon as 24 mins
 
-Ships toEdmond, 73034
+Ships toKcmo, 64130
 
 Arrives by Today
 
 .
 
-Order within 6 hr 27 min
+Order within 7 hr 30 min
 
 * * *
 
@@ -230,25 +229,31 @@ Add to registry
 
 [
 
-### Restored JBL Tune Buds - True wireless Noise Cancelling earbuds - Blue $59.95
+### In 25+ people's carts JBL Vibe Buds 2, True Wireless Noise Cancelling Earbuds $29.95 Was $64.95
 
-](https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-item-top~desktop~&pos=1&tax=3944_133251_1095191_1230614_1230476&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FJBL-Tune-Buds-True-wireless-Noise-Cancelling-earbuds-Blue%2F2642343039%3FconditionGroupCode%3D2%26adsRedirect%3Dtrue&adUid=74dc5337-5fb7-45ee-b899-7c64a8b423e5&mloc=sp-item-top&pltfm=desktop&pgId=15853556239&pt=item&spQs=78lNjMskbULj8Wg42izbkbZcSFc4EAsST9oU794QYN6GQW1hQIm-rVfxGzW6ky-aIOX-M3OVRwPauwpVG2SPYqk0LzdfiuRc0RbY68gSZmMAPSmgq94Vcnz4N3hoqxg1QKRqyCAH7lKLmuALkDRBuwylS-MblroxEHxAuOr7PqScKDtTZtdYOcvw5oU1GOMXfoyvaNoQAtziN8W5lG_U9cxg8MnEOVOs545vjWNb-sM&storeId=389&specificity=&specificityScore=&couponState=na&bkt=ace1_14237%7Cace2_default%7Cace3_default%7Cbb_1_14513%7Cbb_2_14537%7Cbb_5_14544&conditionGroupCode=2)
+](https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-item-top~desktop~&pos=1&tax=3944_133251_1095191_1230614_1230476&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FJBL-Vibe-Buds-2-True-Wireless-Noise-Cancelling-Earbuds%2F16901270174%3FadsRedirect%3Dtrue&adUid=7bae42da-d6ea-467c-aa76-96db45620095&mloc=sp-item-top&pltfm=desktop&pgId=15853556239&pt=item&spQs=QgUH2PHrRV3D-2JE38pPt3H1M0AEFhmc6uDt_mgwAIQordsjMQke-7UpjPps2fxZjrnsuTNeHWXobScLFw4X7o_ZLAZg2nzA8OelXG59OhQWpUVORHk2hYMhZ3Szh2Ap9gLr1768Iwo7qND2c8yhutzIjcgP8kVibVR-B7Whb2vWCFbq1ey3Lzl8HHgHfGOhX8DhOKdCwWTQxGz6R9SDDTW45QwAXLxW_dl4pGI0TNM&storeId=2490&specificity=&specificityScore=&couponState=na&bkt=ace1_14237%7Cace2_default%7Cace3_default%7Cbb_1_14513%7Cbb_2_14536%7Cbb_5_14544&/ip/JBL-Vibe-Buds-2-True-Wireless-Noise-Cancelling-Earbuds/16901270174)
 
-![Restored JBL Tune Buds - True wireless Noise Cancelling earbuds - Blue](https://i5.walmartimages.com/seo/JBL-Tune-Buds-True-wireless-Noise-Cancelling-earbuds-Blue_dcfbe468-13ea-41b9-bec1-b40b8029d5ab.6f837b4865a02113e163ba72bdfe31fd.jpeg?odnHeight=320&odnWidth=320&odnBg=FFFFFF)
+In 25+ people's carts
 
-$5995
+![JBL Vibe Buds 2, True Wireless Noise Cancelling Earbuds](https://i5.walmartimages.com/seo/JBL-Vibe-Buds-2-True-Wireless-Noise-Cancelling-Earbuds_3e7458cd-3437-45ae-b728-de27e1dda2ae.f98f9b140bfa52bc5bd8791e3da8250a.png?odnHeight=320&odnWidth=320&odnBg=FFFFFF)
 
-current price $59.95
+Now$2995
 
-From $59.95
+current price Now $29.95, Was $64.95
 
-### Restored JBL Tune Buds - True wireless Noise Cancelling earbuds - Blue
+$64.95
 
-3.3 out of 5 stars
+You save $35.00
 
-1743.3 out of 5 Stars. 174 reviews
+You save$35.00
 
-Shipping arrives Fri, Sep 4
+### JBL Vibe Buds 2, True Wireless Noise Cancelling Earbuds
+
+4.1 out of 5 stars
+
+10474.1 out of 5 Stars. 1047 reviews
+
+Shipping arrives in 3+ days
 
 Add to cart
 

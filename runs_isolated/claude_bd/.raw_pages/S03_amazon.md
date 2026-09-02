@@ -72,7 +72,7 @@ To move between items, use your keyboard's up or down arrows.
 
 [.us](/ref=nav_logo)
 
-Delivering to Phoenix 85001 Update location
+Delivering to Newark 14513 Update location
 
    
 
@@ -80,7 +80,7 @@ Delivering to Phoenix 85001 Update location
 
 All
 
-Select the department you want to search in All Departments Alexa Skills Amazon Autos Amazon Devices Amazon Fresh Amazon Global Store Amazon Haul Amazon One Medical Amazon Pharmacy Amazon Resale Appliances Apps & Games Arts, Crafts & Sewing Audible Books & Originals Automotive Parts & Accessories Baby Bashas' Beauty & Personal Care Books CDs & Vinyl Cell Phones & Accessories Clothing, Shoes & Jewelry Women's Clothing, Shoes & Jewelry Men's Clothing, Shoes & Jewelry Girl's Clothing, Shoes & Jewelry Boy's Clothing, Shoes & Jewelry Baby Clothing, Shoes & Jewelry Collectibles & Fine Art Computers Credit and Payment Cards Digital Music Electronics Garden & Outdoor Gift Cards Grocery & Gourmet Food Handmade Health, Household & Baby Care Home & Business Services Home & Kitchen Industrial & Scientific Just for Prime Kindle Store Luggage & Travel Gear Luxury Stores Magazine Subscriptions Movies & TV Musical Instruments Office Products Pet Supplies Premium Beauty Prime Video Same-Day Store Smart Home Software Sports & Outdoors Subscribe & Save Subscription Boxes Tools & Home Improvement Toys & Games Under $10 Video Games Whole Foods Market
+Select the department you want to search in All Departments Alexa Skills Amazon Autos Amazon Devices Amazon Global Store Amazon Haul Amazon One Medical Amazon Pharmacy Amazon Resale Appliances Apps & Games Arts, Crafts & Sewing Audible Books & Originals Automotive Parts & Accessories Baby Beauty & Personal Care Books CDs & Vinyl Cell Phones & Accessories Clothing, Shoes & Jewelry Women's Clothing, Shoes & Jewelry Men's Clothing, Shoes & Jewelry Girl's Clothing, Shoes & Jewelry Boy's Clothing, Shoes & Jewelry Baby Clothing, Shoes & Jewelry Collectibles & Fine Art Computers Credit and Payment Cards Digital Music Electronics Garden & Outdoor Gift Cards Grocery & Gourmet Food Handmade Health, Household & Baby Care Home & Business Services Home & Kitchen Industrial & Scientific Just for Prime Kindle Store Luggage & Travel Gear Luxury Stores Magazine Subscriptions Movies & TV Musical Instruments Office Products Pet Supplies Premium Beauty Prime Video Smart Home Software Sports & Outdoors Subscribe & Save Subscription Boxes Tools & Home Improvement Toys & Games Under $10 Video Games Whole Foods Market
 
 Search Amazon 
 
@@ -106,6 +106,8 @@ Cart
 
  [All](/gp/site-directory?ref_=nav_em_js_disabled)  
 
+*   [Back to School](/b?node=121082095011&ref_=nav_cs_bts_disco_2026_desk)
+    
 *   [Health AI](https://health.amazon.com/health-ai?ref_=nav_cs_health_ai)
     
 *   [Amazon Haul](/haul/store?ref_=nav_cs_hul_disb)
@@ -120,13 +122,13 @@ Cart
     
 *   [New Releases](/gp/new-releases/?ref_=nav_cs_newreleases)
     
-*   [Groceries](/fmc/learn-more?ref_=nav_cs_groceries)
+*   [Today's Deals](/deals?ref_=nav_cs_gb)
     
 *   [Whole Foods](/alm/storefront?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref_=nav_cs_whole_foods)
     
-*   [Books](/books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books)
+*   [Groceries](/fmc/learn-more?ref_=nav_cs_groceries)
     
-*   [Today's Deals](/deals?ref_=nav_cs_gb)
+*   [Books](/books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books)
     
 *   [Gift Cards](/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc)
     
@@ -242,7 +244,7 @@ Complete Protect: One plan covers eligible past & future Amazon Purchases
 
 from Asurion, LLC
 
-[4.3 9953](/product-reviews/B07RZ3LSHM/ref=dp_atch_dss_w_r_B0GJTXVN9Z_?ie=UTF8&showViewpoints=1)
+[4.3 9973](/product-reviews/B07RZ3LSHM/ref=dp_atch_dss_w_r_B0GJTXVN9Z_?ie=UTF8&showViewpoints=1)
 
 *   BEST VALUE: Protect all your eligible Amazon purchases including: tech, tools, appliances, furniture and more. All for one low monthly price.
 *   PAST AND FUTURE PROTECTION: Covers malfunctions and failures, plus drops or spills for eligible portable items. Protection begins immediately for eligible purchases from the past 90 days, plus all eligible future purchases (products used commercially are excluded).
@@ -361,11 +363,13 @@ Enjoy fast, free delivery, exclusive deals, and award-winning movies & TV shows.
 
 $79.99$79.99
 
-FREE delivery Tuesday, September 8
+FREE delivery Monday, September 7
+
+Or Prime members get FREE delivery Tomorrow, September 3. Join Prime 
 
 [
 
-Delivering to Phoenix 85001 - Update location
+Delivering to Newark 14513 - Update location
 
 
 
@@ -451,14 +455,6 @@ At any of our 50,000 US locations.
 
 [See return policy](/gp/help/customer/display.html?nodeId=GKM69DUUYKQWKWX7&ref_=dp_ret_policy)
 
-Support
-
-[Product support included](javascript:void\(0\))
-
-What's Product Support?
-
-In the event your product doesn't work as expected or you need help using it, Amazon offers free product support options such as live phone/chat with an Amazon associate, manufacturer contact information, step-by-step troubleshooting guides, and help videos. By solving product issues, we help the planet by extending the life of products. Availability of support options differ by product and country. [Learn more](/ps/product-support?ref_=dp_pls_support&ref_=dp_ret_policy)
-
 Payment
 
 [Secure transaction](javascript:void\(0\))
@@ -466,6 +462,14 @@ Payment
 Your transaction is secure
 
 We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. [Learn more](/gp/help/customer/display.html?nodeId=201909010)
+
+Support
+
+[Product support included](javascript:void\(0\))
+
+What's Product Support?
+
+In the event your product doesn't work as expected or you need help using it, Amazon offers free product support options such as live phone/chat with an Amazon associate, manufacturer contact information, step-by-step troubleshooting guides, and help videos. By solving product issues, we help the planet by extending the life of products. Availability of support options differ by product and country. [Learn more](/ps/product-support?ref_=dp_pls_support&ref_=dp_ret_policy)
 
 Gift options
 
@@ -545,7 +549,7 @@ Add protection No thanks
 
 from Asurion, LLC
 
-[4.3 (9953)](/product-reviews/B07RZ3LSHM/ref=psd_bb_r3_B0GJTXVN9Z_B07RZ3LSHM?ie=UTF8&showViewpoints=1)
+[4.3 (9973)](/product-reviews/B07RZ3LSHM/ref=psd_bb_r3_B0GJTXVN9Z_B07RZ3LSHM?ie=UTF8&showViewpoints=1)
 
 $16.99/month
 
@@ -589,7 +593,7 @@ Other sellers on Amazon
 
 * * *
 
- [New (4) from $79.99$79.99   & **FREE Shipping**.](/gp/offer-listing/B0GJTXVN9Z/ref=dp_olp_NEW_mbc?ie=UTF8&condition=NEW)
+ [New & Used (5) from $75.23$75.23   & **FREE Shipping**.](/gp/offer-listing/B0GJTXVN9Z/ref=dp_olp_ALL_mbc?ie=UTF8&condition=ALL)
 
 *    ![](https://m.media-amazon.com/images/I/31l2rVm48QL._AC_SR38,50_.jpg)
 *    ![](https://m.media-amazon.com/images/I/41hSrzUrPfL._AC_SR38,50_.jpg)
@@ -633,7 +637,7 @@ Other sellers on Amazon
 
 [Visit the Apple Store](/stores/Apple/page/77D9E1F7-0337-4282-9DB6-B6B8FB2DC98D?lp_asin=B0GJTXVN9Z&ref_=ast_bln)
 
-[4.5 _4.5 out of 5 stars_](javascript:void\(0\)) [(9,759)](#averageCustomerReviewsAnchor)  
+[4.5 _4.5 out of 5 stars_](javascript:void\(0\)) [(9,823)](#averageCustomerReviewsAnchor)  
 
 Amazon's Choice highlights highly rated, well-priced products available to ship immediately.
 
@@ -662,7 +666,7 @@ Get $50 off instantly: Pay $29.99 $79.99 upon approval for Amazon Visa. No annua
 
 
 
-](/gp/product/B007URFTYI/ref=unrec_a_cbcc_pb_50gc_t1_m?pr=con321&inc=50gcUnrec&ts=6rotlan1cjb1776y7vasdnlizljln1z&dasin=B0GJTXVN9Z&plattr=CB50PB&place=priceblock&imp=d3f5b4cb-66e1-4038-a5bc-9f7257c7b89e&mru=/dp/product/B0GJTXVN9Z)
+](/gp/product/B007URFTYI/ref=unrec_a_cbcc_pb_50gc_t1_m?pr=con321&inc=50gcUnrec&ts=4od1mze5maq3umb6ese23svpm9uf0ei&dasin=B0GJTXVN9Z&plattr=CB50PB&place=priceblock&imp=3f7c5d7e-21d0-4fd9-bc93-d8ca830c978b&mru=/dp/product/B0GJTXVN9Z)
 
 [FREE Returns](javascript:void\(0\))
 
@@ -677,6 +681,10 @@ We offer easy, convenient returns with at least one free return option: no shipp
 1.  Go to your orders and start the return
 2.  Select your preferred free shipping option
 3.  Drop off and leave!
+
+ 
+
+ Available at a lower price from [other sellers](/gp/offer-listing/B0GJTXVN9Z/ref=dp_olp_pn) that may not offer free Prime shipping.
 
   
 
@@ -700,7 +708,7 @@ Make a Style selection
 
    
 
-{"desktop\_buybox\_group\_1":\[{"displayPrice":"$79.99","priceAmount":79.99,"currencySymbol":"$","integerValue":"79","decimalSeparator":".","fractionalValue":"99","symbolPosition":"left","hasSpace":false,"showFractionalPartIfEmpty":true,"offerListingId":"Vh7oCnd9mi7w6kSRlgMpFlFpSLdCcOpRcxqSA44S4d8mce5x1e7hULivLxAxe0VLtG3CIRL5yOUXlnEQtPeerWHKFDRHRYSWc1EEi1pQ9H6PHK3bBr1QfTKMZAWMZNd3wuUrwNHmLnulEj%2Bf4wgCLQ%3D%3D","locale":"en-US","buyingOptionType":"NEW","aapiBuyingOptionIndex":0}\]}
+{"desktop\_buybox\_group\_1":\[{"displayPrice":"$79.99","priceAmount":79.99,"currencySymbol":"$","integerValue":"79","decimalSeparator":".","fractionalValue":"99","symbolPosition":"left","hasSpace":false,"showFractionalPartIfEmpty":true,"offerListingId":"lOkMVnwJr8XZd16%2FGSAV6qRJ9g1nYo7hdTtEYA8UPvZ7ukzr%2FUAm2PzxV9SQEBOkThxfPWRFTBhmnwYTtRr6YbrJUt3UyMKlw4PWN2B3tFGG%2BMxnV8IeXWc8QZo2DyOPPyjldGgExlP%2BU7TOn5mM7g%3D%3D","locale":"en-US","buyingOptionType":"NEW","aapiBuyingOptionIndex":0}\]}
 
 ### Purchase options and add-ons
 
@@ -812,31 +820,31 @@ Customers usually keep items from this brand
 
 ## Compare Apple Airtags products
 
-[![AirTag (2nd generation) - 4-pack](https://m.media-amazon.com/images/G/01/apple/airtag_2nd_gen_4pack._CB787909441_.png)](/dp/B0GJTXVN9Z?ref=amzdv_ucc_dp_lod_B0GJTXVN9Z_B0GJTXVN9Z "AirTag (2nd generation) - 4-pack")
-
 [![Airtag (2nd generation)](https://m.media-amazon.com/images/G/01/apple/airtag_2nd_gen._CB787909441_.png)](/dp/B0GJTFXNRX?ref=amzdv_ucc_dp_lod_B0GJTXVN9Z_B0GJTFXNRX "Airtag (2nd generation)")
+
+[![AirTag (2nd generation) - 4-pack](https://m.media-amazon.com/images/G/01/apple/airtag_2nd_gen_4pack._CB787909441_.png)](/dp/B0GJTXVN9Z?ref=amzdv_ucc_dp_lod_B0GJTXVN9Z_B0GJTXVN9Z "AirTag (2nd generation) - 4-pack")
 
 DEVICE
 
-[AirTag (2nd generation) - 4-pack](/dp/B0GJTXVN9Z?ref=amzdv_ucc_dp_lod_B0GJTXVN9Z_B0GJTXVN9Z "AirTag (2nd generation) - 4-pack")
-
 [Airtag (2nd generation)](/dp/B0GJTFXNRX?ref=amzdv_ucc_dp_lod_B0GJTXVN9Z_B0GJTFXNRX "Airtag (2nd generation)")
 
+[AirTag (2nd generation) - 4-pack](/dp/B0GJTXVN9Z?ref=amzdv_ucc_dp_lod_B0GJTXVN9Z_B0GJTXVN9Z "AirTag (2nd generation) - 4-pack")
+
 PRICE
-
-\-19% $79.99
-
-List Price: $99.00
 
 \-17% $24.00
 
 List Price: $29.00
 
+\-19% $79.99
+
+List Price: $99.00
+
 RATINGS
 
-4.5 _4.5 out of 5 stars_ [(9,759)](/product-reviews/B0GJTXVN9Z?ref=amzdv_ucc_dp_rvw_B0GJTXVN9Z_B0GJTXVN9Z)
+4.5 _4.5 out of 5 stars_ [(9,823)](/product-reviews/B0GJTFXNRX?ref=amzdv_ucc_dp_rvw_B0GJTXVN9Z_B0GJTFXNRX)
 
-4.5 _4.5 out of 5 stars_ [(9,759)](/product-reviews/B0GJTFXNRX?ref=amzdv_ucc_dp_rvw_B0GJTXVN9Z_B0GJTFXNRX)
+4.5 _4.5 out of 5 stars_ [(9,823)](/product-reviews/B0GJTXVN9Z?ref=amzdv_ucc_dp_rvw_B0GJTXVN9Z_B0GJTXVN9Z)
 
 SPLASH, WATER, AND DUST RESISTANCE
 
@@ -976,7 +984,7 @@ _4.5 out of 5 stars_
 
 4.5 out of 5
 
-9,759 global ratings
+9,823 global ratings
 
 *   [
     
@@ -1035,7 +1043,7 @@ To calculate the overall star rating and percentage breakdown by star, we don’
 
 ### Customers say
 
-Customers find the AirTag's functionality and accuracy positive, with the precision finding feature being noticeably better and the location tracking being accurate. The device is easy to set up and use, with a noticeable louder sound that makes it easy to locate. While some customers consider it worth the money, others say it's not worth the price, and there are mixed experiences with connectivity, with some devices not connecting to iPhones. The battery life receives mixed reviews, with some finding it long-lasting with replaceable batteries, while others report poor performance.
+Customers find the AirTag's functionality and accuracy positive, with the precision finding feature being noticeably better than the first generation. The device is easy to set up and use, with a noticeable louder sound that makes it easy to locate. While some customers consider it worth the money and appreciate its connectivity, others find it not worth the price and report connection issues. The battery life receives mixed reviews, with some praising the long-lasting replaceable battery while others complain about poor performance.
 
 AI Generated from the text of customer reviews![](https://m.media-amazon.com/images/S/sash/sfwfCa9XX12F4At.png) Generated from the text of customer reviews
 
@@ -1043,11 +1051,11 @@ AI Generated from the text of customer reviews![](https://m.media-amazon.com/ima
 
 ![](https://m.media-amazon.com/images/S/sash/Drs0Q4ykCo009TA.png)
 
-Functionality(603)
+Functionality(599)
 
 ![](https://m.media-amazon.com/images/S/sash/Drs0Q4ykCo009TA.png)
 
-Accuracy(343)
+Accuracy(347)
 
 ![](https://m.media-amazon.com/images/S/sash/Drs0Q4ykCo009TA.png)
 
@@ -1055,15 +1063,15 @@ Setup(200)
 
 ![](https://m.media-amazon.com/images/S/sash/Drs0Q4ykCo009TA.png)
 
-Loud sound(107)
+Loudness(108)
 
 ![](https://m.media-amazon.com/images/S/sash/3QtWxPDJwNfJe8s.png)
 
-Value for money(270)
+Value for money(271)
 
 ![](https://m.media-amazon.com/images/S/sash/3QtWxPDJwNfJe8s.png)
 
-Connectivity(242)
+Connectivity(247)
 
 ![](https://m.media-amazon.com/images/S/sash/3QtWxPDJwNfJe8s.png)
 
@@ -1071,9 +1079,9 @@ Battery life(126)
 
 ![](https://m.media-amazon.com/images/S/sash/3QtWxPDJwNfJe8s.png)
 
-Airtag quality(107)
+Airtag quality(109)
 
-603 customers mention functionality, 478 positive, 125 negative603 customers mention "Functionality"478 positive125 negative
+599 customers mention functionality, 482 positive, 117 negative599 customers mention "Functionality"482 positive117 negative
 
 ![](https://m.media-amazon.com/images/S/sash/FQQMS6xydSSApTa.png)
 
@@ -1091,11 +1099,11 @@ Customers find the AirTag's functionality fantastic and better than the first ge
 
 ](/portal/customer-reviews/srp/-/R3KTLBP8IL483A)
 
-"...What if no other Apple devices are in the area?? Useless!!! Tracking is extremely delayed, takes about 10-20min to update position...." [Read more
+"Would be nice if they had the ability to find your phone but otherwise perfect, easy to setup and handy design." [Read more
 
-](/portal/customer-reviews/srp/-/R247YZXRFO60E3)
+](/portal/customer-reviews/srp/-/R1M7FAMNZAA3AO)
 
-343 customers mention accuracy, 261 positive, 82 negative343 customers mention "Accuracy"261 positive82 negative
+347 customers mention accuracy, 264 positive, 83 negative347 customers mention "Accuracy"264 positive83 negative
 
 ![](https://m.media-amazon.com/images/S/sash/FQQMS6xydSSApTa.png)
 
@@ -1135,15 +1143,15 @@ Customers find the AirTag easy to set up and use, with one customer noting it's 
 
 ](/portal/customer-reviews/srp/-/R3KTLBP8IL483A)
 
-"...It was super easy to set up and gives us some peace of mind. We always leash him but want to be sure if he gets away we can find him." [Read more
+"The Apple AirTag is a simple and effective tracking device that's especially useful for keeping track of everyday items like keys, wallets, luggage,..." [Read more
 
-](/portal/customer-reviews/srp/-/R1D1FSZVAB5R6U)
+](/portal/customer-reviews/srp/-/R2U18IWRXVL3Q2)
 
-107 customers mention loud sound, 80 positive, 27 negative107 customers mention "Loud sound"80 positive27 negative
+108 customers mention loudness, 81 positive, 27 negative108 customers mention "Loudness"81 positive27 negative
 
 ![](https://m.media-amazon.com/images/S/sash/FQQMS6xydSSApTa.png)
 
-Customers appreciate the AirTag's sound, finding it noticeable and easy to hear, with one customer noting that it makes a clear beep when using the app to locate their wallet.
+Customers appreciate the AirTag's sound, noting that it is noticeable and easy to hear, with one customer mentioning that it makes a distinct sound when using the app to locate their wallet.
 
 "...The 2nd Gen AirTag has improvised features from the Gen 1. Gen 2 has a louder, higher pitch chime, significantly longer Bluetooth range, and has..." [Read more
 
@@ -1161,7 +1169,7 @@ Customers appreciate the AirTag's sound, finding it noticeable and easy to hear,
 
 ](/portal/customer-reviews/srp/-/R11YR3E7U265IM)
 
-270 customers mention value for money, 152 positive, 118 negative270 customers mention "Value for money"152 positive118 negative
+271 customers mention value for money, 153 positive, 118 negative271 customers mention "Value for money"153 positive118 negative
 
 ![](https://m.media-amazon.com/images/S/sash/FQQMS6xydSSApTa.png)
 
@@ -1183,7 +1191,7 @@ Customers have mixed opinions about the AirTag's value for money, with some cons
 
 ](/portal/customer-reviews/srp/-/R3T8ADY9VFZOPF)
 
-242 customers mention connectivity, 98 positive, 144 negative242 customers mention "Connectivity"98 positive144 negative
+247 customers mention connectivity, 102 positive, 145 negative247 customers mention "Connectivity"102 positive145 negative
 
 ![](https://m.media-amazon.com/images/S/sash/FQQMS6xydSSApTa.png)
 
@@ -1227,7 +1235,7 @@ Customers have mixed experiences with the AirTag's battery life, with some repor
 
 ](/portal/customer-reviews/srp/-/R3SNW54OE7M7UT)
 
-107 customers mention airtag quality, 67 positive, 40 negative107 customers mention "Airtag quality"67 positive40 negative
+109 customers mention airtag quality, 68 positive, 41 negative109 customers mention "Airtag quality"68 positive41 negative
 
 ![](https://m.media-amazon.com/images/S/sash/FQQMS6xydSSApTa.png)
 
@@ -1277,9 +1285,9 @@ _5.0 out of 5 stars_
 
 [_Previous slide_](#)
 
-1.  ![Customer Image, click to open customer review](https://m.media-amazon.com/images/I/51Wg2xknH2L._AC_UC154,154_CACC,154,154_QL85_.jpg?aicid=community-reviews)
+1.  ![Customer Image, click to open customer review](https://m.media-amazon.com/images/I/61UkWbnsiUL._AC_UC154,154_CACC,154,154_QL85_.jpg?aicid=community-reviews)
     
-2.  ![Customer Image, click to open customer review](https://m.media-amazon.com/images/I/61UkWbnsiUL._AC_UC154,154_CACC,154,154_QL85_.jpg?aicid=community-reviews)
+2.  ![Customer Image, click to open customer review](https://m.media-amazon.com/images/I/51Wg2xknH2L._AC_UC154,154_CACC,154,154_QL85_.jpg?aicid=community-reviews)
     
 3.  ![Customer Image, click to open customer review](https://m.media-amazon.com/images/I/71Ro2v3L--L._AC_UC154,154_CACC,154,154_QL85_.jpg?aicid=community-reviews)
     
@@ -1289,7 +1297,7 @@ _5.0 out of 5 stars_
     
 6.  ![Customer Image, click to open customer review](https://m.media-amazon.com/images/I/81100tvE01L._AC_UC154,154_CACC,154,154_QL85_.jpg?aicid=community-reviews)
     
-7.  ![Customer Image, click to open customer review](https://m.media-amazon.com/images/I/61ExyBgKe0L._AC_UC154,154_CACC,154,154_QL85_.jpg?aicid=community-reviews)
+7.  ![Customer Image, click to open customer review](https://m.media-amazon.com/images/I/51mxHmfqLaL._AC_UC154,154_CACC,154,154_QL85_.jpg?aicid=community-reviews)
     
 8.  ![Customer Image, click to open customer review](https://m.media-amazon.com/images/I/81DO76qHtSL._AC_UC154,154_CACC,154,154_QL85_.jpg?aicid=community-reviews)
     
@@ -1330,7 +1338,7 @@ I got an AirTag to replace my tile. AirTags don’t have their own GPS, they use
 
 [More](javascript:void\(0\))[Hide](javascript:void\(0\))
 
-*   ![Customer Image](https://m.media-amazon.com/images/I/51Wg2xknH2L.jpg)
+*   ![Customer Image](https://m.media-amazon.com/images/I/61UkWbnsiUL.jpg)
 
 Thank you for your feedback
 
@@ -1386,7 +1394,7 @@ There was a problem filtering reviews. Please reload the page.
     
     [Read moreRead less](javascript:void\(0\))
     
-    16 people found this helpful
+    20 people found this helpful
     
     Helpful
     
@@ -1438,7 +1446,7 @@ There was a problem filtering reviews. Please reload the page.
     
     [Read moreRead less](javascript:void\(0\))
     
-    43 people found this helpful
+    46 people found this helpful
     
     Helpful
     
@@ -1492,7 +1500,7 @@ There was a problem filtering reviews. Please reload the page.
     
     [Read moreRead less](javascript:void\(0\))
     
-    21 people found this helpful
+    23 people found this helpful
     
     Helpful
     
@@ -1546,7 +1554,7 @@ There was a problem filtering reviews. Please reload the page.
     
     [Read moreRead less](javascript:void\(0\))
     
-    102 people found this helpful
+    104 people found this helpful
     
     Helpful
     
@@ -1594,7 +1602,57 @@ There was a problem filtering reviews. Please reload the page.
     
     [Read moreRead less](javascript:void\(0\))
     
-    5 people found this helpful
+    7 people found this helpful
+    
+    Helpful
+    
+    Sending feedback...
+    
+    Thank you for your feedback.
+    
+    Sorry, we failed to record your vote. Please try again
+    
+    [Report](javascript:void\(0\))
+    
+    Sending feedback...
+    
+    Thanks, we'll investigate in the next few days.
+    
+    Sorry, We failed to report this review. Please try again
+    
+*   [
+    
+    ![](https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif)
+    
+    Baljit singh
+    
+    ](/gp/profile/amzn1.account.AECS2SWJ7BTYM6T3G7NPFSMLNNQA?ref=cm_cr_dp_d_bdcrb_top)
+    
+    _5 out of 5 stars_
+    
+    [
+    
+    ##### Great product
+    
+    ](/portal/customer-reviews/srp/-/R2ZMQ765QDG6PX/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8)
+    
+    Reviewed in the United States on August 11, 2026
+    
+    [Style: 1 Pack](/portal/customer-reviews/B0GJTFXNRX/ref=cm_cr_dp_d_rvw_fmt?_encoding=UTF8&formatType=current_format)
+    
+    [Verified Purchase](/gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA)
+    
+    Brief content visible, double tap to read full content.
+    
+    Full content visible, double tap to read brief content.
+    
+    ★★★★★ Great Product!
+    
+    I’m very happy with the Apple AirTag (2nd Generation). It’s compact, easy to set up, and works great for keeping track of my belongings. The tracking is reliable, and the battery life is excellent. The small size makes it easy to attach to keys, luggage, bags, or anything else I don’t want to lose.
+    
+    [Read moreRead less](javascript:void\(0\))
+    
+    10 people found this helpful
     
     Helpful
     
@@ -1670,57 +1728,7 @@ There was a problem filtering reviews. Please reload the page.
     
     [Read moreRead less](javascript:void\(0\))
     
-    118 people found this helpful
-    
-    Helpful
-    
-    Sending feedback...
-    
-    Thank you for your feedback.
-    
-    Sorry, we failed to record your vote. Please try again
-    
-    [Report](javascript:void\(0\))
-    
-    Sending feedback...
-    
-    Thanks, we'll investigate in the next few days.
-    
-    Sorry, We failed to report this review. Please try again
-    
-*   [
-    
-    ![](https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif)
-    
-    Baljit singh
-    
-    ](/gp/profile/amzn1.account.AECS2SWJ7BTYM6T3G7NPFSMLNNQA?ref=cm_cr_dp_d_bdcrb_top)
-    
-    _5 out of 5 stars_
-    
-    [
-    
-    ##### Great product
-    
-    ](/portal/customer-reviews/srp/-/R2ZMQ765QDG6PX/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8)
-    
-    Reviewed in the United States on August 11, 2026
-    
-    [Style: 1 Pack](/portal/customer-reviews/B0GJTFXNRX/ref=cm_cr_dp_d_rvw_fmt?_encoding=UTF8&formatType=current_format)
-    
-    [Verified Purchase](/gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA)
-    
-    Brief content visible, double tap to read full content.
-    
-    Full content visible, double tap to read brief content.
-    
-    ★★★★★ Great Product!
-    
-    I’m very happy with the Apple AirTag (2nd Generation). It’s compact, easy to set up, and works great for keeping track of my belongings. The tracking is reliable, and the battery life is excellent. The small size makes it easy to attach to keys, luggage, bags, or anything else I don’t want to lose.
-    
-    [Read moreRead less](javascript:void\(0\))
-    
-    8 people found this helpful
+    120 people found this helpful
     
     Helpful
     
@@ -1774,7 +1782,7 @@ There was a problem filtering reviews. Please reload the page.
     
     [Read moreRead less](javascript:void\(0\))
     
-    7 people found this helpful
+    9 people found this helpful
     
     Helpful
     

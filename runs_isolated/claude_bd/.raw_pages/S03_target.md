@@ -1,12 +1,12 @@
-Apple AirTag (4 Pack) (1st generation) : Target       
+Apple AirTag (4 Pack) (1st generation) : Target     
 
   
 
 [skip to main content](#content)[skip to footer](#footerHeader)
 
-Ship to 97078
+Ship to 10118
 
-Hillsboro
+Chelsea 23rd and 8th
 
 [Target Circle™](/circle)[Target Circle™ Card](/circlecard)[Target Circle 360™](/l/target-circle-360/-/N-2rguk)[Registry & Wish List](/gift-registry)[Weekly Ad](/weekly-ad)[Find Stores](/store-locator/find-stores)
 
@@ -75,13 +75,15 @@ Pack Size4
 
 * * *
 
-PickupNot availableDeliveryCheck availabilityShippingArrives by Thu, Sep 3
+PickupNot availableDeliveryCheck availabilityShippingArrives by Sun, Sep 6
 
 Add to cart
 
 Eligible for registries and wish lists
 
 Sign in
+
+Add to list
 
 ## At a glance
 
@@ -111,8 +113,6 @@ environmental conditions, replacement battery manufacturer, and many other facto
 3AirTag is splash, water, and dust resistant and was tested under controlled laboratory conditions with a rating of IP67 under IEC standard 60529 (maximum depth of 1 meter up to 30 minutes).  
 Splash, water, and dust resistance are not permanent conditions and resistance might decrease as a result of normal wear. Refer to the Safety and Handling documentation for cleaning and  
 drying instructions.
-
-Show more
 
 ### Specifications
 
@@ -168,4 +168,8 @@ Sign up
 
 ](https://www.target.com/c/target-privacy-policy/-/N-4sr7p)[Terms
 
-](https://www.target.com/c/terms-conditions/-/N-4sr7l
+](https://www.target.com/c/terms-conditions/-/N-4sr7l)
+
+## Footer
+
+mmmmmmmmmmllim

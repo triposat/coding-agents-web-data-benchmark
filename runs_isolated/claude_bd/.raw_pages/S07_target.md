@@ -4,9 +4,9 @@ SAMSUNG T7 Portable 1TB USB 3.2 External SSD MU-PC1T0T/AM : Target
 
 [skip to main content](#content)[skip to footer](#footerHeader)
 
-Ship to 77044
+Ship to 75137
 
-Atascocita
+Cedar Hill
 
 [Target Circle™](/circle)[Target Circle™ Card](/circlecard)[Target Circle 360™](/l/target-circle-360/-/N-2rguk)[Registry & Wish List](/gift-registry)[Weekly Ad](/weekly-ad)[Find Stores](/store-locator/find-stores)
 
@@ -63,9 +63,9 @@ Show more images
 
 # SAMSUNG T7 Portable 1TB USB 3.2 External SSD MU-PC1T0T/AM
 
-4.8 out of 5 stars
+4.81 out of 5 stars
 
-270
+884
 
 [1 Question](#)
 
@@ -73,11 +73,11 @@ Highly rated
 
 $432.40
 
-Ship to 77044
+Ship to 75137
 
 Edit ZIP code
 
-Arrives by Fri, Sep 4
+Arrives by Sat, Sep 5
 
 Ships free\- exclusions apply
 
@@ -90,22 +90,6 @@ Qty
 Add to cart
 
 Sign in to buy now
-
-* * *
-
-Add plans or services
-
-Make your selection before adding to cart
-
-2 Year Electronics Protection Plan ($400-$449.99) - Allstate
-
-$59.00
-
-* * *
-
-Free & easy returns
-
-Return this item by mail or in store within 30 days for a full refund.
 
 [
 
@@ -124,24 +108,6 @@ Eligible for registries and wish lists
 Sign in
 
 Add to list
-
-[
-
-Save 5% every day
-
-With Target Circle™ Card (restrictions apply)
-
-
-
-](/circlecard?cpng=redcard9235)
-
-Pay as low as $41/mo
-
-With Affirm
-
-Pay in 4
-
-Pay in 4 interest-free payments of $108.10
 
 Sponsored
 
@@ -220,6 +186,20 @@ Sign up
 
 ## Footer
 
- 
+![Image of SAMSUNG T7 Portable 1TB USB 3.2 External SSD MU-PC1T0T/AM](https://target.scene7.com/is/image/Target/GUEST_8e153bfb-f09f-4ef9-ad64-b0d8e2915ad6?qlt=65&fmt=webp&hei=160&wid=160)
 
-mmmmmmmmmmllimmm
+[Shop all Samsung](/b/samsung/-/N-5y4wr)
+
+### 
+
+SAMSUNG T7 Portable 1TB USB 3.2 External SSD MU-PC1T0T/AM
+
+[1 Question](#)
+
+$432.40
+
+Qty
+
+1
+
+Add

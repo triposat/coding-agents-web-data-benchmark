@@ -1,12 +1,12 @@
-Seagate Portable 2TB External Hard Drive HDD — USB 3.0 for PC, Mac, PlayStation, & Xbox -1-Year Rescue Service (STGX2000400) : Target     
+Seagate Portable 2TB External Hard Drive HDD — USB 3.0 for PC, Mac, PlayStation, & Xbox -1-Year Rescue Service (STGX2000400) : Target       
 
   
 
 [skip to main content](#content)[skip to footer](#footerHeader)
 
-Ship to 78577
+Ship to 07013
 
-McAllen
+Clifton
 
 [Target Circle™](/circle)[Target Circle™ Card](/circlecard)[Target Circle 360™](/l/target-circle-360/-/N-2rguk)[Registry & Wish List](/gift-registry)[Weekly Ad](/weekly-ad)[Find Stores](/store-locator/find-stores)
 
@@ -67,11 +67,11 @@ Show more images
 
 $143.30
 
-Ship to 78577
+Ship to 07013
 
 Edit ZIP code
 
-Arrives by Wed, Sep 9
+Arrives by Thu, Sep 10
 
 Ships free\- exclusions apply
 
@@ -84,6 +84,22 @@ Qty
 Add to cart
 
 Sign in to buy now
+
+* * *
+
+Add plans or services
+
+Make your selection before adding to cart
+
+2 Year Electronics Protection Plan ($125-$149.99) - Allstate
+
+$21.00
+
+* * *
+
+Free & easy returns
+
+Return this item by mail or in store within 30 days for a full refund.
 
 [
 
@@ -101,7 +117,55 @@ Eligible for registries and wish lists
 
 Sign in
 
+Add to list
+
+[
+
+Save 5% every day
+
+With Target Circle™ Card (restrictions apply)
+
+
+
+](/circlecard?cpng=redcard9235)
+
+4 interest-free payments or as low as $14/mo
+
+With Affirm
+
+Pay in 4
+
+Pay in 4 interest-free payments of $35.83
+
 Sponsored
+
+### Guest ratings & reviews
+
+## Additional product information and recommendations
+
+Load all content at once
+
+Sponsored
+
+### Frequently bought together
+
+[Skip to next section](#skip)
+
+### Your views
+
+[Skip to next section](#skip)
+
+### Discover more options
+
+[Skip to next section](#skip)
+
+### Guests also viewed
+
+[Skip to next section](#skip)
+
+[Skip to next section](#skip)
+
+[Skip to next section](#skip)
 
 ## About this item
 
@@ -128,37 +192,11 @@ Easily store and access 2TB of content on the go with the Seagate Portable Drive
 
 ### Q&A (1)
 
-## Additional product information and recommendations
-
-Load all content at once
-
-Sponsored
-
-### Discover more options
-
-[Skip to next section](#skip)
-
-[Skip to next section](#skip)
-
-[Skip to next section](#skip)
-
-### Frequently bought together
-
-[Skip to next section](#skip)
-
-### Guests also viewed
-
-[Skip to next section](#skip)
-
-### Your views
-
-[Skip to next section](#skip)
+### Related categories
 
 ### Featured products
 
 [Skip to next section](#skip)
-
-### Guest ratings & reviews
 
 ### Disclaimer
 
@@ -176,4 +214,18 @@ Sign up
 
 ](https://www.target.com/c/target-privacy-policy/-/N-4sr7p)[Terms
 
-](https://www.target.com/c/terms-condit
+](https://www.target.com/c/terms-conditions/-/N-4sr7l)
+
+## Footer
+
+ 
+
+![Image of Seagate Portable 2TB External Hard Drive HDD — USB 3.0 for PC, Mac, PlayStation, & Xbox -1-Year Rescue Service (STGX2000400)](https://target.scene7.com/is/image/Target/GUEST_a7dfe2ba-e1ec-41e4-bb66-9f678bdf8072?qlt=65&fmt=webp&hei=160&wid=160)
+
+[Shop all Seagate](/b/seagate/-/N-5y4rw)
+
+### 
+
+Seagate Portable 2TB External Hard Drive HDD — USB 3.0 for PC, Mac, PlayStation, & Xbox -1-Year Rescue Service (STGX2000400)
+
+[1 Question](

@@ -201,7 +201,7 @@ Any questions? Our AI mode will help you find out quickly.
 
 Best Seller Ranking
 
-#90 in [Gaming Mouse](https://www.newegg.com/d/Best-Sellers/Gaming-Mouse/s/ID-3527)
+#80 in [Gaming Mouse](https://www.newegg.com/d/Best-Sellers/Gaming-Mouse/s/ID-3527)
 
 Model
 
@@ -327,7 +327,7 @@ write a review
 *   [Manufacturer Product Page](https://www.razer.com "Manufacturer Product Page (new window)")
 *   [Manufacturer Website](https://www.razer.com "View Manufacturer Website (new window)")
 *   Support Phone: 1-888-697-2037
-*   Support Email: [\[email protected\]](/cdn-cgi/l/email-protection#10636560607f62643d65635062716a7562636560607f62643e737f7d)
+*   Support Email: [\[email protected\]](/cdn-cgi/l/email-protection#f0838580809f8284dd8583b082918a9582838580809f8284de939f9d)
 *   [Support Website](http://www.razersupport.com/ "Support Website (new window)")
 *   [View other products from RAZER](https://www.newegg.com/RAZER/BrandStore/ID-2202)
 

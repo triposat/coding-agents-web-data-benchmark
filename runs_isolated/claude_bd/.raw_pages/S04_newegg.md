@@ -78,20 +78,6 @@ Your Browsing History
 6.  ## Item#: _N82E16826627172_
     
 
-[![GIGABYTE 27 inch QHD 2K 1440P 180Hz Curved Gaming Computer Monitor 122% sRGB GS27QCA](https://c1.neweggimages.com/ProductImageCompressAll60/24-012-112-21.png "GIGABYTE 27 inch QHD 2K 1440P 180Hz Curved Gaming Computer Monitor 122% sRGB GS27QCA")](https://www.newegg.com/gigabyte-gs27qca-27-qhd-180hz-gs-series-va-black/p/N82E16824012112?Item=N82E16824012112&cm_sp=SD-_-3365923-_-Pers_ProductSponsoredDisplay+-_-11-_-24-012-112-_-26-627-172-_--_-1)
-
-[GIGABYTE 27 inch QHD 2K 1440P 180Hz Curved Gaming Computer Monitor 122% sRGB GS27QCA](https://www.newegg.com/gigabyte-gs27qca-27-qhd-180hz-gs-series-va-black/p/N82E16824012112?Item=N82E16824012112&cm_sp=SD-_-3365923-_-Pers_ProductSponsoredDisplay+-_-11-_-24-012-112-_-26-627-172-_--_-1 "View Details")
-
-[(10)](https://www.newegg.com/gigabyte-gs27qca-27-qhd-180hz-gs-series-va-black/p/N82E16824012112?Item=N82E16824012112&cm_sp=SD-_-3365923-_-Pers_ProductSponsoredDisplay+-_-11-_-24-012-112-_-26-627-172-_--_-1#IsFeedbackTab "Rating + 4")
-
-*   $**129**.99 –
-*   Save: 31%
-    
-
-Sponsored
-
-You’re seeing this ad based on the product’s relevance to your search query. If you are a seller and want to participate in this program click here to [learn more](https://www.newegg.com/sellers/index.php/marketing-sponsored-product-ads/).
-
 $**299**.00
 
 *   **Free 30\-day Returns**
@@ -199,19 +185,6 @@ Color: **Deep Plum**
 *   Nine possible combinations of eartips and stability bands ensure the most comfy and stable fit for your ears.
 *   Seamlessly connect to two devices simultaneously via Bluetooth and go from Zoom meetings to your Spotify playlist.
 *   Hear and be heard clearly on calls with a revolutionary mic system.
-
-Sponsored
-
-You’re seeing this ad based on the product’s relevance to your search query. If you are a seller and want to participate in this program click here to [learn more](https://www.newegg.com/sellers/index.php/marketing-sponsored-product-ads/).
-
-[![GIGABYTE 34 inch QHD 2K 1440P 200Hz AMD FreeSync Premium HDR400 Built-in Speakers Curved Gaming Computer Monitor with Height Adjustable & Tilt Stand G34WQC2](https://c1.neweggimages.com/ProductImageCompressAll100/24-012-113-08.png "GIGABYTE 34 inch QHD 2K 1440P 200Hz AMD FreeSync Premium HDR400 Built-in Speakers Curved Gaming Computer Monitor with Height Adjustable & Tilt Stand G34WQC2")](https://www.newegg.com/gigabyte-g34wqc2-34-wqhd-200hz-g-series-va-black/p/N82E16824012113?Item=N82E16824012113&cm_sp=SD-_-3365923-_-Pers_ProductSponsoredDisplay+-_-11-_-24-012-113-_-26-627-172-_--_-2)
-
-[GIGABYTE 34 inch QHD 2K 1440P 200Hz AMD FreeSync Premium HDR400 Built-in Speakers Curved Gaming Computer Monitor with Height Adjustable & Tilt Stand G34WQC2](https://www.newegg.com/gigabyte-g34wqc2-34-wqhd-200hz-g-series-va-black/p/N82E16824012113?Item=N82E16824012113&cm_sp=SD-_-3365923-_-Pers_ProductSponsoredDisplay+-_-11-_-24-012-113-_-26-627-172-_--_-2 "View Details")
-
-[(5)](https://www.newegg.com/gigabyte-g34wqc2-34-wqhd-200hz-g-series-va-black/p/N82E16824012113?Item=N82E16824012113&cm_sp=SD-_-3365923-_-Pers_ProductSponsoredDisplay+-_-11-_-24-012-113-_-26-627-172-_--_-2#IsFeedbackTab "Rating + 5")
-
-*   $**249**.99 –
-*   Save: 10%
 
 +
 
@@ -704,3 +677,11 @@ Compare Items
 7
 
 8
+
+9
+
+10
+
+11
+
+12

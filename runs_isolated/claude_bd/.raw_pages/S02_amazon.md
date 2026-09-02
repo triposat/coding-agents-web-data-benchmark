@@ -21,7 +21,7 @@
     
     Search
     
-    alt + /
+    opt + /
     
     
     
@@ -30,7 +30,7 @@
     
     Cart
     
-    shift + alt + C
+    shift + opt + C
     
     
     
@@ -39,7 +39,7 @@
     
     Home
     
-    shift + alt + H
+    shift + opt + H
     
     
     
@@ -48,22 +48,22 @@
     
     Orders
     
-    shift + alt + O
+    shift + opt + O
     
     
     
     ](javascript:void\(0\))
 *   Add to cart
     
-    shift + alt + K
+    shift + opt + K
     
 *   Product summary
     
-    shift + alt + D
+    shift + opt + D
     
 *   Show/Hide shortcuts
     
-    shift + alt + Z
+    shift + opt + Z
     
 
 To move between items, use your keyboard's up or down arrows.
@@ -72,7 +72,7 @@ To move between items, use your keyboard's up or down arrows.
 
 [.us](/ref=nav_logo)
 
-Delivering to Dallas 75201 Update location
+Delivering to Nashville 37217 Update location
 
    
 
@@ -108,6 +108,8 @@ Cart
 
 *   [Health AI](https://health.amazon.com/health-ai?ref_=nav_cs_health_ai)
     
+*   [Amazon Haul](/haul/store?ref_=nav_cs_hul_disb)
+    
 *   [Medical Care](https://health.amazon.com/?ref_=nav_cs_medical_care_health_home)
     
 *   [Amazon Basics](/Amazon_Basics?channel=discovbar&field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics)
@@ -118,13 +120,13 @@ Cart
     
 *   [New Releases](/gp/new-releases/?ref_=nav_cs_newreleases)
     
-*   [Groceries](/fmc/grocery-gateway?gsc=fe16aGPfFs46S&ref_=nav_cs_groceries)
+*   [Today's Deals](/deals?ref_=nav_cs_gb)
     
 *   [Whole Foods](/alm/storefront?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref_=nav_cs_whole_foods)
     
-*   [Books](/books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books)
+*   [Groceries](/fmc/grocery-gateway?gsc=fe16aGPfFs46S&ref_=nav_cs_groceries)
     
-*   [Today's Deals](/deals?ref_=nav_cs_gb)
+*   [Books](/books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books)
     
 *   [Gift Cards](/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc)
     
@@ -169,14 +171,26 @@ Cart
 
 [](javascript:void\(0\) "Share")
 
- 
+No featured offers available  
+[Learn more](javascript:void\(0\))
+
+No featured offers available
+
+We feature offers with an Add to Cart button when an offer meets our high standards for:
+
+*   Quality Price,
+*   Reliable delivery option, and
+*   Seller who offers good customer service
+
+“No featured offers available” means no offers currently meet all of these expectations. Select See All Buying Options to shop available offers.
 
                       
 
-Currently unavailable.  
-We don't know when or if this item will be back in stock.[
+  
 
-Delivering to Dallas 75201 - Update location
+[
+
+Delivering to Nashville 37217 - Update location
 
 
 
@@ -185,6 +199,8 @@ Delivering to Dallas 75201 - Update location
 
 
 ](#)
+
+[See All Buying Options](/gp/offer-listing/B0D1XD1ZV3/ref=dp_olp_unknown_mbc "See All Buying Options")
 
 * * *
 
@@ -204,7 +220,7 @@ There was an error retrieving your Wish Lists. Please try again.
 
 List unavailable.
 
-  
+ 
 
  
 
@@ -252,14 +268,21 @@ List unavailable.
 
 [Visit the Apple Store](/stores/Apple/page/77D9E1F7-0337-4282-9DB6-B6B8FB2DC98D?lp_asin=B0D1XD1ZV3&ref_=ast_bln)
 
-[4.6 _4.6 out of 5 stars_](javascript:void\(0\)) [(46,906)](#averageCustomerReviewsAnchor)  
+[4.6 _4.6 out of 5 stars_](javascript:void\(0\)) [(46,915)](#averageCustomerReviewsAnchor)  
 
 * * *
 
  
 
- Currently unavailable.  
-We don't know when or if this item will be back in stock.
+  
+
+Brief content visible, double tap to read full content.
+
+Full content visible, double tap to read brief content.
+
+Style: Without AppleCare+
+
+   
 
   
 
@@ -343,8 +366,8 @@ We're sorry, your request can't be completed right now. Please try again later.Y
 [![Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation | Live Translation, Heart Rate Sensing, Hearing Aid Feature, Bluetooth Headphones, Spatial Audio, USB-C Charging](https://m.media-amazon.com/images/I/61solmQSSlL._SR75,75_.jpg)](/Apple-Cancellation-Translation-Headphones-High-Fidelity-dp-B0FQFB8FMG/dp/B0FQFB8FMG/ref=dp_ob_image_def)
 
 [Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation | Live Translation, Heart Rate Sensing, Hearing Aid Feature, Bluetooth Headphones, Spatial Audio, USB-C Charging](/Apple-Cancellation-Translation-Headphones-High-Fidelity-dp-B0FQFB8FMG/dp/B0FQFB8FMG/ref=dp_ob_title_def)  
-$225.00  
-[](/product-reviews/B0FQFB8FMG/ref=dp_ob_custreviews_def_cm_cr_acr_img?showViewpoints=1)[(14,597)](/product-reviews/B0FQFB8FMG/ref=dp_ob_custreviews_def_cm_cr_acr_txt?showViewpoints=1)  
+$199.00  
+[](/product-reviews/B0FQFB8FMG/ref=dp_ob_custreviews_def_cm_cr_acr_img?showViewpoints=1)[(14,641)](/product-reviews/B0FQFB8FMG/ref=dp_ob_custreviews_def_cm_cr_acr_txt?showViewpoints=1)  
 In Stock  
 
  
@@ -421,15 +444,15 @@ PRICE
 
 $261.48
 
-$537.00
+\-
 
 RATINGS
 
-4.6 _4.6 out of 5 stars_ [(46,906)](/product-reviews/B0D1XD1ZV3?ref=amzdv_ucc_dp_rvw_B0D1XD1ZV3_B0D1XD1ZV3)
+4.6 _4.6 out of 5 stars_ [(46,915)](/product-reviews/B0D1XD1ZV3?ref=amzdv_ucc_dp_rvw_B0D1XD1ZV3_B0D1XD1ZV3)
 
-4.7 _4.7 out of 5 stars_ [(635,015)](/product-reviews/B07PXGQC1Q?ref=amzdv_ucc_dp_rvw_B0D1XD1ZV3_B07PXGQC1Q)
+4.7 _4.7 out of 5 stars_ [(635,025)](/product-reviews/B07PXGQC1Q?ref=amzdv_ucc_dp_rvw_B0D1XD1ZV3_B07PXGQC1Q)
 
-4.4 _4.4 out of 5 stars_ [(6,272)](/product-reviews/B0D1WXVQTN?ref=amzdv_ucc_dp_rvw_B0D1XD1ZV3_B0D1WXVQTN)
+4.4 _4.4 out of 5 stars_ [(6,275)](/product-reviews/B0D1WXVQTN?ref=amzdv_ucc_dp_rvw_B0D1XD1ZV3_B0D1WXVQTN)
 
 4.6 _4.6 out of 5 stars_ [(16,651)](/product-reviews/B08PZD76NP?ref=amzdv_ucc_dp_rvw_B0D1XD1ZV3_B08PZD76NP)
 
@@ -741,13 +764,13 @@ _4.6 out of 5 stars_
 
 4.6 out of 5
 
-46,906 global ratings
+46,915 global ratings
 
 *   [
     
     5 star4 star3 star2 star1 star5 star
     
-    85%8%2%1%4%85%
+    84%8%3%1%4%84%
     
     ](/portal/customer-reviews/B0D1XD1ZV3/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar)
     
@@ -755,7 +778,7 @@ _4.6 out of 5 stars_
     
     5 star4 star3 star2 star1 star4 star
     
-    85%8%2%1%4%8%
+    84%8%3%1%4%8%
     
     ](/portal/customer-reviews/B0D1XD1ZV3/ref=acr_dp_hist_4?ie=UTF8&filterByStar=four_star&reviewerType=all_reviews#reviews-filter-bar)
     
@@ -763,7 +786,7 @@ _4.6 out of 5 stars_
     
     5 star4 star3 star2 star1 star3 star
     
-    85%8%2%1%4%2%
+    84%8%3%1%4%3%
     
     ](/portal/customer-reviews/B0D1XD1ZV3/ref=acr_dp_hist_3?ie=UTF8&filterByStar=three_star&reviewerType=all_reviews#reviews-filter-bar)
     
@@ -771,7 +794,7 @@ _4.6 out of 5 stars_
     
     5 star4 star3 star2 star1 star2 star
     
-    85%8%2%1%4%1%
+    84%8%3%1%4%1%
     
     ](/portal/customer-reviews/B0D1XD1ZV3/ref=acr_dp_hist_2?ie=UTF8&filterByStar=two_star&reviewerType=all_reviews#reviews-filter-bar)
     
@@ -779,7 +802,7 @@ _4.6 out of 5 stars_
     
     5 star4 star3 star2 star1 star1 star
     
-    85%8%2%1%4%4%
+    84%8%3%1%4%4%
     
     ](/portal/customer-reviews/B0D1XD1ZV3/ref=acr_dp_hist_1?ie=UTF8&filterByStar=one_star&reviewerType=all_reviews#reviews-filter-bar)
     
@@ -800,7 +823,7 @@ To calculate the overall star rating and percentage breakdown by star, we don’
 
 ### Customers say
 
-Customers praise the headphones' sound quality, noise cancellation, and functionality, particularly for working out, and find them worth the price. The fit and connectivity receive mixed feedback - while some find them secure and easy to connect via Bluetooth, others report issues with them falling out and disconnecting from phones. Battery life is also mixed, with some reporting solid performance while others experience unreliability. The hearing aid feature receives mixed reviews, with some finding them good for hearing while others report muffled voices.
+Customers praise the headphones' sound quality, noise cancellation, and functionality, particularly noting they work well for working out. The battery life and connectivity receive mixed feedback - while some report solid battery life and seamless connection, others experience issues with charging and disconnection. The fit and hearing aid functionality also get mixed reviews, with some finding them comfortable and effective, while others report them falling out of their ears and being unable to hear properly.
 
 AI Generated from the text of customer reviews![](https://m.media-amazon.com/images/S/sash/sfwfCa9XX12F4At.png) Generated from the text of customer reviews
 
@@ -808,7 +831,7 @@ AI Generated from the text of customer reviews![](https://m.media-amazon.com/ima
 
 ![](https://m.media-amazon.com/images/S/sash/Drs0Q4ykCo009TA.png)
 
-Sound quality(2.3K)
+Sound quality(5K)
 
 ![](https://m.media-amazon.com/images/S/sash/Drs0Q4ykCo009TA.png)
 
@@ -838,27 +861,27 @@ Connectivity(789)
 
 Hearing aid(638)
 
-2349 customers mention sound quality, 2044 positive, 305 negative2,349 customers mention "Sound quality"2,044 positive305 negative
+5001 customers mention sound quality, 4328 positive, 673 negative5,001 customers mention "Sound quality"4,328 positive673 negative
 
 ![](https://m.media-amazon.com/images/S/sash/FQQMS6xydSSApTa.png)
 
-Customers love the sound quality of these earbuds, describing them as clear and well-balanced.
+Customers love the sound quality of these headphones.
+
+"...Not to mention the wait after wait after wait on for their arrival. Great product. Terrible handling. I’m better off going to Walmart to get them...." [Read more
+
+](/portal/customer-reviews/srp/-/RBOFP4216CJ04)
 
 "Very convenient for working. Great sound and fit. Noise cancellation works wonderful and I love they you can use one pod at a time. Great purchase!" [Read more
 
 ](/portal/customer-reviews/srp/-/R1GP8AOBNJPJJB)
 
-"...I’m really happy with the features and sound quality, and I’m all in the Apple ecosystem. So, for me, there’s no reason to consider any other brands...." [Read more
+"Oh my God! These are amazing, seriously AMAZING. I can hear, everything. Not only are they “AirPods” but also Hearing Aids!!!! What? Yup!! It’s nuts!..." [Read more
 
-](/portal/customer-reviews/srp/-/R1W0VPU868B174)
+](/portal/customer-reviews/srp/-/R34KINQ6LQGU0M)
 
-"I love these AirPods they have great sound quality and battery life were easy to connect but I’ve learned that the microphone for these doesn’t work..." [Read more
+"Ringing in ears. So these are great. The switching back and forth between devices is great. Sound is okay/good. Though price is too high...." [Read more
 
-](/portal/customer-reviews/srp/-/R34GZQ5C6GUQJV)
-
-"They have good sound and block outside noise well , but if you use them for phone calls the person your talking to can’t hear you. Very muffled...." [Read more
-
-](/portal/customer-reviews/srp/-/R1UQ0LX0IK45DC)
+](/portal/customer-reviews/srp/-/R3KFG6NAHPZOG2)
 
 1729 customers mention noise cancellation, 1539 positive, 190 negative1,729 customers mention "Noise cancellation"1,539 positive190 negative
 
@@ -1139,6 +1162,8 @@ There was a problem filtering reviews. Please reload the page.
     
     Reviewed in the United States on August 12, 2026
     
+    [Style: Without AppleCare+](/portal/customer-reviews/B0D1XD1ZV3/ref=cm_cr_dp_d_rvw_fmt?_encoding=UTF8&formatType=current_format)
+    
     [Verified Purchase](/gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA)
     
     Brief content visible, double tap to read full content.
@@ -1188,6 +1213,8 @@ There was a problem filtering reviews. Please reload the page.
     ](/portal/customer-reviews/srp/-/R3H55DLDY8DCXL/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8)
     
     Reviewed in the United States on August 9, 2024
+    
+    [Style: Without AppleCare+](/portal/customer-reviews/B0D1XD1ZV3/ref=cm_cr_dp_d_rvw_fmt?_encoding=UTF8&formatType=current_format)
     
     [Verified Purchase](/gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA)
     
@@ -1251,6 +1278,8 @@ There was a problem filtering reviews. Please reload the page.
     
     Reviewed in the United States on April 3, 2026
     
+    [Style: Without AppleCare+](/portal/customer-reviews/B0D1XD1ZV3/ref=cm_cr_dp_d_rvw_fmt?_encoding=UTF8&formatType=current_format)
+    
     [Verified Purchase](/gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA)
     
     Brief content visible, double tap to read full content.
@@ -1289,19 +1318,21 @@ There was a problem filtering reviews. Please reload the page.
     
     ![](https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif)
     
-    Jaxiry Soza
+    Emily
     
-    ](/gp/profile/amzn1.account.AHA4OXT3RBNQ7ZQC5KNJZ4OPFWMA?ref=cm_cr_dp_d_bdcrb_top)
+    ](/gp/profile/amzn1.account.AGD26EGPBTGV6XGYMJB3RQRZRRTQ?ref=cm_cr_dp_d_bdcrb_top)
     
     _5 out of 5 stars_
     
     [
     
-    ##### Apple AirPods
+    ##### Great for everyday audio
     
-    ](/portal/customer-reviews/srp/-/R3866TMOR3CWVD/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8)
+    ](/portal/customer-reviews/srp/-/R3MXOHEJ4Z4QIJ/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8)
     
-    Reviewed in the United States on August 22, 2026
+    Reviewed in the United States on February 13, 2025
+    
+    [Style: Without AppleCare+](/portal/customer-reviews/B0D1XD1ZV3/ref=cm_cr_dp_d_rvw_fmt?_encoding=UTF8&formatType=current_format)
     
     [Verified Purchase](/gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA)
     
@@ -1309,11 +1340,113 @@ There was a problem filtering reviews. Please reload the page.
     
     Full content visible, double tap to read brief content.
     
-    I absolutely love the Apple AirPods Pro 2! The sound quality is excellent, with clear audio and powerful bass. The noise cancellation works really well, making them perfect for listening to music, watching videos, or taking calls. They are comfortable to wear, easy to connect, and the battery life is great for everyday use. The compact charging case is also very convenient. Overall, these are an excellent pair of wireless earbuds and definitely worth the investment!
+    The Apple AirPods Pro (2nd Generation) are a premium pair of true wireless earbuds that offer superior noise cancellation, enhanced sound quality, and improved battery life over the previous model. With the H2 chip, Adaptive Transparency, and Personalized Spatial Audio, Apple has refined the listening experience while maintaining the signature AirPods convenience.
+    
+    Pros & Cons
+    
+    ✅ Pros:
+    
+    • Excellent Active Noise Cancellation (ANC) with the new H2 chip
+    
+    • Rich, detailed sound with enhanced bass and clarity
+    
+    • Adaptive Transparency Mode lets in important sounds while reducing harsh noise
+    
+    • Improved battery life (Up to 6 hours per charge, 30 hours with case)
+    
+    • Find My integration for both the case and earbuds
+    
+    • New USB-C charging case (latest version) with built-in speaker and lanyard loop
+    
+    • Personalized Spatial Audio with dynamic head tracking
+    
+    • Touch controls on stems for volume adjustments
+    
+    ❌ Cons:
+    
+    • Expensive compared to competitors
+    
+    • No support for high-resolution audio codecs (LDAC, aptX)
+    
+    • Still white-only design (no color options)
+    
+    • Silicone tips may not fit all ears perfectly
+    
+    Design & Comfort
+    
+    Apple sticks with its minimalist white design, but the AirPods Pro 2 are slightly tweaked for better ergonomics and stability. The four included ear tip sizes (XS, S, M, L) allow for a more customized fit, making them comfortable for extended wear.
+    
+    The MagSafe charging case now has a built-in speaker for better Find My alerts, a lanyard loop, and USB-C charging (for the latest version).
+    
+    Sound Quality
+    
+    The AirPods Pro 2 deliver crisp highs, balanced mids, and deeper bass compared to the first-gen model. The H2 chip enhances audio processing, making sound richer and more immersive.
+    
+    Key Features:
+    
+    • Adaptive EQ fine-tunes music in real time.
+    
+    • Personalized Spatial Audio creates a theater-like 360° experience.
+    
+    • Bass is punchier without overpowering vocals.
+    
+    While the sound is fantastic, audiophiles may miss high-resolution codec support like aptX or LDAC.
+    
+    Active Noise Cancellation & Transparency Mode
+    
+    • ANC is 2x better than the original AirPods Pro, making them among the best noise-canceling earbuds.
+    
+    • Adaptive Transparency Mode intelligently reduces sudden loud noises while keeping voices and ambient sound clear.
+    
+    Whether you’re in a busy city, on a plane, or at the gym, the AirPods Pro 2 handle noise exceptionally well.
+    
+    Battery Life & Charging
+    
+    • Up to 6 hours of listening time with ANC on (vs. 4.5 hours in the original AirPods Pro).
+    
+    • Up to 30 hours total with the MagSafe charging case.
+    
+    • USB-C, MagSafe, and Apple Watch charger compatibility (for the newest model).
+    
+    Battery life is solid, but some competitors like the Sony WF-1000XM5 offer longer playtime.
+    
+    Connectivity & Features
+    
+    • Seamless Apple ecosystem integration (iPhone, iPad, Mac, Apple Watch).
+    
+    • Bluetooth 5.3 for better stability and efficiency.
+    
+    • Audio Sharing lets you connect two pairs of AirPods to one device.
+    
+    • Siri voice control for hands-free use.
+    
+    Android users can use them, but they’ll miss features like auto-switching, spatial audio, and Find My tracking.
+    
+    Final Verdict
+    
+    The AirPods Pro (2nd Gen) are an outstanding choice for Apple users looking for top-tier noise cancellation, improved sound quality, and seamless integration with their devices. While pricey, they deliver a premium audio experience with strong ANC, spatial audio, and deep Apple ecosystem connectivity.
+    
+    ⭐ Rating: 9/10 ⭐
+    
+    Best For:
+    
+    ✅ Apple users who want the best wireless earbuds for iPhones
+    
+    ✅ Commuters and travelers needing top-tier noise cancellation
+    
+    ✅ Those who love Spatial Audio for immersive sound
+    
+    Consider Alternatives If:
+    
+    ❌ You need hi-res audio support (Sony WF-1000XM5, Bose QuietComfort Earbuds II)
+    
+    ❌ You’re an Android user (Samsung Galaxy Buds2 Pro may be better)
+    
+    ❌ You want a cheaper pair of noise-canceling earbuds
     
     [Read moreRead less](javascript:void\(0\))
     
-    One person found this helpful
+    71 people found this helpful
     
     Helpful
     
@@ -1335,19 +1468,21 @@ There was a problem filtering reviews. Please reload the page.
     
     ![](https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif)
     
-    D. Olson
+    Jaxiry Soza
     
-    ](/gp/profile/amzn1.account.AFCK7J46D7TAAG6JDRF2WWPF3KPA?ref=cm_cr_dp_d_bdcrb_top)
+    ](/gp/profile/amzn1.account.AHA4OXT3RBNQ7ZQC5KNJZ4OPFWMA?ref=cm_cr_dp_d_bdcrb_top)
     
     _5 out of 5 stars_
     
     [
     
-    ##### These are fantastic! First pair of AirPods. I use the hearing aid functionality
+    ##### Apple AirPods
     
-    ](/portal/customer-reviews/srp/-/R26UEFEPMZFOEW/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8)
+    ](/portal/customer-reviews/srp/-/R3866TMOR3CWVD/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8)
     
-    Reviewed in the United States on October 29, 2024
+    Reviewed in the United States on August 22, 2026
+    
+    [Style: Without AppleCare+](/portal/customer-reviews/B0D1XD1ZV3/ref=cm_cr_dp_d_rvw_fmt?_encoding=UTF8&formatType=current_format)
     
     [Verified Purchase](/gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA)
     
@@ -1355,27 +1490,11 @@ There was a problem filtering reviews. Please reload the page.
     
     Full content visible, double tap to read brief content.
     
-    A couple months ago I got “commercial” hearing aids from the VA. However, I didn’t like how they operated so I gave them back, and they’re going to order a different brand/model, which I’ll have in about three months (!) So I went in search of quality, inexpensive hearing aids to fill the gap. (My hearing loss is considered mild, at -32db on one side and -39db on the other.) I got the AirPods last Friday, and the software for hearing aid support rolled out last night (iOS 18.1) So this will be a two part review.
-    
-    Part one is the overall operation as earbuds for music and calls. These are my first ever Apple branded sound devices. Once I got the correct tips installed and the buds fitted, I was ready to go. OMG! The sound quality overall is the best of any earbuds I’ve ever owned, and by a huge margin. Astonishing bass, and crisp high range. (My hearing loss is in the upper ranges.) I’m beyond happy. Overall, the only thing I’m dissatisfied with is the battery life at 5-6 hours, but the extremely fast recharge speed eases that compliant. Voice quality when on a call is crystal clear. Controls are easy, though a bit hard to operate considering how small they are.
-    
-    Part two is the hearing aid function. The first thing I had to do was take a hearing test with the included software. (However, if you prefer to use a third party hearing test, you can import that profile and use it.) The hearing test takes about 5 minutes, after which the hearing aid sound enhancement profile is set automatically and they start up. I was totally gobsmacked at how well these things work! They boost the exact freqs I need. They actually work considerably better than those $7000 (egads!) hearing aids that I returned.
-    
-    Now for the ANC. At home, I sit right in front of a large, noisy window air conditioner. On the opposite side of the room is a dehumidifier (I live in south central Texas, where it was 91° yesterday.) Between these two pieces of equipment, it’s pretty noisy here. I turned on ANC and the room went absolutely silent. So silent that I thought I’d popped a circuit breaker and everything had stopped running. I removed one of the AirPods, and the noise returned. Amazing.
-    
-    In short, everything I’d hoped the commercial hearing aids would do, the AirPods actually DID. I consider this the smartest purchase I’ve made in years. Only one negative, and that’s the ear tips. None of the provided sizes are a good fit for me, so I’m now looking to memory foam replacements. But that’s a very small gripe. If you’re looking at these, either for music or hearing, don’t hesitate. You’ll be glad you got them.
-    
-    EDIT: I had to go to a doctor appointment across town today. Part of the route is on a toll highway with an 80 mph speed limit and heavy traffic. I got up to speed and turned on noise cancel mode. INSTANTLY the car was completely silent at 80 mph. No road rumble, no engine noise, no wind noise, no traffic noise. It was an amazing and invigorating experience. Oh, for those wondering about recharge time, if you take them all the way down to 0% battery and they shut down (I’ve now ascertained that 6 hours is about what you get with all the options turned on), it only takes about 15 minutes in the charge case and you’ll easily get another 3-4 hours out of them.
-    
-    EDIT2: Okay, I’ve had these for almost a month, and I just keep liking them more and more. I didn’t mention pairing in my original text above, so I need to mention it here. There is, in effect, no pairing that you need to do, at least in the Apple-verse. By the time I’d opened the charging case and looked at the buds, they’d already paired with both my iPhone and iPad. I didn’t have to go into settings on my iOS devices, or press any buttons on the case. Just open case and it’s done. As a computer engineer for 40 years, I have never seen a faster or more seamless pairing of anything.
-    
-    One more word on recharging: just today I took them all the way to zero. Dropped them in the charger and in FIVE MINUTES they were at 24%.
-    
-    I am in love with the hearing aid functionality. I hear sounds in movies that I’d never heard before in my life, even when my hearing was perfect. And I can adjust amplification either by going into settings on my iPhone, or sliding my finger up or down on the stem.
+    I absolutely love the Apple AirPods Pro 2! The sound quality is excellent, with clear audio and powerful bass. The noise cancellation works really well, making them perfect for listening to music, watching videos, or taking calls. They are comfortable to wear, easy to connect, and the battery life is great for everyday use. The compact charging case is also very convenient. Overall, these are an excellent pair of wireless earbuds and definitely worth the investment!
     
     [Read moreRead less](javascript:void\(0\))
     
-    1,054 people found this helpful
+    One person found this helpful
     
     Helpful
     
@@ -1410,6 +1529,8 @@ There was a problem filtering reviews. Please reload the page.
     ](/portal/customer-reviews/srp/-/R2BU480LS9GY0Q/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8)
     
     Reviewed in the United States on October 23, 2025
+    
+    [Style: Without AppleCare+](/portal/customer-reviews/B0D1XD1ZV3/ref=cm_cr_dp_d_rvw_fmt?_encoding=UTF8&formatType=current_format)
     
     [Verified Purchase](/gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA)
     
@@ -1479,6 +1600,8 @@ There was a problem filtering reviews. Please reload the page.
     
     Reviewed in the United States on October 23, 2025
     
+    [Style: Without AppleCare+](/portal/customer-reviews/B0D1XD1ZV3/ref=cm_cr_dp_d_rvw_fmt?_encoding=UTF8&formatType=current_format)
+    
     [Verified Purchase](/gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA)
     
     I ordered these on Prime Deal as they are ridiculously expensive. But I did get a great deal, especially since they are not the latest. Arrived overnight. The seal was on the edges of the box so they were brand new.
@@ -1547,19 +1670,21 @@ There was a problem filtering reviews. Please reload the page.
     
     ![](https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif)
     
-    Jacob Hoffman
+    D. Olson
     
-    ](/gp/profile/amzn1.account.AEMV26EEX2EXA2KG5S53VOEKLMBQ?ref=cm_cr_dp_d_bdcrb_top)
+    ](/gp/profile/amzn1.account.AFCK7J46D7TAAG6JDRF2WWPF3KPA?ref=cm_cr_dp_d_bdcrb_top)
     
     _5 out of 5 stars_
     
     [
     
-    ##### Great Product
+    ##### These are fantastic! First pair of AirPods. I use the hearing aid functionality
     
-    ](/portal/customer-reviews/srp/-/R1SY7TVPX9M9DM/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8)
+    ](/portal/customer-reviews/srp/-/R26UEFEPMZFOEW/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8)
     
-    Reviewed in the United States on July 8, 2026
+    Reviewed in the United States on October 29, 2024
+    
+    [Style: Without AppleCare+](/portal/customer-reviews/B0D1XD1ZV3/ref=cm_cr_dp_d_rvw_fmt?_encoding=UTF8&formatType=current_format)
     
     [Verified Purchase](/gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA)
     
@@ -1567,11 +1692,27 @@ There was a problem filtering reviews. Please reload the page.
     
     Full content visible, double tap to read brief content.
     
-    These AirPods have been a great purchase. The sound quality is excellent, they connect quickly and reliably, and the battery life is more than enough for everyday use. They’re comfortable to wear, easy to use, and the compact design makes them convenient to take anywhere. A great option for listening to music, taking calls, or using them on the go. The noise cancelling feature is amazing.
+    A couple months ago I got “commercial” hearing aids from the VA. However, I didn’t like how they operated so I gave them back, and they’re going to order a different brand/model, which I’ll have in about three months (!) So I went in search of quality, inexpensive hearing aids to fill the gap. (My hearing loss is considered mild, at -32db on one side and -39db on the other.) I got the AirPods last Friday, and the software for hearing aid support rolled out last night (iOS 18.1) So this will be a two part review.
+    
+    Part one is the overall operation as earbuds for music and calls. These are my first ever Apple branded sound devices. Once I got the correct tips installed and the buds fitted, I was ready to go. OMG! The sound quality overall is the best of any earbuds I’ve ever owned, and by a huge margin. Astonishing bass, and crisp high range. (My hearing loss is in the upper ranges.) I’m beyond happy. Overall, the only thing I’m dissatisfied with is the battery life at 5-6 hours, but the extremely fast recharge speed eases that compliant. Voice quality when on a call is crystal clear. Controls are easy, though a bit hard to operate considering how small they are.
+    
+    Part two is the hearing aid function. The first thing I had to do was take a hearing test with the included software. (However, if you prefer to use a third party hearing test, you can import that profile and use it.) The hearing test takes about 5 minutes, after which the hearing aid sound enhancement profile is set automatically and they start up. I was totally gobsmacked at how well these things work! They boost the exact freqs I need. They actually work considerably better than those $7000 (egads!) hearing aids that I returned.
+    
+    Now for the ANC. At home, I sit right in front of a large, noisy window air conditioner. On the opposite side of the room is a dehumidifier (I live in south central Texas, where it was 91° yesterday.) Between these two pieces of equipment, it’s pretty noisy here. I turned on ANC and the room went absolutely silent. So silent that I thought I’d popped a circuit breaker and everything had stopped running. I removed one of the AirPods, and the noise returned. Amazing.
+    
+    In short, everything I’d hoped the commercial hearing aids would do, the AirPods actually DID. I consider this the smartest purchase I’ve made in years. Only one negative, and that’s the ear tips. None of the provided sizes are a good fit for me, so I’m now looking to memory foam replacements. But that’s a very small gripe. If you’re looking at these, either for music or hearing, don’t hesitate. You’ll be glad you got them.
+    
+    EDIT: I had to go to a doctor appointment across town today. Part of the route is on a toll highway with an 80 mph speed limit and heavy traffic. I got up to speed and turned on noise cancel mode. INSTANTLY the car was completely silent at 80 mph. No road rumble, no engine noise, no wind noise, no traffic noise. It was an amazing and invigorating experience. Oh, for those wondering about recharge time, if you take them all the way down to 0% battery and they shut down (I’ve now ascertained that 6 hours is about what you get with all the options turned on), it only takes about 15 minutes in the charge case and you’ll easily get another 3-4 hours out of them.
+    
+    EDIT2: Okay, I’ve had these for almost a month, and I just keep liking them more and more. I didn’t mention pairing in my original text above, so I need to mention it here. There is, in effect, no pairing that you need to do, at least in the Apple-verse. By the time I’d opened the charging case and looked at the buds, they’d already paired with both my iPhone and iPad. I didn’t have to go into settings on my iOS devices, or press any buttons on the case. Just open case and it’s done. As a computer engineer for 40 years, I have never seen a faster or more seamless pairing of anything.
+    
+    One more word on recharging: just today I took them all the way to zero. Dropped them in the charger and in FIVE MINUTES they were at 24%.
+    
+    I am in love with the hearing aid functionality. I hear sounds in movies that I’d never heard before in my life, even when my hearing was perfect. And I can adjust amplification either by going into settings on my iPhone, or sliding my finger up or down on the stem.
     
     [Read moreRead less](javascript:void\(0\))
     
-    2 people found this helpful
+    1,054 people found this helpful
     
     Helpful
     
@@ -1606,6 +1747,8 @@ There was a problem filtering reviews. Please reload the page.
     ](/portal/customer-reviews/srp/-/R2WO9R59YX9HYB/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8)
     
     Reviewed in the United States on December 3, 2024
+    
+    [Style: Without AppleCare+](/portal/customer-reviews/B0D1XD1ZV3/ref=cm_cr_dp_d_rvw_fmt?_encoding=UTF8&formatType=current_format)
     
     [Verified Purchase](/gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA)
     
@@ -1670,6 +1813,8 @@ Translate all reviews to English
     
     Reviewed in Germany on July 1, 2026
     
+    [Style: Without AppleCare+](/portal/customer-reviews/B0D1XD1ZV3/ref=cm_cr_dp_d_rvw_fmt?_encoding=UTF8&formatType=current_format)
+    
     [Verified Purchase](/gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA)
     
     Brief content visible, double tap to read full content.
@@ -1706,6 +1851,8 @@ Translate all reviews to English
     
     Reviewed in Germany on May 17, 2026
     
+    [Style: Without AppleCare+](/portal/customer-reviews/B0D1XD1ZV3/ref=cm_cr_dp_d_rvw_fmt?_encoding=UTF8&formatType=current_format)
+    
     [Verified Purchase](/gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA)
     
     Brief content visible, double tap to read full content.
@@ -1737,6 +1884,8 @@ Translate all reviews to English
     ##### Sehr guter Klang!
     
     Reviewed in Germany on May 17, 2026
+    
+    [Style: Without AppleCare+](/portal/customer-reviews/B0D1XD1ZV3/ref=cm_cr_dp_d_rvw_fmt?_encoding=UTF8&formatType=current_format)
     
     [Verified Purchase](/gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA)
     
@@ -1771,6 +1920,8 @@ Translate all reviews to English
     ##### Notwendiges Zubehör
     
     Reviewed in Germany on January 1, 2026
+    
+    [Style: Without AppleCare+](/portal/customer-reviews/B0D1XD1ZV3/ref=cm_cr_dp_d_rvw_fmt?_encoding=UTF8&formatType=current_format)
     
     [Verified Purchase](/gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA)
     
@@ -1809,6 +1960,8 @@ Translate all reviews to English
     ##### Passt, völlig ausreichend
     
     Reviewed in Germany on December 30, 2025
+    
+    [Style: Without AppleCare+](/portal/customer-reviews/B0D1XD1ZV3/ref=cm_cr_dp_d_rvw_fmt?_encoding=UTF8&formatType=current_format)
     
     [Verified Purchase](/gp/help/customer/display.html/ref=cm_cr_dp_d_rvw_avp?ie=UTF8&nodeId=G8UYX7LALQC8V9KA)
     
@@ -2182,5 +2335,4 @@ English](/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer
     you can trust](/gp/browse.html?node=12653393011&ref_=footer_usrenew)
 
 *   [Conditions of Use](/gp/help/customer/display.html?nodeId=508088&ref_=footer_cou)
-*   [Privacy Notice](/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ&ref_=footer_privacy)
-*
+*   [Privacy Notice](/gp/

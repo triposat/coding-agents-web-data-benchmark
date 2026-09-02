@@ -1,0 +1,44 @@
+Fetching 41 product pages via Bright Data Web Unlocker (zone=web_unlocker)...
+[1/41] S02 target     -> ok
+[2/41] S01 walmart    -> ok
+[3/41] S02 amazon     -> missing_price_availability
+[4/41] S01 amazon     -> ok
+[5/41] S02 walmart    -> ok
+[6/41] S03 target     -> ok
+[7/41] S03 walmart    -> ok
+[8/41] S03 amazon     -> ok
+[9/41] S04 amazon     -> ok
+[10/41] S04 newegg     -> ok
+[11/41] S04 walmart    -> missing_rating
+[12/41] S05 target     -> ok
+[13/41] S05 amazon     -> ok
+[14/41] S05 newegg     -> ok
+[15/41] S05 walmart    -> ok
+[16/41] S05 bestbuy    -> ok
+[17/41] S06 target     -> ok
+[18/41] S06 amazon     -> ok
+[19/41] S06 newegg     -> ok
+[20/41] S01 bestbuy    -> ok
+[21/41] S06 walmart    -> ok
+[22/41] S07 target     -> ok
+[23/41] S07 amazon     -> ok
+[24/41] S07 newegg     -> ok
+[25/41] S07 walmart    -> ok
+[26/41] S07 bestbuy    -> ok
+[27/41] S08 target     -> ok
+[28/41] S08 walmart    -> ok
+[29/41] S08 amazon     -> ok
+[30/41] S09 target     -> ok
+[31/41] S09 amazon     -> ok
+[32/41] S09 newegg     -> ok
+[33/41] S09 walmart    -> ok
+[34/41] S02 bestbuy    -> ok
+[35/41] S10 amazon     -> ok
+[36/41] S10 walmart    -> ok
+[37/41] S03 bestbuy    -> empty_response
+[38/41] S04 bestbuy    -> empty_response
+[39/41] S06 bestbuy    -> empty_response
+[40/41] S09 bestbuy    -> empty_response
+[41/41] S10 bestbuy    -> empty_response
+
+Wrote /Users/triposat/Desktop/Bdata Cursor/bench/runs_isolated/cursor_bd/results.json: 34/41 pages collected all 4 fields.
