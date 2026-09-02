@@ -1,0 +1,31 @@
+  S01 amazon     13.3s    25279 chars record
+  S02 amazon      8.7s    17653 chars record
+  S02 walmart    49.0s    19839 chars record
+  S01 walmart    87.2s    15489 chars record
+  S03 amazon     14.0s    18720 chars record
+  S01 bestbuy   130.8s    19362 chars record
+  S03 walmart    46.2s    19225 chars record
+  S04 amazon     20.1s    29226 chars record
+  S03 bestbuy   140.6s    15389 chars record
+  S04 walmart   133.0s    22055 chars record
+  S05 amazon      7.7s    21645 chars record
+  S05 walmart    92.9s    20153 chars record
+  S05 bestbuy   201.6s      379 chars record
+  S06 amazon      9.9s    23554 chars record
+  S06 walmart    39.6s    19805 chars record
+  S06 bestbuy   198.7s      347 chars record
+  S02 bestbuy   601.0s        0 chars TimeoutError: The read operation timed out
+  S07 amazon      8.9s    29334 chars record
+  S08 amazon      9.8s    25836 chars record
+  S07 walmart    37.2s    22738 chars record
+  S08 walmart    63.9s    15324 chars record
+  S09 amazon     11.6s    21158 chars record
+  S07 bestbuy   234.0s    20027 chars record
+  S04 bestbuy   600.6s        0 chars TimeoutError: The read operation timed out
+  S10 amazon     12.7s    32006 chars record
+  S10 walmart    48.6s    26310 chars record
+  S09 walmart   281.8s    18911 chars record
+  S10 bestbuy   308.0s      319 chars record
+  S09 bestbuy   600.6s        0 chars TimeoutError: The read operation timed out
+
+  records returned: 26/29

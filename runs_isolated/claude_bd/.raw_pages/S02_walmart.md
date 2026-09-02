@@ -80,7 +80,7 @@ View all
 
 Hero image 0 of Apple AirPods Pro 3, 0 of 9
 
-1K+ bought since yesterdayBest seller
+10K+ bought in past monthBest seller
 
 [Apple](/browse/0?facet=brand:Apple)
 
@@ -176,7 +176,7 @@ Shipping
 
 Arrives today
 
-Order within 9 hr 34 min
+Order within 6 hr 26 min
 
 Free
 
@@ -184,7 +184,7 @@ Free
 
 Pickup
 
-As soon as 3pm  
+As soon as 10am  
 today
 
 Free
@@ -193,16 +193,15 @@ Free
 
 Delivery
 
-As soon as 3pm  
-today
+As soon as 16 mins
 
-Ships toSacramento, 95829
+Ships toOrlando, 32837
 
 Arrives by Today
 
 .
 
-Order within 9 hr 34 min
+Order within 6 hr 26 min
 
 * * *
 

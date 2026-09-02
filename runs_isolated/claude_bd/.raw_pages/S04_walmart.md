@@ -178,7 +178,7 @@ Shipping
 
 Arrives today
 
-Order within 7 hr 30 min
+Order within 8 hr 24 min
 
 Free
 
@@ -186,24 +186,21 @@ Free
 
 Pickup
 
-As soon as 10am  
-today
-
-Free
+Get it nearby
 
 ![](//i5.walmartimages.com/dfw/63fd9f59-d930/2bac0e2b-cda4-4053-8a8e-8e8a0195b579/v1/Delivery_GroceryBag_Circle_Blue.svg)
 
 Delivery
 
-As soon as 24 mins
+Not available
 
-Ships toKcmo, 64130
+Ships toDenver, 80218
 
 Arrives by Today
 
 .
 
-Order within 7 hr 30 min
+Order within 8 hr 24 min
 
 * * *
 
@@ -226,38 +223,6 @@ This item is gift eligibleLearn more
 Add to list
 
 Add to registry
-
-[
-
-### In 25+ people's carts JBL Vibe Buds 2, True Wireless Noise Cancelling Earbuds $29.95 Was $64.95
-
-](https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-item-top~desktop~&pos=1&tax=3944_133251_1095191_1230614_1230476&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FJBL-Vibe-Buds-2-True-Wireless-Noise-Cancelling-Earbuds%2F16901270174%3FadsRedirect%3Dtrue&adUid=7bae42da-d6ea-467c-aa76-96db45620095&mloc=sp-item-top&pltfm=desktop&pgId=15853556239&pt=item&spQs=QgUH2PHrRV3D-2JE38pPt3H1M0AEFhmc6uDt_mgwAIQordsjMQke-7UpjPps2fxZjrnsuTNeHWXobScLFw4X7o_ZLAZg2nzA8OelXG59OhQWpUVORHk2hYMhZ3Szh2Ap9gLr1768Iwo7qND2c8yhutzIjcgP8kVibVR-B7Whb2vWCFbq1ey3Lzl8HHgHfGOhX8DhOKdCwWTQxGz6R9SDDTW45QwAXLxW_dl4pGI0TNM&storeId=2490&specificity=&specificityScore=&couponState=na&bkt=ace1_14237%7Cace2_default%7Cace3_default%7Cbb_1_14513%7Cbb_2_14536%7Cbb_5_14544&/ip/JBL-Vibe-Buds-2-True-Wireless-Noise-Cancelling-Earbuds/16901270174)
-
-In 25+ people's carts
-
-![JBL Vibe Buds 2, True Wireless Noise Cancelling Earbuds](https://i5.walmartimages.com/seo/JBL-Vibe-Buds-2-True-Wireless-Noise-Cancelling-Earbuds_3e7458cd-3437-45ae-b728-de27e1dda2ae.f98f9b140bfa52bc5bd8791e3da8250a.png?odnHeight=320&odnWidth=320&odnBg=FFFFFF)
-
-Now$2995
-
-current price Now $29.95, Was $64.95
-
-$64.95
-
-You save $35.00
-
-You save$35.00
-
-### JBL Vibe Buds 2, True Wireless Noise Cancelling Earbuds
-
-4.1 out of 5 stars
-
-10474.1 out of 5 Stars. 1047 reviews
-
-Shipping arrives in 3+ days
-
-Add to cart
-
-Sponsored
 
 We’d love to hear what you think!
 

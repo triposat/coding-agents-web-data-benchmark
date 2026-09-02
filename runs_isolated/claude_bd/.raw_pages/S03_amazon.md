@@ -72,7 +72,7 @@ To move between items, use your keyboard's up or down arrows.
 
 [.us](/ref=nav_logo)
 
-Delivering to Newark 14513 Update location
+Delivering to Caldwell 77836 Update location
 
    
 
@@ -80,7 +80,7 @@ Delivering to Newark 14513 Update location
 
 All
 
-Select the department you want to search in All Departments Alexa Skills Amazon Autos Amazon Devices Amazon Global Store Amazon Haul Amazon One Medical Amazon Pharmacy Amazon Resale Appliances Apps & Games Arts, Crafts & Sewing Audible Books & Originals Automotive Parts & Accessories Baby Beauty & Personal Care Books CDs & Vinyl Cell Phones & Accessories Clothing, Shoes & Jewelry Women's Clothing, Shoes & Jewelry Men's Clothing, Shoes & Jewelry Girl's Clothing, Shoes & Jewelry Boy's Clothing, Shoes & Jewelry Baby Clothing, Shoes & Jewelry Collectibles & Fine Art Computers Credit and Payment Cards Digital Music Electronics Garden & Outdoor Gift Cards Grocery & Gourmet Food Handmade Health, Household & Baby Care Home & Business Services Home & Kitchen Industrial & Scientific Just for Prime Kindle Store Luggage & Travel Gear Luxury Stores Magazine Subscriptions Movies & TV Musical Instruments Office Products Pet Supplies Premium Beauty Prime Video Smart Home Software Sports & Outdoors Subscribe & Save Subscription Boxes Tools & Home Improvement Toys & Games Under $10 Video Games Whole Foods Market
+Select the department you want to search in All Departments Alexa Skills Amazon Autos Amazon Devices Amazon Global Store Amazon Haul Amazon One Medical Amazon Pharmacy Amazon Resale Appliances Apps & Games Arts, Crafts & Sewing Audible Books & Originals Automotive Parts & Accessories Baby Beauty & Personal Care Books CDs & Vinyl Cell Phones & Accessories Clothing, Shoes & Jewelry Women's Clothing, Shoes & Jewelry Men's Clothing, Shoes & Jewelry Girl's Clothing, Shoes & Jewelry Boy's Clothing, Shoes & Jewelry Baby Clothing, Shoes & Jewelry Collectibles & Fine Art Computers Credit and Payment Cards Digital Music Electronics Garden & Outdoor Gift Cards Grocery & Gourmet Food Handmade Health, Household & Baby Care Home & Business Services Home & Kitchen Industrial & Scientific Just for Prime Kindle Store Luggage & Travel Gear Luxury Stores Magazine Subscriptions Movies & TV Musical Instruments Office Products Pet Supplies Premium Beauty Prime Video Smart Home Software Sports & Outdoors Subscribe & Save Subscription Boxes Tools & Home Improvement Toys & Games Under $10 Video Games
 
 Search Amazon 
 
@@ -106,8 +106,6 @@ Cart
 
  [All](/gp/site-directory?ref_=nav_em_js_disabled)  
 
-*   [Back to School](/b?node=121082095011&ref_=nav_cs_bts_disco_2026_desk)
-    
 *   [Health AI](https://health.amazon.com/health-ai?ref_=nav_cs_health_ai)
     
 *   [Amazon Haul](/haul/store?ref_=nav_cs_hul_disb)
@@ -123,10 +121,6 @@ Cart
 *   [New Releases](/gp/new-releases/?ref_=nav_cs_newreleases)
     
 *   [Today's Deals](/deals?ref_=nav_cs_gb)
-    
-*   [Whole Foods](/alm/storefront?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref_=nav_cs_whole_foods)
-    
-*   [Groceries](/fmc/learn-more?ref_=nav_cs_groceries)
     
 *   [Books](/books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books)
     
@@ -365,11 +359,11 @@ $79.99$79.99
 
 FREE delivery Monday, September 7
 
-Or Prime members get FREE delivery Tomorrow, September 3. Join Prime 
+Or Prime members get FREE delivery Tomorrow, September 3. Order within 6 hrs 9 mins. Join Prime 
 
 [
 
-Delivering to Newark 14513 - Update location
+Delivering to Caldwell 77836 - Update location
 
 
 
@@ -593,7 +587,7 @@ Other sellers on Amazon
 
 * * *
 
- [New & Used (5) from $75.23$75.23   & **FREE Shipping**.](/gp/offer-listing/B0GJTXVN9Z/ref=dp_olp_ALL_mbc?ie=UTF8&condition=ALL)
+ [New (4) from $79.99$79.99   & **FREE Shipping**.](/gp/offer-listing/B0GJTXVN9Z/ref=dp_olp_NEW_mbc?ie=UTF8&condition=NEW)
 
 *    ![](https://m.media-amazon.com/images/I/31l2rVm48QL._AC_SR38,50_.jpg)
 *    ![](https://m.media-amazon.com/images/I/41hSrzUrPfL._AC_SR38,50_.jpg)
@@ -658,7 +652,7 @@ The List Price is the suggested retail price of a new product as provided by a m
 
 [
 
-Get $50 off instantly: Pay $29.99 $79.99 upon approval for Amazon Visa. No annual fee.
+Get $50 off instantly: Pay $29.99 upon approval for Amazon Visa.
 
 
 
@@ -666,7 +660,7 @@ Get $50 off instantly: Pay $29.99 $79.99 upon approval for Amazon Visa. No annua
 
 
 
-](/gp/product/B007URFTYI/ref=unrec_a_cbcc_pb_50gc_t1_m?pr=con321&inc=50gcUnrec&ts=4od1mze5maq3umb6ese23svpm9uf0ei&dasin=B0GJTXVN9Z&plattr=CB50PB&place=priceblock&imp=3f7c5d7e-21d0-4fd9-bc93-d8ca830c978b&mru=/dp/product/B0GJTXVN9Z)
+](/gp/product/B007URFTYI?pr=con321&inc=9b6ebdd6-8916-4d54-a038-6adec448f9bb&ts=4adkof0yoalwk5kjjylnu6erxg534tx&dasin=B0GJTXVN9Z&plattr=math&place=priceblock&imp=ea032844-729a-4c1b-b652-b7ef4bf5d855&mru=/dp/product/B0GJTXVN9Z)
 
 [FREE Returns](javascript:void\(0\))
 
@@ -681,10 +675,6 @@ We offer easy, convenient returns with at least one free return option: no shipp
 1.  Go to your orders and start the return
 2.  Select your preferred free shipping option
 3.  Drop off and leave!
-
- 
-
- Available at a lower price from [other sellers](/gp/offer-listing/B0GJTXVN9Z/ref=dp_olp_pn) that may not offer free Prime shipping.
 
   
 
@@ -708,7 +698,7 @@ Make a Style selection
 
    
 
-{"desktop\_buybox\_group\_1":\[{"displayPrice":"$79.99","priceAmount":79.99,"currencySymbol":"$","integerValue":"79","decimalSeparator":".","fractionalValue":"99","symbolPosition":"left","hasSpace":false,"showFractionalPartIfEmpty":true,"offerListingId":"lOkMVnwJr8XZd16%2FGSAV6qRJ9g1nYo7hdTtEYA8UPvZ7ukzr%2FUAm2PzxV9SQEBOkThxfPWRFTBhmnwYTtRr6YbrJUt3UyMKlw4PWN2B3tFGG%2BMxnV8IeXWc8QZo2DyOPPyjldGgExlP%2BU7TOn5mM7g%3D%3D","locale":"en-US","buyingOptionType":"NEW","aapiBuyingOptionIndex":0}\]}
+{"desktop\_buybox\_group\_1":\[{"displayPrice":"$79.99","priceAmount":79.99,"currencySymbol":"$","integerValue":"79","decimalSeparator":".","fractionalValue":"99","symbolPosition":"left","hasSpace":false,"showFractionalPartIfEmpty":true,"offerListingId":"G6zoZJCxnveOAFmUF3%2BE6HJQBOOxNxqPQFOlftwENPrucOMK9PzM9ll8LkoU4QivHQ%2FgzVQtb0IZpfvlan1QYhie8gTCiVPjfAZ9eNKgQsHVE2BBmwfL%2FEbCqmDKPZ74F0PMeUtip3CWe5KUPEm6JA%3D%3D","locale":"en-US","buyingOptionType":"NEW","aapiBuyingOptionIndex":0}\]}
 
 ### Purchase options and add-ons
 

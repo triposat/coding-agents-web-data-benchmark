@@ -12,14 +12,6 @@ $(csi.user.businessName)
 
 [](/cart)
 
-Shop
-
-Deals
-
-Support & Services
-
-Discover
-
 [Back to School](/site/misc/back-to-school/pcmcat334100050000.c?id=pcmcat334100050000)
 
 [Top Deals](/top-deals)
@@ -47,6 +39,22 @@ Main Content
 
 [Shop Sony](https://www.bestbuy.com/site/pcmcat331200050001.c?qp=brand_facet%3DBrand~Sony)
 
+ 
+
+From the Manufacturer
+
+See more
+
+  
+
+Shop
+
+Deals
+
+Support & Services
+
+Discover
+
 ![product image](https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505727_rd.jpg;maxHeight=384;maxWidth=180?format=webp)
 
 Sony - WH-1000XM5 Wireless Noise Cancelling Over-the-Ear Headphones - Black
@@ -57,9 +65,9 @@ SKU: 10890357
 
 [
 
-Rating 4.6 out of 5 stars with 6514 reviews
+Rating 4.6 out of 5 stars with 6516 reviews
 
-4.6(6,514)
+4.6(6,516)
 
 ](#tabbed-customerreviews)
 
@@ -70,7 +78,3 @@ See all specifications
 See all features
 
 Questions & Answers
-
-From the Manufacturer
-
-See more

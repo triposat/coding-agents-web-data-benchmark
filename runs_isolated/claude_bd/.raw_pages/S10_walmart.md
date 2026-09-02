@@ -192,7 +192,7 @@ Shipping
 
 Arrives tomorrow
 
-Order within 9 hr 36 min
+Order within 9 hr 13 min
 
 Free
 
@@ -208,13 +208,13 @@ Delivery
 
 Not available
 
-Ships toNashville, 37211
+Ships toBerthoud, 80513
 
 Arrives by Tomorrow
 
 .
 
-Order within 9 hr 36 min
+Order within 9 hr 13 min
 
 * * *
 
@@ -246,9 +246,11 @@ Starting from $198.00Compare all sellers
 
 [
 
-### Sony WH-CH720N-Noise Canceling Wireless Bluetooth Headphones- Black $98.00 Was $179.99
+### In 25+ people's carts Sony WH-CH720N-Noise Canceling Wireless Bluetooth Headphones- Black $98.00 Was $179.99
 
-](https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-item-top~desktop~&pos=1&tax=3944_133251_1095191_1230614_1230477&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FSony-WH-CH720N-Noise-Canceling-Wireless-Bluetooth-Headphones-Black%2F2809072158%3FadsRedirect%3Dtrue&adUid=08115ce3-8676-48a3-9ff8-f07da862fe7e&mloc=sp-item-top&pltfm=desktop&pgId=386006068&pt=item&spQs=w2rlLgA1tKC-nA1mkZ2nUJeCrCUea1URTV1mlfSOXYyashvfDJwK2bpgqC3VXrdMUwcq7NJJHJc5RqjmiHS3iWPzOIdl4i71TkQjjdKKIoQ1zVqbKA2AIL_v02KzKBYum66us_HFkPu0D_feH388l0MbBCc9uiCHtBtRFIRVhPwut-nq-ws1nv9mIlUDiiyj-57lWIaJ2Q5u1j_r-H9kFR9WtHpONijc7Ywjp5dYzC4&storeId=3717&specificity=&specificityScore=&couponState=na&bkt=ace1_14238%7Cace2_default%7Cace3_default%7Cbb_1_14513%7Cbb_2_14537%7Cbb_5_14545&/ip/Sony-WH-CH720N-Noise-Canceling-Wireless-Bluetooth-Headphones-Black/2809072158)
+](https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-item-top~desktop~&pos=1&tax=3944_133251_1095191_1230614_1230477&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FSony-WH-CH720N-Noise-Canceling-Wireless-Bluetooth-Headphones-Black%2F2809072158%3FadsRedirect%3Dtrue&adUid=bd007bd7-61bd-405a-b92a-75eaaeb61554&mloc=sp-item-top&pltfm=desktop&pgId=386006068&pt=item&spQs=w2rlLgA1tKC-nA1mkZ2nUJeCrCUea1URTV1mlfSOXYyashvfDJwK2bpgqC3VXrdMDPkd1ibglchstiYeul5MCjpHBuhT0gBgO-DZxbKZOtI1zVqbKA2AIL_v02KzKBYum66us_HFkPu0D_feH388lwTODisHmACk-Zob4FlSw_ItNSH7oNiS171Nge0BO088-57lWIaJ2Q5u1j_r-H9kFR9WtHpONijc7Ywjp5dYzC4&storeId=5370&specificity=&specificityScore=&couponState=na&bkt=ace1_14238%7Cace2_14400%7Cace3_default%7Cbb_1_14513%7Cbb_2_14536%7Cbb_5_14544&/ip/Sony-WH-CH720N-Noise-Canceling-Wireless-Bluetooth-Headphones-Black/2809072158)
+
+In 25+ people's carts
 
 ![Sony WH-CH720N-Noise Canceling Wireless Bluetooth Headphones- Black](https://i5.walmartimages.com/seo/Sony-WH-CH720N-Noise-Canceling-Wireless-Bluetooth-Headphones-Black_8e3fa5d4-f841-4e6c-bb78-9959d29652ad.cc7bc3c09721e1951a7bc746c702ec58.jpeg?odnHeight=320&odnWidth=320&odnBg=FFFFFF)
 

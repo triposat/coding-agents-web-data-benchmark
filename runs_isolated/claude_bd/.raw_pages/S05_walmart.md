@@ -178,7 +178,7 @@ Delivery
 
 Not available
 
-Ships toOmaha, 68164
+Ships toSacramento, 95828
 
 Arrives by Wed, Sep 9
 
@@ -216,7 +216,7 @@ Starting from $126.00Compare all sellers
 
 ### Logitech G502 LIGHTSPEED Wireless Gaming Mouse, HERO 25K Sensor, 25,600 DPI, RGB, Adjustable Weights, 11 Programmable Buttons, Long Battery Life, On-Board Memory, PC / Mac $109.00
 
-](https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-item-top~desktop~&pos=1&tax=3944_8641540_8829152_8652606&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FLogitech-G502-LIGHTSPEED-Wireless-Gaming-Mouse-HERO-25K-Sensor-25-600-DPI-RGB-Adjustable-Weights-11-Programmable-Buttons-Long-Battery-Life-On-Board-M%2F616429419%3FadsRedirect%3Dtrue&adUid=099c2ffb-85a3-4698-abb0-41d96e36cc02&mloc=sp-item-top&pltfm=desktop&pgId=731473988&pt=item&spQs=AmxzEDBv4XrEQByeqvUG3XFVwrkewzjHtg3nzm-bkYnPAgUOrzEdUgNZ4nfXIESoRZFiW4BI-Wpj-A6RyEtdsmk6EFLzNVqGiHMaABSuPaRHfe17jvl6FVIuOJEuZ1kAtdlmP26DQVXOPrJlnSvCiCC5wpbjGEvvSe1lki_YAO-EobtjkQYtmeq0OAvwdvwA5jmi2xzXe6_bGri6Vpye0CWCZZaTZUkBWNkKTmVuAnM&storeId=1637&specificity=&specificityScore=&couponState=na&bkt=ace1_14237%7Cace2_default%7Cace3_default%7Cbb_1_14513%7Cbb_2_14537%7Cbb_5_14545&/ip/Logitech-G502-LIGHTSPEED-Wireless-Gaming-Mouse-HERO-25K-Sensor-25-600-DPI-RGB-Adjustable-Weights-11-Programmable-Buttons-Long-Battery-Life-On-Board-M/616429419)
+](https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-item-top~desktop~&pos=1&tax=3944_8641540_8829152_8652606&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FLogitech-G502-LIGHTSPEED-Wireless-Gaming-Mouse-HERO-25K-Sensor-25-600-DPI-RGB-Adjustable-Weights-11-Programmable-Buttons-Long-Battery-Life-On-Board-M%2F616429419%3FadsRedirect%3Dtrue&adUid=618b4fd5-f4b1-4700-a3f9-487850a4138f&mloc=sp-item-top&pltfm=desktop&pgId=731473988&pt=item&spQs=AmxzEDBv4XrEQByeqvUG3XFVwrkewzjHtg3nzm-bkYnPAgUOrzEdUgNZ4nfXIESowBCaThJvbc4ulFHlndiuuev_ljgQbOgF8-lXDEc455HRD4oQnZ3CNZ0gK-SvNULhtdlmP26DQVXOPrJlnSvCiPGzeX6mI16b0abNv2wpkDeGU9Q9ccP1wAqvft3iYDa45jmi2xzXe6_bGri6Vpye0CWCZZaTZUkBWNkKTmVuAnM&storeId=3081&specificity=&specificityScore=&couponState=na&bkt=ace1_14238%7Cace2_default%7Cace3_default%7Cbb_1_14514%7Cbb_2_14537%7Cbb_5_14544&/ip/Logitech-G502-LIGHTSPEED-Wireless-Gaming-Mouse-HERO-25K-Sensor-25-600-DPI-RGB-Adjustable-Weights-11-Programmable-Buttons-Long-Battery-Life-On-Board-M/616429419)
 
 ![Logitech G502 LIGHTSPEED Wireless Gaming Mouse, HERO 25K Sensor, 25,600 DPI, RGB, Adjustable Weights, 11 Programmable Buttons, Long Battery Life, On-Board Memory, PC / Mac](https://i5.walmartimages.com/seo/Logitech-G502-LIGHTSPEED-Wireless-Gaming-Mouse-HERO-25K-Sensor-25-600-DPI-RGB-Adjustable-Weights-11-Programmable-Buttons-Long-Battery-Life-On-Board-M_122406a3-664e-436e-88de-96bce0dbd7e0.2fcb98760538790a49a8712d1882b389.jpeg?odnHeight=320&odnWidth=320&odnBg=FFFFFF)
 
@@ -230,13 +230,7 @@ current price $109.00
 
 2824.5 out of 5 Stars. 282 reviews
 
-![](//i5.walmartimages.com/dfw/63fd9f59-a53c/14c2b8c6-d48a-4302-924f-7817f0c0737c/v1/thunderbolt.svg)
-
-Delivery as soon as 1 hour
-
-Shipping arrives Fri, Sep 4
-
-Pickup today
+Shipping arrives tomorrow
 
 Add to cart
 

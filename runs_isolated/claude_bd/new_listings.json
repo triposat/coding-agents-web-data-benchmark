@@ -17,11 +17,6 @@
         "retailer": "ebay.com",
         "url": "https://www.ebay.com/itm/385840234596",
         "title": "Anker 737 Power Bank 24000mAh 3-Port Portable Charger ..."
-      },
-      {
-        "retailer": "bhphotovideo.com",
-        "url": "https://www.bhphotovideo.com/c/product/1766916-REG/anker_a1289011_737_power_bank_24_000mah.html",
-        "title": "Anker 737 USB-C 24000 mAh Power Bank"
       }
     ]
   },
@@ -33,6 +28,11 @@
         "retailer": "apple.com",
         "url": "https://www.apple.com/airpods/",
         "title": "AirPods"
+      },
+      {
+        "retailer": "costco.com",
+        "url": "https://www.costco.com/f/-/apple-airpods-comparison/",
+        "title": "Compare Apple AirPod Models"
       }
     ]
   },
@@ -58,7 +58,7 @@
     "new_listings": [
       {
         "retailer": "bose.com",
-        "url": "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html?srsltid=AfmBOop_71hta0JYmebigfwf-DugWRL5SA7VoRz0HEwoiMOZ5R_FcoT1",
+        "url": "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html?srsltid=AfmBOopj2OV1cjIorsf3Nx4xefqz6Z3-1lONi4Vxy5d02hDAM2WJM3RS",
         "title": "Bose QuietComfort Ultra Earbuds (2nd Gen)"
       },
       {
@@ -95,7 +95,7 @@
     "new_listings": [
       {
         "retailer": "razer.com",
-        "url": "https://www.razer.com/gaming-mice/razer-deathadder-v3?srsltid=AfmBOopb2RDA2BLfh8tV4JTQy1MMf2oJt_jsMwhSih99MX0y2xVK6dvP",
+        "url": "https://www.razer.com/gaming-mice/razer-deathadder-v3?srsltid=AfmBOopxNecUsJKqqHEMq-dBbKldk7jutsAXvGlvuRh18bYH5c0yysNN",
         "title": "Razer DeathAdder V3 | Razer United States"
       },
       {
@@ -118,11 +118,6 @@
         "retailer": "ebay.com",
         "url": "https://www.ebay.com/shop/samsung-t7?_nkw=samsung+t7",
         "title": "Samsung T7"
-      },
-      {
-        "retailer": "bhphotovideo.com",
-        "url": "https://www.bhphotovideo.com/c/product/1559836-REG/samsung_mu_pc1t0t_am_1tb_t7_portable_ssd.html",
-        "title": "Samsung 1TB T7 Portable SSD (Titan Gray)"
       }
     ]
   },
@@ -169,7 +164,7 @@
     "new_listings": [
       {
         "retailer": "electronics.sony.com",
-        "url": "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm5-b?srsltid=AfmBOorS90CivQn7-kptLIcfBUrW_O5Q7vhgt3Zx4bDH6yoW3MaJxPeh",
+        "url": "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm5-b?srsltid=AfmBOorWf902HOk2uQSy9U0LCf5W-yZQWJ7Ne7EjSPBf1xZoWtdUPXL-",
         "title": "Sony WH-1000XM5 Premium Wireless Noise Canceling ..."
       }
     ]

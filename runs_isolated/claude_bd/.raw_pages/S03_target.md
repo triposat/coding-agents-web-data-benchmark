@@ -4,9 +4,9 @@ Apple AirTag (4 Pack) (1st generation) : Target
 
 [skip to main content](#content)[skip to footer](#footerHeader)
 
-Ship to 10118
+Ship to 08054
 
-Chelsea 23rd and 8th
+Mount Laurel
 
 [Target Circle™](/circle)[Target Circle™ Card](/circlecard)[Target Circle 360™](/l/target-circle-360/-/N-2rguk)[Registry & Wish List](/gift-registry)[Weekly Ad](/weekly-ad)[Find Stores](/store-locator/find-stores)
 
@@ -77,13 +77,57 @@ Pack Size4
 
 PickupNot availableDeliveryCheck availabilityShippingArrives by Sun, Sep 6
 
-Add to cart
+Not sold at Mount Laurel
+
+Notify me when available
+
+Available near you
+
+Ready within 2 hours for pickup inside the store
+
+Show in-stock stores
+
+* * *
+
+Add plans or services
+
+Make your selection before adding to cart
+
+2 Year Electronics Protection Plan ($75-$99.99) - Allstate
+
+$11.00
+
+* * *
+
+![Free & easy returns](https://target.scene7.com/is/image/Target/GUEST_1a62f10d-304e-494f-b9f3-bb49dbff05d0?fmt=png-alpha)
+
+Free & easy returns
+
+Return this item in store within 14 days for a full refund.
 
 Eligible for registries and wish lists
 
 Sign in
 
 Add to list
+
+[
+
+Save 5% every day
+
+With Target Circle™ Card (restrictions apply)
+
+
+
+](/circlecard?cpng=redcard9235)
+
+4 interest-free payments or as low as $18/mo
+
+With Affirm
+
+Pay in 4
+
+Pay in 4 interest-free payments of $25.00
 
 ## At a glance
 
@@ -92,11 +136,50 @@ Add to list
 
 Sponsored
 
+### Guests also viewed
+
+[Skip to next section](#skip)
+
+## Additional product information and recommendations
+
+Load all content at once
+
+Sponsored
+
+### Frequently bought together
+
+[Skip to next section](#skip)
+
+[Skip to next section](#skip)
+
+### Your views
+
+[Skip to next section](#skip)
+
+### Guest ratings & reviews
+
+### Discover more options
+
+[Skip to next section](#skip)
+
 ## About this item
 
 ### Details
 
 #### Highlights
+
+*   Keep track of and find your items alongside friends and devices in the Find My app
+    
+*   Simple one-tap setup instantly connects AirTag with your iPhone or iPad
+    
+*   Play a sound on the built-in speaker to help find your things, or just ask Siri for help
+    
+*   Put AirTag into Lost Mode to be automatically notified when it’s detected in the Find My network
+    
+*   All communication with the Find My network is anonymous and encrypted for privacy
+    
+*   AirTag is IP67 water and dust resistant
+    
 
 #### Description
 
@@ -114,43 +197,19 @@ environmental conditions, replacement battery manufacturer, and many other facto
 Splash, water, and dust resistance are not permanent conditions and resistance might decrease as a result of normal wear. Refer to the Safety and Handling documentation for cleaning and  
 drying instructions.
 
+Show more
+
 ### Specifications
 
 ### Shipping & Returns
 
 ### Q&A (149)
 
-## Additional product information and recommendations
-
-Load all content at once
-
-Sponsored
-
-### Discover more options
-
-[Skip to next section](#skip)
-
-[Skip to next section](#skip)
-
-[Skip to next section](#skip)
-
-### Frequently bought together
-
-[Skip to next section](#skip)
-
-### Guests also viewed
-
-[Skip to next section](#skip)
-
-### Your views
-
 [Skip to next section](#skip)
 
 ### Featured products
 
 [Skip to next section](#skip)
-
-### Guest ratings & reviews
 
 ### Disclaimer
 
@@ -168,8 +227,4 @@ Sign up
 
 ](https://www.target.com/c/target-privacy-policy/-/N-4sr7p)[Terms
 
-](https://www.target.com/c/terms-conditions/-/N-4sr7l)
-
-## Footer
-
-mmmmmmmmmmllim
+](https://www.target.com/c/terms-conditions/-/N-4

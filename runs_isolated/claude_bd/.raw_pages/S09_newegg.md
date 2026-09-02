@@ -154,23 +154,24 @@ FOLLOW
 
 ## Sponsored Products
 
-[![Seagate IronWolf 8TB NAS Hard Drive 7200 RPM 256MB Cache SATA 6.0Gb/s CMR 3.5" Internal HDD for RAID Network Attached Storage - ST8000VN004](https://c1.neweggimages.com/ProductImageCompressAll125/22-184-796-V07.jpg "Seagate IronWolf 8TB NAS Hard Drive 7200 RPM 256MB Cache SATA 6.0Gb/s CMR 3.5" Internal HDD for RAID Network Attached Storage - ST8000VN004")](https://www.newegg.com/seagate-ironwolf-ne-st8000vn004-8tb-7200-rpm-for-nas-systems/p/N82E16822184796?Item=N82E16822184796&cm_sp=SD-_-3333816-_-Pers_ProductSponsoredDisplay+-_-11-_-22-184-796-_-9SIC7XHM1R6414-_--_-3)
+[![WD Red Pro 8TB 7200 RPM 256MB Cache SATA 6.0Gb/s 3.5" Internal Hard Drive Bare Drive - WD8005FFBX](https://c1.neweggimages.com/ProductImageCompressAll125/1Z4-0002-01PE5-03.png "WD Red Pro 8TB 7200 RPM 256MB Cache SATA 6.0Gb/s 3.5" Internal Hard Drive Bare Drive - WD8005FFBX")](https://www.newegg.com/red-pro-wd8005ffbx-8tb/p/1Z4-0002-01PE5?Item=1Z4-0002-01PE5&cm_sp=SD-_-3416759-_-Pers_ProductSponsoredDisplay+-_-11-_-1Z4-0002-01PE5-_-9SIC7XHM1R6414-_--_-3)
 
-[Seagate IronWolf 8TB NAS Hard Drive 7200 RPM 256MB Cache SATA 6.0Gb/s CMR 3.5" Internal HDD for RAID Network Attached Storage - ST8000VN004](https://www.newegg.com/seagate-ironwolf-ne-st8000vn004-8tb-7200-rpm-for-nas-systems/p/N82E16822184796?Item=N82E16822184796&cm_sp=SD-_-3333816-_-Pers_ProductSponsoredDisplay+-_-11-_-22-184-796-_-9SIC7XHM1R6414-_--_-3 "View Details")
-
-*   $**329**.99 –
-
-[![WD Red Pro 8TB 7200 RPM 256MB Cache SATA 6.0Gb/s 3.5" Internal Hard Drive Bare Drive - WD8005FFBX](https://c1.neweggimages.com/ProductImageCompressAll125/1Z4-0002-01PE5-03.png "WD Red Pro 8TB 7200 RPM 256MB Cache SATA 6.0Gb/s 3.5" Internal Hard Drive Bare Drive - WD8005FFBX")](https://www.newegg.com/red-pro-wd8005ffbx-8tb/p/1Z4-0002-01PE5?Item=1Z4-0002-01PE5&cm_sp=SD-_-3416759-_-Pers_ProductSponsoredDisplay+-_-11-_-1Z4-0002-01PE5-_-9SIC7XHM1R6414-_--_-4)
-
-[WD Red Pro 8TB 7200 RPM 256MB Cache SATA 6.0Gb/s 3.5" Internal Hard Drive Bare Drive - WD8005FFBX](https://www.newegg.com/red-pro-wd8005ffbx-8tb/p/1Z4-0002-01PE5?Item=1Z4-0002-01PE5&cm_sp=SD-_-3416759-_-Pers_ProductSponsoredDisplay+-_-11-_-1Z4-0002-01PE5-_-9SIC7XHM1R6414-_--_-4 "View Details")
+[WD Red Pro 8TB 7200 RPM 256MB Cache SATA 6.0Gb/s 3.5" Internal Hard Drive Bare Drive - WD8005FFBX](https://www.newegg.com/red-pro-wd8005ffbx-8tb/p/1Z4-0002-01PE5?Item=1Z4-0002-01PE5&cm_sp=SD-_-3416759-_-Pers_ProductSponsoredDisplay+-_-11-_-1Z4-0002-01PE5-_-9SIC7XHM1R6414-_--_-3 "View Details")
 
 *   $**379**.99 –
 
-[![WD_BLACK 4TB SN850X NVMe Internal Gaming SSD Solid State Drive - Gen4 PCIe, M.2 2280, Up to 7,300 MB/s - WDS400T2X0E](https://c1.neweggimages.com/ProductImageCompressAll125/20-250-244-16.jpg "WD_BLACK 4TB SN850X NVMe Internal Gaming SSD Solid State Drive - Gen4 PCIe, M.2 2280, Up to 7,300 MB/s - WDS400T2X0E")](https://www.newegg.com/western-digital-4tb-black-sn850x-nvme/p/N82E16820250244?Item=N82E16820250244&cm_sp=SD-_-3020691-_-Pers_ProductSponsoredDisplay+-_-11-_-20-250-244-_-9SIC7XHM1R6414-_--_-5)
+[![WD_BLACK 4TB SN850X NVMe Internal Gaming SSD Solid State Drive - Gen4 PCIe, M.2 2280, Up to 7,300 MB/s - WDS400T2X0E](https://c1.neweggimages.com/ProductImageCompressAll125/20-250-244-16.jpg "WD_BLACK 4TB SN850X NVMe Internal Gaming SSD Solid State Drive - Gen4 PCIe, M.2 2280, Up to 7,300 MB/s - WDS400T2X0E")](https://www.newegg.com/western-digital-4tb-black-sn850x-nvme/p/N82E16820250244?Item=N82E16820250244&cm_sp=SD-_-3020691-_-Pers_ProductSponsoredDisplay+-_-11-_-20-250-244-_-9SIC7XHM1R6414-_--_-4)
 
-[WD\_BLACK 4TB SN850X NVMe Internal Gaming SSD Solid State Drive - Gen4 PCIe, M.2 2280, Up to 7,300 MB/s - WDS400T2X0E](https://www.newegg.com/western-digital-4tb-black-sn850x-nvme/p/N82E16820250244?Item=N82E16820250244&cm_sp=SD-_-3020691-_-Pers_ProductSponsoredDisplay+-_-11-_-20-250-244-_-9SIC7XHM1R6414-_--_-5 "View Details")
+[WD\_BLACK 4TB SN850X NVMe Internal Gaming SSD Solid State Drive - Gen4 PCIe, M.2 2280, Up to 7,300 MB/s - WDS400T2X0E](https://www.newegg.com/western-digital-4tb-black-sn850x-nvme/p/N82E16820250244?Item=N82E16820250244&cm_sp=SD-_-3020691-_-Pers_ProductSponsoredDisplay+-_-11-_-20-250-244-_-9SIC7XHM1R6414-_--_-4 "View Details")
 
 *   $**669**.99 –
+
+[![Seagate IronWolf Pro ST16000NT001 16TB 7200 RPM 256MB Cache 3.5" Internal Hard Drive - OEM](https://c1.neweggimages.com/ProductImageCompressAll125/22-185-073-09.jpg "Seagate IronWolf Pro ST16000NT001 16TB 7200 RPM 256MB Cache 3.5" Internal Hard Drive - OEM")](https://www.newegg.com/seagate-ironwolf-pro-st16000nt001-16tb-enterprise-nas-hard-drives-7200-rpm/p/N82E16822185073?Item=N82E16822185073&cm_sp=SD-_-3333816-_-Pers_ProductSponsoredDisplay+-_-11-_-22-185-073-_-9SIC7XHM1R6414-_--_-5)
+
+[Seagate IronWolf Pro ST16000NT001 16TB 7200 RPM 256MB Cache 3.5" Internal Hard Drive - OEM](https://www.newegg.com/seagate-ironwolf-pro-st16000nt001-16tb-enterprise-nas-hard-drives-7200-rpm/p/N82E16822185073?Item=N82E16822185073&cm_sp=SD-_-3333816-_-Pers_ProductSponsoredDisplay+-_-11-_-22-185-073-_-9SIC7XHM1R6414-_--_-5 "View Details")
+
+*   $**539**.99 –
+*   Save: 12%
 
 [![Seagate](https://c1.neweggimages.com/brandimage/Brand1305.gif)](https://www.newegg.com/Seagate/BrandStore/ID-1305 "Seagate")
 
@@ -253,13 +254,13 @@ Sponsored
 
 You’re seeing this ad based on the product’s relevance to your search query. If you are a seller and want to participate in this program click here to [learn more](https://www.newegg.com/sellers/index.php/marketing-sponsored-product-ads/).
 
-[![WD Black 5TB P10 Game Drive Portable External Hard Drive for PS5/PS4/Xbox One/PC/Mac USB 3.2 (WDBA3A0050BBK-WESN)](https://c1.neweggimages.com/ProductImageCompressAll100/22-234-385-S04.jpg "WD Black 5TB P10 Game Drive Portable External Hard Drive for PS5/PS4/Xbox One/PC/Mac USB 3.2 (WDBA3A0050BBK-WESN)")](https://www.newegg.com/model-wdba3a0050bbk-wesn-5tb/p/N82E16822234385?Item=N82E16822234385&cm_sp=SD-_-3333712-_-Pers_ProductSponsoredDisplay+-_-11-_-22-234-385-_-9SIC7XHM1R6414-_--_-2)
+[![Seagate IronWolf 8TB NAS Hard Drive 7200 RPM 256MB Cache SATA 6.0Gb/s CMR 3.5" Internal HDD for RAID Network Attached Storage - ST8000VN004](https://c1.neweggimages.com/ProductImageCompressAll100/22-184-796-V07.jpg "Seagate IronWolf 8TB NAS Hard Drive 7200 RPM 256MB Cache SATA 6.0Gb/s CMR 3.5" Internal HDD for RAID Network Attached Storage - ST8000VN004")](https://www.newegg.com/seagate-ironwolf-ne-st8000vn004-8tb-7200-rpm-for-nas-systems/p/N82E16822184796?Item=N82E16822184796&cm_sp=SD-_-3333816-_-Pers_ProductSponsoredDisplay+-_-11-_-22-184-796-_-9SIC7XHM1R6414-_--_-2)
 
-[WD Black 5TB P10 Game Drive Portable External Hard Drive for PS5/PS4/Xbox One/PC/Mac USB 3.2 (WDBA3A0050BBK-WESN)](https://www.newegg.com/model-wdba3a0050bbk-wesn-5tb/p/N82E16822234385?Item=N82E16822234385&cm_sp=SD-_-3333712-_-Pers_ProductSponsoredDisplay+-_-11-_-22-234-385-_-9SIC7XHM1R6414-_--_-2 "View Details")
+[Seagate IronWolf 8TB NAS Hard Drive 7200 RPM 256MB Cache SATA 6.0Gb/s CMR 3.5" Internal HDD for RAID Network Attached Storage - ST8000VN004](https://www.newegg.com/seagate-ironwolf-ne-st8000vn004-8tb-7200-rpm-for-nas-systems/p/N82E16822184796?Item=N82E16822184796&cm_sp=SD-_-3333816-_-Pers_ProductSponsoredDisplay+-_-11-_-22-184-796-_-9SIC7XHM1R6414-_--_-2 "View Details")
 
-[(277)](https://www.newegg.com/model-wdba3a0050bbk-wesn-5tb/p/N82E16822234385?Item=N82E16822234385&cm_sp=SD-_-3333712-_-Pers_ProductSponsoredDisplay+-_-11-_-22-234-385-_-9SIC7XHM1R6414-_--_-2#IsFeedbackTab "Rating + 5")
+[(556)](https://www.newegg.com/seagate-ironwolf-ne-st8000vn004-8tb-7200-rpm-for-nas-systems/p/N82E16822184796?Item=N82E16822184796&cm_sp=SD-_-3333816-_-Pers_ProductSponsoredDisplay+-_-11-_-22-184-796-_-9SIC7XHM1R6414-_--_-2#IsFeedbackTab "Rating + 4")
 
-*   $**289**.99 –
+*   $**329**.99 –
 
 +
 

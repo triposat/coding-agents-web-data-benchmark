@@ -327,7 +327,7 @@ write a review
 *   [Manufacturer Product Page](https://www.razer.com "Manufacturer Product Page (new window)")
 *   [Manufacturer Website](https://www.razer.com "View Manufacturer Website (new window)")
 *   Support Phone: 1-888-697-2037
-*   Support Email: [\[email protected\]](/cdn-cgi/l/email-protection#f0838580809f8284dd8583b082918a9582838580809f8284de939f9d)
+*   Support Email: [\[email protected\]](/cdn-cgi/l/email-protection#eb989e9b9b84999fc69e98ab998a918e99989e9b9b84999fc5888486)
 *   [Support Website](http://www.razersupport.com/ "Support Website (new window)")
 *   [View other products from RAZER](https://www.newegg.com/RAZER/BrandStore/ID-2202)
 

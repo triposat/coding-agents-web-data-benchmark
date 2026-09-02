@@ -20,3 +20,36 @@
 [19/41] S05 / newegg: https://www.newegg.com/logitech-910-006558-mx-master-3s-usb-type-c-dual/p/N82E16826197552
 [20/41] S05 / walmart: https://www.walmart.com/ip/731473988
 [21/41] S06 / bestbuy: https://www.bestbuy.com/product/razer-deathadder-v3-lightweight-optical-gaming-mouse-with-8k-hz-hyperpolling-technology-wired-black/J39HWFQKZW/sku/10736128
+[22/41] S06 / target: https://www.target.com/p/-/A-94720129
+[23/41] S06 / amazon: https://www.amazon.com/dp/B0B6XTDJS1
+[24/41] S06 / newegg: https://www.newegg.com/razer-deathadder-v3-usb-wired/p/N82E16826153342
+[25/41] S06 / walmart: https://www.walmart.com/ip/1281151624
+[26/41] S07 / bestbuy: https://www.bestbuy.com/product/samsung-t7-1tb-external-usb-3-2-gen-2-portable-ssd-with-hardware-encryption-titan-gray/J3ZYGCQG8H/sku/6408299
+[27/41] S07 / target: https://www.target.com/p/-/A-93111660
+[28/41] S07 / amazon: https://www.amazon.com/dp/B0874XN4D8
+[29/41] S07 / newegg: https://www.newegg.com/samsung-t7-1tb-usb-3-2-gen-2/p/N82E16820147767
+[30/41] S07 / walmart: https://www.walmart.com/ip/156019443
+[31/41] S08 / target: https://www.target.com/p/-/A-52908863
+[32/41] S08 / amazon: https://www.amazon.com/dp/B09X7MPX8L
+[33/41] S08 / walmart: https://www.walmart.com/ip/2353663889
+[34/41] S09 / bestbuy: https://www.bestbuy.com/product/seagate-expansion-5tb-external-usb-3-0-portable-hard-drive-with-rescue-data-recovery-services-black/J37C5H48K5/sku/6461979
+[35/41] S09 / target: https://www.target.com/p/-/A-1004710383
+[36/41] S09 / amazon: https://www.amazon.com/dp/B07CRG94G3
+[37/41] S09 / newegg: https://www.newegg.com/seagate-model-stkm2000400-2tb/p/N82E16822184950
+[38/41] S09 / walmart: https://www.walmart.com/ip/790131533
+[39/41] S10 / bestbuy: https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-cancelling-over-the-ear-headphones-black/J7XSRH5CXG/sku/10890357
+[40/41] S10 / amazon: https://www.amazon.com/dp/B09XS7JWHH
+[41/41] S10 / walmart: https://www.walmart.com/ip/386006068
+Wrote results.json: 26/41 pages fully collected
+=== Searching for new competitor listings ===
+searching for new listings: S01 Anker 737 power bank 24000mAh
+searching for new listings: S02 Apple AirPods Pro 2
+searching for new listings: S03 Apple AirTag 4 pack
+searching for new listings: S04 Bose QuietComfort Ultra earbuds
+searching for new listings: S05 Logitech MX Master 3S mouse
+searching for new listings: S06 Razer DeathAdder V3 mouse
+searching for new listings: S07 Samsung T7 1TB portable SSD
+searching for new listings: S08 SanDisk Extreme Pro 1TB microSDXC
+searching for new listings: S09 Seagate Expansion 2TB external hard drive
+searching for new listings: S10 Sony WH-1000XM5 wireless headphones
+Wrote new_listings.json

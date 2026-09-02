@@ -126,7 +126,7 @@ Sold & shipped by
 
 FrontRow Tech (Authorized Dealer)
 
-4.54(116)
+4.55(117)
 
 [Return & Exchange Policy](https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014)
 
@@ -224,98 +224,102 @@ See more
 
 Sponsored
 
-[![When music is your happy place, these take you there.](https://retailmedia-static.criteo.com/creativeassets-live/48fe23cbc2e8b8b96506e18f4f08058109e45877799424ac4210cf66a8e92f55.png)](https://www.bestbuy.com/site/searchpage.jsp?browsedCategory=pcmcat144700050004&id=pcat17071&qp=brand_facet%3DBrand%7EJBL%5Ebbyonly_facet%3DSold+%26+shipped+by%7EBest+Buy&st=categoryid%24pcmcat144700050004)
+[![Take your listening to the next level. ](https://retailmedia-static.criteo.com/creativeassets-live/826c16b2d18ff093def39d4dc34c385a4c4e8cd14e2eb26f2df1f6e0145d53c8.png)](https://www.bestbuy.com/site/sony-portable-audio/sony-headphones/pcmcat302400050012.c?id=pcmcat302400050012)
 
-*   [![](https://pisces.bbystatic.com/image2/BestBuy_US/images/products/13a9d4e6-4508-4bab-84d4-ea9bf629757e.png;maxHeight=100;maxWidth=150)](https://www.bestbuy.com/product/jbl-soundgear-clips-true-wireless-bluetooth-open-ear-headphones-2026-copper/J7LXFW3R5K/sku/6669906)
+*   [![](https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5c0ff147-1f18-4f75-adbc-680f9fee5308.jpg;maxHeight=100;maxWidth=150)](https://www.bestbuy.com/product/sony-wh-1000xm6-best-wireless-noise-cancelling-headphones-black/J7XSRH5RCF/sku/6620467)
     
-    [JBL - Soundgear Clips - TRUE wireless bluetooth open-ear headphones - 2026 - Copper](https://www.bestbuy.com/product/jbl-soundgear-clips-true-wireless-bluetooth-open-ear-headphones-2026-copper/J7LXFW3R5K/sku/6669906)
-    
-    [
-    
-    Rating 4.2 out of 5 stars with 50 reviews
-    
-    (50)
-    
-    ](https://www.bestbuy.com/product/jbl-soundgear-clips-true-wireless-bluetooth-open-ear-headphones-2026-copper/J7LXFW3R5K/sku/6669906#tabbed-customerreviews)
-    
-    $149.95$14995
-    
-*   [![](https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2fe06a0c-5b52-41f9-b91d-93aa8b129956.jpg;maxHeight=100;maxWidth=150)](https://www.bestbuy.com/product/jbl-vibe-beam-2-noise-cancelling-earbuds-2025-black/J7LXFWXFJH/sku/6611536)
-    
-    [JBL - Vibe Beam 2 Noise Cancelling Earbuds - 2025 - Black](https://www.bestbuy.com/product/jbl-vibe-beam-2-noise-cancelling-earbuds-2025-black/J7LXFWXFJH/sku/6611536)
+    [Sony - WH-1000XM6- Best Wireless Noise Cancelling Headphones - Black](https://www.bestbuy.com/product/sony-wh-1000xm6-best-wireless-noise-cancelling-headphones-black/J7XSRH5RCF/sku/6620467)
     
     [
     
-    Rating 4.5 out of 5 stars with 891 reviews
+    Rating 4.7 out of 5 stars with 1333 reviews
     
-    (891)
+    (1,333)
     
-    ](https://www.bestbuy.com/product/jbl-vibe-beam-2-noise-cancelling-earbuds-2025-black/J7LXFWXFJH/sku/6611536#tabbed-customerreviews)
+    ](https://www.bestbuy.com/product/sony-wh-1000xm6-best-wireless-noise-cancelling-headphones-black/J7XSRH5RCF/sku/6620467#tabbed-customerreviews)
+    
+    $398.00$39800
+    
+    The price was $458.00
+    
+*   [![](https://pisces.bbystatic.com/image2/BestBuy_US/images/products/f49c3493-e940-4155-9391-ca78496eedde.jpg;maxHeight=100;maxWidth=150)](https://www.bestbuy.com/product/sony-wf-1000xm6-best-truly-wireless-noise-cancelling-earbuds-platinum-silver/J7XSRH5WRC/sku/6667496)
+    
+    [Sony - WF-1000XM6 Best Truly Wireless Noise Cancelling Earbuds - Platinum Silver](https://www.bestbuy.com/product/sony-wf-1000xm6-best-truly-wireless-noise-cancelling-earbuds-platinum-silver/J7XSRH5WRC/sku/6667496)
+    
+    [
+    
+    Rating 4.4 out of 5 stars with 294 reviews
+    
+    (294)
+    
+    ](https://www.bestbuy.com/product/sony-wf-1000xm6-best-truly-wireless-noise-cancelling-earbuds-platinum-silver/J7XSRH5WRC/sku/6667496#tabbed-customerreviews)
+    
+    $298.00$29800
+    
+    The price was $328.00
+    
+*   [![](https://pisces.bbystatic.com/image2/BestBuy_US/images/products/f8f3654e-d6b4-4f63-a6a0-8e7176910811.jpg;maxHeight=100;maxWidth=150)](https://www.bestbuy.com/product/sony-1000x-the-collexion-wireless-noise-canceling-headphones-black/J7XSRH5W8X/sku/6675813)
+    
+    [Sony - 1000X THE COLLEXION Wireless Noise Canceling Headphones - Black](https://www.bestbuy.com/product/sony-1000x-the-collexion-wireless-noise-canceling-headphones-black/J7XSRH5W8X/sku/6675813)
+    
+    [
+    
+    Rating 4.7 out of 5 stars with 66 reviews
+    
+    (66)
+    
+    ](https://www.bestbuy.com/product/sony-1000x-the-collexion-wireless-noise-canceling-headphones-black/J7XSRH5W8X/sku/6675813#tabbed-customerreviews)
     
     Labor Day Deal
     
-    $39.95$3995
+    $599.00$59900
     
-*   [![](https://pisces.bbystatic.com/image2/BestBuy_US/images/products/fd502d14-91ad-49b3-a490-230cb1a7af74.png;maxHeight=100;maxWidth=150)](https://www.bestbuy.com/product/jbl-tour-one-m3-aviator-2025-black/J7LXFW39SX/sku/6623867)
+*   [![](https://pisces.bbystatic.com/image2/BestBuy_US/images/products/bb1e0bd5-e83d-4e38-9d55-c4ca4b894573.jpg;maxHeight=100;maxWidth=150)](https://www.bestbuy.com/product/sony-linkbuds-clip-truly-wireless-open-earbuds-green/J7XSRH5KTY/sku/6667489)
     
-    [JBL - Tour One M3 Aviator - 2025 - Black](https://www.bestbuy.com/product/jbl-tour-one-m3-aviator-2025-black/J7LXFW39SX/sku/6623867)
-    
-    [
-    
-    Rating 4.5 out of 5 stars with 22 reviews
-    
-    (22)
-    
-    ](https://www.bestbuy.com/product/jbl-tour-one-m3-aviator-2025-black/J7LXFW39SX/sku/6623867#tabbed-customerreviews)
-    
-    $449.95$44995
-    
-*   [![](https://pisces.bbystatic.com/image2/BestBuy_US/images/products/98e6ee29-2123-472d-812d-dffaf7c56185.png;maxHeight=100;maxWidth=150)](https://www.bestbuy.com/product/jbl-endurance-peak-4-true-wireless-bluetooth-noise-cancelling-sport-in-ear-earbuds-2025-black-grey/J7LXFW3QL2/sku/6664997)
-    
-    [JBL - Endurance Peak 4 - True Wireless Bluetooth Noise Cancelling Sport In-Ear Earbuds - 2025 - Black / Grey](https://www.bestbuy.com/product/jbl-endurance-peak-4-true-wireless-bluetooth-noise-cancelling-sport-in-ear-earbuds-2025-black-grey/J7LXFW3QL2/sku/6664997)
+    [Sony - LinkBuds Clip Truly Wireless Open Earbuds - Green](https://www.bestbuy.com/product/sony-linkbuds-clip-truly-wireless-open-earbuds-green/J7XSRH5KTY/sku/6667489)
     
     [
     
-    Rating 4.4 out of 5 stars with 72 reviews
+    Rating 4.4 out of 5 stars with 124 reviews
     
-    (72)
+    (124)
     
-    ](https://www.bestbuy.com/product/jbl-endurance-peak-4-true-wireless-bluetooth-noise-cancelling-sport-in-ear-earbuds-2025-black-grey/J7LXFW3QL2/sku/6664997#tabbed-customerreviews)
+    ](https://www.bestbuy.com/product/sony-linkbuds-clip-truly-wireless-open-earbuds-green/J7XSRH5KTY/sku/6667489#tabbed-customerreviews)
     
-    Labor Day Deal
+    $198.00$19800
     
-    $99.99$9999
+    The price was $228.00
     
 
 Questions & Answers
 
-*   **Does the charging case come with the purchase of these earbuds?**
+*   **Can I use a single earbud for calls?**
     
-    Yes, a charging case is included with these earbuds.
-    
-    This question and answer was generated by AI based on customer and product data.
-    
-*   **Does this earbud have a built in microphone?**
-    
-    Yes, this earbud has a built-in microphone.
+    Yes, you can take calls with both or a single earbud.
     
     This question and answer was generated by AI based on customer and product data.
     
-*   **Are these earbuds able to cancel noise?**
+*   **Does the application allow me to control the sound?**
     
-    Yes, these earbuds have active noise cancelling.
-    
-    This question and answer was generated by AI based on customer and product data.
-    
-*   **How long does the battery last on these earbuds?**
-    
-    The battery lasts up to 6 hours in Quiet or Aware Mode.
+    Yes, you can control bass, mid-range, and treble levels in the Bose app.
     
     This question and answer was generated by AI based on customer and product data.
     
-*   **Does the charging case come with the earbuds?**
+*   **How far can the earbuds stay connected from my device?**
     
-    Yes, the charging accessory included is a case.
+    The earbuds offer a strong connection within 30 feet of your device.
+    
+    This question and answer was generated by AI based on customer and product data.
+    
+*   **How many devices can I connect to these earbuds at once?**
+    
+    You can connect two devices simultaneously to these earbuds.
+    
+    This question and answer was generated by AI based on customer and product data.
+    
+*   **Is the music paused when I get a call?**
+    
+    You can answer calls without ever taking out your phone.
     
     This question and answer was generated by AI based on customer and product data.
     
@@ -324,4 +328,4 @@ Questions & Answers
 
 Ask a question
 
-](https://www.bestbuy.com/site/questions/submission/12333019?campaignId=QA_&return=)
+](https://www.bestbuy.com/site/questions/submission/12333019?campaignId=QA_&return=

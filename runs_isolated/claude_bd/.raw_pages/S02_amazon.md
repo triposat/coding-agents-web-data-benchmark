@@ -1,4 +1,4 @@
-                                                                              Amazon.com: Apple AirPods Pro 2 Wireless Earbuds, Active Noise Cancellation, Hearing Aid Feature, Bluetooth Headphones, Transparency, Personalized Spatial Audio, High-Fidelity Sound, H2 Chip, USB-C Charging : Electronics              
+                                                                                Amazon.com: Apple AirPods Pro 2 Wireless Earbuds, Active Noise Cancellation, Hearing Aid Feature, Bluetooth Headphones, Transparency, Personalized Spatial Audio, High-Fidelity Sound, H2 Chip, USB-C Charging : Electronics              
 
      ![](https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB779528203_.png)       
 
@@ -21,7 +21,7 @@
     
     Search
     
-    opt + /
+    alt + /
     
     
     
@@ -30,7 +30,7 @@
     
     Cart
     
-    shift + opt + C
+    shift + alt + C
     
     
     
@@ -39,7 +39,7 @@
     
     Home
     
-    shift + opt + H
+    shift + alt + H
     
     
     
@@ -48,22 +48,22 @@
     
     Orders
     
-    shift + opt + O
+    shift + alt + O
     
     
     
     ](javascript:void\(0\))
 *   Add to cart
     
-    shift + opt + K
+    shift + alt + K
     
 *   Product summary
     
-    shift + opt + D
+    shift + alt + D
     
 *   Show/Hide shortcuts
     
-    shift + opt + Z
+    shift + alt + Z
     
 
 To move between items, use your keyboard's up or down arrows.
@@ -72,7 +72,7 @@ To move between items, use your keyboard's up or down arrows.
 
 [.us](/ref=nav_logo)
 
-Delivering to Nashville 37217 Update location
+Delivering to Denver 80231 Update location
 
    
 
@@ -190,7 +190,7 @@ We feature offers with an Add to Cart button when an offer meets our high standa
 
 [
 
-Delivering to Nashville 37217 - Update location
+Delivering to Denver 80231 - Update location
 
 
 

@@ -163,9 +163,7 @@ How do you want your item?
 
 Shipping
 
-Arrives Sep 5
-
-Order within 7 hr 11 min
+Arrives Sep 8
 
 Free
 
@@ -181,13 +179,9 @@ Delivery
 
 Not available
 
-Ships toGreenville, 27834
+Ships toSan Diego, 92102
 
-Arrives by Sat, Sep 5
-
-.
-
-Order within 7 hr 11 min
+Arrives by Tue, Sep 8
 
 |
 
@@ -219,29 +213,23 @@ Add to registry
 
 [
 
-### Logitech G502 LIGHTSPEED Wireless Gaming Mouse, HERO 25K Sensor, 25,600 DPI, RGB, Adjustable Weights, 11 Programmable Buttons, Long Battery Life, On-Board Memory, PC / Mac $109.00
+### Razer Cobra Lightweight Wired Gaming Mouse with Razer Chroma™ RGB, Pokémon Kanto Starters Edition $59.93
 
-](https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-item-top~desktop~&pos=1&tax=3944_1089430_7052607_9433123_1411576&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FLogitech-G502-LIGHTSPEED-Wireless-Gaming-Mouse-HERO-25K-Sensor-25-600-DPI-RGB-Adjustable-Weights-11-Programmable-Buttons-Long-Battery-Life-On-Board-M%2F616429419%3FadsRedirect%3Dtrue&adUid=5680fb63-9f45-4fab-9f3f-f47312b3d87b&mloc=sp-item-top&pltfm=desktop&pgId=1281151624&pt=item&spQs=AmxzEDBv4XrEQByeqvUG3XFVwrkewzjHtg3nzm-bkYnPAgUOrzEdUgNZ4nfXIESovzwSREbSZV75tl11Biyue_pKDKVUYxkVnsRaAJpztPcM0bQ_usmzOzsxJ2quq5wkMKj2budSUrv3kO4hYmage-bK2J1ID_3EV9HyKjt51bHuoLRG44egK3lHtmBU_bd_dvw79-pp7jhPTve5QcKqWsxg8MnEOVOs545vjWNb-sM&storeId=1379&specificity=&specificityScore=&couponState=na&bkt=ace1_14238%7Cace2_14399%7Cace3_default%7Cbb_1_14514%7Cbb_2_14536%7Cbb_5_14545&/ip/Logitech-G502-LIGHTSPEED-Wireless-Gaming-Mouse-HERO-25K-Sensor-25-600-DPI-RGB-Adjustable-Weights-11-Programmable-Buttons-Long-Battery-Life-On-Board-M/616429419)
+](https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-item-top~desktop~&pos=1&tax=3944_1089430_7052607_9433123_1411576&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FRazer-Cobra-Lightweight-Wired-Gaming-Mouse-with-Razer-Chroma-RGB-Pok-mon-Kanto-Starters-Edition%2F15166270091%3FadsRedirect%3Dtrue&adUid=9f0eeabb-e136-4526-a85c-483532550a7c&mloc=sp-item-top&pltfm=desktop&pgId=1281151624&pt=item&spQs=ZVzi7bGJL0LPVch8lIVHY_VmPBa437bwDp26G9mwYPtRlV1ZYuz0dIFtDmgfpZqrRidV1efdLJ45AMVpKzzA_C2P7-7s5CdW9sItKcYXQWk-urbSpS6SlJkVslW5i5zJxvgfUZNmy55UN2-kNjD5keUN5Qjp4istKwQAQDxxx8vanFWVckIcVnb58QNjWn6edIFMc_bXeFuP66wArs4KnzW45QwAXLxW_dl4pGI0TNM&storeId=5023&specificity=&specificityScore=&couponState=na&bkt=ace1_14238%7Cace2_default%7Cace3_default%7Cbb_1_14514%7Cbb_2_14536%7Cbb_5_14545&/ip/Razer-Cobra-Lightweight-Wired-Gaming-Mouse-with-Razer-Chroma-RGB-Pok-mon-Kanto-Starters-Edition/15166270091)
 
-![Logitech G502 LIGHTSPEED Wireless Gaming Mouse, HERO 25K Sensor, 25,600 DPI, RGB, Adjustable Weights, 11 Programmable Buttons, Long Battery Life, On-Board Memory, PC / Mac](https://i5.walmartimages.com/seo/Logitech-G502-LIGHTSPEED-Wireless-Gaming-Mouse-HERO-25K-Sensor-25-600-DPI-RGB-Adjustable-Weights-11-Programmable-Buttons-Long-Battery-Life-On-Board-M_122406a3-664e-436e-88de-96bce0dbd7e0.2fcb98760538790a49a8712d1882b389.jpeg?odnHeight=320&odnWidth=320&odnBg=FFFFFF)
+![Razer Cobra Lightweight Wired Gaming Mouse with Razer Chroma™ RGB, Pokémon Kanto Starters Edition](https://i5.walmartimages.com/seo/Razer-Cobra-Lightweight-Wired-Gaming-Mouse-with-Razer-Chroma-RGB-Pok-mon-Kanto-Starters-Edition_5c67521a-d98f-4635-9cfc-c8e7167fe0b1.d26d01ffb12c98e3d7db855f41e04af1.jpeg?odnHeight=320&odnWidth=320&odnBg=FFFFFF)
 
-$10900
+$5993
 
-current price $109.00
+current price $59.93
 
-### Logitech G502 LIGHTSPEED Wireless Gaming Mouse, HERO 25K Sensor, 25,600 DPI, RGB, Adjustable Weights, 11 Programmable Buttons, Long Battery Life, On-Board Memory, PC / Mac
+### Razer Cobra Lightweight Wired Gaming Mouse with Razer Chroma™ RGB, Pokémon Kanto Starters Edition
 
-4.5 out of 5 stars
+4.3 out of 5 stars
 
-2824.5 out of 5 Stars. 282 reviews
-
-![](//i5.walmartimages.com/dfw/63fd9f59-a53c/14c2b8c6-d48a-4302-924f-7817f0c0737c/v1/thunderbolt.svg)
-
-Delivery as soon as 1 hour
+334.3 out of 5 Stars. 33 reviews
 
 Shipping arrives tomorrow
-
-Pickup today
 
 Add to cart
 
@@ -277,4 +265,4 @@ Give feedback
 *   [#IYWYK](https://www.walmart.com/cp/walmart-in-the-know/7781927 "Walmart In the Know is a social media photo feed")
 *   [Delete Account](https://www.walmart.com/account/login?vid=oaoh&tid=0&returnUrl=%2Faccount%2Fdelete-account "Delete Account")
 
-© 2026 Walmart. The trademarks Walmart and the Walmart Spark design are registered with the US Patent and Trademark Office. All Rights Reserv
+© 2026 Walmart. The trademarks Walmart and the Walmart Spark design are registered with the US Patent and Trademark Office. All Righ
