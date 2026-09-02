@@ -1,0 +1,19 @@
+{
+  "arm1_plain_http": {
+    "blocked_timeout": 9,
+    "success": 14,
+    "partial_no_price": 13,
+    "blocked_challenge": 5
+  },
+  "arm2_local_browser": {
+    "blocked_h2_reset": 9,
+    "success": 12,
+    "partial_no_price": 6,
+    "blocked_challenge": 14
+  },
+  "arm3_brightdata_mcp": {
+    "success": 38,
+    "blocked_empty": 1,
+    "partial_no_price": 2
+  }
+}

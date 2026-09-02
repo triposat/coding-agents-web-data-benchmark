@@ -1,0 +1,65 @@
+[
+  {
+    "target": "easy-example",
+    "elapsed_s": 4.8,
+    "isError": null,
+    "rpc_error": false,
+    "wrapped_len": 830,
+    "payload_len": 181,
+    "payload_head": "Example Domain  Example Domain  This domain is for use in documentation examples without n"
+  },
+  {
+    "target": "easy-httpbin",
+    "elapsed_s": 5.9,
+    "isError": null,
+    "rpc_error": false,
+    "wrapped_len": 4242,
+    "payload_len": 3593,
+    "payload_head": "Herman Melville - Moby-Dick  Availing himself of the mild, summer-cool weather that now re"
+  },
+  {
+    "target": "bd-own-site",
+    "elapsed_s": 2.1,
+    "isError": null,
+    "rpc_error": false,
+    "wrapped_len": 648,
+    "payload_len": 0,
+    "payload_head": ""
+  },
+  {
+    "target": "amazon",
+    "elapsed_s": 3.7,
+    "isError": null,
+    "rpc_error": false,
+    "wrapped_len": 69084,
+    "payload_len": 68435,
+    "payload_head": "```                                                                             Amazon.com"
+  },
+  {
+    "target": "walmart",
+    "elapsed_s": 10.2,
+    "isError": null,
+    "rpc_error": false,
+    "wrapped_len": 6965,
+    "payload_len": 6316,
+    "payload_head": "Apple, Wireless Earbuds, AirPods Pro 2, Active Noise Cancellation - Walmart.com  [Skip to "
+  },
+  {
+    "target": "bestbuy-new",
+    "elapsed_s": 21.4,
+    "isError": null,
+    "rpc_error": false,
+    "wrapped_len": 13012,
+    "payload_len": 12363,
+    "payload_head": "Sony WH 1000XM6 Best Wireless Noise Cancelling Headphones Black WH1000XM6/B - Best Buy  La"
+  },
+  {
+    "target": "newegg",
+    "elapsed_s": 6.0,
+    "isError": null,
+    "rpc_error": false,
+    "wrapped_len": 21484,
+    "payload_len": 20835,
+    "payload_head": "GIGABYTE 32\" 165Hz 1440P SS IPS KVM Gaming Monitor, 0.8ms, FreeSync Premium, QHD 2560 x 14"
+  }
+]

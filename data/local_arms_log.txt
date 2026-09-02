@@ -1,0 +1,5 @@
+41 targets
+
+=== arm1_plain_http === Counter({'success': 14, 'partial_no_price': 13, 'blocked_timeout': 9, 'blocked_challenge': 5})
+
+=== arm2_local_browser === Counter({'blocked_challenge': 14, 'success': 12, 'blocked_h2_reset': 9, 'partial_no_price': 6})

@@ -1,0 +1,108 @@
+[
+  {
+    "sku_id": "S01",
+    "product": "Anker 737 power bank 24000mAh",
+    "new_retailer_urls": [
+      "https://www.anker.com/products/a1289",
+      "https://www.anker.com/au/products/a1289",
+      "https://www.anker.com/nz/products/a1289",
+      "https://in.eshtir.com/shop/electronics/mobiles-accessories/powerbanks/anker-power-core-24k-power-bank-24000mah-140w-output-with-display/"
+    ]
+  },
+  {
+    "sku_id": "S02",
+    "product": "Apple AirPods Pro 2",
+    "new_retailer_urls": [
+      "https://www.fnac.com/Apple-AirPods-Pro-2eme-generation-Blanc-avec-boitier-de-charge-MagSafe-USB-C-Ecouteurs-sans-fil/a18241020/w-4",
+      "https://www.cdiscount.com/telephonie/r-apple+airpods+pro+2.html",
+      "https://www.boulanger.com/c/airpods/facettes_casque_____modele_ecouteurs~airpods20pro202",
+      "https://www.verizon.com/products/apple-airpods-pro-2/",
+      "https://www.currys.co.uk/brand/apple/latest-products/apple-airpods/airpods-pro-2.html"
+    ]
+  },
+  {
+    "sku_id": "S03",
+    "product": "Apple AirTag 4 pack",
+    "new_retailer_urls": [
+      "https://www.costco.com/p/-/apple-airtag-2nd-generation-4-pack-includes-additional-airtag-1-pack-2nd-generation/4000277035",
+      "https://www.samsclub.com/ip/apple-airtag-4-pack/13718417954",
+      "https://www.pcrichard.com/apple-airtag-4-pack-silver/MX542LL-A.html",
+      "https://www.verizon.com/products/apple-airtag-tracking-4-pack/",
+      "https://www.apple.com/airtag/"
+    ]
+  },
+  {
+    "sku_id": "S04",
+    "product": "Bose QuietComfort Ultra earbuds",
+    "new_retailer_urls": [
+      "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html",
+      "https://www.bestbuy.ca/en-ca/product/bose-quietcomfort-ultra-2nd-gen-in-ear-noise-cancelling-bluetooth-earbuds-black/19345116",
+      "https://www.johnlewis.com/bose-quietcomfort-ultra-earbuds-2nd-gen-true-wireless-bluetooth-in-ear-headphones-with-noise-cancellation-black/black/p113806538",
+      "https://www.currys.co.uk/products/bose-quietcomfort-ultra-2nd-gen-wireless-bluetooth-noisecancelling-earbuds-black-10285265.html",
+      "https://www.mediamarkt.de/de/product/_bose-quietcomfort-ultra-earbuds-black-in-ear-kopfhorer-bluetooth-schwarz-140303912.html"
+    ]
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "new_retailer_urls": [
+      "https://www.logitech.com/en-us/shop/p/mx-master-3s",
+      "https://www.lyreco.com/webshop/ENMY/logitech-mx-master-3s-wireless-mouse-product-000000000017068862.html",
+      "https://www.tmt.my/products/logitech-mx-master-3s",
+      "https://shopee.com.my/Logitech-MX-Master-3S-(Bluetooth-Version)-Wireless-Performance-Mouse-with-Ultra-fast-Scrolling-Ergonomic-8K-DPI--i.55732479.20006623117"
+    ]
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "new_retailer_urls": [
+      "https://www.razer.com/gaming-mice/razer-deathadder-v3",
+      "https://www.bestbuy.ca/en-ca/product/razer-deathadder-v3-30000-dpi-optical-gaming-mouse-black/16703320",
+      "https://www.currys.co.uk/products/razer-deathadder-v3-optical-gaming-mouse-black-10246917.html",
+      "https://www.maxgaming.com/en/wired-mouses/deathadder-v3"
+    ]
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "new_retailer_urls": [
+      "https://www.samsung.com/uk/memory-storage/portable-ssd/portable-ssd-t7-1tb-gray-mu-pc1t0t-ww/",
+      "https://www.pbtech.co.nz/product/HDDSSM17101/Samsung-T7-1TB-Portable-External-SSD---Titan-Grey",
+      "https://www.jbhifi.com.au/products/samsung-t7-portable-ssd-drive-1tbtitan-grey",
+      "https://www.staples.ca/products/3001535-en-samsung-t7-1tb-usb-32-gen-2-portable-solid-state-drive-grey"
+    ]
+  },
+  {
+    "sku_id": "S08",
+    "product": "SanDisk Extreme Pro 1TB microSDXC",
+    "new_retailer_urls": [
+      "https://www.sandisk.com/products/memory-cards/microsd-cards/sandisk-extreme-pro-uhs-i-microsd?sku=SDSQXCD-1T00-GN6MA",
+      "https://elmir.ua/flash_memory_cards/memory_card_micro_sdxc_1tb_sandisk_extreme_pro_v30_sdsqxcd-1t00-gn6ma.html",
+      "https://rozetka.com.ua/sandisk-sdsqxcd-1t00-gn6ma/p358233801/",
+      "https://www.bechtle.com/de-en/shop/sandisk-extreme-pro-microsdxc-card-1tb--4679513--p",
+      "https://www.bunnings.com.au/sandisk-extreme-pro-sqxcd-1tb-v30-u3-microsdxc-memory-card-sdsqxcd-1t00-gn6ma-_p0432279"
+    ]
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "new_retailer_urls": [
+      "https://www.seagate.com/products/external-hard-drives/",
+      "https://www.reliancedigital.in/product/seagate-expansion-2-tb-external-hdd-635-cm-25-inch-usb-30-for-windows-and-mac-with-3-year-data-recovery-services-portable-hard-drive-stkm2000400",
+      "https://www.flipkart.com/seagate-expansion-windows-mac-3-years-data-recovery-services-portable-2-tb-external-hard-disk-drive/p/itm9dfe3462c3843",
+      "https://www.indiamart.com/proddetail/seagate-expansion-2tb-external-hdd-usb-3-0-2856938074073.html",
+      "https://offikart.com/p/seagate-2tb-external-hdd"
+    ]
+  },
+  {
+    "sku_id": "S10",
+    "product": "Sony WH-1000XM5 wireless headphones",
+    "new_retailer_urls": [
+      "https://www.sony.co.in/electronics/headband-headphones/wh-1000xm5",
+      "https://shopatsc.com/products/wh1000xm5-pmin",
+      "https://www.flipkart.com/sony-wh-1000xm5-best-noise-cancelling-wireless-over-ear-headphones-8-mics-comfortable-bluetooth-wired/p/itmb7d860129eb21",
+      "https://www.ajio.com/sony-wireless-headphones-with-active-noise-cancellation--wh1000xm5/p/4931792460_multi",
+      "https://www.sony.com/ng/electronics/headband-headphones/wh-1000xm5"
+    ]
+  }
+]

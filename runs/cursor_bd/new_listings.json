@@ -1,0 +1,237 @@
+[
+  {
+    "sku_id": "S01",
+    "product": "Anker 737 power bank 24000mAh",
+    "new_listings": [
+      {
+        "retailer": "anker",
+        "url": "https://www.anker.com/products/a1289",
+        "title": "Anker 737 Power Bank (PowerCore 24K)"
+      },
+      {
+        "retailer": "ebay",
+        "url": "https://www.ebay.com/itm/385840234596",
+        "title": "Anker 737 Power Bank 24000mAh 3-Port Portable Charger ..."
+      },
+      {
+        "retailer": "cdw",
+        "url": "https://www.cdw.com/product/anker-737-power-bank-gan-technology-usb-2-x-usb-c/7409557",
+        "title": "Anker 737 power bank - GaN technology - USB, 2 x USB-C"
+      }
+    ]
+  },
+  {
+    "sku_id": "S02",
+    "product": "Apple AirPods Pro 2",
+    "new_listings": [
+      {
+        "retailer": "apple",
+        "url": "https://www.apple.com/airpods/",
+        "title": "AirPods"
+      },
+      {
+        "retailer": "apple",
+        "url": "https://www.apple.com/shop/buy-airpods/airpods-pro-3",
+        "title": "Buy AirPods Pro 3"
+      },
+      {
+        "retailer": "apple",
+        "url": "https://www.apple.com/shop/product/ftjv3ll/a/Refurbished-AirPods-Pro-2-with-MagSafe-Charging-Case-USB-%E2%80%8DC",
+        "title": "Refurbished AirPods Pro 2 with MagSafe Charging Case ..."
+      },
+      {
+        "retailer": "ebay",
+        "url": "https://www.ebay.com/b/Apple-AirPods-Pro-2nd-generation/80077/bn_7118653171",
+        "title": "Apple AirPods Pro (2nd generation) for sale"
+      }
+    ]
+  },
+  {
+    "sku_id": "S03",
+    "product": "Apple AirTag 4 pack",
+    "new_listings": [
+      {
+        "retailer": "apple",
+        "url": "https://www.apple.com/shop/buy-airtag/airtag/4-pack",
+        "title": "Buy AirTag 4 pack"
+      },
+      {
+        "retailer": "costco",
+        "url": "https://www.costco.com/p/-/apple-airtag-2nd-generation-4-pack-includes-additional-airtag-1-pack-2nd-generation/4000277035",
+        "title": "Apple AirTag (2nd generation), 4-pack, Includes additional ..."
+      }
+    ]
+  },
+  {
+    "sku_id": "S04",
+    "product": "Bose QuietComfort Ultra earbuds",
+    "new_listings": [
+      {
+        "retailer": "bose",
+        "url": "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html?srsltid=AfmBOoq3PW0UqaLmOKmAzacmnzcLQRcAXohY2tkeJrjIK3T1c5r7YYKi",
+        "title": "Bose QuietComfort Ultra Earbuds (2nd Gen)"
+      },
+      {
+        "retailer": "bose",
+        "url": "https://www.bose.com/p/refurbished/bose-quietcomfort-ultra-earbuds/QCUE-HEADPHONEIN-FR.html?srsltid=AfmBOopXJFDL_-1V1baXinp2LSvu2TuKArJPqqUUgryfMjVB33bWYMEG",
+        "title": "Shop Certified Refurbished QuietComfort Ultra Earbuds"
+      },
+      {
+        "retailer": "bose",
+        "url": "https://www.bose.com/c/earbuds?srsltid=AfmBOopjSP2FvuMxKQraeIdio59maxE-VuzIJEt0qrQs5e0aPf7ejkG5",
+        "title": "Shop Earbuds | Wireless and Bluetooth Earbud Options"
+      },
+      {
+        "retailer": "bose",
+        "url": "https://www.bose.com/p/earbuds/bose-ultra-open-earbuds/ULT-HEADPHONEOPN.html?srsltid=AfmBOoqNHnwubKQIYt0i-FLCKT6L9ZbhX0XP5LNupBkYeYJ5taZ06qW9",
+        "title": "Bose Ultra Open Earbuds"
+      },
+      {
+        "retailer": "ebay",
+        "url": "https://www.ebay.com/itm/186465664855",
+        "title": "Bose QuietComfort Ultra Noise Cancelling Earbuds ..."
+      }
+    ]
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "new_listings": [
+      {
+        "retailer": "logitech",
+        "url": "https://www.logitech.com/en-us/shop/p/mx-master-3s",
+        "title": "MX Master 3s Wireless Mouse - 8K Optical Sensor - Logitech"
+      },
+      {
+        "retailer": "ebay",
+        "url": "https://www.ebay.com/p/4054542711",
+        "title": "Logitech MX Master 3S Wireless Mouse - Black"
+      }
+    ]
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "new_listings": [
+      {
+        "retailer": "razer",
+        "url": "https://www.razer.com/gaming-mice/razer-deathadder-v3?srsltid=AfmBOoohAsz9mjT-5-HNi48p7b_bTptShSnp7ktLC7EcUQBboIgKHCUi",
+        "title": "Razer DeathAdder V3 | Razer United States"
+      },
+      {
+        "retailer": "razer",
+        "url": "https://www.razer.com/gaming-mice/razer-deathadder-v3-pro?srsltid=AfmBOopcGDdLdF-r75NRu9xUF_Kj4CBG2ZKP__CWM9KlD0lxtB0wTHZw",
+        "title": "Razer DeathAdder V3 Pro"
+      },
+      {
+        "retailer": "razer",
+        "url": "https://www.razer.com/gaming-mice/razer-deathadder-v3-hyperspeed?srsltid=AfmBOorTWRhxDLuBdTXEhaGfFF5JPQ5qeN2kKS3Ph_8b00K2x1548JWY",
+        "title": "Razer DeathAdder V3 HyperSpeed"
+      },
+      {
+        "retailer": "ebay",
+        "url": "https://www.ebay.com/shop/deathadder-v3?_nkw=deathadder+v3",
+        "title": "Deathadder V3"
+      }
+    ]
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "new_listings": [
+      {
+        "retailer": "samsung",
+        "url": "https://www.samsung.com/us/memory-storage/portable-ssd/portable-ssd-t7-usb-3-2-1tb-blue-sku-mu-pc1t0h-am/",
+        "title": "Portable SSD T7 1TB USB 3.2"
+      },
+      {
+        "retailer": "samsung",
+        "url": "https://www.samsung.com/us/memory-storage/portable-ssd/portable-ssd-t7-usb-3-2-1tb-gray-sku-mu-pc1t0t-am/",
+        "title": "Portable SSD T7 1 TB USB 3.2 Gen 2 (Gray)"
+      },
+      {
+        "retailer": "ebay",
+        "url": "https://www.ebay.com/shop/samsung-t7?_nkw=samsung+t7",
+        "title": "Samsung T7"
+      }
+    ]
+  },
+  {
+    "sku_id": "S08",
+    "product": "SanDisk Extreme Pro 1TB microSDXC",
+    "new_listings": [
+      {
+        "retailer": "sandisk",
+        "url": "https://www.sandisk.com/en-kz/products/memory-cards/microsd-cards/sandisk-extreme-pro-uhs-i-microsd?sku=SDSQXCD-1T00-GN6MA",
+        "title": "1TB SanDisk Extreme PRO microSDXC\u2122 UHS-I CARD"
+      },
+      {
+        "retailer": "sandisk",
+        "url": "https://www.sandisk.com/products/memory-cards/microsd-cards/sandisk-extreme-pro-uhs-i-microsd?sku=SDSQXCD-1T00-GN6MA",
+        "title": "1TB SanDisk Extreme PRO microSDXC\u2122 UHS-I CARD"
+      },
+      {
+        "retailer": "bestbuy",
+        "url": "https://www.bestbuy.com/product/sandisk-extreme-pro-1-tb-class-3-uhs-i-u3-v30-microsdxc-1-200-mb-s-read-140-mb-s-write/JXJ62C6JHP",
+        "title": "SANDISK Extreme PRO 1 TB Class 3/UHS I (U3) V30 ..."
+      },
+      {
+        "retailer": "ebay",
+        "url": "https://www.ebay.com/shop/sandisk-extreme-pro-1-tb?_nkw=sandisk+extreme+pro+1+tb",
+        "title": "Sandisk Extreme Pro 1TB"
+      },
+      {
+        "retailer": "sandisk",
+        "url": "https://www.sandisk.com/product-portfolio/memory-cards/microsd-cards",
+        "title": "microSD Memory Cards"
+      }
+    ]
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "new_listings": [
+      {
+        "retailer": "seagate",
+        "url": "https://www.seagate.com/products/external-hard-drives/",
+        "title": "Buy External Hard Drives (Data Storage)"
+      },
+      {
+        "retailer": "seagate",
+        "url": "https://www.seagate.com/support/external-hard-drives/portable-hard-drives/expansion-portable/",
+        "title": "Support for Expansion Portable Hard Drive"
+      },
+      {
+        "retailer": "seagate",
+        "url": "https://www.seagate.com/products/external-hard-drives/expansion-external-drives/",
+        "title": "Expansion Portable Hard Drive 5TB"
+      },
+      {
+        "retailer": "ebay",
+        "url": "https://www.ebay.com/b/Seagate-2TB-External-Hard-Disk-Drives/131553/bn_56988522",
+        "title": "Seagate 2TB External Hard Disk Drives for sale"
+      }
+    ]
+  },
+  {
+    "sku_id": "S10",
+    "product": "Sony WH-1000XM5 wireless headphones",
+    "new_listings": [
+      {
+        "retailer": "sony",
+        "url": "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm5-b?srsltid=AfmBOopQYGjbzalLjo9lqoi7lRuJOV8wKOkizkapg_xyr8ZncK2eLTf9",
+        "title": "Sony WH-1000XM5 Premium Wireless Noise Canceling ..."
+      },
+      {
+        "retailer": "sony",
+        "url": "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm5-p?srsltid=AfmBOoqZlXmmcKwA9OCJEfyN23wUBTnrOXdLhV4BXzNEYObEanEdfTbw",
+        "title": "Sony WH-1000XM5 Premium Wireless Noise Canceling ..."
+      },
+      {
+        "retailer": "sony",
+        "url": "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm5-l?srsltid=AfmBOorO_8icPw-jo6TRaVfU8sgkkB3SnCY3-oydSad9ghR2YJwgItqX",
+        "title": "Sony WH-1000XM5 Premium Wireless Noise Canceling ..."
+      }
+    ]
+  }
+]

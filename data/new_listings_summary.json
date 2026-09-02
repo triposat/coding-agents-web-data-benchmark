@@ -1,0 +1,52 @@
+{
+  "cursor_bd": {
+    "candidates": 35,
+    "valid": 35,
+    "new_domain": 34,
+    "unique": 34,
+    "domains": 12,
+    "top_domains": [
+      "ebay.com",
+      "bose.com",
+      "apple.com",
+      "razer.com",
+      "electronics.sony.com"
+    ]
+  },
+  "cursor_nobd": {
+    "candidates": 0,
+    "valid": 0,
+    "new_domain": 0,
+    "unique": 0,
+    "domains": 0,
+    "top_domains": []
+  },
+  "claude_bd": {
+    "candidates": 46,
+    "valid": 46,
+    "new_domain": 46,
+    "unique": 46,
+    "domains": 39,
+    "top_domains": [
+      "anker.com",
+      "currys.co.uk",
+      "bestbuy.ca",
+      "verizon.com",
+      "flipkart.com"
+    ]
+  },
+  "claude_nobd_v2": {
+    "candidates": 50,
+    "valid": 50,
+    "new_domain": 50,
+    "unique": 50,
+    "domains": 27,
+    "top_domains": [
+      "costco.com",
+      "bhphotovideo.com",
+      "ebay.com",
+      "adorama.com",
+      "staples.com"
+    ]
+  }
+}

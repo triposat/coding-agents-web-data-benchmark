@@ -1,0 +1,51 @@
+{
+  "arm1_plain_http": {
+    "name_price": 14,
+    "all_four": 14,
+    "fields": {
+      "name": 32,
+      "price": 14,
+      "availability": 27,
+      "rating": 27
+    },
+    "field_total": 100,
+    "by_retailer": {
+      "amazon": 4,
+      "walmart": 10
+    }
+  },
+  "arm2_local_browser": {
+    "name_price": 12,
+    "all_four": 12,
+    "fields": {
+      "name": 32,
+      "price": 12,
+      "availability": 18,
+      "rating": 18
+    },
+    "field_total": 80,
+    "by_retailer": {
+      "amazon": 4,
+      "walmart": 1,
+      "target": 7
+    }
+  },
+  "arm3_brightdata_mcp": {
+    "name_price": 38,
+    "all_four": 28,
+    "fields": {
+      "name": 40,
+      "price": 38,
+      "availability": 38,
+      "rating": 29
+    },
+    "field_total": 145,
+    "by_retailer": {
+      "bestbuy": 6,
+      "amazon": 10,
+      "walmart": 10,
+      "target": 7,
+      "newegg": 5
+    }
+  }
+}

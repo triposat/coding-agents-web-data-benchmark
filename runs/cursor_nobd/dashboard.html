@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Competitor Price Tracker</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --panel: #1a2332;
+      --border: #2d3a4f;
+      --text: #e7ecf3;
+      --muted: #8b9cb3;
+      --accent: #3b82f6;
+      --cheapest: #22c55e;
+      --error: #f87171;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    header {
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, #152033, var(--bg));
+    }
+
+    h1 {
+      margin: 0 0 0.25rem;
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    main {
+      padding: 1.5rem 2rem 3rem;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .stats {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+    }
+
+    .stat {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.85rem 1.1rem;
+      min-width: 140px;
+    }
+
+    .stat-label {
+      color: var(--muted);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .stat-value {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-top: 0.15rem;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--panel);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+    }
+
+    th, td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #121a27;
+      color: var(--muted);
+      font-weight: 600;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+    tr:last-child td { border-bottom: none; }
+
+    tr:hover td { background: rgba(59, 130, 246, 0.05); }
+
+    .product-cell strong {
+      display: block;
+      margin-bottom: 0.15rem;
+    }
+
+    .sku {
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+
+    .price-cell {
+      min-width: 120px;
+    }
+
+    .price {
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .price.cheapest {
+      color: var(--cheapest);
+      background: rgba(34, 197, 94, 0.12);
+      border-radius: 6px;
+      padding: 0.15rem 0.45rem;
+      display: inline-block;
+    }
+
+    .price.missing {
+      color: var(--muted);
+      font-weight: 400;
+    }
+
+    .retailer {
+      color: var(--muted);
+      font-size: 0.78rem;
+      text-transform: capitalize;
+      margin-bottom: 0.2rem;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.78rem;
+      margin-top: 0.2rem;
+    }
+
+    .status-ok { color: var(--cheapest); }
+    .status-fail { color: var(--error); }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .error-banner {
+      background: rgba(248, 113, 113, 0.12);
+      border: 1px solid rgba(248, 113, 113, 0.35);
+      color: #fecaca;
+      padding: 1rem 1.25rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      display: none;
+    }
+
+    .cheapest-col {
+      min-width: 160px;
+      font-weight: 600;
+    }
+
+    .cheapest-col .retailer {
+      color: var(--cheapest);
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Competitor Price Tracker</h1>
+    <p class="subtitle">Price comparison across retailers — cheapest option highlighted per product</p>
+  </header>
+
+  <main>
+    <div id="error" class="error-banner"></div>
+
+    <div class="stats" id="stats"></div>
+
+    <div class="table-wrap">
+      <table>
+        <thead id="table-head"></thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <script>
+    function parsePrice(value) {
+      if (value == null || value === "") return null;
+      const match = String(value).replace(/,/g, "").match(/[\d.]+/);
+      return match ? Number(match[0]) : null;
+    }
+
+    function formatPrice(value) {
+      const amount = parsePrice(value);
+      if (amount == null) return "—";
+      return "$" + amount.toFixed(2);
+    }
+
+    function groupByProduct(rows) {
+      const groups = new Map();
+      for (const row of rows) {
+        if (!groups.has(row.sku_id)) {
+          groups.set(row.sku_id, {
+            sku_id: row.sku_id,
+            product: row.product,
+            rows: [],
+          });
+        }
+        groups.get(row.sku_id).rows.push(row);
+      }
+      return Array.from(groups.values());
+    }
+
+    function uniqueRetailers(groups) {
+      const retailers = new Set();
+      for (const group of groups) {
+        for (const row of group.rows) retailers.add(row.retailer);
+      }
+      return Array.from(retailers).sort();
+    }
+
+    function findCheapest(rows) {
+      let best = null;
+      for (const row of rows) {
+        const amount = parsePrice(row.price);
+        if (amount == null) continue;
+        if (!best || amount < best.amount) {
+          best = { amount, retailer: row.retailer, price: row.price };
+        }
+      }
+      return best;
+    }
+
+    function renderStats(rows) {
+      const ok = rows.filter((r) => r.status === "ok").length;
+      const products = new Set(rows.map((r) => r.sku_id)).size;
+      const retailers = new Set(rows.map((r) => r.retailer)).size;
+      document.getElementById("stats").innerHTML = `
+        <div class="stat"><div class="stat-label">Products</div><div class="stat-value">${products}</div></div>
+        <div class="stat"><div class="stat-label">Retailers</div><div class="stat-value">${retailers}</div></div>
+        <div class="stat"><div class="stat-label">Complete scrapes</div><div class="stat-value">${ok}/${rows.length}</div></div>
+      `;
+    }
+
+    function renderTable(rows) {
+      const groups = groupByProduct(rows);
+      const retailers = uniqueRetailers(groups);
+      const head = document.getElementById("table-head");
+      const body = document.getElementById("table-body");
+
+      head.innerHTML = `
+        <tr>
+          <th>Product</th>
+          ${retailers.map((r) => `<th>${r}</th>`).join("")}
+          <th>Cheapest</th>
+        </tr>
+      `;
+
+      body.innerHTML = groups.map((group) => {
+        const cheapest = findCheapest(group.rows);
+        const byRetailer = Object.fromEntries(group.rows.map((r) => [r.retailer, r]));
+
+        const retailerCells = retailers.map((retailer) => {
+          const row = byRetailer[retailer];
+          if (!row) {
+            return `<td class="price-cell"><span class="price missing">—</span></td>`;
+          }
+          const amount = parsePrice(row.price);
+          const isCheapest = cheapest && row.retailer === cheapest.retailer;
+          const priceClass = row.price ? (isCheapest ? "price cheapest" : "price") : "price missing";
+          const statusClass = row.status === "ok" ? "status-ok" : "status-fail";
+          return `
+            <td class="price-cell">
+              <div class="retailer">${retailer}</div>
+              <div class="${priceClass}">${row.price ? formatPrice(row.price) : "—"}</div>
+              <div class="meta">${row.rating ? "★ " + row.rating : ""}${row.rating && row.availability ? " · " : ""}${row.availability || ""}</div>
+              <div class="meta ${statusClass}">${row.status !== "ok" ? row.status : ""}</div>
+              <div class="meta"><a href="${row.url}" target="_blank" rel="noopener">View</a></div>
+            </td>
+          `;
+        }).join("");
+
+        const cheapestCell = cheapest
+          ? `<div class="retailer">${cheapest.retailer}</div><div class="price cheapest">${formatPrice(cheapest.price)}</div>`
+          : `<span class="price missing">—</span>`;
+
+        return `
+          <tr>
+            <td class="product-cell">
+              <strong>${group.product}</strong>
+              <span class="sku">${group.sku_id}</span>
+            </td>
+            ${retailerCells}
+            <td class="cheapest-col">${cheapestCell}</td>
+          </tr>
+        `;
+      }).join("");
+    }
+
+    async function init() {
+      try {
+        const response = await fetch("results.json");
+        if (!response.ok) throw new Error("Could not load results.json. Run the tracker first.");
+        const rows = await response.json();
+        renderStats(rows);
+        renderTable(rows);
+      } catch (error) {
+        const banner = document.getElementById("error");
+        banner.style.display = "block";
+        banner.textContent = error.message;
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>

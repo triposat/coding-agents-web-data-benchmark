@@ -1,0 +1,116 @@
+[
+  {
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B0D1XD1ZV3",
+    "ua": "python-default",
+    "status": 200,
+    "bytes": 588377,
+    "elapsed": 0.78,
+    "captcha_marker": false,
+    "title": "amazon.com: apple airpods pro 2 wireless earbuds, active noise cancellation, hearing aid feature, bluetooth headphones, "
+  },
+  {
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/5689919121",
+    "ua": "python-default",
+    "status": 200,
+    "bytes": 15195,
+    "elapsed": 0.74,
+    "captcha_marker": true,
+    "title": "robot or human?"
+  },
+  {
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/site/apple-airpods-pro-2/6447382.p?skuId=6447382",
+    "ua": "python-default",
+    "status": null,
+    "bytes": 0,
+    "elapsed": 30.16,
+    "error": "TimeoutError: The read operation timed out"
+  },
+  {
+    "retailer": "target",
+    "url": "https://www.target.com/p/-/A-88451170",
+    "ua": "python-default",
+    "status": 404,
+    "bytes": 0,
+    "elapsed": 1.65,
+    "error": "HTTPError 404 Not Found"
+  },
+  {
+    "retailer": "ebay",
+    "url": "https://www.ebay.com/itm/335581646339",
+    "ua": "python-default",
+    "status": 403,
+    "bytes": 0,
+    "elapsed": 0.27,
+    "error": "HTTPError 403 Forbidden"
+  },
+  {
+    "retailer": "newegg",
+    "url": "https://www.newegg.com/p/N82E16824012039",
+    "ua": "python-default",
+    "status": 200,
+    "bytes": 14972,
+    "elapsed": 0.95,
+    "captcha_marker": true,
+    "title": "are you a human?"
+  },
+  {
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B0D1XD1ZV3",
+    "ua": "browser",
+    "status": 200,
+    "bytes": 1558123,
+    "elapsed": 2.65,
+    "captcha_marker": false,
+    "title": "amazon.com: apple airpods pro 2 wireless earbuds, active noise cancellation, hearing aid feature, bluetooth headphones, "
+  },
+  {
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/5689919121",
+    "ua": "browser",
+    "status": 200,
+    "bytes": 464132,
+    "elapsed": 3.06,
+    "captcha_marker": true,
+    "title": "apple, wireless earbuds, airpods pro 2, active noise cancellation - walmart.com"
+  },
+  {
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/site/apple-airpods-pro-2/6447382.p?skuId=6447382",
+    "ua": "browser",
+    "status": null,
+    "bytes": 0,
+    "elapsed": 30.09,
+    "error": "TimeoutError: The read operation timed out"
+  },
+  {
+    "retailer": "target",
+    "url": "https://www.target.com/p/-/A-88451170",
+    "ua": "browser",
+    "status": 404,
+    "bytes": 0,
+    "elapsed": 1.26,
+    "error": "HTTPError 404 Not Found"
+  },
+  {
+    "retailer": "ebay",
+    "url": "https://www.ebay.com/itm/335581646339",
+    "ua": "browser",
+    "status": 403,
+    "bytes": 0,
+    "elapsed": 0.44,
+    "error": "HTTPError 403 Forbidden"
+  },
+  {
+    "retailer": "newegg",
+    "url": "https://www.newegg.com/p/N82E16824012039",
+    "ua": "browser",
+    "status": 200,
+    "bytes": 14972,
+    "elapsed": 2.52,
+    "captcha_marker": true,
+    "title": "are you a human?"
+  }
+]

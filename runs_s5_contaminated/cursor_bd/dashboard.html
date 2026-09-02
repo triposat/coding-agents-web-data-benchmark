@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Competitor Price Tracker</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --panel: #ffffff;
+    --ink: #1e293b;
+    --muted: #64748b;
+    --border: #e2e8f0;
+    --accent: #2563eb;
+    --good: #16a34a;
+    --good-bg: #dcfce7;
+    --bad: #dc2626;
+    --bad-bg: #fee2e2;
+    --warn-bg: #fef9c3;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: linear-gradient(180deg, var(--bg) 0%, #1e293b 220px, #f1f5f9 220px);
+    color: var(--ink);
+    min-height: 100vh;
+  }
+  header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 24px 12px;
+    color: #f8fafc;
+  }
+  header h1 { margin: 0 0 6px; font-size: 26px; }
+  header p { margin: 0; color: #cbd5e1; font-size: 14px; }
+  #summary {
+    max-width: 1200px;
+    margin: 16px auto 0;
+    padding: 0 24px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .stat {
+    background: var(--panel);
+    border-radius: 10px;
+    padding: 14px 18px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.08);
+    min-width: 150px;
+  }
+  .stat .num { font-size: 22px; font-weight: 700; }
+  .stat .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+  main {
+    max-width: 1200px;
+    margin: 20px auto 60px;
+    padding: 0 24px;
+  }
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+  .controls input[type="search"] {
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 14px;
+    min-width: 240px;
+  }
+  .controls label { font-size: 13px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+  .product-card {
+    background: var(--panel);
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.08);
+    margin-bottom: 22px;
+    overflow: hidden;
+  }
+  .product-card summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .product-card summary::-webkit-details-marker { display: none; }
+  .product-title { font-size: 16px; font-weight: 600; }
+  .product-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .cheapest-pill {
+    background: var(--good-bg);
+    color: var(--good);
+    font-weight: 700;
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13.5px;
+  }
+  thead th {
+    text-align: left;
+    padding: 10px 20px;
+    background: #f8fafc;
+    color: var(--muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: .03em;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  tbody td {
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr.cheapest-row { background: var(--good-bg); }
+  .retailer-name { font-weight: 600; text-transform: capitalize; }
+  .price { font-variant-numeric: tabular-nums; font-weight: 600; }
+  .price.cheapest::after { content: " \1F3C6"; }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .badge.instock { background: var(--good-bg); color: var(--good); }
+  .badge.outofstock { background: var(--bad-bg); color: var(--bad); }
+  .badge.other { background: var(--warn-bg); color: #92400e; }
+  .badge.unknown { background: #f1f5f9; color: var(--muted); }
+  .status-ok { color: var(--good); font-weight: 600; }
+  .status-bad { color: var(--bad); font-weight: 600; font-size: 12px; }
+  .na { color: #cbd5e1; }
+  a.url-link { color: var(--accent); text-decoration: none; font-size: 12px; }
+  a.url-link:hover { text-decoration: underline; }
+  #loadError {
+    max-width: 1200px; margin: 40px auto; padding: 20px 24px;
+    background: #fee2e2; color: #7f1d1d; border-radius: 10px; display: none;
+  }
+  #loadError code { background: #fff; padding: 2px 6px; border-radius: 4px; }
+  footer { text-align: center; color: var(--muted); font-size: 12px; padding: 20px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Competitor Price Tracker</h1>
+  <p>Loaded from <code style="background:#334155;color:#e2e8f0;padding:2px 6px;border-radius:4px;">results.json</code> &mdash; cheapest retailer highlighted per product.</p>
+</header>
+
+<div id="summary"></div>
+
+<div id="loadError">
+  <strong>Couldn't load results.json.</strong><br>
+  Browsers block <code>fetch()</code> of local files opened directly as <code>file://</code>.
+  Serve this folder over HTTP instead, e.g.:<br>
+  <code>python3 -m http.server 8000</code> then open
+  <code>http://localhost:8000/dashboard.html</code>.
+</div>
+
+<main id="app"></main>
+
+<footer>Generated dashboard &middot; run <code>python3 tracker.py</code> to refresh results.json</footer>
+
+<script>
+async function main() {
+  let rows;
+  try {
+    const res = await fetch('results.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    rows = await res.json();
+  } catch (e) {
+    document.getElementById('loadError').style.display = 'block';
+    return;
+  }
+  render(rows);
+}
+
+function parsePrice(p) {
+  if (p === null || p === undefined) return null;
+  const n = parseFloat(String(p).replace(/[^0-9.]/g, ''));
+  return isNaN(n) ? null : n;
+}
+
+function availClass(a) {
+  if (!a) return 'unknown';
+  const s = a.toLowerCase();
+  if (s.includes('instock')) return 'instock';
+  if (s.includes('outofstock') || s.includes('soldout')) return 'outofstock';
+  return 'other';
+}
+
+function esc(s) {
+  if (s === null || s === undefined) return '';
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function render(rows) {
+  const bySku = new Map();
+  for (const r of rows) {
+    if (!bySku.has(r.sku_id)) bySku.set(r.sku_id, { product: r.product, rows: [] });
+    bySku.get(r.sku_id).rows.push(r);
+  }
+
+  const totalPages = rows.length;
+  const okCount = rows.filter(r => r.status === 'ok').length;
+  const allFour = rows.filter(r => r.name && r.price && r.availability && r.rating).length;
+  const withPrice = rows.filter(r => parsePrice(r.price) !== null).length;
+
+  document.getElementById('summary').innerHTML = `
+    <div class="stat"><div class="num">${bySku.size}</div><div class="label">Products</div></div>
+    <div class="stat"><div class="num">${totalPages}</div><div class="label">Retailer pages</div></div>
+    <div class="stat"><div class="num">${okCount}/${totalPages}</div><div class="label">Status: ok</div></div>
+    <div class="stat"><div class="num">${allFour}/${totalPages}</div><div class="label">All 4 fields</div></div>
+    <div class="stat"><div class="num">${withPrice}/${totalPages}</div><div class="label">Have a price</div></div>
+  `;
+
+  const app = document.getElementById('app');
+  app.innerHTML = `
+    <div class="controls">
+      <input type="search" id="filter" placeholder="Filter by product or retailer...">
+      <label><input type="checkbox" id="onlyIssues"> show only rows with problems</label>
+    </div>
+  `;
+
+  const skuIds = [...bySku.keys()].sort();
+  for (const sid of skuIds) {
+    const { product, rows: prows } = bySku.get(sid);
+    const priced = prows.map(r => ({ r, p: parsePrice(r.price) })).filter(x => x.p !== null);
+    const minPrice = priced.length ? Math.min(...priced.map(x => x.p)) : null;
+    const cheapest = priced.find(x => x.p === minPrice);
+
+    const details = document.createElement('details');
+    details.className = 'product-card';
+    details.open = true;
+
+    const summary = document.createElement('summary');
+    summary.innerHTML = `
+      <div>
+        <div class="product-title">${esc(product)}</div>
+        <div class="product-sub">${esc(sid)} &middot; ${prows.length} retailer${prows.length === 1 ? '' : 's'}</div>
+      </div>
+      ${cheapest ? `<div class="cheapest-pill">Cheapest: ${esc(cheapest.r.retailer)} &mdash; $${cheapest.p.toFixed(2)}</div>` : `<div class="cheapest-pill" style="background:#f1f5f9;color:#64748b;">No price data</div>`}
+    `;
+    details.appendChild(summary);
+
+    const table = document.createElement('table');
+    table.innerHTML = `
+      <thead>
+        <tr>
+          <th>Retailer</th>
+          <th>Name (as scraped)</th>
+          <th>Price</th>
+          <th>Availability</th>
+          <th>Rating</th>
+          <th>Status</th>
+          <th>URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${prows.slice().sort((a,b) => a.retailer.localeCompare(b.retailer)).map(r => {
+          const p = parsePrice(r.price);
+          const isCheapest = minPrice !== null && p === minPrice;
+          const okStatus = r.status === 'ok';
+          return `
+          <tr class="${isCheapest ? 'cheapest-row' : ''}" data-product="${esc(product.toLowerCase())}" data-retailer="${esc(r.retailer.toLowerCase())}" data-issue="${okStatus ? '0' : '1'}">
+            <td class="retailer-name">${esc(r.retailer)}</td>
+            <td>${r.name ? esc(r.name) : '<span class="na">&mdash;</span>'}</td>
+            <td class="price ${isCheapest ? 'cheapest' : ''}">${p !== null ? '$' + p.toFixed(2) : '<span class="na">&mdash;</span>'}</td>
+            <td>${r.availability ? `<span class="badge ${availClass(r.availability)}">${esc(r.availability)}</span>` : '<span class="na">&mdash;</span>'}</td>
+            <td>${r.rating ? esc(r.rating) + ' / 5' : '<span class="na">&mdash;</span>'}</td>
+            <td>${okStatus ? '<span class="status-ok">ok</span>' : `<span class="status-bad">${esc(r.status)}</span>`}</td>
+            <td><a class="url-link" href="${esc(r.url)}" target="_blank" rel="noopener">open &#8599;</a></td>
+          </tr>`;
+        }).join('')}
+      </tbody>
+    `;
+    details.appendChild(table);
+    app.appendChild(details);
+  }
+
+  document.getElementById('filter').addEventListener('input', applyFilters);
+  document.getElementById('onlyIssues').addEventListener('change', applyFilters);
+
+  function applyFilters() {
+    const q = document.getElementById('filter').value.trim().toLowerCase();
+    const onlyIssues = document.getElementById('onlyIssues').checked;
+    document.querySelectorAll('.product-card').forEach(card => {
+      let anyVisible = false;
+      card.querySelectorAll('tbody tr').forEach(tr => {
+        const hay = tr.dataset.product + ' ' + tr.dataset.retailer;
+        const matchesText = !q || hay.includes(q);
+        const matchesIssue = !onlyIssues || tr.dataset.issue === '1';
+        const visible = matchesText && matchesIssue;
+        tr.style.display = visible ? '' : 'none';
+        if (visible) anyVisible = true;
+      });
+      card.style.display = anyVisible ? '' : 'none';
+    });
+  }
+}
+
+main();
+</script>
+</body>
+</html>

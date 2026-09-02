@@ -1,0 +1,27 @@
+{
+  "amazon": {
+    "snapshot_id": "sd_mthhwd6z2pcoxabqkv",
+    "dataset_id": "gd_l7q7dkf244hwjntr0",
+    "n_urls": 10
+  },
+  "walmart": {
+    "snapshot_id": "sd_mthhweom2hfkjdgezx",
+    "dataset_id": "gd_l95fol7l1ru6rlo116",
+    "n_urls": 10
+  },
+  "target": {
+    "snapshot_id": "sd_mthwwq4u1llarvvj6j",
+    "dataset_id": "gd_ln8r3su92jn7dxwrl5",
+    "n_urls": 7
+  },
+  "bestbuy": {
+    "snapshot_id": "sd_mthwwr9s1f85vr0v7o",
+    "dataset_id": "gd_ltre1jqe1jfr7cccf",
+    "n_urls": 9
+  },
+  "newegg": {
+    "snapshot_id": "sd_mthwwvjl2jx1yjdevl",
+    "dataset_id": "gd_mkcnpcq825jb5uiuna",
+    "n_urls": 5
+  }
+}

@@ -1,0 +1,42 @@
+S01  walmart   html   464,715b/148,639t  md    9,867b/ 3,308t
+S01  amazon    html 2,659,724b/1,008,982t  md  236,582b/105,117t
+S02  amazon    html 1,563,547b/639,808t  md   84,396b/23,506t
+S02  walmart   html   511,267b/162,621t  md    9,826b/ 3,299t
+S02  target    html   418,959b/143,770t  md    9,216b/ 2,514t
+S01  bestbuy   html         0b/      0t  md    7,179b/ 1,956t
+S03  amazon    html 1,843,834b/728,591t  md   79,525b/21,896t
+S02  bestbuy   html         0b/      0t  md        0b/     0t
+S03  walmart   html   493,844b/157,787t  md    9,543b/ 3,082t
+S03  target    html   394,105b/135,602t  md    5,431b/ 1,537t
+S04  newegg    html   362,932b/113,210t  md   31,546b/ 9,362t
+S03  bestbuy   html         0b/      0t  md    6,621b/ 1,822t
+S04  walmart   html   551,668b/179,860t  md   11,210b/ 3,641t
+S04  amazon    html 2,730,422b/1,045,882t  md  278,988b/124,201t
+S05  amazon    html 2,233,180b/869,010t  md  120,268b/36,060t
+S05  newegg    html   225,025b/ 65,798t  md   19,854b/ 5,742t
+S04  bestbuy   html         0b/      0t  md        0b/     0t
+S05  target    html   378,360b/132,938t  md    4,176b/ 1,366t
+S05  bestbuy   html         0b/      0t  md        0b/     0t
+S06  target    html         0b/      0t  md    5,109b/ 1,527t
+S06  newegg    html   218,082b/ 64,110t  md   16,730b/ 4,960t
+S06  amazon    html 2,716,777b/1,016,917t  md  187,412b/76,601t
+S06  walmart   html   525,060b/170,790t  md   12,550b/ 4,490t
+S06  bestbuy   html         0b/      0t  md    2,361b/   745t
+S07  amazon    html 2,791,709b/1,058,572t  md  234,410b/104,244t
+S07  target    html   368,171b/128,785t  md    5,154b/ 1,579t
+S05  walmart   html   498,124b/159,286t  md        0b/     0t
+S07  newegg    html   315,528b/ 92,696t  md   20,122b/ 6,156t
+S07  walmart   html   491,105b/157,870t  md   12,156b/ 4,407t
+S08  amazon    html 2,315,114b/921,697t  md  151,171b/67,291t
+S07  bestbuy   html         0b/      0t  md    6,412b/ 1,735t
+S08  walmart   html   481,120b/154,095t  md   10,251b/ 3,711t
+S08  target    html   368,337b/129,967t  md    5,588b/ 1,715t
+S09  newegg    html   323,782b/ 94,983t  md   23,515b/ 7,518t
+S09  target    html   386,295b/134,397t  md    5,976b/ 1,814t
+S09  amazon    html 2,726,865b/1,022,556t  md  220,860b/98,545t
+S09  bestbuy   html 1,123,916b/374,677t  md    6,181b/ 1,632t
+S09  walmart   html   497,571b/159,863t  md   11,396b/ 4,032t
+S10  amazon    html 2,795,811b/1,058,762t  md  262,354b/110,939t
+S10  walmart   html   544,980b/176,068t  md   10,998b/ 3,731t
+S10  bestbuy   html         0b/      0t  md    2,197b/   680t
+done

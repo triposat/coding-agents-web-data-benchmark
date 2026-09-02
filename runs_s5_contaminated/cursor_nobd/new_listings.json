@@ -1,0 +1,242 @@
+[
+  {
+    "sku_id": "S01",
+    "product": "Anker 737 power bank 24000mAh",
+    "new_retailer_urls": [
+      {
+        "retailer_domain": "newegg.com",
+        "url": "https://www.newegg.com/p/39G-000T-000S4",
+        "title": "Anker 737 Power Bank 24000mAh 3-Port Portable Charger | 140W Output ..."
+      },
+      {
+        "retailer_domain": "ebay.com",
+        "url": "https://www.ebay.com/shop/anker-737-power-bank-24000mah?_nkw=anker+737+power+bank+24000mah",
+        "title": "Anker 737 Power Bank 24000mah - eBay"
+      },
+      {
+        "retailer_domain": "anker.com",
+        "url": "https://www.anker.com/products/a1289",
+        "title": "Anker 737 Power Bank (PowerCore 24K) - Anker US"
+      },
+      {
+        "retailer_domain": "aliexpress.com",
+        "url": "https://www.aliexpress.com/s/wiki-ssr/article/anker-737-power-bank-price-us",
+        "title": "Anker 737 Power Bank 24000mAh 140W: What's the Real Price in USD and Is ..."
+      }
+    ]
+  },
+  {
+    "sku_id": "S02",
+    "product": "Apple AirPods Pro 2",
+    "new_retailer_urls": [
+      {
+        "retailer_domain": "flipkart.com",
+        "url": "https://www.flipkart.com/apple-airpods-pro-2nd-generation-magsafe-case-usb-c-bluetooth/p/itm60c8f5a308352",
+        "title": "Apple AirPods Pro (2nd generation) Bluetooth Price in India - Buy Apple ..."
+      },
+      {
+        "retailer_domain": "ebay.com",
+        "url": "https://www.ebay.com/b/Apple-AirPods-Pro-2nd-generation/80077/bn_7118653171",
+        "title": "Apple AirPods Pro (2nd generation) for sale - eBay"
+      },
+      {
+        "retailer_domain": "apple.com",
+        "url": "https://www.apple.com/airpods/",
+        "title": "AirPods - Apple"
+      }
+    ]
+  },
+  {
+    "sku_id": "S03",
+    "product": "Apple AirTag 4 pack",
+    "new_retailer_urls": [
+      {
+        "retailer_domain": "apple.com",
+        "url": "https://www.apple.com/shop/buy-airtag/airtag/4-pack",
+        "title": "Buy AirTag 4 pack - Apple"
+      },
+      {
+        "retailer_domain": "slickdeals.net",
+        "url": "https://slickdeals.net/f/19918233-4-pack-apple-airtag-2nd-generation-79-99-free-s-h-at-walmart",
+        "title": "4-pk Apple AirTag (2nd Generation) - 2026-08-24 - Slickdeals"
+      },
+      {
+        "retailer_domain": "costco.com",
+        "url": "https://www.costco.com/p/-/apple-airtag-2nd-generation-4-pack-includes-additional-airtag-1-pack-2nd-generation/4000277035",
+        "title": "Apple AirTag (2nd generation), 4-pack, Includes additional AirTag 1 ..."
+      }
+    ]
+  },
+  {
+    "sku_id": "S04",
+    "product": "Bose QuietComfort Ultra earbuds",
+    "new_retailer_urls": [
+      {
+        "retailer_domain": "bose.com",
+        "url": "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html",
+        "title": "Bose QuietComfort Ultra Earbuds (2nd Gen)"
+      },
+      {
+        "retailer_domain": "target.com",
+        "url": "https://www.target.com/p/bose-quietcomfort-ultra-noise-cancelling-bluetooth-wireless-earbuds/-/A-89799763",
+        "title": "Bose QuietComfort Ultra Noise Cancelling Bluetooth Wireless Earbuds ..."
+      },
+      {
+        "retailer_domain": "costco.com",
+        "url": "https://www.costco.com/p/-/bose-quietcomfort-ultra-earbuds/4000404898",
+        "title": "Bose QuietComfort Ultra Earbuds | Costco"
+      }
+    ]
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "new_retailer_urls": [
+      {
+        "retailer_domain": "logitech.com",
+        "url": "https://www.logitech.com/en-us/shop/p/mx-master-3s",
+        "title": "MX Master 3s Wireless Mouse - 8K Optical Sensor | Logitech"
+      },
+      {
+        "retailer_domain": "flipkart.com",
+        "url": "https://www.flipkart.com/logitech-mx-master-3s-wireless-hybrid-mouse/p/itm1cbd42b917179",
+        "title": "Logitech MX Master 3s Ergonomic Optical Mouse - Flipkart.com"
+      },
+      {
+        "retailer_domain": "amazon.in",
+        "url": "https://www.amazon.in/Logitech-MX-Master-3S-Chrome-Graphite/dp/B0B11LJ69K",
+        "title": "Logitech MX Master 3S Wireless Performance Mouse - Amazon"
+      },
+      {
+        "retailer_domain": "ebay.com",
+        "url": "https://www.ebay.com/p/4054542711",
+        "title": "Logitech MX Master 3S Wireless Mouse - Black - eBay"
+      },
+      {
+        "retailer_domain": "gizmodo.com",
+        "url": "https://gizmodo.com/logitech-mx-master-3s-wireless-mouse-gets-cheaper-and-quickly-becomes-a-top-selling-deal-on-amazon-2000748832",
+        "title": "Logitech MX Master 3S Wireless Mouse Gets Cheaper and Quickly ... - Gizmodo"
+      }
+    ]
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "new_retailer_urls": [
+      {
+        "retailer_domain": "ebay.com",
+        "url": "https://www.ebay.com/sch/i.html?_nkw=razer+deathadder+v3&_sop=12",
+        "title": "Razer Deathadder V3 for sale | eBay"
+      },
+      {
+        "retailer_domain": "razer.com",
+        "url": "https://www.razer.com/gaming-mice/Razer-DeathAdder-V3/RZ01-04640100-R3U1",
+        "title": "Buy Razer DeathAdder V3 | Gaming Mice | Razer.com"
+      },
+      {
+        "retailer_domain": "selects.gg",
+        "url": "https://selects.gg/gears/mouse/razer-deathadder-v3-hyperspeed-wiredwireless-optical-gaming-mouse",
+        "title": "Razer DeathAdder V3: price, specs and compatibility | Selects"
+      }
+    ]
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "new_retailer_urls": [
+      {
+        "retailer_domain": "amazon.in",
+        "url": "https://www.amazon.in/Samsung-10Gbps-External-Portable-MU-PC1T0H/dp/B087DF1L2J",
+        "title": "Samsung T7 1TB Portable SSD - Amazon"
+      },
+      {
+        "retailer_domain": "zepto.com",
+        "url": "https://www.zepto.com/pn/samsung-t7-1tb-external-portable-ssd-blue-mu-pc1t0h/pvid/e22c4c71-1681-437a-bd51-f1cc31801633",
+        "title": "Samsung T7 1TB External Portable SSD - Buy at \u20b913879 Online | Instant ..."
+      },
+      {
+        "retailer_domain": "ebay.com",
+        "url": "https://www.ebay.com/shop/samsung-t7-portable-ssd-1tb?_nkw=samsung+t7+portable+ssd+1tb",
+        "title": "Samsung T7 Portable Ssd 1tb - eBay"
+      },
+      {
+        "retailer_domain": "flipkart.com",
+        "url": "https://www.flipkart.com/samsung-t7-1-tb-external-solid-state-drive-ssd/p/itmd533336b46fa3",
+        "title": "Samsung T7 1 TB External Solid State Drive (SSD) 1050MB/s ... - Flipkart"
+      }
+    ]
+  },
+  {
+    "sku_id": "S08",
+    "product": "SanDisk Extreme Pro 1TB microSDXC",
+    "new_retailer_urls": [
+      {
+        "retailer_domain": "ebay.com",
+        "url": "https://www.ebay.com/shop/sandisk-extreme-pro-1-tb?_nkw=sandisk+extreme+pro+1+tb",
+        "title": "Sandisk Extreme Pro 1TB | eBay"
+      },
+      {
+        "retailer_domain": "bestbuy.com",
+        "url": "https://www.bestbuy.com/product/sandisk-extreme-pro-1tb-uhs-i-u3-sdxc-memory-card/JXJ62CQL4Z",
+        "title": "SANDISK - Extreme PRO 1TB UHS-I U3 SDXC Memory Card - Best Buy"
+      },
+      {
+        "retailer_domain": "newegg.com",
+        "url": "https://www.newegg.com/sandisk-1tb-microsd/p/0DF-0005-01JA1",
+        "title": "SanDisk Extreme Pro - Flash memory card - 1TB - Newegg.com"
+      },
+      {
+        "retailer_domain": "sandisk.com",
+        "url": "https://www.sandisk.com/products/memory-cards/microsd-cards/sandisk-extreme-pro-uhs-i-microsd?sku=SDSQXCD-1T00-GN6MA",
+        "title": "1TB SanDisk Extreme PRO microSDXC\u2122 UHS-I CARD | Sandisk"
+      }
+    ]
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "new_retailer_urls": [
+      {
+        "retailer_domain": "ebay.com",
+        "url": "https://www.ebay.com/shop/seagate-2tb-external-hard-drive-expansion?_nkw=seagate+2tb+external+hard+drive+expansion",
+        "title": "Seagate 2tb External Hard Drive Expansion - eBay"
+      },
+      {
+        "retailer_domain": "amazon.in",
+        "url": "https://www.amazon.in/Seagate-Expansion-2TB-External-HDD/dp/B08ZJG6TVT",
+        "title": "Seagate Expansion 2TB External HDD - USB 3.0 (STKM2000400) - Amazon"
+      }
+    ]
+  },
+  {
+    "sku_id": "S10",
+    "product": "Sony WH-1000XM5 wireless headphones",
+    "new_retailer_urls": [
+      {
+        "retailer_domain": "amazon.in",
+        "url": "https://www.amazon.in/Sony-WH-1000XM5-Wireless-Cancelling-Headphones/dp/B09XS7JWHH",
+        "title": "Sony WH-1000XM5 Best Active Noise Cancelling Wireless ... - Amazon"
+      },
+      {
+        "retailer_domain": "lifehacker.com",
+        "url": "https://lifehacker.com/tech/sony-wh-1000xm5-headphones-sale-early-labor-day-2026",
+        "title": "Sony's Signature WH-1000XM5 Headphones Are on Sale for Under $200 for ..."
+      },
+      {
+        "retailer_domain": "gizmodo.com",
+        "url": "https://gizmodo.com/sony-slashes-wh-1000xm5-headphones-by-50-stealing-the-spotlight-from-bose-and-airpods-max-2000804227",
+        "title": "Sony Slashes WH-1000XM5 Headphones by 50%, Stealing the ... - Gizmodo"
+      },
+      {
+        "retailer_domain": "ign.com",
+        "url": "https://www.ign.com/articles/sony-wh1000xm5-noise-canceling-wireless-headphone-deal-august-2026",
+        "title": "The Excellent Sony WH-1000XM5 Noise Canceling Wireless Headphones ... - IGN"
+      },
+      {
+        "retailer_domain": "aivanet.com",
+        "url": "https://www.aivanet.com/2026/08/sonys-wh-1000xm5-headphones-are-back-down-to-their-lowest-price/",
+        "title": "Sony's WH-1000XM5 headphones are back down to their lowest price"
+      }
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "sku_id": "S01",
+    "product": "Anker 737 power bank 24000mAh",
+    "new_urls": [
+      "https://www.anker.com/products/a1289",
+      "https://www.ebay.com/itm/385840234596",
+      "https://www.bhphotovideo.com/c/product/1766916-REG/anker_a1289011_737_power_bank_24_000mah.html",
+      "https://www.cdw.com/product/anker-737-power-bank-gan-technology-usb-2-x-usb-c/7409557"
+    ]
+  },
+  {
+    "sku_id": "S02",
+    "product": "Apple AirPods Pro 2",
+    "new_urls": [
+      "https://www.apple.com/shop/product/ftjv3ll/a/Refurbished-AirPods-Pro-2-with-MagSafe-Charging-Case-USB-C"
+    ]
+  },
+  {
+    "sku_id": "S03",
+    "product": "Apple AirTag 4 pack",
+    "new_urls": [
+      "https://www.costco.com/p/-/apple-airtag-2nd-generation-4-pack-includes-additional-airtag-1-pack-2nd-generation/4000277035",
+      "https://www.apple.com/shop/buy-airtag/airtag/4-pack"
+    ]
+  },
+  {
+    "sku_id": "S04",
+    "product": "Bose QuietComfort Ultra earbuds",
+    "new_urls": [
+      "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html",
+      "https://www.bose.com/p/refurbished/bose-quietcomfort-ultra-earbuds/QCUE-HEADPHONEIN-FR.html"
+    ]
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "new_urls": [
+      "https://www.logitech.com/en-us/shop/p/mx-master-3s",
+      "https://www.ebay.com/p/4054542711"
+    ]
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "new_urls": [
+      "https://www.razer.com/gaming-mice/razer-deathadder-v3",
+      "https://us.maxgaming.com/us/wired-mouses/deathadder-v3"
+    ]
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "new_urls": [
+      "https://www.samsung.com/us/memory-storage/portable-ssd/portable-ssd-t7-usb-3-2-1tb-blue-sku-mu-pc1t0h-am/",
+      "https://theimagingworld.com/products/samsung-1tb-t7-portable-ssd-titan-gray",
+      "https://www.ebay.com/shop/samsung-t7?_nkw=samsung+t7",
+      "https://www.dell.com/en-us/shop/samsung-t7-mu-pc1t0t-am-1-tb-portable-solid-state-drive-external-pci-express-nvme-titan-gray/apd/ab149755/storage-drives-media"
+    ]
+  },
+  {
+    "sku_id": "S08",
+    "product": "SanDisk Extreme Pro 1TB microSDXC",
+    "new_urls": [
+      "https://www.sandisk.com/products/memory-cards/microsd-cards/sandisk-extreme-pro-uhs-i-microsd?sku=SDSQXCD-1T00-GN6MA",
+      "https://bulkmemorycards.com/shop/microsd-cards/microsd-class-10/1tb-microsd-sandisk-extreme-pro-sdxc-v30-u3-a2-uhs-1/",
+      "https://www.ebay.com/shop/sandisk-extreme-pro-1-tb?_nkw=sandisk+extreme+pro+1+tb"
+    ]
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "new_urls": [
+      "https://www.seagate.com/products/external-hard-drives/expansion-external-drives/"
+    ]
+  },
+  {
+    "sku_id": "S10",
+    "product": "Sony WH-1000XM5 wireless headphones",
+    "new_urls": [
+      "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm5-b",
+      "https://listenup.com/products/sony-wh-1000xm5-wireless-industry-leading-noise-canceling-headphones",
+      "https://www.ebay.com/itm/314074071401"
+    ]
+  }
+]

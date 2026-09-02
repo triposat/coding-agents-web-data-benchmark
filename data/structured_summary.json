@@ -1,0 +1,20 @@
+{
+  "records": 20,
+  "fields": {
+    "price": 19,
+    "rating": 20,
+    "availability": 20
+  },
+  "identifiers": {
+    "upc": 17,
+    "gtin": 10,
+    "asin": 10,
+    "sku": 10,
+    "brand": 20
+  },
+  "price_correct": 8,
+  "price_scored": 10,
+  "structured_tokens": 150347,
+  "markdown_tokens": 586762,
+  "upc_cross_retailer_matches": 0
+}

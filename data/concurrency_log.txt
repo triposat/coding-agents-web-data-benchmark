@@ -1,0 +1,14 @@
+SERVER: {"name": "brightdata-mcp", "version": "1.0.0"}
+SESSION: 7b76f1fb-6f9d-42e9-8afb-87b84a9d9765
+
+TOOL COUNT: 5
+
+  - ask_brightdata_assistant           req=['question']
+  - search_engine                      req=['query']
+  - scrape_as_markdown                 req=['url']
+  - search_engine_batch                req=['queries']
+  - scrape_batch                       req=['urls']
+local_hardened_c10: 20/41 success in 41s wall
+    Counter({'success': 20, 'blocked_h2_reset': 9, 'partial_no_price': 7, 'blocked_challenge': 5})
+bd_c10: 37/41 success in 741s wall
+    Counter({'success': 37, 'blocked_empty': 2, 'partial_no_price': 1, 'blocked_timeout': 1})

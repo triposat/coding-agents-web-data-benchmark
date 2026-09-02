@@ -1,0 +1,112 @@
+[
+  {
+    "sku_id": "S01",
+    "product": "Anker 737 power bank 24000mAh",
+    "new_retailer_urls": [
+      "https://www.anker.com/products/a1289",
+      "https://www.ebay.com/itm/334516518164",
+      "https://electronics.woot.com/offers/anker-737-power-bank-1",
+      "https://www.bensbargains.com/t/anker-737-power-bank-24000mah",
+      "https://www.e-catalog.com/ANKER-737-POWER-BANK.htm"
+    ]
+  },
+  {
+    "sku_id": "S02",
+    "product": "Apple AirPods Pro 2",
+    "new_retailer_urls": [
+      "https://www.apple.com/shop/buy-airpods/airpods-pro",
+      "https://www.ebay.com/b/Apple-AirPods-Pro-2nd-generation/172456/bn_7117768876",
+      "https://prices.appleinsider.com/apple-airpods-pro-2nd-generation",
+      "https://us.smartprix.com/airpods-pro-2nd-generation",
+      "https://www.costco.com/apple-airpods-pro-2nd-generation.product.100791941.html"
+    ]
+  },
+  {
+    "sku_id": "S03",
+    "product": "Apple AirTag 4 pack",
+    "new_retailer_urls": [
+      "https://www.apple.com/shop/buy-airtag/airtag/4-pack",
+      "https://www.costco.com/apple-airtag,-4-pack.product.100761134.html",
+      "https://www.samsclub.com/ip/apple-airtag-4-pack/P00010091",
+      "https://www.ebay.com/p/23045919008",
+      "https://www.adorama.com/ipp4pack.html"
+    ]
+  },
+  {
+    "sku_id": "S04",
+    "product": "Bose QuietComfort Ultra earbuds",
+    "new_retailer_urls": [
+      "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds/QCUE-HEADPHONEARN.html",
+      "https://www.costco.com/bose-quietcomfort-ultra-wireless-noise-cancelling-earbuds.product.4000235186.html",
+      "https://www.verizon.com/products/bose-quietcomfort-ultra-earbuds/",
+      "https://www.staples.com/bose-quietcomfort-ultra-earbuds/product_24594102",
+      "https://klarna.com/us/shopping/pl/cl94/3206992880/Headphones/Bose-QuietComfort-Ultra-Earbuds/"
+    ]
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "new_retailer_urls": [
+      "https://www.logitech.com/en-us/shop/p/mx-master-3s",
+      "https://www.ebay.com/p/4054542711",
+      "https://www.staples.com/logitech-mx-master-3s-wireless-optical-mouse-graphite/product_24531798",
+      "https://www.costco.com/logitech-mx-master-3s-wireless-mouse.product.4000259434.html",
+      "https://www.bhphotovideo.com/c/product/1736004-REG/logitech_910_006556_mx_master_3s_performance.html"
+    ]
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "new_retailer_urls": [
+      "https://www.razer.com/gaming-mice/razer-deathadder-v3",
+      "https://www.gamestop.com/pc-gaming/mice/products/razer-deathadder-v3-wired-gaming-mouse/11208418.html",
+      "https://www.electronicexpress.com/catalog/207802/razer-deathadder-v3-gaming-mouse",
+      "https://us.maxgaming.com/us/wired-mouses/deathadder-v3",
+      "https://www.bhphotovideo.com/c/product/1741699-REG/razer_rz01_04640100_r3u1_deathadder_v3_gaming_mouse.html"
+    ]
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "new_retailer_urls": [
+      "https://www.samsung.com/us/memory-storage/portable-ssd/all-portable-ssds/",
+      "https://www.bhphotovideo.com/c/product/1559836-REG/samsung_mu_pc1t0t_am_1tb_t7_portable_ssd.html",
+      "https://www.adorama.com/ssamupc1t0tam.html",
+      "https://www.filmtools.com/samsung-t7-usb-3-2-portable-ssd.html",
+      "https://www.costco.com/samsung-t7-1tb-portable-ssd.product.100756736.html"
+    ]
+  },
+  {
+    "sku_id": "S08",
+    "product": "SanDisk Extreme Pro 1TB microSDXC",
+    "new_retailer_urls": [
+      "https://www.sandisk.com/products/memory-cards/microsd-cards/sandisk-extreme-pro-uhs-i-microsd",
+      "https://www.memoryc.com/56435-sandisk-extreme-pro-1-tb-microsdxc-uhs-i-class-10.html",
+      "https://us.maxgaming.com/us/memory-cards/sandisk-extreme-pro-microsdxc-1tb",
+      "https://www.bhphotovideo.com/c/product/1781554-REG/sandisk_sdsqxcd_1t00_gn6ma_1tb_extreme_pro_microsdxc.html",
+      "https://www.adorama.com/sasdsqxcd1t00gn6ma.html"
+    ]
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "new_retailer_urls": [
+      "https://www.seagate.com/products/external-hard-drives/expansion-external-drives/",
+      "https://www.staples.com/seagate-expansion-2tb-usb-3-0-portable-external-hard-drive/product_24493052",
+      "https://www.adorama.com/sestkm200040.html",
+      "https://www.bhphotovideo.com/c/product/1497988-REG/seagate_stkm2000400_2tb_expansion_portable.html",
+      "https://www.costco.com/seagate-expansion-2-tb-portable-hard-drive.product.100760568.html"
+    ]
+  },
+  {
+    "sku_id": "S10",
+    "product": "Sony WH-1000XM5 wireless headphones",
+    "new_retailer_urls": [
+      "https://www.ebay.com/p/27055049377",
+      "https://www.verizon.com/products/sony-wh-1000xm5-wireless-industry-leading-noise-canceling-headphones/",
+      "https://www.macys.com/shop/product/sony-wh-1000xm5-wireless-noise-canceling-over-ear-headphones",
+      "https://www.bhphotovideo.com/c/product/1704803-REG/sony_wh1000xm5_b_wh_1000xm5_wireless_noise_canceling.html",
+      "https://klarna.com/us/shopping/pl/cl94/3206992880/Headphones/Sony-WH-1000XM5/"
+    ]
+  }
+]

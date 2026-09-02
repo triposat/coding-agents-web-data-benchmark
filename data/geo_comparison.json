@@ -1,0 +1,34 @@
+{
+  "comparable": 30,
+  "proxy_failures": 11,
+  "naive_india": 12,
+  "naive_us": 17,
+  "brightdata": 30,
+  "us_naive_still_blocked_bd_ok": 13,
+  "by_retailer": {
+    "amazon": {
+      "n": 9,
+      "in": 3,
+      "us": 9,
+      "bd": 9
+    },
+    "newegg": {
+      "n": 5,
+      "in": 0,
+      "us": 0,
+      "bd": 5
+    },
+    "target": {
+      "n": 7,
+      "in": 0,
+      "us": 0,
+      "bd": 7
+    },
+    "walmart": {
+      "n": 9,
+      "in": 9,
+      "us": 8,
+      "bd": 9
+    }
+  }
+}

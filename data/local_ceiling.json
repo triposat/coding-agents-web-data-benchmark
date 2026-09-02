@@ -1,0 +1,15 @@
+{
+  "plain": 14,
+  "headless": 12,
+  "hardened": 21,
+  "best_local": 9,
+  "brightdata": 38,
+  "best_local_gap": 29,
+  "gap_by_retailer": {
+    "bestbuy": 6,
+    "walmart": 10,
+    "target": 7,
+    "amazon": 2,
+    "newegg": 4
+  }
+}

@@ -1,0 +1,62 @@
+Tracking 41 product pages across 10 SKUs
+Loaded 41 cached page(s)
+Scraping batch of 10...
+  retry single (1): bestbuy
+  retry single (1): bestbuy
+Scraping batch of 5...
+  S01 / bestbuy: ok @ $109.99
+  S01 / amazon: ok @ $109.99
+  S01 / walmart: missing: rating @ $109.99
+  S02 / bestbuy: ok @ $458.00
+  S02 / target: ok @ $249.99
+  S02 / amazon: ok @ $199.00
+  S02 / walmart: ok @ $199.99
+  S03 / bestbuy: ok @ $89.00
+  S03 / target: ok @ $99.99
+  S03 / amazon: ok @ $79.99
+  S03 / walmart: missing: rating @ $98.97
+  S04 / bestbuy: ok @ $299.00
+  S04 / amazon: ok @ $299.00
+  S04 / newegg: missing: rating @ $249.99
+  S04 / walmart: ok @ $299.00
+  S05 / bestbuy: missing: availability @ $59.99
+  S05 / target: ok @ $114.99
+  S05 / amazon: missing: price
+  S05 / newegg: missing: rating @ $114.00
+  S05 / walmart: missing: rating @ $84.90
+  S06 / bestbuy: missing: price, availability
+  S06 / target: ok @ $24.99
+  S06 / amazon: ok @ $20.98
+  S06 / newegg: missing: rating @ $71.99
+  S06 / walmart: missing: rating @ $96.99
+  S07 / bestbuy: ok @ $269.99
+  S07 / target: ok @ $432.40
+  S07 / amazon: ok @ $246.91
+  S07 / newegg: missing: rating @ $649.99
+  S07 / walmart: ok @ $275.00
+  S08 / target: ok @ $26.99
+  S08 / amazon: ok @ $199.99
+  S08 / walmart: missing: rating @ $37.99
+  S09 / bestbuy: ok @ $219.99
+  S09 / target: ok @ $136.22
+  S09 / amazon: ok @ $138.68
+  S09 / newegg: missing: rating @ $194.99
+  S09 / walmart: missing: rating @ $119.00
+  S10 / bestbuy: missing: price, availability
+  S10 / amazon: ok @ $198.00
+  S10 / walmart: missing: rating @ $198.00
+Wrote /Users/triposat/Desktop/Bdata Cursor/bench/runs/cursor_bd/results.json
+Searching for new retailer listings...
+  S01: 3 new listing(s)
+  S02: 4 new listing(s)
+  S03: 2 new listing(s)
+  S04: 5 new listing(s)
+  S05: 2 new listing(s)
+  S06: 4 new listing(s)
+  S07: 3 new listing(s)
+  S08: 5 new listing(s)
+  S09: 4 new listing(s)
+  S10: 3 new listing(s)
+Wrote /Users/triposat/Desktop/Bdata Cursor/bench/runs/cursor_bd/new_listings.json
+
+Collected all 4 fields for 25 of 41 pages.

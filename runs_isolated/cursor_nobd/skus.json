@@ -1,0 +1,226 @@
+[
+  {
+    "sku_id": "S01",
+    "product": "Anker 737 power bank 24000mAh",
+    "retailers": {
+      "bestbuy": {
+        "url": "https://www.bestbuy.com/product/anker-power-bank-24000mah-140w-3-port-black/JJ85865GV2/sku/6553403",
+        "serp_title": "Power Bank (24000mAh, 140W, 3-Port) - Black - Open Box"
+      },
+      "amazon": {
+        "url": "https://www.amazon.com/dp/B09VPHVT2Z",
+        "serp_title": "Anker 737 Power Bank, 140W 24000mAh 3-Port Laptop ..."
+      },
+      "walmart": {
+        "url": "https://www.walmart.com/ip/1425654143",
+        "serp_title": "Anker, Power Bank, 24000mAh, 140W Fast Charging, 3 Ports"
+      }
+    }
+  },
+  {
+    "sku_id": "S02",
+    "product": "Apple AirPods Pro 2",
+    "retailers": {
+      "bestbuy": {
+        "url": "https://www.bestbuy.com/product/apple-airpods-pro-2-wireless-active-noise-cancelling-earbuds-with-hearing-aid-feature-white/JJGCQ88C8X/sku/10129617",
+        "serp_title": "AirPods Pro 2, Wireless Active Noise Cancelling Earbuds ..."
+      },
+      "target": {
+        "url": "https://www.target.com/p/-/A-85978609",
+        "serp_title": "Apple AirPods Pro 3 Wireless Earbuds with Active Noise ..."
+      },
+      "amazon": {
+        "url": "https://www.amazon.com/dp/B0D1XD1ZV3",
+        "serp_title": "Apple AirPods Pro 2 Wireless Earbuds, Active Noise ..."
+      },
+      "walmart": {
+        "url": "https://www.walmart.com/ip/17835006350",
+        "serp_title": "Apple, AirPods Pro 3, Active Noise Cancellation, up to 10 hrs"
+      }
+    }
+  },
+  {
+    "sku_id": "S03",
+    "product": "Apple AirTag 4 pack",
+    "retailers": {
+      "bestbuy": {
+        "url": "https://www.bestbuy.com/product/apple-airtag-4-pack-2nd-generation-2026-white/JJGCQLTTF3/sku/6377586",
+        "serp_title": "Apple - AirTag 4 pack (2nd generation) - 2026 - White"
+      },
+      "target": {
+        "url": "https://www.target.com/p/-/A-79673471",
+        "serp_title": "Apple AirTag (4 Pack) (1st generation)"
+      },
+      "amazon": {
+        "url": "https://www.amazon.com/dp/B0GJTXVN9Z",
+        "serp_title": "Apple AirTag (2nd Generation) - 4 Pack: Tracker ..."
+      },
+      "walmart": {
+        "url": "https://www.walmart.com/ip/5395277557",
+        "serp_title": "Apple, AirTag, 4 Pack Item Trackers with Find My, ..."
+      }
+    }
+  },
+  {
+    "sku_id": "S04",
+    "product": "Bose QuietComfort Ultra earbuds",
+    "retailers": {
+      "bestbuy": {
+        "url": "https://www.bestbuy.com/product/bose-quietcomfort-ultra-2nd-gen-true-wireless-noise-cancelling-in-ear-earbuds-midnight-violet/J7C5V6WCWL/sku/12333019",
+        "serp_title": "Customer Ratings & Reviews"
+      },
+      "amazon": {
+        "url": "https://www.amazon.com/dp/B0CD2FSRDD",
+        "serp_title": "Bose QuietComfort Ultra Bluetooth Earbuds, Wireless ..."
+      },
+      "newegg": {
+        "url": "https://www.newegg.com/bose-896637-0030-earbud-deep-plum/p/N82E16826627172",
+        "serp_title": "Bose QuietComfort Ultra Earbuds (2nd Gen) True Wireless ..."
+      },
+      "walmart": {
+        "url": "https://www.walmart.com/ip/15853556239",
+        "serp_title": "Bose QuietComfort Ultra Earbuds II, Wireless Noise ..."
+      }
+    }
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "retailers": {
+      "bestbuy": {
+        "url": "https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199",
+        "serp_title": "Logitech MX Master 3S Bluetooth Edition Performance ..."
+      },
+      "target": {
+        "url": "https://www.target.com/p/-/A-1008322060",
+        "serp_title": "Logitech MX Master 3S Wireless Mouse with Quiet Clicks ..."
+      },
+      "amazon": {
+        "url": "https://www.amazon.com/dp/B09HM94VDS",
+        "serp_title": "Logitech MX Master 3S Wireless Bluetooth Mouse, Ultra- ..."
+      },
+      "newegg": {
+        "url": "https://www.newegg.com/logitech-910-006558-mx-master-3s-usb-type-c-dual/p/N82E16826197552",
+        "serp_title": "Logitech MX Master 3S - Wireless Performance Mouse ..."
+      },
+      "walmart": {
+        "url": "https://www.walmart.com/ip/731473988",
+        "serp_title": "Logitech MX Master 3S, Wireless Performance Mouse ..."
+      }
+    }
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "retailers": {
+      "bestbuy": {
+        "url": "https://www.bestbuy.com/product/razer-deathadder-v3-lightweight-optical-gaming-mouse-with-8k-hz-hyperpolling-technology-wired-black/J39HWFQKZW/sku/10736128",
+        "serp_title": "Razer DeathAdder V3 Lightweight Optical Gaming Mouse with ..."
+      },
+      "target": {
+        "url": "https://www.target.com/p/-/A-94720129",
+        "serp_title": "Razer DeathAdder Essential White Edition Ergonomic ..."
+      },
+      "amazon": {
+        "url": "https://www.amazon.com/dp/B0B6XTDJS1",
+        "serp_title": "Razer DeathAdder V3 Wired Gaming Mouse, 8Khz, 59g ..."
+      },
+      "newegg": {
+        "url": "https://www.newegg.com/razer-deathadder-v3-usb-wired/p/N82E16826153342",
+        "serp_title": "Razer DeathAdder V3 Wired Gaming Mouse: 59g Ultra ..."
+      },
+      "walmart": {
+        "url": "https://www.walmart.com/ip/1281151624",
+        "serp_title": "Razer DeathAdder V3 Pro Wireless Gaming Mouse, 64g, 5 ..."
+      }
+    }
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "retailers": {
+      "bestbuy": {
+        "url": "https://www.bestbuy.com/product/samsung-t7-1tb-external-usb-3-2-gen-2-portable-ssd-with-hardware-encryption-titan-gray/J3ZYGCQG8H/sku/6408299",
+        "serp_title": "Samsung T7 1TB External USB 3.2 Gen 2 Portable SSD ..."
+      },
+      "target": {
+        "url": "https://www.target.com/p/-/A-93111660",
+        "serp_title": "SAMSUNG T7 Portable 1TB USB 3.2 External SSD MU- ..."
+      },
+      "amazon": {
+        "url": "https://www.amazon.com/dp/B0874XN4D8",
+        "serp_title": "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2 ..."
+      },
+      "newegg": {
+        "url": "https://www.newegg.com/samsung-t7-1tb-usb-3-2-gen-2/p/N82E16820147767",
+        "serp_title": "SAMSUNG T7 Portable SSD 1TB - Up to 1050 MB/s"
+      },
+      "walmart": {
+        "url": "https://www.walmart.com/ip/156019443",
+        "serp_title": "Samsung 1TB T7 Portable Rugged SSD, External Storage ..."
+      }
+    }
+  },
+  {
+    "sku_id": "S08",
+    "product": "SanDisk Extreme Pro 1TB microSDXC",
+    "retailers": {
+      "target": {
+        "url": "https://www.target.com/p/-/A-52908863",
+        "serp_title": "SanDisk Extreme Plus 64GB microSD Class 10 Memory Card"
+      },
+      "amazon": {
+        "url": "https://www.amazon.com/dp/B09X7MPX8L",
+        "serp_title": "SANDISK 1TB Extreme microSD Card + Adapter, Up to ..."
+      },
+      "walmart": {
+        "url": "https://www.walmart.com/ip/2353663889",
+        "serp_title": "SanDisk 1TB Extreme Pro microSDXC UHS-I Memory Card"
+      }
+    }
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "retailers": {
+      "bestbuy": {
+        "url": "https://www.bestbuy.com/product/seagate-expansion-5tb-external-usb-3-0-portable-hard-drive-with-rescue-data-recovery-services-black/J37C5H48K5/sku/6461979",
+        "serp_title": "Seagate Expansion 5TB External USB 3.0 Portable Hard ..."
+      },
+      "target": {
+        "url": "https://www.target.com/p/-/A-1004710383",
+        "serp_title": "Seagate Portable 2TB External Hard Drive HDD \u2014 USB ..."
+      },
+      "amazon": {
+        "url": "https://www.amazon.com/dp/B07CRG94G3",
+        "serp_title": "Seagate 2TB Portable Hard Drive | USB 3.0 (STGX2000400)"
+      },
+      "newegg": {
+        "url": "https://www.newegg.com/seagate-model-stkm2000400-2tb/p/N82E16822184950",
+        "serp_title": "Seagate Expansion Portable 2TB External Hard Drive HDD"
+      },
+      "walmart": {
+        "url": "https://www.walmart.com/ip/790131533",
+        "serp_title": "Seagate, 2TB External Hard Drive, Backup Plus Slim USB ..."
+      }
+    }
+  },
+  {
+    "sku_id": "S10",
+    "product": "Sony WH-1000XM5 wireless headphones",
+    "retailers": {
+      "bestbuy": {
+        "url": "https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-cancelling-over-the-ear-headphones-black/J7XSRH5CXG/sku/10890357",
+        "serp_title": "Customer Ratings & Reviews"
+      },
+      "amazon": {
+        "url": "https://www.amazon.com/dp/B09XS7JWHH",
+        "serp_title": "Sony WH-1000XM5 Premium Noise Cancelling Wireless ..."
+      },
+      "walmart": {
+        "url": "https://www.walmart.com/ip/386006068",
+        "serp_title": "Sony, Wireless Noise Canceling Headphones, Black, 30- ..."
+      }
+    }
+  }
+]

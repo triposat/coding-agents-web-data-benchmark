@@ -1,0 +1,107 @@
+=== Scraping 41 product pages ===
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/1425654143
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/17835006350
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/5395277557
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/15853556239
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/731473988
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/1281151624
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/156019443
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/2353663889
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/790131533
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/386006068
+[bestbuy] fetching https://www.bestbuy.com/product/anker-power-bank-24000mah-140w-3-port-black/JJ85865GV2/sku/6553403
+[amazon] fetching https://www.amazon.com/dp/B09VPHVT2Z
+[bestbuy] fetching https://www.bestbuy.com/product/apple-airpods-pro-2-wireless-active-noise-cancelling-earbuds-with-hearing-aid-feature-white/JJGCQ88C8X/sku/10129617
+[target] fetching https://www.target.com/p/-/A-85978609
+[amazon] fetching https://www.amazon.com/dp/B0D1XD1ZV3
+[bestbuy] fetching https://www.bestbuy.com/product/apple-airtag-4-pack-2nd-generation-2026-white/JJGCQLTTF3/sku/6377586
+[target] fetching https://www.target.com/p/-/A-79673471
+[amazon] fetching https://www.amazon.com/dp/B0GJTXVN9Z
+[bestbuy] fetching https://www.bestbuy.com/product/bose-quietcomfort-ultra-2nd-gen-true-wireless-noise-cancelling-in-ear-earbuds-midnight-violet/J7C5V6WCWL/sku/12333019
+[amazon] fetching https://www.amazon.com/dp/B0CD2FSRDD
+[newegg] fetching https://www.newegg.com/bose-896637-0030-earbud-deep-plum/p/N82E16826627172
+[bestbuy] fetching https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199
+[target] fetching https://www.target.com/p/-/A-1008322060
+[amazon] fetching https://www.amazon.com/dp/B09HM94VDS
+[newegg] fetching https://www.newegg.com/logitech-910-006558-mx-master-3s-usb-type-c-dual/p/N82E16826197552
+[bestbuy] fetching https://www.bestbuy.com/product/razer-deathadder-v3-lightweight-optical-gaming-mouse-with-8k-hz-hyperpolling-technology-wired-black/J39HWFQKZW/sku/10736128
+[target] fetching https://www.target.com/p/-/A-94720129
+[amazon] fetching https://www.amazon.com/dp/B0B6XTDJS1
+[newegg] fetching https://www.newegg.com/razer-deathadder-v3-usb-wired/p/N82E16826153342
+[bestbuy] fetching https://www.bestbuy.com/product/samsung-t7-1tb-external-usb-3-2-gen-2-portable-ssd-with-hardware-encryption-titan-gray/J3ZYGCQG8H/sku/6408299
+[target] fetching https://www.target.com/p/-/A-93111660
+[amazon] fetching https://www.amazon.com/dp/B0874XN4D8
+[newegg] fetching https://www.newegg.com/samsung-t7-1tb-usb-3-2-gen-2/p/N82E16820147767
+[target] fetching https://www.target.com/p/-/A-52908863
+[amazon] fetching https://www.amazon.com/dp/B09X7MPX8L
+[bestbuy] fetching https://www.bestbuy.com/product/seagate-expansion-5tb-external-usb-3-0-portable-hard-drive-with-rescue-data-recovery-services-black/J37C5H48K5/sku/6461979
+[target] fetching https://www.target.com/p/-/A-1004710383
+[amazon] fetching https://www.amazon.com/dp/B07CRG94G3
+[newegg] fetching https://www.newegg.com/seagate-model-stkm2000400-2tb/p/N82E16822184950
+[bestbuy] fetching https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-cancelling-over-the-ear-headphones-black/J7XSRH5CXG/sku/10890357
+[amazon] fetching https://www.amazon.com/dp/B09XS7JWHH
+[walmart] fetching https://www.walmart.com/ip/1425654143
+[walmart] fetching https://www.walmart.com/ip/17835006350
+[walmart] fetching https://www.walmart.com/ip/5395277557
+[walmart] fetching https://www.walmart.com/ip/15853556239
+[walmart] fetching https://www.walmart.com/ip/731473988
+[walmart] fetching https://www.walmart.com/ip/1281151624
+[walmart] fetching https://www.walmart.com/ip/156019443
+[walmart] fetching https://www.walmart.com/ip/2353663889
+[walmart] fetching https://www.walmart.com/ip/790131533
+[walmart] fetching https://www.walmart.com/ip/386006068
+  -> bestbuy  S01 status=ok
+  -> amazon   S01 status=out of stock (no featured offer / no seller currently)
+  -> walmart  S01 status=ok
+  -> bestbuy  S02 status=ok
+  -> target   S02 status=ok
+  -> amazon   S02 status=out of stock (no featured offer / no seller currently)
+  -> walmart  S02 status=ok
+  -> bestbuy  S03 status=ok
+  -> target   S03 status=ok
+  -> amazon   S03 status=out of stock (no featured offer / no seller currently)
+  -> walmart  S03 status=no __NEXT_DATA__ block (possible bot block)
+  -> bestbuy  S04 status=ok
+  -> amazon   S04 status=out of stock (no featured offer / no seller currently)
+  -> newegg   S04 status=ok
+  -> walmart  S04 status=no __NEXT_DATA__ block (possible bot block)
+  -> bestbuy  S05 status=ok
+  -> target   S05 status=ok
+  -> amazon   S05 status=out of stock (no featured offer / no seller currently)
+  -> newegg   S05 status=ok
+  -> walmart  S05 status=no __NEXT_DATA__ block (possible bot block)
+  -> bestbuy  S06 status=no product JSON-LD found
+  -> target   S06 status=ok
+  -> amazon   S06 status=ok
+  -> newegg   S06 status=ok
+  -> walmart  S06 status=no __NEXT_DATA__ block (possible bot block)
+  -> bestbuy  S07 status=ok
+  -> target   S07 status=ok
+  -> amazon   S07 status=ok
+  -> newegg   S07 status=ok
+  -> walmart  S07 status=no __NEXT_DATA__ block (possible bot block)
+  -> target   S08 status=ok
+  -> amazon   S08 status=out of stock (no featured offer / no seller currently)
+  -> walmart  S08 status=no __NEXT_DATA__ block (possible bot block)
+  -> bestbuy  S09 status=ok
+  -> target   S09 status=product title not found (possible bot block)
+  -> amazon   S09 status=no single-seller buy box (see all buying options)
+  -> newegg   S09 status=ok
+  -> walmart  S09 status=no __NEXT_DATA__ block (possible bot block)
+  -> bestbuy  S10 status=no product JSON-LD found
+  -> amazon   S10 status=ok
+  -> walmart  S10 status=no __NEXT_DATA__ block (possible bot block)
+Wrote /Users/triposat/Desktop/Bdata Cursor/bench/runs_s5/cursor_nobd/results.json
+=== Searching for new retailer listings ===
+[search] S01 'Anker 737 power bank 24000mAh' -> 5 new listing(s)
+[search] S02 'Apple AirPods Pro 2' -> 3 new listing(s)
+[search] S03 'Apple AirTag 4 pack' -> 0 new listing(s)
+[search] S04 'Bose QuietComfort Ultra earbuds' -> 0 new listing(s)
+[search] S05 'Logitech MX Master 3S mouse' -> 0 new listing(s)
+[search] S06 'Razer DeathAdder V3 mouse' -> 0 new listing(s)
+[search] S07 'Samsung T7 1TB portable SSD' -> 0 new listing(s)
+[search] S08 'SanDisk Extreme Pro 1TB microSDXC' -> 0 new listing(s)
+[search] S09 'Seagate Expansion 2TB external hard drive' -> 0 new listing(s)
+[search] S10 'Sony WH-1000XM5 wireless headphones' -> 0 new listing(s)
+Wrote /Users/triposat/Desktop/Bdata Cursor/bench/runs_s5/cursor_nobd/new_listings.json
+=== Done: 23/41 pages fully collected (all 4 fields) ===

@@ -1,0 +1,92 @@
+[
+  {
+    "sku_id": "S01",
+    "product": "Anker 737 power bank 24000mAh",
+    "new_retailer_urls": [
+      "https://www.newegg.com/p/39G-000T-000S4",
+      "https://www.ebay.com/itm/334516518164",
+      "https://www.anker.com/products/a1289",
+      "https://www.aliexpress.com/s/wiki-ssr/article/anker-737-power-bank-price-us",
+      "https://www.bhphotovideo.com/c/product/1766916-REG/anker_a1289011_737_power_bank_24_000mah.html"
+    ]
+  },
+  {
+    "sku_id": "S02",
+    "product": "Apple AirPods Pro 2",
+    "new_retailer_urls": [
+      "https://www.flipkart.com/apple-airpods-pro-2nd-generation-magsafe-case-usb-c-bluetooth/p/itm60c8f5a308352",
+      "https://www.apple.com/airpods/",
+      "https://www.reliancedigital.in/collection/apple-airpods-pro-2nd-generation"
+    ]
+  },
+  {
+    "sku_id": "S03",
+    "product": "Apple AirTag 4 pack",
+    "new_retailer_urls": [
+      "https://www.apple.com/shop/buy-airtag/airtag/4-pack"
+    ]
+  },
+  {
+    "sku_id": "S04",
+    "product": "Bose QuietComfort Ultra earbuds",
+    "new_retailer_urls": [
+      "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html",
+      "https://www.target.com/p/bose-quietcomfort-ultra-noise-cancelling-bluetooth-wireless-earbuds/-/A-89799763",
+      "https://www.costco.com/p/-/bose-quietcomfort-ultra-earbuds/4000404898"
+    ]
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "new_retailer_urls": [
+      "https://www.logitech.com/en-us/shop/p/mx-master-3s",
+      "https://www.flipkart.com/logitech-mx-master-3s-wireless-hybrid-mouse/p/itm1cbd42b917179",
+      "https://www.amazon.in/Logitech-MX-Master-3S-Chrome-Graphite/dp/B0B11LJ69K",
+      "https://www.ebay.com/p/4054542711"
+    ]
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "new_retailer_urls": [
+      "https://www.razer.com/gaming-mice/razer-deathadder-v3",
+      "https://www.amazon.in/DeathAdder-Wired-Gaming-Mouse-HyperPolling/dp/B0B6XTDJS1",
+      "https://www.ebay.com/sch/i.html?_nkw=razer+deathadder+v3+pro&_sop=12"
+    ]
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "new_retailer_urls": [
+      "https://www.amazon.in/Samsung-10Gbps-External-Portable-MU-PC1T0H/dp/B087DF1L2J",
+      "https://www.ebay.com/p/19039143710",
+      "https://www.zepto.com/pn/samsung-t7-1tb-external-portable-ssd-blue-mu-pc1t0h/pvid/e22c4c71-1681-437a-bd51-f1cc31801633"
+    ]
+  },
+  {
+    "sku_id": "S08",
+    "product": "SanDisk Extreme Pro 1TB microSDXC",
+    "new_retailer_urls": [
+      "https://www.bestbuy.com/product/sandisk-extreme-pro-1tb-uhs-i-u3-sdxc-memory-card/JXJ62CQL4Z",
+      "https://www.ebay.com/p/28054339895",
+      "https://www.sandisk.com/products/memory-cards/microsd-cards/sandisk-extreme-pro-uhs-i-microsd?sku=SDSQXCD-1T00-GN6MA",
+      "https://www.newegg.com/sandisk-1tb-microsd/p/0DF-0005-01JA1",
+      "https://www.amazon.in/SanDisk-Extreme-Memory-Adapter-SDSQXCZ-1TOO-GN6MA/dp/B07RKL6PK9"
+    ]
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "new_retailer_urls": [
+      "https://www.amazon.in/Seagate-Expansion-2TB-External-HDD/dp/B08ZJG6TVT",
+      "https://www.ebay.com/b/seagate-expansion-2tb/bn_7024897802"
+    ]
+  },
+  {
+    "sku_id": "S10",
+    "product": "Sony WH-1000XM5 wireless headphones",
+    "new_retailer_urls": [
+      "https://www.amazon.in/Sony-WH-1000XM5-Wireless-Cancelling-Headphones/dp/B09XS7JWHH"
+    ]
+  }
+]

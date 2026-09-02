@@ -1,0 +1,260 @@
+{
+  "_method": "Values read by a human from the committed page payloads in data/payloads/. Where the page states a price under an explicit selling-price marker (Amazon 'In Stock ... $X', Walmart 'Current price is USD$X', Best Buy the buybox figure, Target the headline price, Newegg the item price), that figure is the truth. Protection plans, comparison tables, sponsored rows, financing instalments and struck-through 'was' prices are not. Extended 2026-09-01 from 25 rows to all 41, so every page in the frozen list is adjudicated. Rows whose committed payload is empty or partial are recorded as null with the reason, rather than guessed. Corrected 2026-09-02: five prices were adjudicated from payloads captured 2026-08-31 and had moved by the time the runs executed. Each was re-checked against a page capture from the run window and corrected; the superseded value appears zero times in those captures. This raises every arm's price score, not one arm's.",
+  "_date": "2026-08-31",
+  "rows": {
+    "S01|amazon": {
+      "price": "109.99",
+      "rating": "4.4",
+      "availability": "InStock",
+      "note": "Buy New / In Stock. $32.99 on the page is a 1-Year Protection Plan."
+    },
+    "S02|amazon": {
+      "price": null,
+      "rating": "4.6",
+      "availability": "OutOfStock",
+      "note": "Currently unavailable. $199.99 and $261.48 are other models in a comparison table."
+    },
+    "S03|amazon": {
+      "price": "79.99",
+      "rating": "4.5",
+      "availability": "InStock",
+      "note": "$7.99 is a 2-Year Protection Plan."
+    },
+    "S01|walmart": {
+      "price": "109.99",
+      "rating": "4.7",
+      "availability": "InStock",
+      "note": "Current price is USD$109.99."
+    },
+    "S02|walmart": {
+      "price": "225.00",
+      "rating": "4.4",
+      "availability": "InStock",
+      "note": "VARIANT MISMATCH, page is AirPods Pro 3. was $249.00. PRICE CORRECTED 2026-09-02 from 199.99 to 225.00: A's own capture contains $225.00 nine times and $199.99 zero times; all four arms read 225.00."
+    },
+    "S03|walmart": {
+      "price": "98.97",
+      "rating": "4.4",
+      "availability": "InStock",
+      "note": "New $98.97, Open Box $84.99."
+    },
+    "S04|walmart": {
+      "price": "299.00",
+      "rating": "4.4",
+      "availability": "InStock",
+      "note": "3.4 rating on the page belongs to a sponsored JBL row."
+    },
+    "S01|bestbuy": {
+      "price": "109.99",
+      "rating": "4.8",
+      "availability": "InStock",
+      "note": "Only 2 left at nearby store."
+    },
+    "S02|bestbuy": {
+      "price": "238.99",
+      "rating": "4.8",
+      "availability": "InStock",
+      "note": "Marketplace seller, pickup unavailable, ships. PRICE CORRECTED 2026-09-02 from 242.00 to 238.99: A's own capture contains $238.99 and not $242.00; all four arms read 238.99."
+    },
+    "S03|bestbuy": {
+      "price": "89.00",
+      "rating": "4.9",
+      "availability": "InStock",
+      "note": "Labor Day Deal, comp value $99.00."
+    },
+    "S04|bestbuy": {
+      "price": null,
+      "rating": null,
+      "availability": null,
+      "note": "NO PAGE. 77-byte Bright Data rate-limit notice."
+    },
+    "S02|target": {
+      "price": "249.99",
+      "rating": "3.93",
+      "availability": "InStock",
+      "note": "VARIANT MISMATCH, page is AirPods Pro 3."
+    },
+    "S03|target": {
+      "price": "99.99",
+      "rating": "4.6",
+      "availability": "InStock",
+      "note": "VARIANT MISMATCH, page is 1st generation. Pickup not available, ships free."
+    },
+    "S06|target": {
+      "price": "19.49",
+      "rating": "4.61",
+      "availability": "InStock",
+      "note": "VARIANT MISMATCH, page is DeathAdder Essential. was $24.99. PRICE CORRECTED 2026-09-02 from 18.99 to 19.49: independent capture in claude_bd_high contains $19.49 and not $18.99; all four arms read 19.49."
+    },
+    "S04|newegg": {
+      "price": "299.00",
+      "rating": null,
+      "availability": "InStock",
+      "note": "$145.99 on the page is a sponsored row."
+    },
+    "S05|newegg": {
+      "price": "114.00",
+      "rating": null,
+      "availability": "InStock",
+      "note": "Sold by TECH EDGE, ships from China."
+    },
+    "S06|newegg": {
+      "price": "71.99",
+      "rating": null,
+      "availability": "InStock",
+      "note": ""
+    },
+    "S07|newegg": {
+      "price": "274.99",
+      "rating": null,
+      "availability": "InStock",
+      "note": "$299.99 and $343.64 are other marketplace sellers."
+    },
+    "S04|amazon": {
+      "price": "299.00",
+      "rating": "3.8",
+      "availability": "InStock",
+      "note": "Only 10 left in stock."
+    },
+    "S05|amazon": {
+      "price": "114.40",
+      "rating": null,
+      "availability": "InStock",
+      "note": "CORRECTED. Earlier recorded as no-price-rendered; that was an extraction miss by our own probe. 114.40 appears 4x in the payload and the Web Scraper API returns buybox_prices.final_price 114.4. Only 1 left in stock."
+    },
+    "S05|bestbuy": {
+      "price": "84.99",
+      "rating": "4.8",
+      "availability": "InStock",
+      "note": "Deal ends tomorrow, comp value $99.99."
+    },
+    "S09|newegg": {
+      "price": "198.00",
+      "rating": null,
+      "availability": "InStock",
+      "note": "Ships from Hong Kong, sold by PC Parts Hub."
+    },
+    "S05|target": {
+      "price": null,
+      "rating": "4.64",
+      "availability": "InStock",
+      "note": "No headline price rendered. Instalment implies $115.00; protection bracket $100-$124.99. Not directly stated, so null."
+    },
+    "S07|target": {
+      "price": "432.40",
+      "rating": "4.8",
+      "availability": "InStock",
+      "note": ""
+    },
+    "S05|walmart": {
+      "price": "84.90",
+      "rating": "4.4",
+      "availability": "InStock",
+      "note": "Current price is USD Now $84.90, was $119.99."
+    },
+    "S06|bestbuy": {
+      "price": null,
+      "rating": null,
+      "availability": null,
+      "note": "Zero-length payload. No page content to adjudicate."
+    },
+    "S06|amazon": {
+      "price": "48.99",
+      "rating": "4.5",
+      "availability": "InStock",
+      "note": "Buy New $48.99. Page is a DeathAdder Essential, not the V3 queried. $6.99/$8.99 are protection plans."
+    },
+    "S06|walmart": {
+      "price": "96.99",
+      "rating": "4.4",
+      "availability": "InStock",
+      "note": "Current price is USD Now $96.99, was $149.99. Page is a DeathAdder V3 Pro, not the V3 queried."
+    },
+    "S07|bestbuy": {
+      "price": "269.99",
+      "rating": "4.8",
+      "availability": "InStock",
+      "note": "$269.99 under Add to cart. $581.23 is a range top, $129.99 a linked other product."
+    },
+    "S07|amazon": {
+      "price": "246.91",
+      "rating": "4.7",
+      "availability": "InStock",
+      "note": "Buy New $246.91. $12.99/$14.99 are data-recovery plans."
+    },
+    "S07|walmart": {
+      "price": "275.00",
+      "rating": "4.8",
+      "availability": "InStock",
+      "note": "Current price is USD $275.00. Page is a T7 Rugged, not the plain T7 queried."
+    },
+    "S08|target": {
+      "price": "26.99",
+      "rating": null,
+      "availability": "OutOfStock",
+      "note": "$26.99, marked Sold out. No rating rendered."
+    },
+    "S08|amazon": {
+      "price": "169.99",
+      "rating": "4.7",
+      "availability": "InStock",
+      "note": "$169.99 in the buy box. No Buy New marker on this page."
+    },
+    "S08|walmart": {
+      "price": "256.03",
+      "rating": "4.2",
+      "availability": "InStock",
+      "note": "Current price is USD $256.03."
+    },
+    "S09|bestbuy": {
+      "price": null,
+      "rating": null,
+      "availability": null,
+      "note": "7.4KB partial payload. Three candidate prices ($219.99/$289.99/$129.99) with no resolvable buy box, and a was-price below the now-price. Not adjudicable."
+    },
+    "S09|target": {
+      "price": "143.30",
+      "rating": null,
+      "availability": "OutOfStock",
+      "note": "$136.22, marked Out of stock. PRICE CORRECTED 2026-09-02 from 136.22 to 143.30: independent capture in claude_bd_high contains $143.30 and not $136.22; all four arms read 143.30."
+    },
+    "S09|amazon": {
+      "price": "129.99",
+      "rating": "4.6",
+      "availability": "InStock",
+      "note": "Buy New $138.68. $12.99/$14.99 are data-recovery plans. PRICE CORRECTED 2026-09-02 from 138.68 to 129.99: A's own capture contains $129.99 fourteen times and $138.68 zero times; three arms read 129.99."
+    },
+    "S09|walmart": {
+      "price": "119.00",
+      "rating": "4.4",
+      "availability": "InStock",
+      "note": "Current price is USD $119.00."
+    },
+    "S10|bestbuy": {
+      "price": null,
+      "rating": null,
+      "availability": null,
+      "note": "2.0KB partial payload, no price marker present. Not adjudicable."
+    },
+    "S10|amazon": {
+      "price": "198.00",
+      "rating": "4.2",
+      "availability": "InStock",
+      "note": "Buy New $198.00. $28.99/$37.99 are protection plans."
+    },
+    "S10|walmart": {
+      "price": "198.00",
+      "rating": "4.3",
+      "availability": null,
+      "note": "Current price is USD Now $198.00, was $398.00. Page carries both an Out of stock string and an Add to cart control; availability not adjudicable."
+    }
+  },
+  "_corrections": [
+    "S05|amazon price None -> 114.40 after two independent methods disagreed with the hand read",
+    "S02|walmart price 199.99 -> 225.00. A's own capture contains $225.00 nine times and $199.99 zero times; all four arms read 225.00.",
+    "S02|bestbuy price 242.00 -> 238.99. A's own capture contains $238.99 and not $242.00; all four arms read 238.99.",
+    "S09|amazon price 138.68 -> 129.99. A's own capture contains $129.99 fourteen times and $138.68 zero times; three arms read 129.99.",
+    "S06|target price 18.99 -> 19.49. independent capture in claude_bd_high contains $19.49 and not $18.99; all four arms read 19.49.",
+    "S09|target price 136.22 -> 143.30. independent capture in claude_bd_high contains $143.30 and not $136.22; all four arms read 143.30."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "skus_per_day": 100000,
+  "days": 30,
+  "fetch_payg": 4500,
+  "fetch_scale": 3901,
+  "model_input_per_m": 3.0,
+  "read_cost": {
+    "markdown, our median page": 22833,
+    "markdown, Amazon-weighted": 575280,
+    "structured JSON": 1115
+  },
+  "tokens_per_page": {
+    "markdown, our median page": 2537,
+    "markdown, Amazon-weighted": 63920,
+    "structured JSON": 124
+  }
+}

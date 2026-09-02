@@ -1,0 +1,62 @@
+{
+  "cursor_bd": {
+    "name_price": 40,
+    "all_four": 38,
+    "accuracy": 89,
+    "correct": 86,
+    "scored": 97,
+    "price": 80,
+    "rating": 93,
+    "availability": 94,
+    "wall_clock_s": 3281,
+    "effort": "high (via model name)"
+  },
+  "claude_bd_high": {
+    "name_price": 35,
+    "all_four": 30,
+    "accuracy": 88,
+    "correct": 85,
+    "scored": 97,
+    "price": 86,
+    "rating": 93,
+    "availability": 85,
+    "wall_clock_s": 2577,
+    "effort": "high"
+  },
+  "claude_bd": {
+    "name_price": 34,
+    "all_four": 34,
+    "accuracy": 78,
+    "correct": 76,
+    "scored": 97,
+    "price": 74,
+    "rating": 90,
+    "availability": 73,
+    "wall_clock_s": 1650,
+    "effort": "high (via model name)"
+  },
+  "cursor_nobd": {
+    "name_price": 28,
+    "all_four": 28,
+    "accuracy": 74,
+    "correct": 72,
+    "scored": 97,
+    "price": 66,
+    "rating": 93,
+    "availability": 67,
+    "wall_clock_s": 3183,
+    "effort": "high (via model name)"
+  },
+  "claude_nobd": {
+    "name_price": 34,
+    "all_four": 29,
+    "accuracy": 72,
+    "correct": 70,
+    "scored": 97,
+    "price": 83,
+    "rating": 83,
+    "availability": 52,
+    "wall_clock_s": 1054,
+    "effort": "high (via model name)"
+  }
+}

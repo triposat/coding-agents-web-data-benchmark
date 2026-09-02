@@ -1,0 +1,842 @@
+{
+  "targets": {
+    "products": 10,
+    "pages": 41,
+    "retailers": [
+      "amazon",
+      "bestbuy",
+      "newegg",
+      "target",
+      "walmart"
+    ],
+    "per_retailer": {
+      "bestbuy": 9,
+      "amazon": 10,
+      "walmart": 10,
+      "target": 7,
+      "newegg": 5
+    }
+  },
+  "arms": {
+    "arm1_plain_http": {
+      "label": "Plain HTTP + browser UA",
+      "n": 41,
+      "outcomes": {
+        "blocked_timeout": 9,
+        "success": 14,
+        "partial_no_price": 13,
+        "blocked_challenge": 5
+      },
+      "success": 14,
+      "success_pct": 34.1,
+      "blocked_total": 14,
+      "latency_p50": 3.12,
+      "latency_p90": 30.09,
+      "latency_max": 30.17,
+      "latency_total": 350,
+      "fields": {
+        "name": 27,
+        "price": 14,
+        "availability": 27,
+        "rating": 27
+      },
+      "field_total": 95,
+      "field_max": 164,
+      "field_pct": 58,
+      "by_retailer": {
+        "amazon": {
+          "n": 10,
+          "success": 4
+        },
+        "bestbuy": {
+          "n": 9,
+          "success": 0
+        },
+        "newegg": {
+          "n": 5,
+          "success": 0
+        },
+        "target": {
+          "n": 7,
+          "success": 0
+        },
+        "walmart": {
+          "n": 10,
+          "success": 10
+        }
+      }
+    },
+    "arm2_local_browser": {
+      "label": "Local headless Chromium",
+      "n": 41,
+      "outcomes": {
+        "blocked_h2_reset": 9,
+        "success": 12,
+        "partial_no_price": 6,
+        "blocked_challenge": 14
+      },
+      "success": 12,
+      "success_pct": 29.3,
+      "blocked_total": 23,
+      "latency_p50": 3.54,
+      "latency_p90": 5.22,
+      "latency_max": 6.01,
+      "latency_total": 141,
+      "fields": {
+        "name": 18,
+        "price": 12,
+        "availability": 18,
+        "rating": 18
+      },
+      "field_total": 66,
+      "field_max": 164,
+      "field_pct": 40,
+      "by_retailer": {
+        "amazon": {
+          "n": 10,
+          "success": 4
+        },
+        "bestbuy": {
+          "n": 9,
+          "success": 0
+        },
+        "newegg": {
+          "n": 5,
+          "success": 0
+        },
+        "target": {
+          "n": 7,
+          "success": 7
+        },
+        "walmart": {
+          "n": 10,
+          "success": 1
+        }
+      }
+    },
+    "arm3_brightdata_mcp": {
+      "label": "Bright Data hosted Web MCP",
+      "n": 41,
+      "outcomes": {
+        "success": 38,
+        "blocked_empty": 1,
+        "partial_no_price": 2
+      },
+      "success": 38,
+      "success_pct": 92.7,
+      "blocked_total": 1,
+      "latency_p50": 6.74,
+      "latency_p90": 26.69,
+      "latency_max": 31.84,
+      "latency_total": 448,
+      "fields": {
+        "name": 40,
+        "price": 38,
+        "availability": 38,
+        "rating": 29
+      },
+      "field_total": 145,
+      "field_max": 164,
+      "field_pct": 88,
+      "by_retailer": {
+        "amazon": {
+          "n": 10,
+          "success": 10
+        },
+        "bestbuy": {
+          "n": 9,
+          "success": 6
+        },
+        "newegg": {
+          "n": 5,
+          "success": 5
+        },
+        "target": {
+          "n": 7,
+          "success": 7
+        },
+        "walmart": {
+          "n": 10,
+          "success": 10
+        }
+      }
+    }
+  },
+  "reliability": {
+    "walmart": {
+      "n": 12,
+      "silent_empty": 0
+    },
+    "bestbuy": {
+      "n": 12,
+      "silent_empty": 3
+    },
+    "amazon": {
+      "n": 12,
+      "silent_empty": 0
+    },
+    "overall": {
+      "n": 36,
+      "silent_empty": 3
+    }
+  },
+  "mcp_tools": {
+    "count": 5,
+    "tools_list_tokens": 1007,
+    "encoder": "tiktoken cl100k_base",
+    "names": [
+      "ask_brightdata_assistant",
+      "search_engine",
+      "scrape_as_markdown",
+      "search_engine_batch",
+      "scrape_batch"
+    ]
+  },
+  "agents": {
+    "claude_nobd": {
+      "turns": 92,
+      "duration_ms": 1163832,
+      "cost_usd": 8.8336996,
+      "is_error": false,
+      "input": 163,
+      "output": 64711,
+      "cache_read": 9484750,
+      "cache_creation": 168189,
+      "models": [
+        "claude-sonnet-5",
+        "claude-haiku-4-5-20251001"
+      ],
+      "role": "CONTAMINATED. global instructions named a Bright Data CLI; not the control"
+    },
+    "claude_bd": {
+      "turns": 75,
+      "duration_ms": 1032636,
+      "cost_usd": 7.0386302999999995,
+      "is_error": false,
+      "input": 80,
+      "output": 71100,
+      "cache_read": 4226460,
+      "cache_creation": 142261,
+      "models": [
+        "claude-sonnet-5"
+      ],
+      "role": "Bright Data hosted Web MCP",
+      "scraping_code_lines": 0,
+      "rows": 41,
+      "complete": 32,
+      "fields": {
+        "name": 40,
+        "price": 37,
+        "availability": 38,
+        "rating": 35
+      },
+      "field_total": 150,
+      "complete_by_retailer": {
+        "bestbuy": 6,
+        "amazon": 10,
+        "walmart": 10,
+        "target": 6
+      },
+      "status": {
+        "ok": 32,
+        "availability not shown on page": 1,
+        "blocked": 1,
+        "price and availability not present in scraped content": 1,
+        "rating not shown on page": 4,
+        "discontinued - no price listed": 1,
+        "unavailable - item discontinued, no price shown": 1
+      },
+      "name_price": 37,
+      "all_four": 32,
+      "name_price_by_retailer": {
+        "bestbuy": 6,
+        "amazon": 10,
+        "walmart": 10,
+        "target": 7,
+        "newegg": 4
+      }
+    },
+    "claude_nobd_v2": {
+      "role": "CONTROL. no MCP server, PATH stripped of every managed data CLI",
+      "turns": 76,
+      "cost_usd": 3.915,
+      "wall_clock_s": 2447,
+      "output": 73108,
+      "cache_read": 5284235,
+      "rows": 41,
+      "complete": 8,
+      "fields": {
+        "name": 41,
+        "price": 41,
+        "availability": 41,
+        "rating": 41
+      },
+      "field_total": 164,
+      "status": {
+        "fetch failed": 9,
+        "ok": 9,
+        "partial: missing price": 9,
+        "partial: missing name, price, availabili": 14
+      },
+      "scraping_code_lines": {
+        "tracker.py": 781,
+        "patch.py": 306,
+        "final_patch.py": 187
+      },
+      "scraping_code_total": 1274,
+      "hardcoded_user_agent": "Chrome/124.0.0.0",
+      "rows_with_cross_retailer_rating": 2,
+      "backfill_matches": [
+        [
+          "S01",
+          "amazon",
+          "4.4"
+        ],
+        [
+          "S02",
+          "amazon",
+          "4.6"
+        ],
+        [
+          "S03",
+          "target",
+          "4.6"
+        ],
+        [
+          "S07",
+          "target",
+          "4.8"
+        ],
+        [
+          "S09",
+          "amazon",
+          "4.6"
+        ]
+      ],
+      "backfill_note": "final_patch.py hardcodes one rating per product, applied across retailers; comments name the source",
+      "name_price": 41,
+      "all_four": 41,
+      "name_price_by_retailer": {
+        "bestbuy": 9,
+        "amazon": 10,
+        "walmart": 10,
+        "target": 7,
+        "newegg": 5
+      }
+    },
+    "cursor_bd": {
+      "role": "ARM A. cursor-agent + Bright Data hosted Web MCP",
+      "agent": "cursor-agent",
+      "model": "auto",
+      "condition": "cursor_bd",
+      "wall_clock_s": 2038,
+      "exit_code": 0,
+      "rows": 41,
+      "name_price": 38,
+      "all_four": 25,
+      "fields": {
+        "name": 41,
+        "price": 38,
+        "availability": 38,
+        "rating": 29
+      },
+      "field_total": 146,
+      "name_price_by_retailer": {
+        "bestbuy": 7,
+        "amazon": 9,
+        "walmart": 10,
+        "target": 7,
+        "newegg": 5
+      },
+      "status": {
+        "ok": 25,
+        "missing: rating": 12,
+        "missing: availability": 1,
+        "missing: price": 1,
+        "missing: price, availability": 2
+      },
+      "events": 806,
+      "tool_calls": {
+        "globToolCall": 2,
+        "readToolCall": 28,
+        "getMcpToolsToolCall": 2,
+        "mcpToolCall": 8,
+        "webSearchToolCall": 4,
+        "grepToolCall": 10,
+        "shellToolCall": 34,
+        "webFetchToolCall": 2,
+        "editToolCall": 50,
+        "awaitToolCall": 11,
+        "readLintsToolCall": 2
+      },
+      "tool_calls_total": 153,
+      "usage": {
+        "inputTokens": 23959,
+        "outputTokens": 11215,
+        "cacheReadTokens": 1628049,
+        "cacheWriteTokens": 0
+      },
+      "code_lines": {
+        "brightdata.py": 188,
+        "parsers.py": 304,
+        "track.py": 320
+      },
+      "code_lines_total": 812
+    },
+    "cursor_nobd": {
+      "role": "CONTROL. cursor-agent, no Bright Data",
+      "agent": "cursor-agent",
+      "model": "auto",
+      "condition": "cursor_nobd",
+      "wall_clock_s": 1967,
+      "exit_code": 1,
+      "rows": 41,
+      "name_price": 16,
+      "all_four": 16,
+      "fields": {
+        "name": 18,
+        "price": 16,
+        "availability": 18,
+        "rating": 18
+      },
+      "field_total": 70,
+      "name_price_by_retailer": {
+        "amazon": 4,
+        "target": 7,
+        "newegg": 5
+      },
+      "status": {
+        "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at h": 9,
+        "ok": 16,
+        "bot challenge": 10,
+        "missing: price": 2,
+        "missing: name, price, availability, rating": 4
+      },
+      "events": 997,
+      "tool_calls": {
+        "globToolCall": 2,
+        "readToolCall": 14,
+        "shellToolCall": 100,
+        "webSearchToolCall": 2,
+        "editToolCall": 35,
+        "awaitToolCall": 6,
+        "grepToolCall": 8
+      },
+      "tool_calls_total": 167,
+      "usage": {},
+      "code_lines": {
+        "tracker.py": 719
+      },
+      "code_lines_total": 719,
+      "TRUNCATED": "hit Cursor Free-plan usage limit mid third pass; exit 1, no result event",
+      "pass_progression": "pass1 9/41, pass2 16/41, pass3 killed at page 2 of 41",
+      "ceiling_unknown": true
+    }
+  },
+  "chrome_versions": {
+    "local_playwright": "151.0.7922.34",
+    "bd_scraping_browser": "151.0.7922.169",
+    "agent_hardcoded": "124.0.0.0",
+    "major_versions_behind": 27
+  },
+  "stale_user_agents": {
+    "cursor_nobd": "Chrome/121.0.0.0",
+    "claude_nobd_v2": "Chrome/124.0.0.0",
+    "real_local_chromium": "151.0.7922.34",
+    "note": "two different agents independently hardcoded a stale UA"
+  },
+  "provenance": {
+    "cursor_bd": {
+      "rows": 41,
+      "reported_all_four": 25,
+      "backfilled_by_field": {
+        "name": 0,
+        "price": 0,
+        "availability": 0,
+        "rating": 0
+      },
+      "clean_all_four": 25
+    },
+    "cursor_nobd": {
+      "rows": 41,
+      "reported_all_four": 16,
+      "backfilled_by_field": {
+        "name": 0,
+        "price": 0,
+        "availability": 0,
+        "rating": 0
+      },
+      "clean_all_four": 16
+    },
+    "claude_bd": {
+      "rows": 41,
+      "reported_all_four": 32,
+      "backfilled_by_field": {
+        "name": 0,
+        "price": 0,
+        "availability": 0,
+        "rating": 0
+      },
+      "clean_all_four": 32
+    },
+    "claude_nobd_v2": {
+      "rows": 41,
+      "reported_all_four": 41,
+      "backfilled_by_field": {
+        "name": 23,
+        "price": 27,
+        "availability": 0,
+        "rating": 32
+      },
+      "clean_all_four": 2
+    }
+  },
+  "reextraction": {
+    "why": "original title_of() returned markdown line 1, a ``` fence, on all 10 arm3 Amazon rows; price took the first currency token, which on Amazon is a protection plan",
+    "fix": "skip fences/short lines for name; most-frequent currency token for price",
+    "counts_unchanged": "14 / 12 / 38 name+price, because a fence is still a non-empty string",
+    "field_totals_changed": {
+      "arm1": "95 -> 100",
+      "arm2": "66 -> 80",
+      "arm3": "145 -> 145"
+    },
+    "price_agreement_with_agent_extraction": "old 14/38, new 19/38 \u2014 neither is a trustworthy price source",
+    "script": "scripts/reextract.py"
+  },
+  "models_actually_used": {
+    "claude_bd": [
+      "claude-sonnet-5"
+    ],
+    "claude_nobd_v2": [
+      "claude-sonnet-4-6",
+      "claude-haiku-4-5-20251001"
+    ],
+    "cursor_bd": "auto",
+    "cursor_nobd": "auto",
+    "note": "B and B+ differ in model as well as data layer; only A vs Control is single-variable"
+  },
+  "tool_calls_distinct": {
+    "cursor_bd": 76,
+    "cursor_nobd": 84,
+    "note": "transcript emits started+completed; earlier figures 153/167 were events"
+  },
+  "artifacts_added": [
+    "data/unlocker_error_capture.json (client_10050)",
+    "data/provenance.json",
+    "data/reextract_summary.json",
+    "data/arm*_reextracted.json"
+  ],
+  "field_accuracy": {
+    "cursor_bd": {
+      "scored": 75,
+      "correct": 52,
+      "accuracy_pct": 69,
+      "wrong_value": 12,
+      "invented": 6,
+      "missed": 5
+    },
+    "cursor_nobd": {
+      "scored": 75,
+      "correct": 35,
+      "accuracy_pct": 47,
+      "wrong_value": 5,
+      "invented": 7,
+      "missed": 28
+    },
+    "claude_bd": {
+      "scored": 75,
+      "correct": 59,
+      "accuracy_pct": 79,
+      "wrong_value": 4,
+      "invented": 6,
+      "missed": 6
+    },
+    "claude_nobd_v2": {
+      "scored": 75,
+      "correct": 42,
+      "accuracy_pct": 56,
+      "wrong_value": 22,
+      "invented": 11,
+      "missed": 0
+    }
+  },
+  "ground_truth_hand": {
+    "rows": 25,
+    "values_read": 88,
+    "scored_per_run": 75,
+    "method": "human read the committed payloads; explicit selling-price marker is truth; protection plans, comparison carousels, sponsored rows, instalments and struck-through prices are not",
+    "file": "data/ground_truth_hand.json",
+    "scorer": "scripts/score_accuracy.py",
+    "corrections": [
+      "S05|amazon price None -> 114.40; our probe missed it, two independent methods caught it"
+    ]
+  },
+  "token_cost": {
+    "encoder": "tiktoken cl100k_base",
+    "pages": 41,
+    "markdown_tokens_total": 636311,
+    "markdown_tokens_median": 2537,
+    "markdown_tokens_max": 103019,
+    "heaviest_page": "arm3__S10__amazon.md",
+    "structured_answer_tokens": 5080,
+    "tool_definition_tokens": 1007,
+    "waste_pct": 99.2,
+    "payload_vs_tooldefs": 632,
+    "by_retailer_median": {
+      "amazon": 63920,
+      "bestbuy": 1789,
+      "newegg": 5101,
+      "target": 1244,
+      "walmart": 2060
+    }
+  },
+  "cost_model": {
+    "skus_per_day": 100000,
+    "days": 30,
+    "fetch_payg": 4500,
+    "fetch_scale": 3901,
+    "model_input_per_m": 3.0,
+    "read_cost": {
+      "markdown, our median page": 22833,
+      "markdown, Amazon-weighted": 575280,
+      "structured JSON": 1115
+    },
+    "tokens_per_page": {
+      "markdown, our median page": 2537,
+      "markdown, Amazon-weighted": 63920,
+      "structured JSON": 124
+    }
+  },
+  "structured_arm": {
+    "records": 20,
+    "fields": {
+      "price": 19,
+      "rating": 20,
+      "availability": 20
+    },
+    "identifiers": {
+      "upc": 17,
+      "gtin": 10,
+      "asin": 10,
+      "sku": 10,
+      "brand": 20
+    },
+    "price_correct": 8,
+    "price_scored": 10,
+    "structured_tokens": 150347,
+    "markdown_tokens": 586762,
+    "upc_cross_retailer_matches": 0
+  },
+  "geography": {
+    "comparable": 30,
+    "proxy_failures": 11,
+    "naive_india": 12,
+    "naive_us": 17,
+    "brightdata": 30,
+    "us_naive_still_blocked_bd_ok": 13,
+    "by_retailer": {
+      "amazon": {
+        "n": 9,
+        "in": 3,
+        "us": 9,
+        "bd": 9
+      },
+      "newegg": {
+        "n": 5,
+        "in": 0,
+        "us": 0,
+        "bd": 5
+      },
+      "target": {
+        "n": 7,
+        "in": 0,
+        "us": 0,
+        "bd": 7
+      },
+      "walmart": {
+        "n": 9,
+        "in": 9,
+        "us": 8,
+        "bd": 9
+      }
+    },
+    "method": "raw US residential proxy (zone mls_scraping_proxy, New York peer, ASN 27611), no unblocking; same naive request as arm1",
+    "exit_ip_us": "172.56.115.140",
+    "exit_ip_direct": "122.167.55.82"
+  },
+  "new_listings": {
+    "cursor_bd": {
+      "candidates": 35,
+      "valid": 35,
+      "new_domain": 34,
+      "unique": 34,
+      "domains": 12,
+      "top_domains": [
+        "ebay.com",
+        "bose.com",
+        "apple.com",
+        "razer.com",
+        "electronics.sony.com"
+      ]
+    },
+    "cursor_nobd": {
+      "candidates": 0,
+      "valid": 0,
+      "new_domain": 0,
+      "unique": 0,
+      "domains": 0,
+      "top_domains": []
+    },
+    "claude_bd": {
+      "candidates": 46,
+      "valid": 46,
+      "new_domain": 46,
+      "unique": 46,
+      "domains": 39,
+      "top_domains": [
+        "anker.com",
+        "currys.co.uk",
+        "bestbuy.ca",
+        "verizon.com",
+        "flipkart.com"
+      ]
+    },
+    "claude_nobd_v2": {
+      "candidates": 50,
+      "valid": 50,
+      "new_domain": 50,
+      "unique": 50,
+      "domains": 27,
+      "top_domains": [
+        "costco.com",
+        "bhphotovideo.com",
+        "ebay.com",
+        "adorama.com",
+        "staples.com"
+      ]
+    },
+    "live_check": {
+      "cursor_bd": {
+        "total": 35,
+        "sampled": 8,
+        "resolved_200": 6,
+        "non_us_tld_full_set": 0,
+        "non_us_pct": 0
+      },
+      "claude_bd": {
+        "total": 46,
+        "sampled": 8,
+        "resolved_200": 7,
+        "non_us_tld_full_set": 16,
+        "non_us_pct": 35
+      },
+      "claude_nobd_v2": {
+        "total": 50,
+        "sampled": 8,
+        "resolved_200": 2,
+        "non_us_tld_full_set": 0,
+        "non_us_pct": 0
+      }
+    }
+  },
+  "structured_all": {
+    "records": 32,
+    "by_retailer_structured": 31,
+    "fields": {
+      "name": 32,
+      "price": 31,
+      "rating": 20,
+      "availability": 25
+    },
+    "identifiers": {
+      "upc": 24,
+      "gtin": 10,
+      "asin": 10,
+      "sku": 10,
+      "brand": 25
+    },
+    "tokens": 168570,
+    "note": "Best Buy snapshot still running at freeze; contributes 0 and is not extrapolated"
+  },
+  "local_ceiling": {
+    "plain": 14,
+    "headless": 12,
+    "hardened": 21,
+    "best_local": 9,
+    "brightdata": 38,
+    "best_local_gap": 29,
+    "gap_by_retailer": {
+      "bestbuy": 6,
+      "walmart": 10,
+      "target": 7,
+      "amazon": 2,
+      "newegg": 4
+    },
+    "note": "arm2 launched Chromium with defaults, which was not a fair opponent. arm2b applies the hardening the agents' own trackers used. arm2c adds the US exit and is latency-bound: 16 of 41 timed out at 60s with a 55.6s median. Best achieved local = 21 (arm2b)."
+  },
+  "bestbuy_geo_retry": {
+    "attempts_per_url": 3,
+    "urls": 9,
+    "result": "9/9 failed, 8 x HTTP 502 from the proxy + 1 error",
+    "note": "sticky sessions and backoff; Best Buy unreachable via raw US residential transport"
+  },
+  "data_format_html_vs_markdown": {
+    "method": "POST /request, zone web_unlocker, same URL both formats, same session, 4 workers",
+    "encoder": "tiktoken cl100k_base",
+    "urls_attempted": 41,
+    "comparable_pairs": 31,
+    "per_retailer": {
+      "amazon": {
+        "pairs": 10,
+        "html_median_tokens": 1012949,
+        "markdown_median_tokens": 87573,
+        "reduction": 11.6
+      },
+      "bestbuy": {
+        "pairs": 1,
+        "html_median_tokens": 374677,
+        "markdown_median_tokens": 1632,
+        "reduction": 229.6
+      },
+      "newegg": {
+        "pairs": 5,
+        "html_median_tokens": 92696,
+        "markdown_median_tokens": 6156,
+        "reduction": 15.1
+      },
+      "target": {
+        "pairs": 6,
+        "html_median_tokens": 133667,
+        "markdown_median_tokens": 1647,
+        "reduction": 81.2
+      },
+      "walmart": {
+        "pairs": 9,
+        "html_median_tokens": 159863,
+        "markdown_median_tokens": 3711,
+        "reduction": 43.1
+      }
+    },
+    "reduction_median": 35.8,
+    "reduction_min": 8.4,
+    "reduction_max": 229.6,
+    "sum_html_tokens": 12449303,
+    "sum_markdown_tokens": 847996,
+    "sum_ratio": 14.7,
+    "name_present": {
+      "html": 31,
+      "markdown": 31
+    },
+    "price_present": {
+      "html": 26,
+      "markdown": 26
+    },
+    "caveat": "markdown absolutes here differ from the scrape_as_markdown arm; different conversion path. The ratio is the result.",
+    "artifact": "data/data_format_pairs.jsonl"
+  },
+  "arms_not_published": {
+    "arm6_mcp_pro_web_data": "data/arm6_raw.jsonl \u2014 18/29 vs markdown 26/29, p50 84.7s. See HANDOFF item 11.",
+    "arm7_scraping_browser_country_us": "data/arm7_sb_country.jsonl \u2014 25/41 vs markdown 38/41. See HANDOFF item 12.",
+    "unlocker_param_probe": "data/unlocker_params.txt \u2014 see HANDOFF item 5."
+  }
+}

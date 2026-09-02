@@ -1,0 +1,34 @@
+{
+  "cursor_bd": {
+    "scored": 75,
+    "correct": 52,
+    "accuracy_pct": 69,
+    "wrong_value": 12,
+    "invented": 6,
+    "missed": 5
+  },
+  "cursor_nobd": {
+    "scored": 75,
+    "correct": 35,
+    "accuracy_pct": 47,
+    "wrong_value": 5,
+    "invented": 7,
+    "missed": 28
+  },
+  "claude_bd": {
+    "scored": 75,
+    "correct": 59,
+    "accuracy_pct": 79,
+    "wrong_value": 4,
+    "invented": 6,
+    "missed": 6
+  },
+  "claude_nobd_v2": {
+    "scored": 75,
+    "correct": 42,
+    "accuracy_pct": 56,
+    "wrong_value": 22,
+    "invented": 11,
+    "missed": 0
+  }
+}

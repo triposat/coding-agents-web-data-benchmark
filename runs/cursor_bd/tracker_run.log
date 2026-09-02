@@ -1,0 +1,102 @@
+Tracking 41 product pages across 10 SKUs
+Scraping batch of 10...
+  retry single: bestbuy
+  retry single: amazon
+  retry single: walmart
+  retry single: bestbuy
+  retry single: target
+  retry single: amazon
+  retry single: walmart
+  retry single: bestbuy
+  retry single: target
+  retry single: amazon
+Scraping batch of 10...
+  retry single: walmart
+  retry single: bestbuy
+  retry single: amazon
+  retry single: newegg
+  retry single: walmart
+  retry single: bestbuy
+  retry single: target
+  retry single: amazon
+  retry single: newegg
+  retry single: walmart
+Scraping batch of 10...
+  retry single: bestbuy
+  retry single: target
+  retry single: amazon
+  retry single: newegg
+  retry single: walmart
+  retry single: bestbuy
+  retry single: target
+  retry single: amazon
+  retry single: newegg
+  retry single: walmart
+Scraping batch of 10...
+  retry single: target
+  retry single: amazon
+  retry single: walmart
+  retry single: bestbuy
+  retry single: target
+  retry single: amazon
+  retry single: newegg
+  retry single: walmart
+  retry single: bestbuy
+  retry single: amazon
+Scraping batch of 1...
+  S01 / bestbuy: scrape failed
+  S01 / amazon: missing: availability @ $10.00
+  S01 / walmart: ok @ $109.99
+  S02 / bestbuy: no data extracted
+  S02 / target: ok @ $249.99
+  S02 / amazon: ok @ $199.00
+  S02 / walmart: ok @ $199.99
+  S03 / bestbuy: ok @ $89.00
+  S03 / target: ok @ $99.99
+  S03 / amazon: missing: availability @ $10.00
+  S03 / walmart: ok @ $98.97
+  S04 / bestbuy: missing: availability @ $458.00
+  S04 / amazon: missing: availability @ $10.00
+  S04 / newegg: missing: name, rating @ $249.99
+  S04 / walmart: ok @ $299.00
+  S05 / bestbuy: ok @ $249.99
+  S05 / target: ok @ $114.99
+  S05 / amazon: ok @ $10.00
+  S05 / newegg: missing: name, rating @ $114.00
+  S05 / walmart: missing: rating @ $79.99
+  S06 / bestbuy: no data extracted
+  S06 / target: ok @ $24.99
+  S06 / amazon: missing: availability @ $10.00
+  S06 / newegg: missing: name, rating @ $71.99
+  S06 / walmart: missing: rating @ $96.99
+  S07 / bestbuy: ok @ $269.99
+  S07 / target: ok @ $432.40
+  S07 / amazon: ok @ $246.91
+  S07 / newegg: missing: name, rating @ $649.99
+  S07 / walmart: ok @ $275.00
+  S08 / target: ok @ $26.99
+  S08 / amazon: missing: availability @ $199.99
+  S08 / walmart: ok @ $37.99
+  S09 / bestbuy: ok @ $219.99
+  S09 / target: ok @ $136.22
+  S09 / amazon: ok @ $139.95
+  S09 / newegg: missing: name, rating @ $194.99
+  S09 / walmart: missing: rating @ $119.00
+  S10 / bestbuy: missing: price, availability
+  S10 / amazon: missing: name, availability @ $10.00
+  S10 / walmart: ok @ $198.00
+Wrote /Users/triposat/Desktop/Bdata Cursor/bench/runs/cursor_bd/results.json
+Searching for new retailer listings...
+  S01: 0 new listing(s)
+  S02: 0 new listing(s)
+  S03: 0 new listing(s)
+  S04: 0 new listing(s)
+  S05: 0 new listing(s)
+  S06: 0 new listing(s)
+  S07: 0 new listing(s)
+  S08: 0 new listing(s)
+  S09: 0 new listing(s)
+  S10: 0 new listing(s)
+Wrote /Users/triposat/Desktop/Bdata Cursor/bench/runs/cursor_bd/new_listings.json
+
+Collected all 4 fields for 22 of 41 pages.

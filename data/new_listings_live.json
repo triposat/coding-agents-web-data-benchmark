@@ -1,0 +1,23 @@
+{
+  "cursor_bd": {
+    "total": 35,
+    "sampled": 8,
+    "resolved_200": 6,
+    "non_us_tld_full_set": 0,
+    "non_us_pct": 0
+  },
+  "claude_bd": {
+    "total": 46,
+    "sampled": 8,
+    "resolved_200": 7,
+    "non_us_tld_full_set": 16,
+    "non_us_pct": 35
+  },
+  "claude_nobd_v2": {
+    "total": 50,
+    "sampled": 8,
+    "resolved_200": 2,
+    "non_us_tld_full_set": 0,
+    "non_us_pct": 0
+  }
+}

@@ -1,0 +1,2004 @@
+[
+  {
+    "annotations": {
+      "title": "Ask Bright Data Assistant",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Ask Bright Data's support assistant (Sophie) a question about Bright Data products, APIs, MCP usage, zones, scraping, or account setup. Use when the user asks \"how do I...\" about Bright Data, when you hit a Bright Data error you don't recognize, or when deciding between products (Web Unlocker vs. Scraping Browser vs. dataset tools). Supports threaded follow-ups via dialog_id.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "question": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20480,
+          "description": "The question to ask. Max 20480 chars."
+        },
+        "dialog_id": {
+          "type": "string",
+          "minLength": 24,
+          "maxLength": 24,
+          "description": "Optional 24-char dialog_id from a previous call to continue the same thread."
+        }
+      },
+      "required": [
+        "question"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "ask_brightdata_assistant"
+  },
+  {
+    "annotations": {
+      "title": "Search Engine",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Scrape search results from Google, Bing or Yandex. Returns SERP results in JSON or Markdown (URL, title, description), Ideal for gathering current information, news, and detailed search results.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string"
+        },
+        "engine": {
+          "type": "string",
+          "enum": [
+            "google",
+            "bing",
+            "yandex"
+          ],
+          "default": "google"
+        },
+        "cursor": {
+          "type": "string",
+          "description": "Pagination cursor for next page"
+        },
+        "geo_location": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 2,
+          "description": "2-letter country code for geo-targeted results (e.g., \"us\", \"uk\")"
+        }
+      },
+      "required": [
+        "query"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "search_engine"
+  },
+  {
+    "annotations": {
+      "title": "Scrape as Markdown",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Scrape a single webpage URL with advanced options for content extraction and get back the results in MarkDown language. This tool can unlock any webpage even if it uses bot detection or CAPTCHA.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scrape_as_markdown"
+  },
+  {
+    "annotations": {
+      "title": "Search Engine Batch",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Run multiple search queries simultaneously. Returns JSON for Google, Markdown for Bing/Yandex.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "queries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "query": {
+                "type": "string"
+              },
+              "engine": {
+                "type": "string",
+                "enum": [
+                  "google",
+                  "bing",
+                  "yandex"
+                ],
+                "default": "google"
+              },
+              "cursor": {
+                "type": "string"
+              },
+              "geo_location": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2,
+                "description": "2-letter country code for geo-targeted results (e.g., \"us\", \"uk\")"
+              }
+            },
+            "required": [
+              "query"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1,
+          "maxItems": 10
+        }
+      },
+      "required": [
+        "queries"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "search_engine_batch"
+  },
+  {
+    "annotations": {
+      "title": "Scrape Batch",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Scrape multiple webpages URLs with advanced options for content extraction and get back the results in MarkDown language. This tool can unlock any webpage even if it uses bot detection or CAPTCHA.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "urls": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          },
+          "minItems": 1,
+          "maxItems": 10,
+          "description": "Array of URLs to scrape (max 10)"
+        }
+      },
+      "required": [
+        "urls"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scrape_batch"
+  },
+  {
+    "annotations": {
+      "title": "Scrape as HTML",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Scrape a single webpage URL with advanced options for content extraction and get back the results in HTML. This tool can unlock any webpage even if it uses bot detection or CAPTCHA.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scrape_as_html"
+  },
+  {
+    "annotations": {
+      "title": "Discover",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Search the web and rank results by AI-driven relevance. Returns scored results with title, description, and URL. Supports intent-based ranking, geo-targeting, date filtering, and keyword filtering.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "The search query"
+        },
+        "intent": {
+          "type": "string",
+          "description": "Describes the specific goal of the search to help the AI evaluate and rank result relevance. If not provided, the query string is used as the intent"
+        },
+        "country": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 2,
+          "description": "2-letter ISO country code for localized results (e.g., \"US\", \"GB\", \"DE\")"
+        },
+        "city": {
+          "type": "string",
+          "description": "City for localized results (e.g., \"New York\", \"Berlin\")"
+        },
+        "language": {
+          "type": "string",
+          "description": "Language code (e.g., \"en\", \"es\", \"fr\")"
+        },
+        "num_results": {
+          "type": "integer",
+          "description": "Exact number of search results to return"
+        },
+        "filter_keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Keywords that must appear in search results"
+        },
+        "remove_duplicates": {
+          "type": "boolean",
+          "description": "Remove duplicate results (default: true)"
+        },
+        "start_date": {
+          "type": "string",
+          "description": "Only content updated from this date (YYYY-MM-DD)"
+        },
+        "end_date": {
+          "type": "string",
+          "description": "Only content updated until this date (YYYY-MM-DD)"
+        }
+      },
+      "required": [
+        "query"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "discover"
+  },
+  {
+    "annotations": {
+      "title": "Session Stats",
+      "readOnlyHint": true
+    },
+    "description": "Tell the user about the tool usage during this session",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "session_stats"
+  },
+  {
+    "annotations": {
+      "title": "List Dataset Fields",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "List the filterable fields of a searchable dataset (field name, type, and description). Call this before search_dataset to learn which field names and types you can filter on.\nSupported dataset_id values:\n- gd_l1viktl72bvl7bjuj0: LinkedIn people profiles\n- gd_me5ppxjr2ge6icjuh0: LinkedIn people profiles (contact-enriched)\n- gd_l1vikfnt1wgvvqz95w: LinkedIn company information",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "dataset_id": {
+          "type": "string",
+          "enum": [
+            "gd_l1viktl72bvl7bjuj0",
+            "gd_me5ppxjr2ge6icjuh0",
+            "gd_l1vikfnt1wgvvqz95w"
+          ]
+        }
+      },
+      "required": [
+        "dataset_id"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "list_dataset_fields"
+  },
+  {
+    "annotations": {
+      "title": "Search Dataset",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Search a Bright Data dataset by a filter and get matching records back directly (fast Elasticsearch-backed search; no snapshot). Use this to FIND MANY records by criteria, as opposed to the web_data_* tools which fetch ONE record by URL.\nFirst call list_dataset_fields to get valid field names.\nA filter is a tree: a group {operator:\"and\"|\"or\", filters:[...]} or a leaf {name, value, operator}. Max nesting depth 3.\nLeaf operators: =, !=, <, <=, >, >=, in, not_in, includes, not_includes, array_includes, not_array_includes, is_null, is_not_null.\nSupported dataset_id values:\n- gd_l1viktl72bvl7bjuj0: LinkedIn people profiles\n- gd_me5ppxjr2ge6icjuh0: LinkedIn people profiles (contact-enriched)\n- gd_l1vikfnt1wgvvqz95w: LinkedIn company information",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "dataset_id": {
+          "type": "string",
+          "enum": [
+            "gd_l1viktl72bvl7bjuj0",
+            "gd_me5ppxjr2ge6icjuh0",
+            "gd_l1vikfnt1wgvvqz95w"
+          ]
+        },
+        "filter": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "operator": {
+                  "type": "string",
+                  "enum": [
+                    "and",
+                    "or"
+                  ]
+                },
+                "filters": {
+                  "type": "array",
+                  "items": {
+                    "anyOf": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "operator": {
+                            "type": "string",
+                            "enum": [
+                              "and",
+                              "or"
+                            ]
+                          },
+                          "filters": {
+                            "type": "array",
+                            "items": {
+                              "anyOf": [
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "operator": {
+                                      "type": "string",
+                                      "enum": [
+                                        "and",
+                                        "or"
+                                      ]
+                                    },
+                                    "filters": {
+                                      "type": "array",
+                                      "items": {
+                                        "type": "object",
+                                        "properties": {
+                                          "name": {
+                                            "type": "string",
+                                            "description": "Field name to filter on. Get valid field names from the list_dataset_fields tool."
+                                          },
+                                          "operator": {
+                                            "type": "string",
+                                            "description": "Filter operator, one of: =, !=, <, <=, >, >=, in, not_in, includes, not_includes, array_includes, not_array_includes, is_null, is_not_null"
+                                          },
+                                          "value": {
+                                            "anyOf": [
+                                              {
+                                                "type": "string"
+                                              },
+                                              {
+                                                "type": "number"
+                                              },
+                                              {
+                                                "type": "boolean"
+                                              },
+                                              {
+                                                "type": "array",
+                                                "items": {
+                                                  "type": [
+                                                    "string",
+                                                    "number",
+                                                    "boolean"
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        "required": [
+                                          "name",
+                                          "operator",
+                                          "value"
+                                        ],
+                                        "additionalProperties": false
+                                      },
+                                      "minItems": 1
+                                    }
+                                  },
+                                  "required": [
+                                    "operator",
+                                    "filters"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "$ref": "#/properties/filter/anyOf/0/properties/filters/items/anyOf/0/properties/filters/items/anyOf/0/properties/filters/items"
+                                }
+                              ]
+                            },
+                            "minItems": 1
+                          }
+                        },
+                        "required": [
+                          "operator",
+                          "filters"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "$ref": "#/properties/filter/anyOf/0/properties/filters/items/anyOf/0/properties/filters/items/anyOf/0/properties/filters/items"
+                      }
+                    ]
+                  },
+                  "minItems": 1
+                }
+              },
+              "required": [
+                "operator",
+                "filters"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "$ref": "#/properties/filter/anyOf/0/properties/filters/items/anyOf/0/properties/filters/items/anyOf/0/properties/filters/items"
+            }
+          ],
+          "description": "Filter tree describing which records to match. Required, cannot be empty."
+        },
+        "size": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "maximum": 10,
+          "default": 10,
+          "description": "Number of records to return (max 10, default 10)"
+        },
+        "sort": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "default",
+                "random"
+              ]
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "string",
+                  "enum": [
+                    "asc",
+                    "desc"
+                  ]
+                }
+              }
+            }
+          ],
+          "description": "Sorting: \"default\", \"random\", or a custom array like [{\"timestamp\":\"asc\"}]. Use \"default\" or custom sort to paginate with search_after."
+        },
+        "search_after": {
+          "type": "array",
+          "description": "Pagination cursor from a previous response's search_after value."
+        }
+      },
+      "required": [
+        "dataset_id",
+        "filter"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "search_dataset"
+  },
+  {
+    "annotations": {
+      "title": "Amazon Product",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured amazon product data.\nRequires a valid product URL with /dp/ in it.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_amazon_product"
+  },
+  {
+    "annotations": {
+      "title": "Amazon Product Reviews",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured amazon product review data.\nRequires a valid product URL with /dp/ in it.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_amazon_product_reviews"
+  },
+  {
+    "annotations": {
+      "title": "Amazon Product Search",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured amazon product search data.\nRequires a valid search keyword and amazon domain URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "keyword": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "keyword",
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_amazon_product_search"
+  },
+  {
+    "annotations": {
+      "title": "Walmart Product",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured walmart product data.\nRequires a valid product URL with /ip/ in it.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_walmart_product"
+  },
+  {
+    "annotations": {
+      "title": "Walmart Seller",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured walmart seller data.\nRequires a valid walmart seller URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_walmart_seller"
+  },
+  {
+    "annotations": {
+      "title": "Ebay Product",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured ebay product data.\nRequires a valid ebay product URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_ebay_product"
+  },
+  {
+    "annotations": {
+      "title": "Homedepot Products",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured homedepot product data.\nRequires a valid homedepot product URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_homedepot_products"
+  },
+  {
+    "annotations": {
+      "title": "Zara Products",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured zara product data.\nRequires a valid zara product URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_zara_products"
+  },
+  {
+    "annotations": {
+      "title": "Etsy Products",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured etsy product data.\nRequires a valid etsy product URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_etsy_products"
+  },
+  {
+    "annotations": {
+      "title": "Bestbuy Products",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured bestbuy product data.\nRequires a valid bestbuy product URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_bestbuy_products"
+  },
+  {
+    "annotations": {
+      "title": "Linkedin Person Profile",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured linkedin people profile data.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_linkedin_person_profile"
+  },
+  {
+    "annotations": {
+      "title": "Linkedin Company Profile",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured linkedin company profile data\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_linkedin_company_profile"
+  },
+  {
+    "annotations": {
+      "title": "Linkedin Job Listings",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured linkedin job listings data\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_linkedin_job_listings"
+  },
+  {
+    "annotations": {
+      "title": "Linkedin Posts",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured linkedin posts data\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_linkedin_posts"
+  },
+  {
+    "annotations": {
+      "title": "Linkedin People Search",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured linkedin people search data\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "url",
+        "first_name",
+        "last_name"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_linkedin_people_search"
+  },
+  {
+    "annotations": {
+      "title": "Crunchbase Company",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured crunchbase company data\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_crunchbase_company"
+  },
+  {
+    "annotations": {
+      "title": "Zoominfo Company Profile",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured ZoomInfo company profile data.\nRequires a valid ZoomInfo company URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_zoominfo_company_profile"
+  },
+  {
+    "annotations": {
+      "title": "Instagram Profiles",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured Instagram profile data.\nRequires a valid Instagram URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_instagram_profiles"
+  },
+  {
+    "annotations": {
+      "title": "Instagram Posts",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured Instagram post data.\nRequires a valid Instagram URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_instagram_posts"
+  },
+  {
+    "annotations": {
+      "title": "Instagram Reels",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured Instagram reel data.\nRequires a valid Instagram URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_instagram_reels"
+  },
+  {
+    "annotations": {
+      "title": "Instagram Comments",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured Instagram comments data.\nRequires a valid Instagram URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_instagram_comments"
+  },
+  {
+    "annotations": {
+      "title": "Facebook Profiles",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured Facebook profile data.\nRequires a valid Facebook profile URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_facebook_profiles"
+  },
+  {
+    "annotations": {
+      "title": "Facebook Posts",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured Facebook post data.\nRequires a valid Facebook post URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_facebook_posts"
+  },
+  {
+    "annotations": {
+      "title": "Facebook Marketplace Listings",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured Facebook marketplace listing data.\nRequires a valid Facebook marketplace listing URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_facebook_marketplace_listings"
+  },
+  {
+    "annotations": {
+      "title": "Facebook Company Reviews",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured Facebook company reviews data.\nRequires a valid Facebook company URL and number of reviews.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "num_of_reviews": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "url",
+        "num_of_reviews"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_facebook_company_reviews"
+  },
+  {
+    "annotations": {
+      "title": "Facebook Events",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured Facebook events data.\nRequires a valid Facebook event URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_facebook_events"
+  },
+  {
+    "annotations": {
+      "title": "Tiktok Profiles",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured Tiktok profiles data.\nRequires a valid Tiktok profile URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_tiktok_profiles"
+  },
+  {
+    "annotations": {
+      "title": "Tiktok Posts",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured Tiktok post data.\nRequires a valid Tiktok post URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_tiktok_posts"
+  },
+  {
+    "annotations": {
+      "title": "Tiktok Shop",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured Tiktok shop data.\nRequires a valid Tiktok shop product URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_tiktok_shop"
+  },
+  {
+    "annotations": {
+      "title": "Tiktok Comments",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured Tiktok comments data.\nRequires a valid Tiktok video URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_tiktok_comments"
+  },
+  {
+    "annotations": {
+      "title": "Google Maps Reviews",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured Google maps reviews data.\nRequires a valid Google maps URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "days_limit": {
+          "type": "string",
+          "default": "3"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_google_maps_reviews"
+  },
+  {
+    "annotations": {
+      "title": "Google Shopping",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured Google shopping data.\nRequires a valid Google shopping product URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_google_shopping"
+  },
+  {
+    "annotations": {
+      "title": "Google Play Store",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured Google play store data.\nRequires a valid Google play store app URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_google_play_store"
+  },
+  {
+    "annotations": {
+      "title": "Apple App Store",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured apple app store data.\nRequires a valid apple app store app URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_apple_app_store"
+  },
+  {
+    "annotations": {
+      "title": "Reuter News",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured reuter news data.\nRequires a valid reuter news report URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_reuter_news"
+  },
+  {
+    "annotations": {
+      "title": "Github Repository File",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured github repository data.\nRequires a valid github repository file URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_github_repository_file"
+  },
+  {
+    "annotations": {
+      "title": "Yahoo Finance Business",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured yahoo finance business data.\nRequires a valid yahoo finance business URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_yahoo_finance_business"
+  },
+  {
+    "annotations": {
+      "title": "X Posts",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured X post data.\nRequires a valid X post URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_x_posts"
+  },
+  {
+    "annotations": {
+      "title": "X Profile Posts",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured X posts from a profile.\nRequires a valid X profile URL (e.g. https://x.com/username).\nReturns the most recent posts from the profile.\nOptionally filter by date range using start_date and end_date\n(format: YYYY-MM-DD).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "start_date": {
+          "type": "string",
+          "default": ""
+        },
+        "end_date": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_x_profile_posts"
+  },
+  {
+    "annotations": {
+      "title": "Zillow Properties Listing",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured zillow properties listing data.\nRequires a valid zillow properties listing URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_zillow_properties_listing"
+  },
+  {
+    "annotations": {
+      "title": "Booking Hotel Listings",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured booking hotel listings data.\nRequires a valid booking hotel listing URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_booking_hotel_listings"
+  },
+  {
+    "annotations": {
+      "title": "Youtube Profiles",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured youtube profiles data.\nRequires a valid youtube profile URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_youtube_profiles"
+  },
+  {
+    "annotations": {
+      "title": "Youtube Comments",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured youtube comments data.\nRequires a valid youtube video URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "num_of_comments": {
+          "type": "string",
+          "default": "10"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_youtube_comments"
+  },
+  {
+    "annotations": {
+      "title": "Reddit Posts",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured reddit posts data.\nRequires a valid reddit post URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_reddit_posts"
+  },
+  {
+    "annotations": {
+      "title": "Youtube Videos",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured YouTube videos data.\nRequires a valid YouTube video URL.\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_youtube_videos"
+  },
+  {
+    "annotations": {
+      "title": "Chatgpt Ai Insights",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Send a prompt to ChatGPT and get back AI-generated insights.\nReturns structured answer text, citations, recommendations, and markdown. Useful for GEO and LLM as a judge.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "prompt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "prompt"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_chatgpt_ai_insights"
+  },
+  {
+    "annotations": {
+      "title": "Grok Ai Insights",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Send a prompt to Grok and get back AI-generated insights.\nReturns structured answer text in markdown format.\nUseful for GEO and LLM as a judge.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "prompt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "prompt"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_grok_ai_insights"
+  },
+  {
+    "annotations": {
+      "title": "Perplexity Ai Insights",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Send a prompt to Perplexity and get back AI-generated insights.\nReturns structured answer text in markdown format.\nUseful for GEO and LLM as a judge.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "prompt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "prompt"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_perplexity_ai_insights"
+  },
+  {
+    "annotations": {
+      "title": "Npm Package",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured npm package data.\nRequires a valid npm package name (e.g., @brightdata/sdk).\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "package_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "package_name"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_npm_package"
+  },
+  {
+    "annotations": {
+      "title": "Pypi Package",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Quickly read structured PyPI package data.\nRequires a valid PyPI package name (e.g., langchain-brightdata).\nThis can be a cache lookup, so it can be more reliable than scraping",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "package_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "package_name"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "web_data_pypi_package"
+  },
+  {
+    "annotations": {
+      "title": "Browser Navigate",
+      "destructiveHint": true,
+      "openWorldHint": true
+    },
+    "description": "Navigate a scraping browser session to a new URL",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "description": "The URL to navigate to"
+        },
+        "country": {
+          "type": "string",
+          "pattern": "^[A-Za-z]{2}$",
+          "description": "Optional 2-letter ISO country code to route the browser session (e.g., \"US\", \"GB\")"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scraping_browser_navigate"
+  },
+  {
+    "annotations": {
+      "title": "Browser Go Back",
+      "destructiveHint": true
+    },
+    "description": "Go back to the previous page",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scraping_browser_go_back"
+  },
+  {
+    "annotations": {
+      "title": "Browser Go Forward",
+      "destructiveHint": true
+    },
+    "description": "Go forward to the next page",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scraping_browser_go_forward"
+  },
+  {
+    "annotations": {
+      "title": "Browser Snapshot",
+      "readOnlyHint": true
+    },
+    "description": "Capture an ARIA snapshot of the current page showing all interactive elements with their refs.\nThis provides accurate element references that can be used with ref-based tools.\nUse this before interacting with elements to get proper refs instead of guessing selectors.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "filtered": {
+          "type": "boolean",
+          "description": "Whether to apply filtering/compaction (default: false). Set to true to get a compacted version of the snapshot."
+        }
+      },
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scraping_browser_snapshot"
+  },
+  {
+    "annotations": {
+      "title": "Browser Click Element",
+      "destructiveHint": true
+    },
+    "description": "Click on an element using its ref from the ARIA snapshot.\nUse scraping_browser_snapshot first to get the correct ref values.\nThis is more reliable than CSS selectors.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "ref": {
+          "type": "string",
+          "description": "The ref attribute from the ARIA snapshot (e.g., \"23\")"
+        },
+        "element": {
+          "type": "string",
+          "description": "Description of the element being clicked for context"
+        }
+      },
+      "required": [
+        "ref"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scraping_browser_click_ref"
+  },
+  {
+    "annotations": {
+      "title": "Browser Type Text",
+      "destructiveHint": true
+    },
+    "description": "Type text into an element using its ref from the ARIA snapshot.\nUse scraping_browser_snapshot first to get the correct ref values.\nThis is more reliable than CSS selectors.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "ref": {
+          "type": "string",
+          "description": "The ref attribute from the ARIA snapshot (e.g., \"23\")"
+        },
+        "element": {
+          "type": "string",
+          "description": "Description of the element being typed into for context"
+        },
+        "text": {
+          "type": "string",
+          "description": "Text to type"
+        },
+        "submit": {
+          "type": "boolean",
+          "description": "Whether to submit the form after typing (press Enter)"
+        }
+      },
+      "required": [
+        "ref",
+        "element",
+        "text"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scraping_browser_type_ref"
+  },
+  {
+    "annotations": {
+      "title": "Browser Screenshot",
+      "readOnlyHint": true
+    },
+    "description": "Take a screenshot of the current page",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "full_page": {
+          "type": "boolean",
+          "description": "Whether to screenshot the full page (default: false)\nYou should avoid fullscreen if it's not important, since the images can be quite large"
+        }
+      },
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scraping_browser_screenshot"
+  },
+  {
+    "annotations": {
+      "title": "Browser Network Requests",
+      "readOnlyHint": true
+    },
+    "description": "Get all network requests made since loading the current page.\nShows HTTP method, URL, status code and status text for each request.\nUseful for debugging API calls, tracking data fetching, and understanding page behavior.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scraping_browser_network_requests"
+  },
+  {
+    "annotations": {
+      "title": "Browser Wait for Element",
+      "readOnlyHint": true
+    },
+    "description": "Wait for an element to be visible using its ref from the ARIA snapshot.\nUse scraping_browser_snapshot first to get the correct ref values.\nThis is more reliable than CSS selectors.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "ref": {
+          "type": "string",
+          "description": "The ref attribute from the ARIA snapshot (e.g., \"23\")"
+        },
+        "element": {
+          "type": "string",
+          "description": "Description of the element being waited for"
+        },
+        "timeout": {
+          "type": "number",
+          "description": "Maximum time to wait in milliseconds (default: 30000)"
+        }
+      },
+      "required": [
+        "ref",
+        "element"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scraping_browser_wait_for_ref"
+  },
+  {
+    "description": "Fill multiple form fields in one operation.\nUse scraping_browser_snapshot first to get the correct ref values.\nThis is more efficient than filling fields one by one.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "fields": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Human-readable field name"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "textbox",
+                  "checkbox",
+                  "radio",
+                  "combobox",
+                  "slider"
+                ],
+                "description": "Type of the field"
+              },
+              "ref": {
+                "type": "string",
+                "description": "Exact target field reference from the page snapshot"
+              },
+              "value": {
+                "type": "string",
+                "description": "Value to fill in the field. For checkbox: use \"true\" or \"false\". For combobox: use the text of the option to select."
+              }
+            },
+            "required": [
+              "name",
+              "type",
+              "ref",
+              "value"
+            ],
+            "additionalProperties": false
+          },
+          "description": "Fields to fill in"
+        }
+      },
+      "required": [
+        "fields"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scraping_browser_fill_form"
+  },
+  {
+    "annotations": {
+      "title": "Browser Get Text",
+      "readOnlyHint": true
+    },
+    "description": "Get the text content of the current page",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scraping_browser_get_text"
+  },
+  {
+    "annotations": {
+      "title": "Browser Get HTML",
+      "readOnlyHint": true
+    },
+    "description": "Get the HTML content of the current page. Avoid using this tool and if used, use full_page option unless it is important to see things like script tags since this can be large",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "full_page": {
+          "type": "boolean",
+          "description": "Whether to get the full page HTML including head and script tags\nAvoid this if you only need the extra HTML, since it can be quite large"
+        }
+      },
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scraping_browser_get_html"
+  },
+  {
+    "annotations": {
+      "title": "Browser Scroll",
+      "destructiveHint": true
+    },
+    "description": "Scroll to the bottom of the current page",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scraping_browser_scroll"
+  },
+  {
+    "annotations": {
+      "title": "Browser Scroll to Element",
+      "destructiveHint": true
+    },
+    "description": "Scroll to a specific element using its ref from the ARIA snapshot.\nUse scraping_browser_snapshot first to get the correct ref values.\nThis is more reliable than CSS selectors.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "ref": {
+          "type": "string",
+          "description": "The ref attribute from the ARIA snapshot (e.g., \"23\")"
+        },
+        "element": {
+          "type": "string",
+          "description": "Description of the element to scroll to"
+        }
+      },
+      "required": [
+        "ref",
+        "element"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scraping_browser_scroll_to_ref"
+  }
+]

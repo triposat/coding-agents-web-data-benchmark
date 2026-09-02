@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Competitor Price Tracker</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a2332;
+      --border: #2d3a4f;
+      --text: #e7ecf3;
+      --muted: #8b9cb3;
+      --accent: #3b82f6;
+      --cheapest: #22c55e;
+      --cheapest-bg: rgba(34, 197, 94, 0.12);
+      --error: #f87171;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    header {
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+    }
+    header h1 { margin: 0 0 0.25rem; font-size: 1.5rem; }
+    header p { margin: 0; color: var(--muted); font-size: 0.9rem; }
+    main { padding: 1.5rem 2rem 3rem; overflow-x: auto; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      min-width: 900px;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.65rem 0.85rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--surface);
+      font-weight: 600;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+    tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    .product-cell { min-width: 200px; font-weight: 600; }
+    .sku { color: var(--muted); font-size: 0.8rem; font-weight: 400; }
+    .price-cell { white-space: nowrap; }
+    .cheapest {
+      background: var(--cheapest-bg) !important;
+      color: var(--cheapest);
+      font-weight: 700;
+    }
+    .cheapest::after {
+      content: " ✓ cheapest";
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    .na { color: var(--muted); font-style: italic; }
+    .err { color: var(--error); font-size: 0.8rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .meta { font-size: 0.78rem; color: var(--muted); margin-top: 0.2rem; }
+    .legend {
+      margin-top: 1.5rem;
+      padding: 0.75rem 1rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .legend strong { color: var(--cheapest); }
+    #status { margin-top: 0.5rem; }
+    .loading { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Competitor Price Tracker</h1>
+    <p>Price comparison across retailers — cheapest option highlighted per product</p>
+    <p id="status" class="loading">Loading results…</p>
+  </header>
+  <main>
+    <table id="price-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <div class="legend">
+      <strong>Green cells</strong> mark the lowest price found for each product.
+      Prices are parsed from the latest tracker run in <code>results.json</code>.
+    </div>
+  </main>
+  <script>
+    function parsePrice(value) {
+      if (!value) return null;
+      const n = parseFloat(String(value).replace(/[^0-9.]/g, ""));
+      return Number.isFinite(n) ? n : null;
+    }
+
+    function formatPrice(n) {
+      return "$" + n.toFixed(2);
+    }
+
+    async function loadResults() {
+      const res = await fetch("results.json");
+      if (!res.ok) throw new Error("Could not load results.json");
+      return res.json();
+    }
+
+    function buildDashboard(data) {
+      const retailers = [...new Set(data.map(r => r.retailer))].sort();
+      const products = [...new Map(data.map(r => [r.sku_id, r.product])).entries()]
+        .sort((a, b) => a[0].localeCompare(b[0]));
+
+      const headerRow = document.querySelector("#price-table thead tr");
+      retailers.forEach(ret => {
+        const th = document.createElement("th");
+        th.textContent = ret.charAt(0).toUpperCase() + ret.slice(1);
+        headerRow.appendChild(th);
+      });
+
+      const bySkuRetailer = {};
+      data.forEach(row => {
+        bySkuRetailer[row.sku_id] = bySkuRetailer[row.sku_id] || {};
+        bySkuRetailer[row.sku_id][row.retailer] = row;
+      });
+
+      const tbody = document.getElementById("table-body");
+
+      products.forEach(([skuId, productName]) => {
+        const rows = retailers.map(ret => bySkuRetailer[skuId]?.[ret]).filter(Boolean);
+        const prices = rows
+          .map(r => ({ retailer: r.retailer, price: parsePrice(r.price), row: r }))
+          .filter(p => p.price !== null);
+        const minPrice = prices.length ? Math.min(...prices.map(p => p.price)) : null;
+
+        const tr = document.createElement("tr");
+
+        const productTd = document.createElement("td");
+        productTd.className = "product-cell";
+        productTd.innerHTML = `${productName}<div class="sku">${skuId}</div>`;
+        tr.appendChild(productTd);
+
+        retailers.forEach(ret => {
+          const row = bySkuRetailer[skuId]?.[ret];
+          const td = document.createElement("td");
+          td.className = "price-cell";
+
+          if (!row) {
+            td.innerHTML = '<span class="na">—</span>';
+          } else {
+            const priceNum = parsePrice(row.price);
+            const isCheapest = priceNum !== null && priceNum === minPrice && prices.length > 1;
+            if (isCheapest) td.classList.add("cheapest");
+
+            const priceHtml = row.price
+              ? `<div>${row.price}</div>`
+              : '<span class="na">no price</span>';
+
+            const nameHtml = row.name
+              ? `<div class="meta">${row.name}</div>`
+              : "";
+
+            const availHtml = row.availability
+              ? `<div class="meta">${row.availability}</div>`
+              : "";
+
+            const ratingHtml = row.rating
+              ? `<div class="meta">★ ${row.rating}</div>`
+              : "";
+
+            const statusHtml = row.status !== "ok"
+              ? `<div class="err">${row.status}</div>`
+              : "";
+
+            td.innerHTML = `
+              ${priceHtml}
+              ${nameHtml}
+              ${availHtml}
+              ${ratingHtml}
+              ${statusHtml}
+              <div class="meta"><a href="${row.url}" target="_blank" rel="noopener">View</a></div>
+            `;
+          }
+          tr.appendChild(td);
+        });
+
+        tbody.appendChild(tr);
+      });
+
+      const ok = data.filter(r => r.status === "ok").length;
+      document.getElementById("status").textContent =
+        `${data.length} listings · ${ok} with complete data · ${products.length} products · ${retailers.length} retailers`;
+      document.getElementById("status").classList.remove("loading");
+    }
+
+    loadResults()
+      .then(buildDashboard)
+      .catch(err => {
+        document.getElementById("status").textContent = "Error: " + err.message;
+        document.getElementById("status").classList.add("err");
+      });
+  </script>
+</body>
+</html>

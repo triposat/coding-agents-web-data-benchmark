@@ -1,0 +1,9 @@
+### LOCAL stdio (1.5s)  isError=None  payload_chars=0
+    stderr: Checking for required zones... | Required zone "mcp_unlocker" already exists | Required zone "mcp_browser" already exists | Starting server... | [scrape_as_markdown] executing (client=p) {"url":"https://example.com"} | [scrape_as_markdown] tool finished in 1521ms
+SERVER: {"name": "brightdata-mcp", "version": "1.0.0"}
+SESSION: 42ce2237-bcb4-4a9d-85e8-bef622df52a0
+
+TOOL COUNT: 5
+
+### HOSTED (4.5s)  isError=None  payload_chars=181
+     'Example Domain\n\nExample Domain\n\nThis domain is for use in documentation examples without needing permission. Avoid use in operations.\n\n[Learn more](https://iana.org/domains/example'

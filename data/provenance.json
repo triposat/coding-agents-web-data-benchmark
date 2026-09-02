@@ -1,0 +1,46 @@
+{
+  "cursor_bd": {
+    "rows": 41,
+    "reported_all_four": 25,
+    "backfilled_by_field": {
+      "name": 0,
+      "price": 0,
+      "availability": 0,
+      "rating": 0
+    },
+    "clean_all_four": 25
+  },
+  "cursor_nobd": {
+    "rows": 41,
+    "reported_all_four": 16,
+    "backfilled_by_field": {
+      "name": 0,
+      "price": 0,
+      "availability": 0,
+      "rating": 0
+    },
+    "clean_all_four": 16
+  },
+  "claude_bd": {
+    "rows": 41,
+    "reported_all_four": 32,
+    "backfilled_by_field": {
+      "name": 0,
+      "price": 0,
+      "availability": 0,
+      "rating": 0
+    },
+    "clean_all_four": 32
+  },
+  "claude_nobd_v2": {
+    "rows": 41,
+    "reported_all_four": 41,
+    "backfilled_by_field": {
+      "name": 23,
+      "price": 27,
+      "availability": 0,
+      "rating": 32
+    },
+    "clean_all_four": 2
+  }
+}

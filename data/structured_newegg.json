@@ -1,0 +1,908 @@
+[
+  {
+    "url": "https://www.newegg.com/seagate-model-stkm2000400-2tb/p/N82E16822184950",
+    "item_id": "N82E16822184950",
+    "variant_id": "9SIC7XHM1R6414",
+    "gtin": null,
+    "mpn": "STKM2000400",
+    "title": "Seagate Expansion Portable 2TB External Hard Drive HDD - 2.5 Inch USB 3.0, for Mac and PC with Rescue Services (STKM2000400)",
+    "description": "Sleek and simple portable drive design for taking photos, movies, music, and more on-the-go;\nDrag-and-drop file saving;\nUSB 3.0 powered;\nAutomatic recognition of Windows and Mac computers for simple setup (Reformatting required for use with Time Machine);\nEnjoy peace of mind with the included limited warranty and Rescue Data Recovery Services.",
+    "product_category": "Components & Storage > Hard Drive > Portable External Hard Drives > Seagate",
+    "category_tree": [
+      {
+        "name": "Components & Storage",
+        "url": "https://www.newegg.com/Components-Storage/Store/ID-1"
+      },
+      {
+        "name": "Hard Drive",
+        "url": "https://www.newegg.com/Hard-Drive/Category/ID-15"
+      },
+      {
+        "name": "Portable External Hard Drives",
+        "url": "https://www.newegg.com/Portable-External-Hard-Drives/SubCategory/ID-3400"
+      },
+      {
+        "name": "Seagate",
+        "url": "https://www.newegg.com/Seagate-Portable-External-Hard-Drives/BrandSubCat/ID-1305-3400"
+      }
+    ],
+    "brand": "Seagate",
+    "image_url": "https://c1.neweggimages.com/ProductImageOriginal/22-184-950-V01.jpg",
+    "additional_image_urls": [
+      "https://c1.neweggimages.com/ProductImageOriginal/22-184-950-V01.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/22-184-950-V80.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/22-184-950-V02.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/22-184-950-V03.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/22-184-950-V04.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/22-184-950-V05.jpg"
+    ],
+    "price": "$198.00",
+    "sale_price": "$198.00",
+    "availability": "in_stock",
+    "availability_date": null,
+    "group_id": null,
+    "listing_has_variations": true,
+    "variant_dict": {
+      "color": null,
+      "size": null,
+      "style": null
+    },
+    "variant_attributes": [
+      {
+        "name": "Option",
+        "value": "2TB"
+      },
+      {
+        "name": "Option",
+        "value": "2TB"
+      }
+    ],
+    "variants": [
+      {
+        "variant_type": "Option",
+        "variant_options": [
+          {
+            "option_id": "9SIC7XHM1R6356",
+            "option_name": "5TB",
+            "option_price": null,
+            "in_stock": null,
+            "image": "https://c1.neweggimages.com/productimage/nb1280/22-184-952-V01.jpg"
+          },
+          {
+            "option_id": "9SIA2W0K167034",
+            "option_name": "4TB",
+            "option_price": null,
+            "in_stock": null,
+            "image": "https://c1.neweggimages.com/productimage/nb1280/22-184-951-V01.jpg"
+          },
+          {
+            "option_id": "9SIC7XHM1R6414",
+            "option_name": "2TB",
+            "option_price": null,
+            "in_stock": true,
+            "image": "https://c1.neweggimages.com/productimage/nb1280/22-184-950-V01.jpg"
+          },
+          {
+            "option_id": "9SIC7XHM1R6572",
+            "option_name": "1TB",
+            "option_price": null,
+            "in_stock": null,
+            "image": "https://c1.neweggimages.com/productimage/nb1280/22-184-949-V01.jpg"
+          }
+        ]
+      },
+      {
+        "variant_type": "Option",
+        "variant_options": [
+          {
+            "option_id": "9SIC7XHM1R6356",
+            "option_name": "5TB",
+            "option_price": null,
+            "in_stock": null,
+            "image": "https://c1.neweggimages.com/productimage/nb1280/22-184-952-V01.jpg"
+          },
+          {
+            "option_id": "9SIA2W0K167034",
+            "option_name": "4TB",
+            "option_price": null,
+            "in_stock": null,
+            "image": "https://c1.neweggimages.com/productimage/nb1280/22-184-951-V01.jpg"
+          },
+          {
+            "option_id": "9SIC7XHM1R6414",
+            "option_name": "2TB",
+            "option_price": null,
+            "in_stock": true,
+            "image": "https://c1.neweggimages.com/productimage/nb1280/22-184-950-V01.jpg"
+          },
+          {
+            "option_id": "9SIC7XHM1R6572",
+            "option_name": "1TB",
+            "option_price": null,
+            "in_stock": null,
+            "image": "https://c1.neweggimages.com/productimage/nb1280/22-184-949-V01.jpg"
+          }
+        ]
+      }
+    ],
+    "store_name": "Seagate",
+    "seller_url": "https://www.newegg.com/Seagate/BrandStore/ID-1305?cm_sp=brand-store-_-from-pdp-above-title",
+    "seller_privacy_policy": "https://kb.newegg.com/knowledge-base/privacy-policy-newegg/",
+    "seller_tos": "https://kb.newegg.com/knowledge-base/terms-and-conditions-int/",
+    "return_policy": "https://www.newegg.com/promotions/nepro/22-0073/index.html#99",
+    "return_window": 30,
+    "review_count": 97,
+    "star_rating": 4.5,
+    "reviews": [],
+    "features": [
+      "Sleek and simple portable drive design for taking photos, movies, music, and more on-the-go;\nDrag-and-drop file saving;\nUSB 3.0 powered;\nAutomatic recognition of Windows and Mac computers for simple setup (Reformatting required for use with Time Machine);\nEnjoy peace of mind with the included limited warranty and Rescue Data Recovery Services."
+    ],
+    "related_products": [
+      {
+        "title": "WD 5TB My Passport Ultra External Drive for Mac",
+        "url": "https://www.newegg.com/model-wdbpmv0050bsl-wesn-5tb-external/p/1Z4-0002-01724?Item=1Z4-0002-01724&cm_sp=SP-_-3416726-_-Pers_ProductAlsoView+-_-4-_-1Z4-0002-01724-_-9SIC7XHM1R6414-_--_-1",
+        "image": "https://c1.neweggimages.com/productimage/nb300/A8X5S200308BxBD8.jpg",
+        "price": "$294.99"
+      },
+      {
+        "title": "WD_BLACK 2TB P10 Game Drive External HDD for Console or PC WDBA2W0020BBK-WES1",
+        "url": "https://www.newegg.com/p/1E8-0006-005W2?Item=1E8-0006-005W2&cm_sp=SP-_-3333685-_-Pers_ProductAlsoView+-_-4-_-1E8-0006-005W2-_-9SIC7XHM1R6414-_--_-2",
+        "image": "https://c1.neweggimages.com/productimage/nb300/A24GD2404200CDXU2AB.jpg",
+        "price": "$174.99"
+      },
+      {
+        "title": "Seagate Expansion Portable 5TB External Hard Drive HDD - 2.5 Inch USB 3.0, for Mac and PC with Rescue Services (STKM5000400)",
+        "url": "https://www.newegg.com/seagate-model-stkm5000400-5tb/p/N82E16822184952?Item=9SIC7XHM1R6356",
+        "image": "https://c1.neweggimages.com/productimage/nb300/22-184-952-V01.jpg",
+        "price": "$299.00"
+      },
+      {
+        "title": "TOSHIBA 1TB Canvio Advance Portable External Hard Drive USB 3.0 Model HDTCA10XK3AA Black",
+        "url": "https://www.newegg.com/toshiba-model-hdtca10xk3aa-1tb/p/N82E16822149771?Item=9SIA4P0KHV9362",
+        "image": "https://c1.neweggimages.com/productimage/nb300/22-149-771-V01.jpg",
+        "price": "$119.99"
+      },
+      {
+        "title": "TOSHIBA 2TB Canvio Advance Portable External Hard Drive USB 3.0 Model HDTCA20XG3AA Green",
+        "url": "https://www.newegg.com/toshiba-model-hdtca20xg3aa-2tb/p/N82E16822149781?Item=9SIC62TKUT9032",
+        "image": "https://c1.neweggimages.com/productimage/nb300/22-149-781-V01.jpg",
+        "price": "$147.56"
+      },
+      {
+        "title": "Western Digital 4TB Elements Hard R USB 3.2 Gen 1/USB 3.0 Model WDBLSS0040BBK-WESN",
+        "url": "https://www.newegg.com/western-digital-model-wdblss0040bbk-wesn-4tb-usb-3-2-gen-1-usb-3-0-usb-2-0-compatible/p/N82E16822234596?Item=N82E16822234596&cm_sp=SP-_-3416726-_-Pers_ProductAlsoView+-_-4-_-22-234-596-_-9SIC7XHM1R6414-_--_-6",
+        "image": "https://c1.neweggimages.com/productimage/nb300/22-234-596-01.jpg",
+        "price": "$249.99"
+      },
+      {
+        "title": "Intenso 4TB Portable Hard Drive USB 3.0 Model 6021512 Black",
+        "url": "https://www.newegg.com/intenso-model-6021512-4tb/p/N82E16822651009?Item=9SIAD7HK1Z8979",
+        "image": "https://c1.neweggimages.com/productimage/nb300/AD2T_1_202001141843584729.jpg",
+        "price": "$192.99"
+      },
+      {
+        "title": "iStorage diskAshur2 HDD 1TB Black -  Secure portable hard drive - Password protected, dust and water resistant, portable, military grade hardware encryption USB 3.1 IS-DA2-256-1000-B",
+        "url": "https://www.newegg.com/istorage-model-is-da2-256-1000-b-1tb/p/N82E16822650034?Item=9SIAE9M62H8135",
+        "image": "https://c1.neweggimages.com/productimage/nb300/AE9M_1_20170823797799108.jpg",
+        "price": "$294.95"
+      },
+      {
+        "title": "TOSHIBA 2TB Canvio Ready Portable External Hard Drive USB 3.0 Model HDTP320XK3AA Black",
+        "url": "https://www.newegg.com/toshiba-model-hdtp320xk3aa-2tb/p/1B4-0019-015E0?Item=9SIA4P0JXZ8135",
+        "image": "https://c1.neweggimages.com/productimage/nb300/V0MTD210313483TK.jpg",
+        "price": "$129.99"
+      },
+      {
+        "title": "WD Black 5TB P10 Game Drive for PS5 PS4 Xbox PC Mac USB 3.2 WDBA3A0050BBK-WESN",
+        "url": "https://www.newegg.com/model-wdba3a0050bbk-wesn-5tb/p/N82E16822234385?Item=N82E16822234385",
+        "image": "https://c1.neweggimages.com/productimage/nb300/22-234-385-S04.jpg",
+        "price": "$289.99"
+      },
+      {
+        "title": "LaCie 1TB Rugged USB-C Portable Drive USB-C Model STFR1000800",
+        "url": "https://www.newegg.com/lacie-model-stfr1000800-1tb/p/1E8-004Z-000C1?Item=9SIA4P08HV0281",
+        "image": "https://c1.neweggimages.com/productimage/nb300/1E8-004Z-000C1-V10.jpg",
+        "price": "$143.13"
+      },
+      {
+        "title": "WD My Passport 4TB External Hard Drive USB 3.2",
+        "url": "https://www.newegg.com/model-wdbpkj0040bbk-wesn-4tb-usb-3-2-gen-1/p/N82E16822234388?Item=N82E16822234388",
+        "image": "https://c1.neweggimages.com/productimage/nb300/22-234-388-V05.jpg",
+        "price": "$249.99"
+      },
+      {
+        "title": "Avolusion HD250U3 120GB Ultra Slim SuperSpeed USB 3.0 Portable External Hard Drive (Windows OS Formatted) (Black) - 2 Year Warranty",
+        "url": "https://www.newegg.com/p/2WA-004K-00018?Item=9SIA5AD5BF7959",
+        "image": "https://c1.neweggimages.com/productimage/nb300/A5AD_131315927983350283YAuUI6M5Qo.jpg",
+        "price": "$29.99"
+      },
+      {
+        "title": "Avolusion HD250U3 80GB Ultra Slim SuperSpeed USB 3.0 Portable External Hard Drive (Windows OS Formatted) (Black) - 2 Year Warranty",
+        "url": "https://www.newegg.com/p/2WA-004K-00017?Item=9SIA5AD5BF7958",
+        "image": "https://c1.neweggimages.com/productimage/nb300/A5AD_131315926208648000hU7at2O4sD.jpg",
+        "price": "$29.99"
+      },
+      {
+        "title": "Avolusion HD250U3 80GB Ultra Slim SuperSpeed USB 3.0 Portable External Hard Drive (Mac OS Formatted) (Black) - 2 Year Warranty",
+        "url": "https://www.newegg.com/p/2WA-004K-00016?Item=9SIA5AD5BF7754",
+        "image": "https://c1.neweggimages.com/productimage/nb300/A5AD_131315922764286952vtPpIzv5Ak.jpg",
+        "price": "$29.99"
+      },
+      {
+        "title": "Seagate FireCuda Gaming Hard Drive External Hard Drive 1TB - USB 3.2 Gen 1, RGB LED Lighting for PC and Mac with Rescue Services (STKL1000400)",
+        "url": "https://www.newegg.com/seagate-model-stkl1000400-1tb/p/N82E16822184960?Item=9SIAD6HKET9073",
+        "image": "https://c1.neweggimages.com/productimage/nb300/22-184-960-V01.jpg",
+        "price": "$180.21"
+      },
+      {
+        "title": "LaCie 1TB Rugged Mini External Hard Drive USB 3.0 LAC301558",
+        "url": "https://www.newegg.com/lacie-model-lac301558-1tb-usb-3-0/p/N82E16822154551?Item=N82E16822154551",
+        "image": "https://c1.neweggimages.com/productimage/nb300/22-154-551-03.jpg",
+        "price": "$121.99"
+      },
+      {
+        "title": "WD 4TB My Passport Ultra Portable Storage External Hard Drive USB-C Gold - WDBFTM0040BGD-CESN",
+        "url": "https://www.newegg.com/model-wdbftm0050bgd-cesn-4tb/p/2WA-0006-005V2?Item=9SIA12KJ767752",
+        "image": "https://c1.neweggimages.com/productimage/nb300/AG8TS200906rM2re.jpg",
+        "price": "$289.99"
+      },
+      {
+        "title": "Western Digital 2TB Elements Hard Drive USB 3.0",
+        "url": "https://www.newegg.com/western-digital-model-wdbdtv0020bbk-wesn-2tb-usb-3-2-gen-1-usb-3-0-usb-2-0-compatible/p/N82E16822234597?Item=N82E16822234597",
+        "image": "https://c1.neweggimages.com/productimage/nb300/22-234-597-01.jpg",
+        "price": "$169.99"
+      },
+      {
+        "title": "Avolusion HD250U3-Z1-PRO 2TB USB 3.0 Portable Slim External Gaming XBOX X, S, One Gaming Hard Drive - Black (XBOX Pre-Formatted) - 2 Year Warranty",
+        "url": "https://www.newegg.com/p/2WA-00VY-000J5?Item=9SIA5ADHEG8713",
+        "image": "https://c1.neweggimages.com/productimage/nb300/A5ADS22040818DR5UA2.jpg",
+        "price": "$99.99"
+      }
+    ],
+    "target_countries": [
+      "US"
+    ],
+    "store_country": "US",
+    "category_urls": [
+      "https://www.newegg.com/Components-Storage/Store/ID-1",
+      "https://www.newegg.com/Hard-Drive/Category/ID-15",
+      "https://www.newegg.com/Portable-External-Hard-Drives/SubCategory/ID-3400",
+      "https://www.newegg.com/Seagate-Portable-External-Hard-Drives/BrandSubCat/ID-1305-3400"
+    ],
+    "timestamp": "2026-09-01T00:13:09.743Z",
+    "input": {
+      "url": "https://www.newegg.com/seagate-model-stkm2000400-2tb/p/N82E16822184950"
+    }
+  },
+  {
+    "url": "https://www.newegg.com/samsung-t7-1tb-usb-3-2-gen-2/p/N82E16820147767",
+    "item_id": "N82E16820147767",
+    "variant_id": "9SIA3FABGC0778",
+    "gtin": null,
+    "mpn": "MU-PC1T0T/AM",
+    "title": "SAMSUNG T7 Portable SSD, 1TB External Solid State Drive, Speeds Up to 1,050MB/s, USB 3.2 Gen 2, Reliable Storage for Gaming, Students, Professionals, MU-PC1T0T/AM, Gray",
+    "description": "MADE FOR THE MAKERS: Create; Explore; Store; The T7 Portable SSD delivers fast speeds and durable features to back up any endeavor; Build your video editing empire, file your photographs or back up your blogs all in an instant; SHARE IDEAS IN A FLASH: Don’t waste a second waiting and spend more time doing; The T7 is embedded with PCIe NVMe technology that brings fast read and write speeds up to 1,050/1,000 MB/s¹, making it almost twice as fast as the T5; ALWAYS MAKE THE SAVE: Compact design with massive capacity; With capacities up to 4TB, save exactly what you need to your drive – from large working files to game data and everything in between; ADAPTS TO EVERY NEED: Whether using a PC or mobile phone, count on the T7 for extensive compatibility²; It’s a true team player when it comes to heavy-duty application usage or file-saving; HI RESOLUTION VIDEO RECORDING: Record Ultra High Resolution (4K 60fs) videos directly onto the T7 Portable SSD with your favorite camera or mobile devices;",
+    "product_category": "Components & Storage > SSD > External SSDs > SAMSUNG",
+    "category_tree": [
+      {
+        "name": "Components & Storage",
+        "url": "https://www.newegg.com/Components-Storage/Store/ID-1"
+      },
+      {
+        "name": "SSD",
+        "url": "https://www.newegg.com/SSD/Category/ID-119"
+      },
+      {
+        "name": "External SSDs",
+        "url": "https://www.newegg.com/External-SSDs/SubCategory/ID-2022"
+      },
+      {
+        "name": "SAMSUNG",
+        "url": "https://www.newegg.com/SAMSUNG-External-SSDs/BrandSubCat/ID-1077-2022"
+      }
+    ],
+    "brand": "SAMSUNG",
+    "image_url": "https://c1.neweggimages.com/ProductImageOriginal/20-147-767-V07.jpg",
+    "additional_image_urls": [
+      "https://c1.neweggimages.com/ProductImageOriginal/20-147-767-V07.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/20-147-767-V08.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/20-147-767-V09.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/20-147-767-V10.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/20-147-767-V06.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/20-147-767-V05.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/20-147-767-V80.jpg"
+    ],
+    "price": "$274.99",
+    "sale_price": "$274.99",
+    "availability": "in_stock",
+    "availability_date": null,
+    "group_id": null,
+    "listing_has_variations": true,
+    "variant_dict": {
+      "color": null,
+      "size": null,
+      "style": null
+    },
+    "variant_attributes": [
+      {
+        "name": "Capacity",
+        "value": "1TB"
+      }
+    ],
+    "variants": [
+      {
+        "variant_type": "Capacity",
+        "variant_options": [
+          {
+            "option_id": null,
+            "option_name": "4TB",
+            "option_price": null,
+            "in_stock": null,
+            "image": null
+          },
+          {
+            "option_id": null,
+            "option_name": "2TB",
+            "option_price": null,
+            "in_stock": null,
+            "image": null
+          },
+          {
+            "option_id": null,
+            "option_name": "1TB",
+            "option_price": null,
+            "in_stock": true,
+            "image": null
+          }
+        ]
+      }
+    ],
+    "store_name": "SAMSUNG",
+    "seller_url": "https://www.newegg.com/SAMSUNG/BrandStore/ID-1077?cm_sp=brand-store-_-from-pdp-above-title",
+    "seller_privacy_policy": "https://kb.newegg.com/knowledge-base/privacy-policy-newegg/",
+    "seller_tos": "https://kb.newegg.com/knowledge-base/terms-and-conditions-int/",
+    "return_policy": "https://www.newegg.com/promotions/nepro/22-0073/index.html#99",
+    "return_window": 30,
+    "review_count": 1030,
+    "star_rating": 4.8,
+    "reviews": [],
+    "features": [
+      "MADE FOR THE MAKERS: Create; Explore; Store; The T7 Portable SSD delivers fast speeds and durable features to back up any endeavor; Build your video editing empire, file your photographs or back up your blogs all in an instant",
+      "SHARE IDEAS IN A FLASH: Don’t waste a second waiting and spend more time doing; The T7 is embedded with PCIe NVMe technology that brings fast read and write speeds up to 1,050/1,000 MB/s¹, making it almost twice as fast as the T5",
+      "ALWAYS MAKE THE SAVE: Compact design with massive capacity; With capacities up to 4TB, save exactly what you need to your drive – from large working files to game data and everything in between",
+      "ADAPTS TO EVERY NEED: Whether using a PC or mobile phone, count on the T7 for extensive compatibility²; It’s a true team player when it comes to heavy-duty application usage or file-saving",
+      "HI RESOLUTION VIDEO RECORDING: Record Ultra High Resolution (4K 60fs) videos directly onto the T7 Portable SSD with your favorite camera or mobile devices;"
+    ],
+    "related_products": [
+      {
+        "title": "SAMSUNG T7 Portable SSD 1TB  - Up to 1050 MB/s - USB 3.2 Gen 2 External Solid State Drive, Blue (MU-PC1T0H/AM)",
+        "url": "https://www.newegg.com/samsung-t7-1tb/p/N82E16820147764?Item=9SIAD6HBKT4823",
+        "image": "https://c1.neweggimages.com/productimage/nb300/20-147-764-V01.jpg",
+        "price": "$320.04"
+      },
+      {
+        "title": "SAMSUNG T7 Shield 1TB External SSD USB 3.2 IP65 Water Resistant PC Mac Android Gaming Consoles Beige",
+        "url": "https://www.newegg.com/samsung-t7-shield-1tb-usb-3-2-gen-2/p/N82E16820147835?Item=N82E16820147835",
+        "image": "https://c1.neweggimages.com/productimage/nb300/20-147-835-01.jpg",
+        "price": "$287.99"
+      },
+      {
+        "title": "MemoStone 1TB 20Gbps Extreme Portable SSD - Up to 1900MB/s - USB-C, USB 3.2 Gen 2 - RGB External Solid State Drive - ZS301, Yellow",
+        "url": "https://www.newegg.com/memostone-zs301-1tb-usb-3-2-gen-2x2/p/2CR-008W-00014?Item=9SIB1V8KN45040&cm_sp=SP-_-3022939-_-Pers_ProductAlsoView+-_-4-_-9SIB1V8KN45040-_-9SIA3FABGC0778-_--_-3",
+        "image": "https://c1.neweggimages.com/productimage/nb300/B1V8S2511050G0H8I25.jpg",
+        "price": "$121.99"
+      },
+      {
+        "title": "AGI EDM38 Portable 2TB SSD Type-C USB 3.2 Gen 2x2 Storage(Black). Compatible with Magsafe for iPhone 15 Pro Max ProRes. Read speed up to 2050 MB/s. External SSD for iPhone 15 and newer, PC, laptops.",
+        "url": "https://www.newegg.com/agi-edm38-2tb-usb-3-2-gen-2x2/p/2CR-008G-00008?Item=9SIBM90KFB0152&cm_sp=SP-_-3043114-_-Pers_ProductAlsoView+-_-4-_-9SIBM90KFB0152-_-9SIA3FABGC0778-_--_-4",
+        "image": "https://c1.neweggimages.com/productimage/nb300/BM90S25100206QURCE3.jpg",
+        "price": "$389.99"
+      },
+      {
+        "title": "ADATA 500GB SC740 External Solid State Drive , USB 3.2 Gen2 USB-C External Portable SSD - up to 1050 MB/s Model SC740-500G-CBU",
+        "url": "https://www.newegg.com/p/2CR-000A-000B0?Item=9SIA1K6KJJ0456",
+        "image": "https://c1.neweggimages.com/productimage/nb300/A1K6S2507260VNTQD40.jpg",
+        "price": "$147.99"
+      },
+      {
+        "title": "SAMSUNG T9 Portable SSD 1TB, USB 3.2 Gen 2x2 External Solid State Drive, Seq. Read Speeds Up to 2,000MB/s for Gaming, Students and Professionals, MU-PG1T0B/AM, Black",
+        "url": "https://www.newegg.com/samsung-t9-1tb-usb-3-2-gen-2x2/p/N82E16820147880?Item=9SIAADFKUJ4489",
+        "image": "https://c1.neweggimages.com/productimage/nb300/20-147-880-01.jpg",
+        "price": "$238.75"
+      },
+      {
+        "title": "SanDisk 1TB Extreme Portable SSD - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware - External Solid State Drive - SDSSDE61-1T00-G25",
+        "url": "https://www.newegg.com/sandisk-extreme-v2-1tb-usb-3-2-gen-2-usb-c/p/N82E16820173503?Item=9SIC7XKM1R2038",
+        "image": "https://c1.neweggimages.com/productimage/nb300/20-173-503-V01.jpg",
+        "price": "$151.00"
+      },
+      {
+        "title": "AGI 1TB ED138 Portable External SSD, (R/W Speed up to 550/500 MB/s), USB 3.2 Gen2 Type-C to Type-C/Type-A Cable, Aluminum Housing.",
+        "url": "https://www.newegg.com/agi-ed138-1tb/p/2CR-008G-00003?Item=9SIBM90K087071&cm_sp=SP-_-3043157-_-Pers_ProductAlsoView+-_-4-_-9SIBM90K087071-_-9SIA3FABGC0778-_--_-8",
+        "image": "https://c1.neweggimages.com/productimage/nb300/BM90S2312070LG8ZX44.jpg",
+        "price": "$179.99"
+      },
+      {
+        "title": "Kingston External SXS1000 2TB USB 3.2 Gen 2x2 Type-C 3D NAND Solid State Disk",
+        "url": "https://www.newegg.com/kingston-sxs1000-2tb-usb-3-2-gen-2x2-type-c/p/N82E16820242839?Item=9SIA8H5KFK2533",
+        "image": "https://c1.neweggimages.com/productimage/nb300/20-242-838-06.jpg",
+        "price": "$415.76"
+      },
+      {
+        "title": "Western Digital WD BLACK P40 1TB USB 3.2 Gen 2x2, Type-C Game Drive SSD",
+        "url": "https://www.newegg.com/western-digital-black-p40-1tb/p/N82E16820250241?Item=9SIC7XKM1K3744",
+        "image": "https://c1.neweggimages.com/productimage/nb300/20-250-241-S24.jpg",
+        "price": "$150.32"
+      },
+      {
+        "title": "SanDisk 4TB Extreme PRO Portable SSD - Up to 2000MB/s - USB-C, USB 3.2 Gen 2x2, IP65 Water and Dust Resistance, Updated Firmware - External Solid State Drive - SDSSDE81-4T00-G25",
+        "url": "https://www.newegg.com/sandisk-extreme-pro-v2-4tb-usb-3-2-gen-2x2-usb-c/p/N82E16820173501?Item=9SIC6XKM4W4383",
+        "image": "https://c1.neweggimages.com/productimage/nb300/20-173-501-V01.jpg",
+        "price": "$885.00"
+      },
+      {
+        "title": "Kingston XS2000 1TB USB 3.2 Gen 2x2 Type-C External Solid State Drive",
+        "url": "https://www.newegg.com/kingston-sxs2000-1000gb/p/0D9-001B-00513?Item=9SIC3FZM449796",
+        "image": "https://c1.neweggimages.com/productimage/nb300/ASRAS210928NVgQ6.jpg",
+        "price": "$309.99"
+      },
+      {
+        "title": "Nusyn 1TB NSP30 Portable SSD USB 3.2 USB-C External Solid State Drive Green",
+        "url": "https://www.newegg.com/nusyn-nsp30-1tb-usb-3-2-gen-2-type-c/p/N82E16820524009?Item=N82E16820524009",
+        "image": "https://c1.neweggimages.com/productimage/nb300/20-524-009-02.jpg",
+        "price": "$129.99"
+      },
+      {
+        "title": "Super Talent PS302 512GB Portable External SSD, USB 3.2 Gen 2, Up to 1050MB/s, 2-in-1 Type C & Type A, Plug & Play, Compatible with Android, Mac, Windows, Supports 4K, Drop-Proof, FUS512302, Gray",
+        "url": "https://www.newegg.com/p/2CR-000N-00020?Item=9SIA0ZXKU73015",
+        "image": "https://c1.neweggimages.com/productimage/nb300/C5NBD26032211L3WC65.jpg",
+        "price": "$120.23"
+      },
+      {
+        "title": "Apacer Portable 1TB External Type-C USB 3.2 Gen 2 SSD/Storage. Magsafe compatible and up to 10Gbps for iPhone 15 and newer, PC, laptops, gaming, students, and professionals.",
+        "url": "https://www.newegg.com/apacer-as-1tb-type-c/p/2CR-005W-00004?Item=9SIBTCWKCG9227",
+        "image": "https://c1.neweggimages.com/productimage/nb300/BTCWS2411260XJFMO4F.jpg",
+        "price": "$119.99"
+      },
+      {
+        "title": "SanDisk 1TB Portable SSD - Up to 520MB/s, USB-C, USB 3.2 Gen 2 - External Solid State Drive SDSSDE30-1T00-G25",
+        "url": "https://www.newegg.com/p/N82E16820173551?Item=9SIA12KJ2V4522",
+        "image": "https://c1.neweggimages.com/productimage/nb300/20-173-551-V07.jpg",
+        "price": "$209.95"
+      },
+      {
+        "title": "Crucial X9 4TB Portable SSD - Up to 1050MB/s Read - PC and Mac, Lightweight and small - USB 3.2 External Solid State Drive - CT4000X9SSD9",
+        "url": "https://www.newegg.com/crucial-x9-4tb-usb-3-2-gen-2/p/N82E16820156386?Item=9SIAD6HK6G0678",
+        "image": "https://c1.neweggimages.com/productimage/nb300/9B20-156-386-01.jpg",
+        "price": "$775.06"
+      },
+      {
+        "title": "Crucial X9 1TB Portable SSD - Up to 1050MB/s Read, PC and Mac, Lightweight and Small with 3-Month Mylio Photos+ Offer - USB 3.2 External Solid State Drive - CT1000X9SSD902",
+        "url": "https://www.newegg.com/p/3C6-00N4-005F1?Item=9SIBRESKFE8969",
+        "image": "https://c1.neweggimages.com/productimage/nb300/BSTDD2412300LRRGT2C.jpg",
+        "price": "$322.99"
+      },
+      {
+        "title": "Crucial X10 Pro 1TB Portable SSD - Up to 2100MB/s read, 2000MB/s write - water and dust resistant, PC and Mac - USB 3.2 External Solid State Drive - CT1000X10PROSSD9",
+        "url": "https://www.newegg.com/crucial-x10-pro-1tb-usb-3-2-gen-2x2/p/N82E16820156377?Item=9SIC6XKM4H2491",
+        "image": "https://c1.neweggimages.com/productimage/nb300/20-156-377-04.png",
+        "price": "$230.85"
+      },
+      {
+        "title": "ADATA External Solid State Drive SE880 - 1TB USB 3.2 USB-C | Titanium Grey - Rugged, Highly Portable SSD | High Speed 2000MB/s Read/Write | Compatibility: Windows, Mac OS, Android, Xbox One, PS4, PS5",
+        "url": "https://www.newegg.com/adata-se880-1tb/p/2CR-000A-000A5?Item=9SIA4YUK8Z7320",
+        "image": "https://c1.neweggimages.com/productimage/nb300/V1HJD22050401QC75FE.jpg",
+        "price": "$204.20"
+      }
+    ],
+    "target_countries": [
+      "US"
+    ],
+    "store_country": "US",
+    "category_urls": [
+      "https://www.newegg.com/Components-Storage/Store/ID-1",
+      "https://www.newegg.com/SSD/Category/ID-119",
+      "https://www.newegg.com/External-SSDs/SubCategory/ID-2022",
+      "https://www.newegg.com/SAMSUNG-External-SSDs/BrandSubCat/ID-1077-2022"
+    ],
+    "timestamp": "2026-09-01T00:13:26.204Z",
+    "input": {
+      "url": "https://www.newegg.com/samsung-t7-1tb-usb-3-2-gen-2/p/N82E16820147767"
+    }
+  },
+  {
+    "url": "https://www.newegg.com/bose-896637-0030-earbud-deep-plum/p/N82E16826627172",
+    "item_id": "N82E16826627172",
+    "variant_id": "26-627-172",
+    "gtin": null,
+    "mpn": "896637-0030",
+    "title": "Bose QuietComfort Ultra Earbuds (2nd Gen) True Wireless Noise Cancelling In-Ear Headphones - Deep Plum",
+    "description": "Seal yourself in with high-fidelity audio, eliminate distractions, and dive deep into your music.; QuietComfort Ultra Earbuds use both passive and active noise reduction technologies to achieve our best in-ear noise cancellation.; CustomTune tech analyzes your ears, adapts to the shape, and auto-adjusts to personalize the sound and noise cancellation to their liking.; The earbuds play for up to 6 hours (up to 4 hours with Immersive Audio) and the case holds up to 3 additional full charges.; Nine possible combinations of eartips and stability bands ensure the most comfy and stable fit for your ears.; Seamlessly connect to two devices simultaneously via Bluetooth and go from Zoom meetings to your Spotify playlist.; Hear and be heard clearly on calls with a revolutionary mic system.",
+    "product_category": "Electronics > Portable Electronic Devices > Headphones & Accessories > Bose",
+    "category_tree": [
+      {
+        "name": "Electronics",
+        "url": "https://www.newegg.com/Electronics/Store/ID-10"
+      },
+      {
+        "name": "Portable Electronic Devices",
+        "url": "https://www.newegg.com/Portable-Electronic-Devices/Category/ID-8"
+      },
+      {
+        "name": "Headphones & Accessories",
+        "url": "https://www.newegg.com/Headphones-Accessories/SubCategory/ID-70"
+      },
+      {
+        "name": "Bose",
+        "url": "https://www.newegg.com/Bose-Headphones-Accessories/BrandSubCat/ID-9959-70"
+      }
+    ],
+    "brand": "Bose",
+    "image_url": "https://c1.neweggimages.com/ProductImageOriginal/26-627-172-02.jpg",
+    "additional_image_urls": [
+      "https://c1.neweggimages.com/ProductImageOriginal/26-627-172-02.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-627-172-03.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-627-172-04.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-627-172-05.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-627-172-06.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-627-172-07.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-627-172-01.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-627-172-08.jpg"
+    ],
+    "price": "$299.00",
+    "sale_price": "$299.00",
+    "availability": "in_stock",
+    "availability_date": null,
+    "group_id": null,
+    "listing_has_variations": false,
+    "variant_dict": {
+      "color": null,
+      "size": null,
+      "style": null
+    },
+    "variant_attributes": [
+      {
+        "name": "Option",
+        "value": "896637-0030"
+      }
+    ],
+    "variants": [],
+    "store_name": "Bose",
+    "seller_url": "https://www.newegg.com/Bose/BrandStore/ID-9959?cm_sp=brand-store-_-from-pdp-above-title",
+    "seller_privacy_policy": "https://kb.newegg.com/knowledge-base/privacy-policy-newegg/",
+    "seller_tos": "https://kb.newegg.com/knowledge-base/terms-and-conditions-int/",
+    "return_policy": "https://www.newegg.com/promotions/nepro/22-0073/index.html#99",
+    "return_window": 30,
+    "review_count": 1,
+    "star_rating": 5,
+    "reviews": [],
+    "features": [
+      "Seal yourself in with high-fidelity audio, eliminate distractions, and dive deep into your music.",
+      "QuietComfort Ultra Earbuds use both passive and active noise reduction technologies to achieve our best in-ear noise cancellation.",
+      "CustomTune tech analyzes your ears, adapts to the shape, and auto-adjusts to personalize the sound and noise cancellation to their liking.",
+      "The earbuds play for up to 6 hours (up to 4 hours with Immersive Audio) and the case holds up to 3 additional full charges.",
+      "Nine possible combinations of eartips and stability bands ensure the most comfy and stable fit for your ears.",
+      "Seamlessly connect to two devices simultaneously via Bluetooth and go from Zoom meetings to your Spotify playlist.",
+      "Hear and be heard clearly on calls with a revolutionary mic system."
+    ],
+    "related_products": [
+      {
+        "title": "Refurbished: \nSONY WH1000XM6/B Headphone (BT)",
+        "url": "https://www.newegg.com/sony-wh-1000xm6-b-headphone/p/0TH-000U-00KD3?Item=9SIA15TKHA0655&cm_sp=SP-_-2768698-_-Pers_ProductAlsoView+-_-4-_-9SIA15TKHA0655-_-26-627-172-_--_-1",
+        "image": "https://c1.neweggimages.com/productimage/nb300/A15TD25071119CEGOCB.jpg",
+        "price": "$269.99"
+      },
+      {
+        "title": "HyperX Cloud Jet Wireless Black Gaming Headset (AJ0T1AA) - Stereo - Wireless - Bluetooth/RF - 49.2 ft - 32 Ohm - 20 Hz to 20 kHz - Over-the-head - Binaural - Circumaural - Electret Condenser, Uni-dire",
+        "url": "https://www.newegg.com/p/0TH-0073-00572?Item=9SIAR0TKJA6615&cm_sp=SP-_-2992495-_-Pers_ProductAlsoView+-_-4-_-9SIAR0TKJA6615-_-26-627-172-_--_-2",
+        "image": "https://c1.neweggimages.com/productimage/nb300/A24GD2507280C3DRH39.jpg",
+        "price": "$49.99"
+      },
+      {
+        "title": "Bose QuietComfort Ultra Earbuds 2nd Gen True Wireless Noise Cancelling Headphones",
+        "url": "https://www.newegg.com/bose-896637-0020-earbud-white-smoke/p/N82E16826627171?Item=N82E16826627171",
+        "image": "https://c1.neweggimages.com/productimage/nb300/26-627-171-04.jpg",
+        "price": "$299.00"
+      },
+      {
+        "title": "Bose QuietComfort Headphones Wireless Noise Cancelling Over Ear Mic USB-C Charging Playtime Moonlight Grey",
+        "url": "https://www.newegg.com/bose-884367-1700-headphone-moonlight-grey/p/N82E16826627191?Item=N82E16826627191",
+        "image": "https://c1.neweggimages.com/productimage/nb300/26-627-191-10.jpg",
+        "price": "$229.00"
+      },
+      {
+        "title": "iFLYTEK AI Translation Earbuds, AI Interpreter Earbuds, Real-Time Bidirectional Voice Translation, 60+ Languages, Video and Call Translation, Wireless Bluetooth Translation Earbuds for Global Business",
+        "url": "https://www.newegg.com/iflytek-aih-2541-earbud-aluminum-black/p/0TH-07MD-00001?Item=9SIC16JKTV6231",
+        "image": "https://c1.neweggimages.com/productimage/nb300/C16JS2603180FNNCS7F.jpg",
+        "price": "$279.00"
+      },
+      {
+        "title": "Refurbished: \nSrhythm NiceComfort 35 Lightweight Hybrid Noise Cancelling Headphones,with Titanium Coated Speakers,Low Latency,ANC for wired and Bluetooth Wireless White",
+        "url": "https://www.newegg.com/srhythm-nc35-noise-cancelling-white/p/0TH-06U1-000B5?Item=9SIB5EWK3H4479&cm_sp=SP-_-2316686-_-Pers_ProductAlsoView+-_-4-_-9SIB5EWK3H4479-_-26-627-172-_--_-6",
+        "image": "https://c1.neweggimages.com/productimage/nb300/B5EWS2608260LUEB3D2.jpg",
+        "price": "$29.99"
+      },
+      {
+        "title": "Edifier V80 Hybrid Active Noise Cancelling Headphones, True Wireless Over Ear Bluetooth Headset with 45H Playtime Hi-Res Audio Fast Charging Multipoint Connection for Travel Home Office - Blushell",
+        "url": "https://www.newegg.com/p/0TH-00B2-002M4?Item=9SIAA3FKE56468&cm_sp=SP-_-2998512-_-Pers_ProductAlsoView+-_-4-_-9SIAA3FKE56468-_-26-627-172-_--_-7",
+        "image": "https://c1.neweggimages.com/productimage/nb300/AEX3S2502280C9AYP3F.jpg",
+        "price": "$49.99"
+      },
+      {
+        "title": "Gaming Headset for PC, Ps4, Ps5, Xbox Headset with 7.1 Surround Sound, Gaming Headphones with Noise Cancelling Mic RGB Light Over Ear Headphones for Xbox Series X/S, Switch-Blue",
+        "url": "https://www.newegg.com/philips-wfl900-h-on-ear-white/p/0TH-056A-00FY9?Item=9SIC7CMM156526",
+        "image": "https://c1.neweggimages.com/productimage/nb300/C56DD2603170IKJ5OEB.jpg",
+        "price": "$51.99"
+      },
+      {
+        "title": "Air Tube Headphones  EMF & Anti Radiation Wired Earbuds, 5 Years Warranty with Remote Driver Chamber, Noise-Free Mic  Zero EMF Headphones for Work, Travel, Study  Radiation Audio",
+        "url": "https://www.newegg.com/philips-wfl900-h-on-ear-white/p/0TH-056A-00FT0?Item=9SIC7HSM0Z7255",
+        "image": "https://c1.neweggimages.com/productimage/nb300/C7HSD26070808ALLVD4.jpg",
+        "price": "$85.99"
+      },
+      {
+        "title": "Wireless Bluetooth Neckband Headphones Mic Headset Stereo Earbuds Earphone",
+        "url": "https://www.newegg.com/p/0TH-0741-00115?Item=9SIC4P1KRF0858",
+        "image": "https://c1.neweggimages.com/productimage/nb300/BKRTS2410120643UBB9.jpg",
+        "price": "$38.94"
+      },
+      {
+        "title": "KDYNIX Golf Ball Wireless Earbuds Bluetooth 5.4 Headphones, ANC Noise Canceling Sports Earphones with 13mm Bass Drivers, IPX7 Waterproof, 18H Playtime USB-C Charging, Holiday Gift for Golfers",
+        "url": "https://www.newegg.com/kdynix-kd25g4-true-wireless-white-golf-earbud/p/0TH-07KT-00004?Item=9SIC46BM165673&cm_sp=SP-_-3392826-_-Pers_ProductAlsoView+-_-4-_-9SIC46BM165673-_-26-627-172-_--_-11",
+        "image": "https://c1.neweggimages.com/productimage/nb300/C46BS26071304T53751.jpg",
+        "price": "$17.99"
+      },
+      {
+        "title": "Srhythm NiceComfort 35 Lightweight Hybrid Noise Cancelling Headphones,with Titanium Coated Speakers,Low Latency,ANC for wired and Bluetooth Wireless White",
+        "url": "https://www.newegg.com/srhythm-nc35-noise-cancelling-white/p/0TH-06U1-00016?Item=9SIB5EWJE64206&cm_sp=SP-_-1772857-_-Pers_ProductAlsoView+-_-4-_-9SIB5EWJE64206-_-26-627-172-_--_-12",
+        "image": "https://c1.neweggimages.com/productimage/nb300/B5EWS26082706CIY6D2.jpg",
+        "price": "$59.99"
+      },
+      {
+        "title": "Bose QuietComfort Ultra 2nd Gen Over-Ear Wireless Headphones Desert Gold",
+        "url": "https://www.newegg.com/p/N82E16826627187?Item=N82E16826627187",
+        "image": "https://c1.neweggimages.com/productimage/nb300/26-627-187-17.jpg",
+        "price": "$449.00"
+      },
+      {
+        "title": "Fuji Labs AUFJ-PSQWBS306MG 2nd Gen Sonique - SQ306 High-Grade Pure Beryllium In-Ear Headphones with Built-In Mic",
+        "url": "https://www.newegg.com/fuji-labs-aufj-psqwbs306mg-in-ear/p/N82E16826556076?Item=9SIAA1GDSK1965",
+        "image": "https://c1.neweggimages.com/productimage/nb300/26-556-076-01.jpg",
+        "price": "$38.99"
+      },
+      {
+        "title": "Fuji Labs White AUFJ-PSQWTS306WH 2nd Gen Sonique SQ306 Premium Pure Titanium In-Ear Headphones with In-line Mic",
+        "url": "https://www.newegg.com/white-fuji-labs-aufj-psqwts306wh-in-ear/p/N82E16826556079?Item=9SIAA1G8TV0325",
+        "image": "https://c1.neweggimages.com/productimage/nb300/26-556-079-01.jpg",
+        "price": "$37.99"
+      },
+      {
+        "title": "Refurbished: \nSrhythm NiceComfort 25 Lightweight Hybrid Noise Cancelling Headphones,with Titanium Coated Speakers,Transparency and Low Latency,ANC for wired and Bluetooth Wireless White",
+        "url": "https://www.newegg.com/srhythm-nc25-noise-cancelling-white/p/0TH-06U1-000B1?Item=9SIB5EWK3H4432&cm_sp=SP-_-2314891-_-Pers_ProductAlsoView+-_-4-_-9SIB5EWK3H4432-_-26-627-172-_--_-16",
+        "image": "https://c1.neweggimages.com/productimage/nb300/B5EWS2608180DITCT03.jpg",
+        "price": "$29.99"
+      },
+      {
+        "title": "MEE audio M6 PRO In Ear Monitor Headphones for Musicians, 2nd Gen Model With Upgraded Sound, Memory Wire Earhooks & Replaceable Cables, Noise Isolating Professional Earbuds, 2 Cords Included (Clear)",
+        "url": "https://www.newegg.com/p/3C6-0283-00209?Item=9SIC140KGP6038",
+        "image": "https://c1.neweggimages.com/productimage/nb300/AUXAD2407120DXIAK47.jpg",
+        "price": "$75.99"
+      }
+    ],
+    "target_countries": [
+      "US"
+    ],
+    "store_country": "US",
+    "category_urls": [
+      "https://www.newegg.com/Electronics/Store/ID-10",
+      "https://www.newegg.com/Portable-Electronic-Devices/Category/ID-8",
+      "https://www.newegg.com/Headphones-Accessories/SubCategory/ID-70",
+      "https://www.newegg.com/Bose-Headphones-Accessories/BrandSubCat/ID-9959-70"
+    ],
+    "timestamp": "2026-09-01T00:13:54.238Z",
+    "input": {
+      "url": "https://www.newegg.com/bose-896637-0030-earbud-deep-plum/p/N82E16826627172"
+    }
+  },
+  {
+    "url": "https://www.newegg.com/razer-deathadder-v3-usb-wired/p/N82E16826153342",
+    "item_id": "N82E16826153342",
+    "variant_id": "26-153-342",
+    "gtin": null,
+    "mpn": "RZ01-04640100-R3U1",
+    "title": "Razer DeathAdder V3 Wired Gaming Mouse: 59g Ultra Lightweight - Focus Pro 30K Optical Sensor - Fast Optical Switches Gen-3-8K Hz HyperPolling-6 Programmable Buttons -Ergonomic -Speedflex Cable- Black",
+    "description": "59G ULTRA-LIGHTWEIGHT DESIGN — Enjoy a level of speed and control favored by the world’s top players with one of the lightest ergonomic esports mice ever created; FOCUS PRO 30K OPTICAL SENSOR — Flawless tracking performance on a wider variety of surfaces including glass—supported by intelligent functions for enhanced aim and control; OPTICAL MOUSE SWITCHES GEN-3 — From an improved 90-million click lifecycle with zero double-clicking issues, to a blistering 0.2ms actuation with no debounce delay, the mouse has the reliability and speed built for esports; 8K HZ HYPERPOLLING TECHNOLOGY — The mouse can communicate its position and clicks to your PC at up to 8000 times a second for near-zero input latency; ERGONOMIC FORM — Developed in partnership with top esports pros, the iconic shape of the Razer DeathAdder has been further improved to continue its legacy of award-winning handling and comfort; RAZER SPEEDFLEX CABLE",
+    "product_category": "Computer Peripherals > Keyboard & Mouse > Gaming Mouse > RAZER",
+    "category_tree": [
+      {
+        "name": "Computer Peripherals",
+        "url": "https://www.newegg.com/Computer-Peripherals/Store/ID-380"
+      },
+      {
+        "name": "Keyboard & Mouse",
+        "url": "https://www.newegg.com/Keyboard-Mouse/Category/ID-234"
+      },
+      {
+        "name": "Gaming Mouse",
+        "url": "https://www.newegg.com/Gaming-Mouse/SubCategory/ID-3527"
+      },
+      {
+        "name": "RAZER",
+        "url": "https://www.newegg.com/RAZER-Gaming-Mouse/BrandSubCat/ID-2202-3527"
+      }
+    ],
+    "brand": "RAZER",
+    "image_url": "https://c1.neweggimages.com/ProductImageOriginal/26-153-342-06.jpg",
+    "additional_image_urls": [
+      "https://c1.neweggimages.com/ProductImageOriginal/26-153-342-06.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-153-342-05.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-153-342-04.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-153-342-03.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-153-342-02.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-153-342-01.jpg"
+    ],
+    "price": "$71.99",
+    "sale_price": "$71.99",
+    "availability": "in_stock",
+    "availability_date": null,
+    "group_id": null,
+    "listing_has_variations": true,
+    "variant_dict": {
+      "color": null,
+      "size": null,
+      "style": null
+    },
+    "variant_attributes": [
+      {
+        "name": "Option",
+        "value": "Wired"
+      }
+    ],
+    "variants": [
+      {
+        "variant_type": "Option",
+        "variant_options": [
+          {
+            "option_id": null,
+            "option_name": "Wired",
+            "option_price": null,
+            "in_stock": true,
+            "image": null
+          },
+          {
+            "option_id": null,
+            "option_name": "Wireless",
+            "option_price": null,
+            "in_stock": null,
+            "image": null
+          }
+        ]
+      }
+    ],
+    "store_name": "RAZER",
+    "seller_url": "https://www.newegg.com/RAZER/BrandStore/ID-2202?cm_sp=brand-store-_-from-pdp-above-title",
+    "seller_privacy_policy": "https://kb.newegg.com/knowledge-base/privacy-policy-newegg/",
+    "seller_tos": "https://kb.newegg.com/knowledge-base/terms-and-conditions-int/",
+    "return_policy": "https://www.newegg.com/promotions/nepro/22-0073/index.html#99",
+    "return_window": 30,
+    "review_count": 4,
+    "star_rating": 3.5,
+    "reviews": [],
+    "features": [
+      "59G ULTRA-LIGHTWEIGHT DESIGN — Enjoy a level of speed and control favored by the world’s top players with one of the lightest ergonomic esports mice ever created",
+      "FOCUS PRO 30K OPTICAL SENSOR — Flawless tracking performance on a wider variety of surfaces including glass—supported by intelligent functions for enhanced aim and control",
+      "OPTICAL MOUSE SWITCHES GEN-3 — From an improved 90-million click lifecycle with zero double-clicking issues, to a blistering 0.2ms actuation with no debounce delay, the mouse has the reliability and speed built for esports",
+      "8K HZ HYPERPOLLING TECHNOLOGY — The mouse can communicate its position and clicks to your PC at up to 8000 times a second for near-zero input latency",
+      "ERGONOMIC FORM — Developed in partnership with top esports pros, the iconic shape of the Razer DeathAdder has been further improved to continue its legacy of award-winning handling and comfort",
+      "RAZER SPEEDFLEX CABLE"
+    ],
+    "related_products": [],
+    "target_countries": [
+      "US"
+    ],
+    "store_country": "US",
+    "category_urls": [
+      "https://www.newegg.com/Computer-Peripherals/Store/ID-380",
+      "https://www.newegg.com/Keyboard-Mouse/Category/ID-234",
+      "https://www.newegg.com/Gaming-Mouse/SubCategory/ID-3527",
+      "https://www.newegg.com/RAZER-Gaming-Mouse/BrandSubCat/ID-2202-3527"
+    ],
+    "timestamp": "2026-09-01T00:14:18.381Z",
+    "input": {
+      "url": "https://www.newegg.com/razer-deathadder-v3-usb-wired/p/N82E16826153342"
+    }
+  },
+  {
+    "url": "https://www.newegg.com/logitech-910-006558-mx-master-3s-usb-type-c-dual/p/N82E16826197552",
+    "item_id": "N82E16826197552",
+    "variant_id": "9SIBP4YKP20717",
+    "gtin": null,
+    "mpn": "910-006558",
+    "title": "Logitech MX Master 3S - Wireless Performance Mouse with Ultra-fast Scrolling, Ergo, 8K DPI, Track on Glass, Quiet Clicks, USB-C, Bluetooth, Windows, Linux, Chrome - Pale Grey",
+    "description": "Any-surface tracking - now 8K DPI: Use MX Master 3S cordless computer mouse to work on any surface - even glass (1) - with the upgraded 8000 DPI sensor with customizable sensitivity; Introducing quiet clicks: MX Master 3S Bluetooth mouse introduces Quiet Clicks - offering the same satisfying feel but with 90% less click noise (2); Magspeed scrolling: A computer mouse with remarkable speed, precision, and near silence - MagSpeed scrolling is 90% faster (3), 87% more precise (4), and ultra quiet; Ergonomic design: Work comfortably with a precision mouse featuring a silhouette crafted for a more natural wrist posture and optimally placed thumb controls; Upgraded customization software: Customize buttons and optimize your workflow with App specific profiles in the improved Logi Options+ (5); FLOW cross-computer control: Work seamlessly on multiple computers or laptops, and transfer text, images, and files – between Windows & macOS (5)",
+    "product_category": "Computer Peripherals > Keyboard & Mouse > Mouse > Logitech",
+    "category_tree": [
+      {
+        "name": "Computer Peripherals",
+        "url": "https://www.newegg.com/Computer-Peripherals/Store/ID-380"
+      },
+      {
+        "name": "Keyboard & Mouse",
+        "url": "https://www.newegg.com/Keyboard-Mouse/Category/ID-234"
+      },
+      {
+        "name": "Mouse",
+        "url": "https://www.newegg.com/Mouse/SubCategory/ID-65"
+      },
+      {
+        "name": "Logitech",
+        "url": "https://www.newegg.com/Logitech-Mouse/BrandSubCat/ID-1080-65"
+      }
+    ],
+    "brand": "Logitech",
+    "image_url": "https://c1.neweggimages.com/ProductImageOriginal/26-197-552-12.jpg",
+    "additional_image_urls": [
+      "https://c1.neweggimages.com/ProductImageOriginal/26-197-552-12.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-197-552-16.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-197-552-13.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-197-552-14.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-197-552-26.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-197-552-27.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-197-552-24.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-197-552-25.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-197-552-15.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-197-552-23.jpg",
+      "https://c1.neweggimages.com/ProductImageOriginal/26-197-552-28.jpg"
+    ],
+    "price": "$114.00",
+    "sale_price": "$114.00",
+    "availability": "in_stock",
+    "availability_date": null,
+    "group_id": null,
+    "listing_has_variations": false,
+    "variant_dict": {
+      "color": null,
+      "size": null,
+      "style": null
+    },
+    "variant_attributes": [
+      {
+        "name": "Option",
+        "value": "910-006558"
+      }
+    ],
+    "variants": [],
+    "store_name": "Logitech",
+    "seller_url": "https://www.newegg.com/Logitech/BrandStore/ID-1080?cm_sp=brand-store-_-from-pdp-above-title",
+    "seller_privacy_policy": "https://kb.newegg.com/knowledge-base/privacy-policy-newegg/",
+    "seller_tos": "https://kb.newegg.com/knowledge-base/terms-and-conditions-int/",
+    "return_policy": "https://www.newegg.com/promotions/nepro/22-0073/index.html#99",
+    "return_window": 30,
+    "review_count": 5,
+    "star_rating": 4.8,
+    "reviews": [],
+    "features": [
+      "Any-surface tracking - now 8K DPI: Use MX Master 3S cordless computer mouse to work on any surface - even glass (1) - with the upgraded 8000 DPI sensor with customizable sensitivity",
+      "Introducing quiet clicks: MX Master 3S Bluetooth mouse introduces Quiet Clicks - offering the same satisfying feel but with 90% less click noise (2)",
+      "Magspeed scrolling: A computer mouse with remarkable speed, precision, and near silence - MagSpeed scrolling is 90% faster (3), 87% more precise (4), and ultra quiet",
+      "Ergonomic design: Work comfortably with a precision mouse featuring a silhouette crafted for a more natural wrist posture and optimally placed thumb controls",
+      "Upgraded customization software: Customize buttons and optimize your workflow with App specific profiles in the improved Logi Options+ (5)",
+      "FLOW cross-computer control: Work seamlessly on multiple computers or laptops, and transfer text, images, and files – between Windows & macOS (5)"
+    ],
+    "related_products": [],
+    "target_countries": [
+      "US"
+    ],
+    "store_country": "US",
+    "category_urls": [
+      "https://www.newegg.com/Computer-Peripherals/Store/ID-380",
+      "https://www.newegg.com/Keyboard-Mouse/Category/ID-234",
+      "https://www.newegg.com/Mouse/SubCategory/ID-65",
+      "https://www.newegg.com/Logitech-Mouse/BrandSubCat/ID-1080-65"
+    ],
+    "timestamp": "2026-09-01T00:16:06.184Z",
+    "input": {
+      "url": "https://www.newegg.com/logitech-910-006558-mx-master-3s-usb-type-c-dual/p/N82E16826197552"
+    }
+  }
+]

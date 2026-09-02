@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Competitor Price Tracker</title>
+<style>
+  :root {
+    --bg: #f7f8fa;
+    --card-bg: #ffffff;
+    --border: #e2e5ea;
+    --text: #1c2027;
+    --text-muted: #6b7280;
+    --accent: #2563eb;
+    --cheapest-bg: #dcfce7;
+    --cheapest-text: #166534;
+    --bad-bg: #fef2f2;
+    --bad-text: #991b1b;
+    --header-bg: #f1f3f6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --card-bg: #1c1f26;
+      --border: #2c313a;
+      --text: #e5e7eb;
+      --text-muted: #9aa1ac;
+      --accent: #60a5fa;
+      --cheapest-bg: #14351f;
+      --cheapest-text: #86efac;
+      --bad-bg: #3a1a1a;
+      --bad-text: #fca5a5;
+      --header-bg: #21252d;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14161a; --card-bg: #1c1f26; --border: #2c313a; --text: #e5e7eb;
+    --text-muted: #9aa1ac; --accent: #60a5fa; --cheapest-bg: #14351f;
+    --cheapest-text: #86efac; --bad-bg: #3a1a1a; --bad-text: #fca5a5; --header-bg: #21252d;
+  }
+  :root[data-theme="light"] {
+    --bg: #f7f8fa; --card-bg: #ffffff; --border: #e2e5ea; --text: #1c2027;
+    --text-muted: #6b7280; --accent: #2563eb; --cheapest-bg: #dcfce7;
+    --cheapest-text: #166534; --bad-bg: #fef2f2; --bad-text: #991b1b; --header-bg: #f1f3f6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2rem 1.5rem 4rem;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  h1 { font-size: 1.5rem; margin: 0 0 0.25rem; }
+  .subtitle { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+  #status { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1rem; }
+  .table-wrap {
+    max-width: 1400px;
+    margin: 0 auto 2rem;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow-x: auto;
+  }
+  table { border-collapse: collapse; width: 100%; min-width: 900px; font-size: 0.88rem; }
+  thead th {
+    position: sticky; top: 0;
+    background: var(--header-bg);
+    text-align: left;
+    padding: 0.7rem 0.85rem;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+    font-weight: 600;
+  }
+  tbody td {
+    padding: 0.6rem 0.85rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: var(--header-bg); }
+  .product-cell { font-weight: 600; min-width: 200px; }
+  .retailer-cell { min-width: 190px; }
+  .retailer-name { text-transform: capitalize; font-weight: 600; }
+  .price { font-variant-numeric: tabular-nums; font-weight: 600; }
+  .price.cheapest { background: var(--cheapest-bg); color: var(--cheapest-text); padding: 0.15rem 0.5rem; border-radius: 6px; display: inline-block; }
+  .price.missing { color: var(--text-muted); font-weight: 400; }
+  .meta { color: var(--text-muted); font-size: 0.78rem; margin-top: 0.15rem; }
+  .rating { white-space: nowrap; }
+  .status-badge {
+    display: inline-block; font-size: 0.72rem; padding: 0.1rem 0.4rem;
+    border-radius: 5px; background: var(--bad-bg); color: var(--bad-text);
+    margin-top: 0.2rem;
+  }
+  a.name-link { color: var(--text); text-decoration: none; }
+  a.name-link:hover { color: var(--accent); text-decoration: underline; }
+  .cheapest-tag {
+    font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.03em;
+    color: var(--cheapest-text); font-weight: 700; margin-left: 0.4rem;
+  }
+  .legend { display: flex; gap: 1.2rem; align-items: center; margin: 0 auto 1.2rem; max-width: 1400px; font-size: 0.82rem; color: var(--text-muted); flex-wrap: wrap; }
+  .legend span.swatch { display: inline-block; width: 0.7rem; height: 0.7rem; border-radius: 3px; margin-right: 0.35rem; vertical-align: -1px; }
+  .swatch.cheapest { background: var(--cheapest-bg); border: 1px solid var(--cheapest-text); }
+</style>
+</head>
+<body>
+  <h1>Competitor Price Tracker</h1>
+  <div class="subtitle">Live view of <code>results.json</code> — cheapest available price per product is highlighted.</div>
+  <div class="legend">
+    <div><span class="swatch cheapest"></span>Cheapest retailer for this product</div>
+    <div id="summary"></div>
+  </div>
+  <div id="status">Loading results.json…</div>
+  <div class="table-wrap" id="table-wrap" style="display:none">
+    <table>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Retailer</th>
+          <th>Listing</th>
+          <th>Price</th>
+          <th>Availability</th>
+          <th>Rating</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+
+<script>
+async function main() {
+  const statusEl = document.getElementById('status');
+  let rows;
+  try {
+    const res = await fetch('results.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    rows = await res.json();
+  } catch (err) {
+    statusEl.textContent = 'Could not load results.json (' + err.message + '). Serve this folder over HTTP (e.g. `python3 -m http.server`) and open dashboard.html from there.';
+    return;
+  }
+
+  // group by sku_id, preserving first-seen product order
+  const bySku = new Map();
+  for (const r of rows) {
+    if (!bySku.has(r.sku_id)) bySku.set(r.sku_id, { product: r.product, entries: [] });
+    bySku.get(r.sku_id).entries.push(r);
+  }
+
+  const tbody = document.getElementById('tbody');
+  let totalOk = 0;
+
+  for (const [skuId, group] of bySku) {
+    const withPrice = group.entries.filter(e => typeof e.price === 'number');
+    const minPrice = withPrice.length ? Math.min(...withPrice.map(e => e.price)) : null;
+
+    group.entries.forEach((e, idx) => {
+      if (e.status === 'ok') totalOk++;
+      const tr = document.createElement('tr');
+
+      const isCheapest = minPrice !== null && e.price === minPrice;
+
+      const productCell = idx === 0
+        ? `<td class="product-cell" rowspan="${group.entries.length}">${escapeHtml(group.product)}<div class="meta">${skuId}</div></td>`
+        : '';
+
+      const priceHtml = typeof e.price === 'number'
+        ? `<span class="price${isCheapest ? ' cheapest' : ''}">$${e.price.toFixed(2)}${isCheapest ? '<span class="cheapest-tag">Best</span>' : ''}</span>`
+        : `<span class="price missing">—</span>`;
+
+      const statusHtml = e.status && e.status !== 'ok'
+        ? `<div class="status-badge">${escapeHtml(e.status)}</div>` : '';
+
+      const ratingHtml = typeof e.rating === 'number' ? `★ ${e.rating.toFixed(1)}` : '<span class="price missing">—</span>';
+
+      tr.innerHTML = `
+        ${productCell}
+        <td class="retailer-cell"><span class="retailer-name">${escapeHtml(e.retailer)}</span></td>
+        <td><a class="name-link" href="${escapeAttr(e.url)}" target="_blank" rel="noopener">${escapeHtml(e.name || e.url)}</a>${statusHtml}</td>
+        <td>${priceHtml}</td>
+        <td>${escapeHtml(e.availability || '—')}</td>
+        <td class="rating">${ratingHtml}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  document.getElementById('summary').textContent =
+    `${rows.length} listings across ${bySku.size} products · ${totalOk} fully collected (status "ok")`;
+  statusEl.style.display = 'none';
+  document.getElementById('table-wrap').style.display = 'block';
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function escapeAttr(s) { return escapeHtml(s); }
+
+main();
+</script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+
+=== arm6 web_data_* via MCP pro === {('bestbuy', False): 4, ('amazon', True): 6, ('walmart', False): 3, ('bestbuy', True): 5, ('amazon', False): 4, ('walmart', True): 7}

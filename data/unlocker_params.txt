@@ -1,0 +1,18 @@
+
+  baseline
+    S01  status=502          0b  has_$=False    48.6s  ''
+    S02  status=200   1,255,568b  has_$=True    23.4s  '<!doctype html>\n<html lang="en" data-app-version="26.35.5.0"><h
+    S03  status=502          0b  has_$=False    52.5s  ''
+    S04  status=502          0b  has_$=False    52.9s  ''
+
+  country=us
+    S01  status=502          0b  has_$=False    49.0s  ''
+    S02  status=200   1,270,962b  has_$=True    25.1s  '<!doctype html>\n<html lang="en" data-app-version="26.35.5.0"><h
+    S03  status=200   1,118,994b  has_$=True    21.7s  '<!doctype html>\n<html lang="en" data-app-version="26.35.5.0"><h
+    S04  status=502          0b  has_$=False    58.5s  ''
+
+  country=us + data_format=markdown
+    S01  status=502          0b  has_$=False    52.3s  ''
+    S02  status=502          0b  has_$=False    60.2s  ''
+    S03  status=200      6,620b  has_$=True    25.2s  'Apple AirTag 4 pack (2nd generation) 2026 White MFEA4LL/A - Best 
+    S04  status=200     12,975b  has_$=True   111.6s  'Bose QuietComfort Ultra Earbuds (2nd Gen) True Wireless Noise Can

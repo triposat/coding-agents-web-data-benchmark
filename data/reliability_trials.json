@@ -1,0 +1,290 @@
+[
+  {
+    "target": "bestbuy",
+    "trial": 0,
+    "elapsed_s": 20.8,
+    "payload_len": 11946,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "bestbuy",
+    "trial": 1,
+    "elapsed_s": 23.0,
+    "payload_len": 12363,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "bestbuy",
+    "trial": 2,
+    "elapsed_s": 21.1,
+    "payload_len": 11946,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "bestbuy",
+    "trial": 3,
+    "elapsed_s": 20.9,
+    "payload_len": 12459,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "bestbuy",
+    "trial": 4,
+    "elapsed_s": 24.1,
+    "payload_len": 0,
+    "isError": null,
+    "empty_no_error": true
+  },
+  {
+    "target": "bestbuy",
+    "trial": 5,
+    "elapsed_s": 21.8,
+    "payload_len": 12459,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "bestbuy",
+    "trial": 6,
+    "elapsed_s": 20.5,
+    "payload_len": 12363,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "bestbuy",
+    "trial": 7,
+    "elapsed_s": 31.5,
+    "payload_len": 12408,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "bestbuy",
+    "trial": 8,
+    "elapsed_s": 20.3,
+    "payload_len": 11946,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "bestbuy",
+    "trial": 9,
+    "elapsed_s": 27.6,
+    "payload_len": 12363,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "bestbuy",
+    "trial": 10,
+    "elapsed_s": 22.0,
+    "payload_len": 0,
+    "isError": null,
+    "empty_no_error": true
+  },
+  {
+    "target": "bestbuy",
+    "trial": 11,
+    "elapsed_s": 25.5,
+    "payload_len": 0,
+    "isError": null,
+    "empty_no_error": true
+  },
+  {
+    "target": "amazon",
+    "trial": 0,
+    "elapsed_s": 2.4,
+    "payload_len": 14978,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "amazon",
+    "trial": 1,
+    "elapsed_s": 5.2,
+    "payload_len": 68399,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "amazon",
+    "trial": 2,
+    "elapsed_s": 5.2,
+    "payload_len": 68367,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "amazon",
+    "trial": 3,
+    "elapsed_s": 5.4,
+    "payload_len": 68373,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "amazon",
+    "trial": 4,
+    "elapsed_s": 3.7,
+    "payload_len": 68174,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "amazon",
+    "trial": 5,
+    "elapsed_s": 4.9,
+    "payload_len": 68401,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "amazon",
+    "trial": 6,
+    "elapsed_s": 4.2,
+    "payload_len": 68399,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "amazon",
+    "trial": 7,
+    "elapsed_s": 5.4,
+    "payload_len": 68435,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "amazon",
+    "trial": 8,
+    "elapsed_s": 4.2,
+    "payload_len": 68365,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "amazon",
+    "trial": 9,
+    "elapsed_s": 4.9,
+    "payload_len": 68399,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "amazon",
+    "trial": 10,
+    "elapsed_s": 4.9,
+    "payload_len": 68350,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "amazon",
+    "trial": 11,
+    "elapsed_s": 4.4,
+    "payload_len": 68401,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "walmart",
+    "trial": 0,
+    "elapsed_s": 15.0,
+    "payload_len": 6095,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "walmart",
+    "trial": 1,
+    "elapsed_s": 8.2,
+    "payload_len": 6319,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "walmart",
+    "trial": 2,
+    "elapsed_s": 9.3,
+    "payload_len": 6316,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "walmart",
+    "trial": 3,
+    "elapsed_s": 9.0,
+    "payload_len": 6340,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "walmart",
+    "trial": 4,
+    "elapsed_s": 15.9,
+    "payload_len": 6315,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "walmart",
+    "trial": 5,
+    "elapsed_s": 9.1,
+    "payload_len": 6349,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "walmart",
+    "trial": 6,
+    "elapsed_s": 9.1,
+    "payload_len": 6318,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "walmart",
+    "trial": 7,
+    "elapsed_s": 10.0,
+    "payload_len": 6344,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "walmart",
+    "trial": 8,
+    "elapsed_s": 9.1,
+    "payload_len": 6340,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "walmart",
+    "trial": 9,
+    "elapsed_s": 9.8,
+    "payload_len": 6789,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "walmart",
+    "trial": 10,
+    "elapsed_s": 9.6,
+    "payload_len": 6285,
+    "isError": null,
+    "empty_no_error": false
+  },
+  {
+    "target": "walmart",
+    "trial": 11,
+    "elapsed_s": 9.6,
+    "payload_len": 6316,
+    "isError": null,
+    "empty_no_error": false
+  }
+]

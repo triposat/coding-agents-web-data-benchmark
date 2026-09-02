@@ -1,0 +1,327 @@
+<title>Competitor Price Tracker</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    color-scheme: light;
+    --surface-0: #ffffff;
+    --surface-1: #fcfcfb;
+    --surface-2: #f2f1ee;
+    --border: #e2e0da;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted: #83817a;
+    --accent: #2a78d6;
+    --good: #0ca30c;
+    --good-bg: #e7f6e7;
+    --critical: #d03b3b;
+    --critical-bg: #fbeaea;
+    --muted-dot: #9a988f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --surface-0: #141413;
+      --surface-1: #1a1a19;
+      --surface-2: #232320;
+      --border: #35342f;
+      --text-primary: #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted: #8f8d83;
+      --accent: #3987e5;
+      --good: #1fbf4b;
+      --good-bg: #123a1c;
+      --critical: #e66767;
+      --critical-bg: #3a1a1a;
+      --muted-dot: #6b6a63;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-0: #141413;
+    --surface-1: #1a1a19;
+    --surface-2: #232320;
+    --border: #35342f;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted: #8f8d83;
+    --accent: #3987e5;
+    --good: #1fbf4b;
+    --good-bg: #123a1c;
+    --critical: #e66767;
+    --critical-bg: #3a1a1a;
+    --muted-dot: #6b6a63;
+  }
+
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    background: var(--surface-1);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  body { padding: 24px; }
+  .wrap { max-width: 1180px; margin: 0 auto; }
+
+  h1 { font-size: 20px; font-weight: 650; margin: 0 0 4px; }
+  .subtitle { color: var(--text-secondary); font-size: 13px; margin: 0 0 20px; }
+
+  .stat-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .stat-tile {
+    background: var(--surface-0);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    min-width: 130px;
+  }
+  .stat-tile .num { font-size: 22px; font-weight: 650; font-variant-numeric: tabular-nums; }
+  .stat-tile .label { font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
+
+  .controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+  .controls input[type="search"] {
+    flex: 1;
+    min-width: 200px;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface-0);
+    color: var(--text-primary);
+    font-size: 13px;
+  }
+  .legend {
+    display: flex;
+    gap: 14px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    flex-wrap: wrap;
+  }
+  .legend .item { display: flex; align-items: center; gap: 5px; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .dot.good { background: var(--good); }
+  .dot.critical { background: var(--critical); }
+  .dot.muted { background: var(--muted-dot); }
+
+  .table-scroll {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--surface-0);
+  }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  thead th {
+    text-align: left;
+    font-weight: 600;
+    color: var(--text-secondary);
+    background: var(--surface-2);
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+  }
+  tbody td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: var(--surface-1); }
+
+  .product-cell .pname { font-weight: 600; }
+  .product-cell .psku { color: var(--text-muted); font-size: 11px; margin-top: 2px; }
+
+  .cell-price { min-width: 128px; }
+  .price-num { font-variant-numeric: tabular-nums; font-weight: 600; font-size: 14px; }
+  .price-missing { color: var(--text-muted); font-weight: 400; font-size: 13px; }
+  .cell-meta { margin-top: 4px; display: flex; align-items: center; gap: 8px; font-size: 11px; color: var(--text-secondary); }
+  .rating { white-space: nowrap; }
+  .avail { display: flex; align-items: center; gap: 4px; white-space: nowrap; }
+  .retailer-link { display: block; margin-top: 4px; font-size: 11px; color: var(--accent); text-decoration: none; }
+  .retailer-link:hover { text-decoration: underline; }
+
+  .cheapest {
+    background: var(--good-bg);
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 1px var(--good);
+  }
+  .cheapest-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    color: var(--good);
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    margin-top: 3px;
+  }
+
+  .status-note { color: var(--text-muted); font-size: 11px; margin-top: 3px; font-style: italic; }
+
+  footer { margin-top: 18px; color: var(--text-muted); font-size: 11px; }
+  code { background: var(--surface-2); padding: 1px 5px; border-radius: 4px; }
+</style>
+
+<div class="wrap">
+  <h1>Competitor Price Tracker</h1>
+  <p class="subtitle">Prices collected from <code>results.json</code>. Green highlight marks the cheapest available retailer for each product.</p>
+
+  <div class="stat-row" id="stats"></div>
+
+  <div class="controls">
+    <input type="search" id="filter" placeholder="Filter by product name…">
+    <div class="legend">
+      <span class="item"><span class="dot good"></span>In stock</span>
+      <span class="item"><span class="dot critical"></span>Out of stock</span>
+      <span class="item"><span class="dot muted"></span>Unknown</span>
+    </div>
+  </div>
+
+  <div class="table-scroll">
+    <table id="grid">
+      <thead><tr id="head-row"></tr></thead>
+      <tbody id="body-rows"></tbody>
+    </table>
+  </div>
+
+  <footer id="footer"></footer>
+</div>
+
+<script>
+async function main() {
+  const stats = document.getElementById('stats');
+  const headRow = document.getElementById('head-row');
+  const bodyRows = document.getElementById('body-rows');
+  const footer = document.getElementById('footer');
+
+  let results;
+  try {
+    const res = await fetch('results.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    results = await res.json();
+  } catch (err) {
+    bodyRows.innerHTML = '<tr><td style="padding:16px;color:var(--critical)">' +
+      'Could not load results.json (' + err.message + '). ' +
+      'If you opened this file directly (file://), serve the folder over HTTP instead, ' +
+      'e.g. <code>python3 -m http.server</code>, then open the dashboard at that URL.' +
+      '</td></tr>';
+    return;
+  }
+
+  // Group by product, preserving first-seen order and sku_id.
+  const products = [];
+  const bySku = new Map();
+  for (const r of results) {
+    if (!bySku.has(r.sku_id)) {
+      const p = { sku_id: r.sku_id, product: r.product, rows: {} };
+      bySku.set(r.sku_id, p);
+      products.push(p);
+    }
+    bySku.get(r.sku_id).rows[r.retailer] = r;
+  }
+
+  // Column order: fixed known retailers first, then any others encountered.
+  const preferredOrder = ['amazon', 'bestbuy', 'target', 'walmart', 'newegg'];
+  const seenRetailers = new Set(results.map(r => r.retailer));
+  const retailers = [
+    ...preferredOrder.filter(r => seenRetailers.has(r)),
+    ...[...seenRetailers].filter(r => !preferredOrder.includes(r)).sort(),
+  ];
+
+  // Stats
+  const total = results.length;
+  const ok = results.filter(r => r.status === 'ok').length;
+  const withPrice = results.filter(r => r.price != null).length;
+  stats.innerHTML = [
+    ['Products', products.length],
+    ['Pages tracked', total],
+    ['Fully collected', ok + ' / ' + total],
+    ['Prices found', withPrice + ' / ' + total],
+  ].map(([label, num]) =>
+    `<div class="stat-tile"><div class="num">${num}</div><div class="label">${label}</div></div>`
+  ).join('');
+
+  // Header
+  headRow.innerHTML = '<th>Product</th>' +
+    retailers.map(r => `<th>${capitalize(r)}</th>`).join('');
+
+  // Body
+  function render(filterText) {
+    const needle = filterText.trim().toLowerCase();
+    bodyRows.innerHTML = '';
+    for (const p of products) {
+      if (needle && !p.product.toLowerCase().includes(needle)) continue;
+
+      // find cheapest price among this product's rows
+      let cheapestRetailer = null, cheapestPrice = Infinity;
+      for (const r of retailers) {
+        const row = p.rows[r];
+        if (row && row.price != null && row.price < cheapestPrice) {
+          cheapestPrice = row.price;
+          cheapestRetailer = r;
+        }
+      }
+
+      const tr = document.createElement('tr');
+      let html = `<td class="product-cell"><div class="pname">${escapeHtml(p.product)}</div><div class="psku">${p.sku_id}</div></td>`;
+
+      for (const r of retailers) {
+        const row = p.rows[r];
+        if (!row) { html += '<td class="cell-price"><span class="price-missing">—</span></td>'; continue; }
+
+        const isCheapest = r === cheapestRetailer;
+        const priceHtml = row.price != null
+          ? `<span class="price-num">$${row.price.toFixed(2)}</span>`
+          : `<span class="price-missing">no price</span>`;
+
+        const availClass = row.availability === 'In Stock' ? 'good'
+          : row.availability === 'Out of Stock' ? 'critical' : 'muted';
+        const availLabel = row.availability || 'unknown';
+
+        const ratingHtml = row.rating != null ? `<span class="rating">★ ${row.rating.toFixed(1)}</span>` : '';
+
+        const statusNote = row.status !== 'ok'
+          ? `<div class="status-note" title="${escapeHtml(row.status || '')}">${escapeHtml(truncate(row.status || '', 40))}</div>`
+          : '';
+
+        html += `<td class="cell-price${isCheapest ? ' cheapest' : ''}">` +
+          priceHtml +
+          `<div class="cell-meta">` +
+            `<span class="avail"><span class="dot ${availClass}"></span>${escapeHtml(availLabel)}</span>` +
+            ratingHtml +
+          `</div>` +
+          (isCheapest ? '<div class="cheapest-badge">&#10003; Best price</div>' : '') +
+          `<a class="retailer-link" href="${row.url}" target="_blank" rel="noopener">view listing →</a>` +
+          statusNote +
+        `</td>`;
+      }
+      tr.innerHTML = html;
+      bodyRows.appendChild(tr);
+    }
+  }
+
+  render('');
+  document.getElementById('filter').addEventListener('input', e => render(e.target.value));
+
+  footer.textContent = `${products.length} products × up to ${retailers.length} retailers · ${ok} of ${total} pages had complete data.`;
+}
+
+function capitalize(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+function truncate(s, n) { return s.length > n ? s.slice(0, n - 1) + '…' : s; }
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+main();
+</script>

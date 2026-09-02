@@ -1,0 +1,18 @@
+{
+  "records": 32,
+  "by_retailer_structured": 31,
+  "fields": {
+    "name": 32,
+    "price": 31,
+    "rating": 20,
+    "availability": 25
+  },
+  "identifiers": {
+    "upc": 24,
+    "gtin": 10,
+    "asin": 10,
+    "sku": 10,
+    "brand": 25
+  },
+  "tokens": 168570
+}

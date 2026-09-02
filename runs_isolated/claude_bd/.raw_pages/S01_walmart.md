@@ -1,0 +1,221 @@
+Anker, Power Bank, 24,000mAh, 140W Fast Charging, 3 Ports - Walmart.com  
+
+[Skip to Main Content](#maincontent)
+
+[](/all-departments)[](/)
+
+[![Walmart](//i5.walmartimages.com/dfw/63fd9f59-14e2/9d304ce6-96de-4331-b8ec-c5191226d378/v1/spark-icon.svg)](/)
+
+* * *
+
+![Banner title icon](https://i5.walmartimages.com/dfw/4ff9c6c9-ad46/k2-_0a671c38-d307-447c-835e-7904ab143c26.v1.png)Pickup or delivery?
+
+Cancel
+
+*   [
+    
+    Reorder
+    
+    My Items
+    
+    
+    
+    ](/my-items)
+    
+    [Reorder](/my-items)[Lists](/lists)[Registries](/my-registries)
+    
+*   [
+    
+    Sign In
+    
+    Account
+    
+    
+    
+    ](/)
+    
+    [Sign in or create account](/)
+    
+    * * *
+    
+    [Purchase History](/orders)[![Walmart+](//i5.walmartimages.com/dfw/63fd9f59-30b3/629cc93a-dae2-4b74-afd7-faecce345c85/v1/wplus-indigo-rebrand-bug.svg)Walmart+](/plus)[Subscriptions](/cp/subscriptions/4191733)
+    
+    * * *
+    
+    Language | English
+    
+*   $0.00
+    
+
+*   Departments
+    
+*   Services
+    
+
+* * *
+
+![Banner title icon](https://i5.walmartimages.com/dfw/4ff9c6c9-ad46/k2-_0a671c38-d307-447c-835e-7904ab143c26.v1.png)Pickup or delivery?
+
+![thumbnail image 1 of Anker 737 Power Bank, 24,000mAh 3-Port Laptop Portable Charger with 140W Fast Charging, Smart Display, 1 of 6](https://i5.walmartimages.com/seo/Anker-24000mAh-Power-Bank-PowerCore-24K-3-Port-Portable-Charger-Fast-Charging-140W-Output-Smart-Digital-Display_4dbba0de-e70d-47e3-b549-cae789e6df91.58febb4e7e62b70c0852e011caee453b.jpeg?odnHeight=117&odnWidth=117&odnBg=FFFFFF)
+
+![thumbnail image 2 of Anker 737 Power Bank, 24,000mAh 3-Port Laptop Portable Charger with 140W Fast Charging, Smart Display, 2 of 6](https://i5.walmartimages.com/asr/3f785cf7-6b26-497f-9736-c4fe5a6b3441.fa13cc93a85bacb45b922f769d43338f.jpeg?odnHeight=117&odnWidth=117&odnBg=FFFFFF)
+
+![thumbnail image 3 of Anker 737 Power Bank, 24,000mAh 3-Port Laptop Portable Charger with 140W Fast Charging, Smart Display, 3 of 6](https://i5.walmartimages.com/asr/b22588e0-e4ae-45ee-aa5f-b00b2adada5e.f6b609404e3d77fb54a7ad23726a2abf.jpeg?odnHeight=117&odnWidth=117&odnBg=FFFFFF)
+
+![thumbnail image 4 of Anker 737 Power Bank, 24,000mAh 3-Port Laptop Portable Charger with 140W Fast Charging, Smart Display, 4 of 6](https://i5.walmartimages.com/asr/a954f91a-2251-4735-b1ba-77144d4e9023.6ab9c1f65cb12a63e657d89f7816d31c.jpeg?odnHeight=117&odnWidth=117&odnBg=FFFFFF)
+
+![thumbnail image 5 of Anker 737 Power Bank, 24,000mAh 3-Port Laptop Portable Charger with 140W Fast Charging, Smart Display, 5 of 6](https://i5.walmartimages.com/asr/6cfa71a9-53ed-41dc-9599-88478d42eb08.9ee077e3c6a87326f66e96a4d94bcde3.jpeg?odnHeight=117&odnWidth=117&odnBg=FFFFFF)
+
+![thumbnail image 6 of Anker 737 Power Bank, 24,000mAh 3-Port Laptop Portable Charger with 140W Fast Charging, Smart Display, 6 of 6](https://i5.walmartimages.com/asr/d91c3a91-0811-4f3b-bec2-dbe73f507fb4.2118017aedde75e1b9c6745aea6e1950.jpeg?odnHeight=117&odnWidth=117&odnBg=FFFFFF)
+
+![Anker 737 Power Bank 24000mAh 3-Port Portable Charger with 140W Fast Charging Smart Display Black for Laptops](https://i5.walmartimages.com/seo/Anker-24000mAh-Power-Bank-PowerCore-24K-3-Port-Portable-Charger-Fast-Charging-140W-Output-Smart-Digital-Display_4dbba0de-e70d-47e3-b549-cae789e6df91.58febb4e7e62b70c0852e011caee453b.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF)
+
+![Anker 737 Power Bank, 24,000mAh 3-Port Laptop Portable Charger with 140W Fast Charging, Smart Display](https://i5.walmartimages.com/seo/Anker-24000mAh-Power-Bank-PowerCore-24K-3-Port-Portable-Charger-Fast-Charging-140W-Output-Smart-Digital-Display_4dbba0de-e70d-47e3-b549-cae789e6df91.58febb4e7e62b70c0852e011caee453b.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF)
+
+Hero image 0 of Anker 737 Power Bank, 24,000mAh 3-Port Laptop Portable Charger with 140W Fast Charging, Smart Display, 0 of 6
+
+[Visit the Anker Store](/brand/anker/10005235)
+
+# Anker 737 Power Bank, 24,000mAh 3-Port Laptop Portable Charger with 140W Fast Charging, Smart Display
+
+4.7 out of 5 stars
+
+(4.7)
+
+[86 ratings](#)
+
+## Key item features
+
+*   Powerful Charging: Equipped with Power Delivery 3.1 and bi-directional technology, this 24,000mAh power bank offers 140W fast charging, capable of recharging a MacBook Pro 16" to 50% in 40 minutes.
+*   Intelligent Display: A clear digital display provides real-time information on output/input power and estimated recharge time, enhancing user convenience.
+*   Advanced Safety: Features GaN-powered charging, PowerIQ 4.0, and ActiveShield 2.0 for intelligent temperature monitoring and comprehensive device protection.
+*   Simultaneous Charging: With two USB-C ports and one USB-A port, the power bank allows for the simultaneous charging of up to three devices.
+*   Rapid Recharge: The portable charger itself can be recharged to 70% in just 30 minutes, ensuring minimal downtime.
+*   Compact Portability: Designed for easy transport, its pocket-sized form factor makes it ideal for travel and on-the-go use.
+
+View all item details
+
+Generated by AI
+
+## Specs
+
+## 
+
+Reviews summary
+
+Current price is USD$109.99
+
+Price when purchased online
+
+*   Free shipping
+*   ![](//i5.walmartimages.com/dfw/63fd9f59-e685/7e6c8c3a-3ba7-437a-a066-de3ad3a6a15a/v1/roundReturn.svg)Free 30-day returns
+
+Add to cart
+
+* * *
+
+![WPP Logo](//i5.walmartimages.com/dfw/63fd9f59-2c2e/b8053833-2295-47f4-80f1-448eb55fa0ba/v1/wpp-shield.svg)
+
+Walmart Accident Plan by AllstateWhat's covered
+
+(Only one option can be selected at a time)
+
+2-Year Plan - $18.00
+
+3-Year Plan - $21.00
+
+* * *
+
+## How do you want your item?
+
+I want delivery savings with![Walmart Plus](//i5.walmartimages.com/dfw/63fd9f59-3e1b/a3d2466d-fa02-4f2d-a401-aca52a4aac17/v1/walmartPlus-logo-blue.svg)
+
+Try 30 days for just $1! Choose a plan at checkout.
+
+How do you want your item?
+
+![](//i5.walmartimages.com/dfw/63fd9f59-ffa4/3dd23f45-a749-4acf-ad69-bcb9fff1f382/v1/delivery-truck.svg)
+
+Shipping
+
+Arrives tomorrow
+
+Order within 8 hr 6 min
+
+Free
+
+![](//i5.walmartimages.com/dfw/63fd9f59-4505/fe62ce97-49d1-48eb-a181-4a26f80691a6/v1/CarWithTrunkOpen_Circle_Blue.svg)
+
+Pickup
+
+Check nearby
+
+![](//i5.walmartimages.com/dfw/63fd9f59-d930/2bac0e2b-cda4-4053-8a8e-8e8a0195b579/v1/Delivery_GroceryBag_Circle_Blue.svg)
+
+Delivery
+
+Not available
+
+Ships toSacramento, 95829
+
+Arrives by Tomorrow
+
+.
+
+Order within 8 hr 6 min
+
+* * *
+
+![](//i5.walmartimages.com/dfw/63fd9f59-4801/ac40eb49-43eb-4992-a8a5-1a7bed2ca02f/v1/LocalFindsStoreFront.svg)
+
+Sold by [AnkerDirect](https://www.walmart.com/global/seller/508)
+
+Fulfilled by Walmart
+
+4.6823485133609335 out of 5 stars
+
+4.6823485133609335 stars out of 5, based on 5314 seller reviews(4.7)5314 seller reviews
+
+![](//i5.walmartimages.com/dfw/63fd9f59-e685/7e6c8c3a-3ba7-437a-a066-de3ad3a6a15a/v1/roundReturn.svg)
+
+Free 30-day returns
+
+Details
+
+* * *
+
+Add to list
+
+Add to registry
+
+We’d love to hear what you think!
+
+Give feedback
+
+*   [All Departments](/all-departments "All Departments")
+*   [Store Directory](/store/directory "Store Directory")
+*   [Careers](https://careers.walmart.com/ "Careers")
+*   [Our Company](https://corporate.walmart.com/ "Our Company")
+*   [Sell on Walmart.com](https://marketplace.walmart.com/?utm_source=Walmart.com&utm_medium=link&utm_campaign=footer "Sell on Walmart.com")
+*   [Help](/help "Help")
+*   [Product Recalls](https://corporate.walmart.com/recalls "Product Recalls")
+*   [Accessibility](https://www.walmart.com/help/article/responsible-disclosure-and-accessibility-policies/0f173dab8bd942da84b1cd7ab5ffc3cb "Accessibility")
+*   [Tax Exempt Program](https://www.walmart.com/cp/tax-exemption-program/8480422 "Tax Exempt Program")
+*   [Get the Walmart App](https://walmart.onelink.me/UIev?pid=walmart.com&af_web_dp=https%3A%2F%2Fwww.walmart.com%2Fcp%2Fwalmart-mobile-app%2F1087865&c=Walmart.com%20Site%20Footer&af_dp=walmart%3A%2F%2F "Get the Walmart App")
+*   [Safety Data Sheet](http://msds.walmartstores.com/ "Safety Data Sheet")
+*   [Terms of Use](http://walmart.com/help/article/walmart-com-terms-of-use/3b75080af40340d6bbd596f116fae5a0 "Terms of Use")
+*   [Privacy Notice](https://corporate.walmart.com/privacy-security/walmart-privacy-notice "Privacy Notice")
+*   [California Supply Chain Act](https://corporate.walmart.com/california-transparency "California Supply Chain Act")
+*   [![Privacy choices icon](//i5.walmartimages.com/dfw/63fd9f59-4be1/0e321069-d42a-42ae-9b17-6987bf35d3ad/v1/privacy-choices-dweb.png)Your Privacy Choices](https://www.walmart.com/privacyrequest "Your Privacy Choices")
+*   [Customer Privacy Center](https://www.walmart.com/privacy-center "Customer Privacy Center")
+*   [Notice at Collection](https://corporate.walmart.com/privacy-security/california-privacy-rights#what-are-the-categories-of-personal-information-collected "Notice at Collection")
+*   [AdChoices](https://corporate.walmart.com/privacy-security/walmart-privacy-notice#interest-based-advertising "AdChoices")
+*   [Consumer Health Data Privacy Notices](https://corporate.walmart.com/privacy-security/walmart-consumer-health-data-privacy-notices "Consumer Health Data Privacy Notices")
+*   [Learn about Spark Driver](https://www.sparkdriverapp.com/ "Learn about Spark Driver")
+*   [Brand Shop Directory](https://www.walmart.com/brand/branddirectory "Brand Shop Directory")
+*   [Pharmacy](https://www.walmart.com/cp/pharmacy/5431?povid=HWS_GlobalFooter_Pharmacy "Pharmacy")
+*   [Walmart Business](https://business.walmart.com/cp/about-walmart-business/6136230?povid=6136230_POV_WMTfooter "Walmart Business")
+*   [#IYWYK](https://www.walmart.com/cp/walmart-in-the-know/7781927 "Walmart In the Know is a social media photo feed")
+*   [Delete Account](https://www.walmart.com/account/login?vid=oaoh&tid=0&returnUrl=%2Faccount%2Fdelete-account "Delete Account")
+
+© 2026 Walmart. The trademarks Walmart and the Walmart Spark design are registered with the US Patent and Trademark Office. All Rights Reserv

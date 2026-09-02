@@ -1,0 +1,315 @@
+<title>Competitor Price Tracker</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --plane:          #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --good:           #0ca30c;
+    --good-bg:        #e6f6e6;
+    --critical:       #d03b3b;
+    --warning-bg:     #fff6e0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1:      #1a1a19;
+      --plane:          #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --gridline:       #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --good:           #0ca30c;
+      --good-bg:        #103310;
+      --critical:       #e66767;
+      --warning-bg:     #2a2410;
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --plane:          #0d0d0d;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --gridline:       #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+    --good:           #0ca30c;
+    --good-bg:        #103310;
+    --critical:       #e66767;
+    --warning-bg:     #2a2410;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--plane);
+    color: var(--text-primary);
+  }
+  .viz-root { padding: 24px 20px 56px; max-width: 1180px; margin: 0 auto; }
+
+  h1 { font-size: 1.4rem; margin: 0 0 4px; }
+  .subtitle { color: var(--text-secondary); font-size: 0.9rem; margin: 0 0 20px; }
+
+  .toolbar {
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    margin-bottom: 16px;
+  }
+  .toolbar input[type="search"] {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    border-radius: 8px;
+    padding: 7px 12px;
+    font-size: 0.85rem;
+    min-width: 220px;
+  }
+  .toolbar label {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    display: flex; align-items: center; gap: 6px;
+  }
+  .stat {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-left: auto;
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--surface-1);
+  }
+  table { border-collapse: collapse; width: 100%; font-size: 0.83rem; min-width: 760px; }
+  thead th {
+    position: sticky; top: 0;
+    background: var(--surface-1);
+    text-align: left;
+    font-weight: 600;
+    color: var(--text-secondary);
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--gridline);
+    white-space: nowrap;
+  }
+  thead th.retailer-col { text-align: center; }
+  tbody td {
+    padding: 9px 12px;
+    border-bottom: 1px solid var(--gridline);
+    vertical-align: top;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: rgba(128,128,128,0.06); }
+
+  .product-name { font-weight: 600; color: var(--text-primary); }
+  .product-sku { color: var(--text-muted); font-size: 0.72rem; font-variant-numeric: tabular-nums; }
+
+  .cell { text-align: center; min-width: 108px; }
+  .price {
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    font-size: 0.92rem;
+  }
+  .price-link { color: inherit; text-decoration: none; }
+  .price-link:hover { text-decoration: underline; }
+  .cheapest .price { color: var(--good); }
+  .cheapest {
+    background: var(--good-bg);
+    border-radius: 6px;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--good);
+    margin-top: 2px;
+  }
+  .meta { font-size: 0.68rem; color: var(--text-muted); margin-top: 3px; line-height: 1.35; }
+  .oos { color: var(--critical); }
+  .no-data { color: var(--text-muted); font-size: 0.78rem; }
+  .rating { white-space: nowrap; }
+
+  .legend {
+    margin-top: 14px;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    display: flex; gap: 18px; flex-wrap: wrap;
+  }
+  .legend span.dot {
+    display: inline-block; width: 9px; height: 9px; border-radius: 2px;
+    margin-right: 5px; vertical-align: middle;
+  }
+  .dot.good { background: var(--good); }
+
+  #err {
+    display: none;
+    background: var(--warning-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 0.85rem;
+    margin-bottom: 16px;
+  }
+  code {
+    background: rgba(128,128,128,0.15);
+    padding: 1px 5px;
+    border-radius: 4px;
+    font-size: 0.85em;
+  }
+</style>
+
+<div class="viz-root">
+  <h1>Competitor Price Tracker</h1>
+  <p class="subtitle">Live view of <code>results.json</code> — one row per product, one column per retailer. Cheapest available price per product is highlighted.</p>
+
+  <div id="err"></div>
+
+  <div class="toolbar">
+    <input type="search" id="search" placeholder="Filter by product name…">
+    <label><input type="checkbox" id="hideOOS"> Hide out-of-stock / unavailable cells</label>
+    <span class="stat" id="stat"></span>
+  </div>
+
+  <div class="table-wrap">
+    <table id="grid">
+      <thead><tr id="headRow"><th>Product</th></tr></thead>
+      <tbody id="body"></tbody>
+    </table>
+  </div>
+
+  <div class="legend">
+    <div><span class="dot good"></span>Cheapest retailer for that product</div>
+    <div><span class="oos">Out of stock text</span> shown when a retailer reports it unavailable</div>
+    <div>Prices as of each page's last successful fetch (see status in <code>results.json</code>)</div>
+  </div>
+</div>
+
+<script>
+async function main() {
+  const errBox = document.getElementById('err');
+  let rows;
+  try {
+    const res = await fetch('results.json', {cache: 'no-store'});
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    rows = await res.json();
+  } catch (e) {
+    errBox.style.display = 'block';
+    errBox.innerHTML = 'Could not load <code>results.json</code> (' + e.message + '). ' +
+      'If you opened this file directly (file://), some browsers block local fetch — ' +
+      'serve the folder instead, e.g. run <code>python3 -m http.server 8000</code> in this ' +
+      'directory and open <code>http://localhost:8000/dashboard.html</code>.';
+    return;
+  }
+
+  const retailers = [...new Set(rows.map(r => r.retailer))].sort();
+  const products = [...new Map(rows.map(r => [r.sku_id, r.product])).entries()]
+    .sort((a, b) => a[0].localeCompare(b[0]));
+
+  const bySku = {};
+  for (const r of rows) {
+    (bySku[r.sku_id] ||= {})[r.retailer] = r;
+  }
+
+  const headRow = document.getElementById('headRow');
+  for (const ret of retailers) {
+    const th = document.createElement('th');
+    th.className = 'retailer-col';
+    th.textContent = ret[0].toUpperCase() + ret.slice(1);
+    headRow.appendChild(th);
+  }
+
+  const fmtPrice = p => p == null ? null : '$' + p.toFixed(2);
+
+  const tbody = document.getElementById('body');
+
+  function render(filterText, hideOOS) {
+    tbody.innerHTML = '';
+    let shown = 0;
+    for (const [sku, name] of products) {
+      if (filterText && !name.toLowerCase().includes(filterText)) continue;
+      const entries = bySku[sku] || {};
+      const prices = retailers
+        .map(ret => entries[ret])
+        .filter(e => e && e.price != null &&
+          !(e.availability && /out of stock|unavailable|out_of_stock/i.test(e.availability)));
+      const minPrice = prices.length ? Math.min(...prices.map(e => e.price)) : null;
+
+      const tr = document.createElement('tr');
+      const nameTd = document.createElement('td');
+      nameTd.innerHTML = '<div class="product-name">' + name + '</div><div class="product-sku">' + sku + '</div>';
+      tr.appendChild(nameTd);
+
+      let rowHasVisibleCell = false;
+
+      for (const ret of retailers) {
+        const e = entries[ret];
+        const td = document.createElement('td');
+        td.className = 'cell';
+
+        const isOOS = e && e.availability && /out of stock|unavailable|out_of_stock/i.test(e.availability);
+        if (hideOOS && (isOOS || !e || e.status !== 'ok')) {
+          td.innerHTML = '<span class="no-data">—</span>';
+          tr.appendChild(td);
+          continue;
+        }
+        rowHasVisibleCell = true;
+
+        if (!e || e.status !== 'ok') {
+          td.innerHTML = '<span class="no-data">' + (e ? esc(e.status) : 'n/a') + '</span>';
+          tr.appendChild(td);
+          continue;
+        }
+
+        const isCheapest = e.price != null && minPrice != null && e.price === minPrice && !isOOS;
+        if (isCheapest) td.classList.add('cheapest');
+
+        const priceHtml = e.price != null
+          ? '<a class="price-link" href="' + esc(e.url) + '" target="_blank" rel="noopener"><span class="price">' + fmtPrice(e.price) + '</span></a>'
+          : '<span class="no-data">no price</span>';
+
+        const availHtml = e.availability
+          ? '<div class="meta' + (isOOS ? ' oos' : '') + '">' + esc(e.availability) + '</div>'
+          : '';
+        const ratingHtml = e.rating != null
+          ? '<div class="meta rating">★ ' + Number(e.rating).toFixed(1) + '</div>'
+          : '<div class="meta">no rating</div>';
+        const badgeHtml = isCheapest ? '<div class="badge">Cheapest</div>' : '';
+
+        td.innerHTML = priceHtml + availHtml + ratingHtml + badgeHtml;
+        tr.appendChild(td);
+      }
+
+      if (rowHasVisibleCell || !hideOOS) {
+        tbody.appendChild(tr);
+        shown++;
+      }
+    }
+    document.getElementById('stat').textContent = shown + ' / ' + products.length + ' products shown · ' + rows.length + ' pages tracked';
+  }
+
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  const search = document.getElementById('search');
+  const hideOOS = document.getElementById('hideOOS');
+  search.addEventListener('input', () => render(search.value.trim().toLowerCase(), hideOOS.checked));
+  hideOOS.addEventListener('change', () => render(search.value.trim().toLowerCase(), hideOOS.checked));
+
+  render('', false);
+}
+main();
+</script>

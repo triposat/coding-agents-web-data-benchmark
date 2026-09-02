@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Price Tracker Dashboard</title>
+<style>
+:root{--bg:#0f172a;--sf:#1e293b;--bd:#334155;--tx:#e2e8f0;--sub:#94a3b8;
+  --ac:#38bdf8;--gn:#4ade80;--rd:#f87171;--yw:#fbbf24;--bb:#064e3b;--bc:#059669;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--tx);font:14px system-ui,sans-serif;padding:24px;}
+h1{font-size:20px;color:var(--ac);margin-bottom:4px;}
+.meta{color:var(--sub);font-size:12px;margin-bottom:16px;}
+.ctrl{display:flex;gap:12px;align-items:center;margin-bottom:16px;flex-wrap:wrap;}
+input[type=search]{padding:7px 12px;border-radius:8px;border:1px solid var(--bd);
+  background:var(--sf);color:var(--tx);font-size:13px;width:260px;}
+.legend{font-size:12px;color:var(--sub);display:flex;gap:14px;}
+.legend span{display:flex;align-items:center;gap:4px;}
+.dot{width:9px;height:9px;border-radius:2px;display:inline-block;}
+.dot-b{background:var(--bc);} .dot-x{background:#44403c;}
+.wrap{overflow-x:auto;border-radius:10px;border:1px solid var(--bd);}
+table{width:100%;border-collapse:collapse;}
+th{background:var(--sf);color:var(--ac);text-align:left;padding:9px 13px;
+  border-bottom:2px solid var(--bd);white-space:nowrap;font-size:11px;
+  text-transform:uppercase;letter-spacing:.05em;font-weight:600;}
+td{padding:9px 13px;border-bottom:1px solid var(--bd);vertical-align:top;}
+tr:last-child td{border-bottom:none;}
+tr:hover td{background:rgba(255,255,255,.025);}
+.sid{font-family:monospace;color:var(--sub);white-space:nowrap;}
+.prod{font-weight:500;max-width:200px;}
+.pc{min-width:120px;} .pc b{font-size:15px;}
+.best{background:var(--bb)!important;border-left:3px solid var(--bc);}
+.badge{background:var(--bc);color:#d1fae5;font-size:9px;font-weight:700;
+  padding:1px 5px;border-radius:3px;margin-left:5px;vertical-align:middle;}
+.sub{font-size:11px;color:var(--sub);}
+.av-ok{color:var(--gn);} .av-no{color:var(--rd);}
+.blocked{color:#57534e;background:#1c1917;text-align:center;font-size:13px;}
+.miss{color:var(--sub);font-size:12px;}
+.na{background:var(--sf);color:#334155;text-align:center;}
+.cards{margin-top:20px;display:flex;gap:14px;flex-wrap:wrap;}
+.card{background:var(--sf);border:1px solid var(--bd);border-radius:10px;padding:12px 18px;min-width:130px;}
+.cl{font-size:10px;color:var(--sub);text-transform:uppercase;letter-spacing:.05em;}
+.cv{font-size:26px;font-weight:700;margin-top:3px;}
+.gn{color:var(--gn);} .yw{color:var(--yw);} .rd{color:var(--rd);} .ac{color:var(--ac);}
+.ts{color:var(--sub);font-size:11px;margin-top:20px;text-align:right;}
+</style></head>
+<body>
+<h1>🏷️ Competitor Price Tracker</h1>
+<p class="meta">10 products · 41 pages · Amazon, Best Buy, Walmart, Target, Newegg</p>
+<div class="ctrl">
+  <input type="search" id="q" placeholder="Filter products…" oninput="filter()">
+  <div class="legend">
+    <span><span class="dot dot-b"></span>Cheapest</span>
+    <span><span class="dot dot-x"></span>Blocked</span>
+  </div>
+</div>
+<div class="wrap"><table id="tbl">
+<thead><tr><th>SKU</th><th>Product</th><th>Bestbuy</th><th>Amazon</th><th>Walmart</th><th>Target</th><th>Newegg</th></tr></thead>
+<tbody><tr><td class='sid'>S01</td><td class='prod'>Anker 737 power bank 24000mAh</td><td class='blocked' title='fetch failed'>⊘</td><td class='pc best'><b>$109.99</b><span class="badge">BEST</span><br><span class='sub av-ok'>In Stock</span><br><span class='sub'>★ 4.4</span></td><td class='miss' title='partial: missing name, price, availability, rating'><span class='sub'>partial: missing name, price, availabili</span></td><td class='na'>—</td><td class='na'>—</td></tr>
+<tr><td class='sid'>S02</td><td class='prod'>Apple AirPods Pro 2</td><td class='blocked' title='fetch failed'>⊘</td><td class='pc best'><b>$199.00</b><span class="badge">BEST</span><br><span class='sub av-ok'>In Stock</span><br><span class='sub'>★ 4.6</span></td><td class='miss' title='partial: missing name, price, availability, rating'><span class='sub'>partial: missing name, price, availabili</span></td><td class='miss' title='partial: missing price'><span class='sub'>partial: missing price</span></td><td class='na'>—</td></tr>
+<tr><td class='sid'>S03</td><td class='prod'>Apple AirTag 4 pack</td><td class='blocked' title='fetch failed'>⊘</td><td class='pc best'><b>$79.99</b><span class="badge">BEST</span><br><span class='sub av-ok'>In Stock</span><br><span class='sub'>★ 4.5</span></td><td class='miss' title='partial: missing name, price, availability, rating'><span class='sub'>partial: missing name, price, availabili</span></td><td class='miss' title='partial: missing price'><span class='sub'>partial: missing price</span></td><td class='na'>—</td></tr>
+<tr><td class='sid'>S04</td><td class='prod'>Bose QuietComfort Ultra earbuds</td><td class='blocked' title='fetch failed'>⊘</td><td class='pc best'><b>$299.00</b><span class="badge">BEST</span><br><span class='sub av-ok'>In Stock</span><br><span class='sub'>★ 3.8</span></td><td class='miss' title='partial: missing name, price, availability, rating'><span class='sub'>partial: missing name, price, availabili</span></td><td class='na'>—</td><td class='miss' title='partial: missing name, price, availability, rating'><span class='sub'>partial: missing name, price, availabili</span></td></tr>
+<tr><td class='sid'>S05</td><td class='prod'>Logitech MX Master 3S mouse</td><td class='blocked' title='fetch failed'>⊘</td><td class='miss' title='partial: missing price'><span class='sub'>partial: missing price</span></td><td class='miss' title='partial: missing name, price, availability, rating'><span class='sub'>partial: missing name, price, availabili</span></td><td class='miss' title='partial: missing price'><span class='sub'>partial: missing price</span></td><td class='miss' title='partial: missing name, price, availability, rating'><span class='sub'>partial: missing name, price, availabili</span></td></tr>
+<tr><td class='sid'>S06</td><td class='prod'>Razer DeathAdder V3 mouse</td><td class='blocked' title='fetch failed'>⊘</td><td class='pc best'><b>$4682.17</b><span class="badge">BEST</span><br><span class='sub av-ok'>In Stock</span><br><span class='sub'>★ 4.1</span></td><td class='miss' title='partial: missing name, price, availability, rating'><span class='sub'>partial: missing name, price, availabili</span></td><td class='miss' title='partial: missing price'><span class='sub'>partial: missing price</span></td><td class='miss' title='partial: missing name, price, availability, rating'><span class='sub'>partial: missing name, price, availabili</span></td></tr>
+<tr><td class='sid'>S07</td><td class='prod'>Samsung T7 1TB portable SSD</td><td class='blocked' title='fetch failed'>⊘</td><td class='miss' title='partial: missing price'><span class='sub'>partial: missing price</span></td><td class='miss' title='partial: missing name, price, availability, rating'><span class='sub'>partial: missing name, price, availabili</span></td><td class='miss' title='partial: missing price'><span class='sub'>partial: missing price</span></td><td class='miss' title='partial: missing name, price, availability, rating'><span class='sub'>partial: missing name, price, availabili</span></td></tr>
+<tr><td class='sid'>S08</td><td class='prod'>SanDisk Extreme Pro 1TB microSDXC</td><td class='na'>—</td><td class='pc best'><b>$199.99</b><span class="badge">BEST</span><br><span class='sub av-ok'>In Stock</span><br><span class='sub'>★ 4.8</span></td><td class='miss' title='partial: missing name, price, availability, rating'><span class='sub'>partial: missing name, price, availabili</span></td><td class='miss' title='partial: missing price'><span class='sub'>partial: missing price</span></td><td class='na'>—</td></tr>
+<tr><td class='sid'>S09</td><td class='prod'>Seagate Expansion 2TB external hard drive</td><td class='blocked' title='fetch failed'>⊘</td><td class='pc best'><b>$139.95</b><span class="badge">BEST</span><br><span class='sub av-ok'>In Stock</span><br><span class='sub'>★ 4.6</span></td><td class='miss' title='partial: missing name, price, availability, rating'><span class='sub'>partial: missing name, price, availabili</span></td><td class='miss' title='partial: missing price'><span class='sub'>partial: missing price</span></td><td class='miss' title='partial: missing name, price, availability, rating'><span class='sub'>partial: missing name, price, availabili</span></td></tr>
+<tr><td class='sid'>S10</td><td class='prod'>Sony WH-1000XM5 wireless headphones</td><td class='blocked' title='fetch failed'>⊘</td><td class='pc best'><b>$198.00</b><span class="badge">BEST</span><br><span class='sub av-ok'>In Stock</span><br><span class='sub'>★ 4.2</span></td><td class='miss' title='partial: missing name, price, availability, rating'><span class='sub'>partial: missing name, price, availabili</span></td><td class='na'>—</td><td class='na'>—</td></tr>
+</tbody>
+</table></div>
+<div class="cards" id="cards"></div>
+<p class="ts" id="ts"></p>
+<script>
+const R=[
+  {
+    "sku_id": "S01",
+    "product": "Anker 737 power bank 24000mAh",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/anker-power-bank-24000mah-140w-3-port-black/JJ85865GV2/sku/6553403",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "fetch failed"
+  },
+  {
+    "sku_id": "S01",
+    "product": "Anker 737 power bank 24000mAh",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B09VPHVT2Z",
+    "name": "Anker 737 Power Bank, 140W 24,000mAh 3-Port Laptop Charger, Smart Display",
+    "price": 109.99,
+    "availability": "In Stock",
+    "rating": "4.4",
+    "status": "ok"
+  },
+  {
+    "sku_id": "S01",
+    "product": "Anker 737 power bank 24000mAh",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/1425654143",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "partial: missing name, price, availability, rating"
+  },
+  {
+    "sku_id": "S02",
+    "product": "Apple AirPods Pro 2",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/apple-airpods-pro-2-wireless-active-noise-cancelling-earbuds-with-hearing-aid-feature-white/JJGCQ88C8X/sku/10129617",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "fetch failed"
+  },
+  {
+    "sku_id": "S02",
+    "product": "Apple AirPods Pro 2",
+    "retailer": "target",
+    "url": "https://www.target.com/p/-/A-85978609",
+    "name": "Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation",
+    "price": null,
+    "availability": "In Stock",
+    "rating": "3.93",
+    "status": "partial: missing price"
+  },
+  {
+    "sku_id": "S02",
+    "product": "Apple AirPods Pro 2",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B0D1XD1ZV3",
+    "name": "Apple AirPods Pro 2 Wireless Earbuds, Active Noise Cancellation, Hearing Aid Feature, Bluetooth Headphones, Transparency, Personalized Spatial Audio, High-Fidelity Sound, H2 Chip, USB-C Charging",
+    "price": 199.0,
+    "availability": "In Stock",
+    "rating": "4.6",
+    "status": "ok"
+  },
+  {
+    "sku_id": "S02",
+    "product": "Apple AirPods Pro 2",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/17835006350",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "partial: missing name, price, availability, rating"
+  },
+  {
+    "sku_id": "S03",
+    "product": "Apple AirTag 4 pack",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/apple-airtag-4-pack-2nd-generation-2026-white/JJGCQLTTF3/sku/6377586",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "fetch failed"
+  },
+  {
+    "sku_id": "S03",
+    "product": "Apple AirTag 4 pack",
+    "retailer": "target",
+    "url": "https://www.target.com/p/-/A-79673471",
+    "name": "Apple AirTag (4 Pack) (1st generation)",
+    "price": null,
+    "availability": "In Stock",
+    "rating": "4.6",
+    "status": "partial: missing price"
+  },
+  {
+    "sku_id": "S03",
+    "product": "Apple AirTag 4 pack",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B0GJTXVN9Z",
+    "name": "Apple AirTag (2nd Generation) - 4 Pack: Tracker for Keychain, Wallet, and More; Locator with Sound; Simple One-Tap Setup with iPhone or iPad; Key Finder with up to 1.5X Precision Finding Range*",
+    "price": 79.99,
+    "availability": "In Stock",
+    "rating": "4.5",
+    "status": "ok"
+  },
+  {
+    "sku_id": "S03",
+    "product": "Apple AirTag 4 pack",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/5395277557",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "partial: missing name, price, availability, rating"
+  },
+  {
+    "sku_id": "S04",
+    "product": "Bose QuietComfort Ultra earbuds",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/bose-quietcomfort-ultra-2nd-gen-true-wireless-noise-cancelling-in-ear-earbuds-midnight-violet/J7C5V6WCWL/sku/12333019",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "fetch failed"
+  },
+  {
+    "sku_id": "S04",
+    "product": "Bose QuietComfort Ultra earbuds",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B0CD2FSRDD",
+    "name": "Bose QuietComfort Ultra Bluetooth Earbuds, Wireless Earbuds with Spatial Audio and World-Class Active Noise Cancellation, Deep Bass, Up to 6 Hours of Playtime, Black",
+    "price": 299.0,
+    "availability": "In Stock",
+    "rating": "3.8",
+    "status": "ok"
+  },
+  {
+    "sku_id": "S04",
+    "product": "Bose QuietComfort Ultra earbuds",
+    "retailer": "newegg",
+    "url": "https://www.newegg.com/bose-896637-0030-earbud-deep-plum/p/N82E16826627172",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "partial: missing name, price, availability, rating"
+  },
+  {
+    "sku_id": "S04",
+    "product": "Bose QuietComfort Ultra earbuds",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/15853556239",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "partial: missing name, price, availability, rating"
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "fetch failed"
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "retailer": "target",
+    "url": "https://www.target.com/p/-/A-1008322060",
+    "name": "Logitech MX Master 3S Wireless Mouse with Quiet Clicks 910006581",
+    "price": null,
+    "availability": "In Stock",
+    "rating": "4.64",
+    "status": "partial: missing price"
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B09HM94VDS",
+    "name": "Logitech MX Master 3S Wireless Bluetooth Mouse, Ultra-Fast Scrolling 8K DPI",
+    "price": null,
+    "availability": "In Stock",
+    "rating": "4.5",
+    "status": "partial: missing price"
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "retailer": "newegg",
+    "url": "https://www.newegg.com/logitech-910-006558-mx-master-3s-usb-type-c-dual/p/N82E16826197552",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "partial: missing name, price, availability, rating"
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/731473988",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "partial: missing name, price, availability, rating"
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/razer-deathadder-v3-lightweight-optical-gaming-mouse-with-8k-hz-hyperpolling-technology-wired-black/J39HWFQKZW/sku/10736128",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "fetch failed"
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "retailer": "target",
+    "url": "https://www.target.com/p/-/A-94720129",
+    "name": "Razer DeathAdder Essential White Edition Ergonomic Wired Gaming Mouse",
+    "price": null,
+    "availability": "In Stock",
+    "rating": "4.61",
+    "status": "partial: missing price"
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B0B6XTDJS1",
+    "name": "Razer DeathAdder V3 Wired Gaming Mouse, 8Khz, 59g, Black",
+    "price": 4682.17,
+    "availability": "In Stock",
+    "rating": "4.1",
+    "status": "ok"
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "retailer": "newegg",
+    "url": "https://www.newegg.com/razer-deathadder-v3-usb-wired/p/N82E16826153342",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "partial: missing name, price, availability, rating"
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/1281151624",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "partial: missing name, price, availability, rating"
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/samsung-t7-1tb-external-usb-3-2-gen-2-portable-ssd-with-hardware-encryption-titan-gray/J3ZYGCQG8H/sku/6408299",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "fetch failed"
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "retailer": "target",
+    "url": "https://www.target.com/p/-/A-93111660",
+    "name": "SAMSUNG T7 Portable 1TB USB 3.2 External SSD MU-PC1T0T/AM",
+    "price": null,
+    "availability": "In Stock",
+    "rating": "4.8",
+    "status": "partial: missing price"
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B0874XN4D8",
+    "name": "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
+    "price": null,
+    "availability": "In Stock",
+    "rating": "4.7",
+    "status": "partial: missing price"
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "retailer": "newegg",
+    "url": "https://www.newegg.com/samsung-t7-1tb-usb-3-2-gen-2/p/N82E16820147767",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "partial: missing name, price, availability, rating"
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/156019443",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "partial: missing name, price, availability, rating"
+  },
+  {
+    "sku_id": "S08",
+    "product": "SanDisk Extreme Pro 1TB microSDXC",
+    "retailer": "target",
+    "url": "https://www.target.com/p/-/A-52908863",
+    "name": "SanDisk Extreme Plus 64GB microSD Class 10 Memory Card",
+    "price": null,
+    "availability": "In Stock",
+    "rating": "4.66",
+    "status": "partial: missing price"
+  },
+  {
+    "sku_id": "S08",
+    "product": "SanDisk Extreme Pro 1TB microSDXC",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B09X7MPX8L",
+    "name": "SANDISK 1TB Extreme microSD Card + Adapter, Up to 190MB/s Read Speeds",
+    "price": 199.99,
+    "availability": "In Stock",
+    "rating": "4.8",
+    "status": "ok"
+  },
+  {
+    "sku_id": "S08",
+    "product": "SanDisk Extreme Pro 1TB microSDXC",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/2353663889",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "partial: missing name, price, availability, rating"
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/seagate-expansion-5tb-external-usb-3-0-portable-hard-drive-with-rescue-data-recovery-services-black/J37C5H48K5/sku/6461979",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "fetch failed"
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "retailer": "target",
+    "url": "https://www.target.com/p/-/A-1004710383",
+    "name": "Seagate Portable 2TB External Hard Drive HDD \u2014 USB 3.0 for PC, Mac, PlayStation, & Xbox -1-Year Rescue Service (STGX2000400)",
+    "price": null,
+    "availability": "In Stock",
+    "rating": "4.34",
+    "status": "partial: missing price"
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B07CRG94G3",
+    "name": "Seagate 2TB Portable Hard Drive | USB 3.0 (STGX2000400)",
+    "price": 139.95,
+    "availability": "In Stock",
+    "rating": "4.6",
+    "status": "ok"
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "retailer": "newegg",
+    "url": "https://www.newegg.com/seagate-model-stkm2000400-2tb/p/N82E16822184950",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "partial: missing name, price, availability, rating"
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/790131533",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "partial: missing name, price, availability, rating"
+  },
+  {
+    "sku_id": "S10",
+    "product": "Sony WH-1000XM5 wireless headphones",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-cancelling-over-the-ear-headphones-black/J7XSRH5CXG/sku/10890357",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "fetch failed"
+  },
+  {
+    "sku_id": "S10",
+    "product": "Sony WH-1000XM5 wireless headphones",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B09XS7JWHH",
+    "name": "Sony WH-1000XM5 Premium Noise Cancelling Wireless Headphones, Black",
+    "price": 198.0,
+    "availability": "In Stock",
+    "rating": "4.2",
+    "status": "ok"
+  },
+  {
+    "sku_id": "S10",
+    "product": "Sony WH-1000XM5 wireless headphones",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/386006068",
+    "name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "partial: missing name, price, availability, rating"
+  }
+];
+(()=>{
+  const ok=R.filter(r=>r.status==='ok').length;
+  const p=R.filter(r=>r.status.startsWith('partial')).length;
+  const b=R.filter(r=>r.status.includes('blocked')||r.status==='fetch failed').length;
+  const cards=[
+    ['Total Pages',R.length,'ac'],['Full Data',ok,'gn'],['Partial',p,'yw'],['Blocked',b,'rd']
+  ];
+  const d=document.getElementById('cards');
+  cards.forEach(([l,v,c])=>{d.innerHTML+=`<div class="card"><div class="cl">${l}</div><div class="cv ${c}">${v}</div></div>`;  });
+  document.getElementById('ts').textContent='Collected: '+new Date().toLocaleString();
+})();
+function filter(){
+  const q=document.getElementById('q').value.toLowerCase();
+  document.querySelectorAll('#tbl tbody tr').forEach(r=>{
+    r.style.display=r.textContent.toLowerCase().includes(q)?'':'none';
+  });
+}
+</script>
+</body></html>

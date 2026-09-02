@@ -1,0 +1,64 @@
+{
+  "cursor_bd": {
+    "model": "claude-sonnet-5-high",
+    "wall_clock_s": 3281,
+    "name_price": 40,
+    "all_four": 38,
+    "per_retailer": {
+      "amazon": 9,
+      "bestbuy": 9,
+      "newegg": 5,
+      "target": 7,
+      "walmart": 10
+    },
+    "py_lines": 514,
+    "field_accuracy_pct": 84,
+    "accuracy_scored": 97
+  },
+  "claude_nobd": {
+    "model": "claude-sonnet-5",
+    "wall_clock_s": 1054,
+    "name_price": 34,
+    "all_four": 29,
+    "per_retailer": {
+      "amazon": 8,
+      "bestbuy": 4,
+      "newegg": 5,
+      "target": 7,
+      "walmart": 10
+    },
+    "py_lines": 429,
+    "field_accuracy_pct": 67,
+    "accuracy_scored": 97
+  },
+  "claude_bd": {
+    "model": "claude-sonnet-5",
+    "wall_clock_s": 1650,
+    "name_price": 34,
+    "all_four": 34,
+    "per_retailer": {
+      "amazon": 10,
+      "bestbuy": 7,
+      "target": 7,
+      "walmart": 10
+    },
+    "py_lines": 306,
+    "field_accuracy_pct": 74,
+    "accuracy_scored": 97
+  },
+  "cursor_nobd": {
+    "model": "claude-sonnet-5-high",
+    "wall_clock_s": 3183,
+    "name_price": 28,
+    "all_four": 28,
+    "per_retailer": {
+      "amazon": 3,
+      "bestbuy": 8,
+      "target": 7,
+      "walmart": 10
+    },
+    "py_lines": 729,
+    "field_accuracy_pct": 70,
+    "accuracy_scored": 97
+  }
+}

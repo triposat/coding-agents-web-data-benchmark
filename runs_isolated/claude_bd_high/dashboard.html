@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Competitor Price Tracker</title>
+<style>
+  :root {
+    --border: #dcdfe4;
+    --bg: #f6f7f9;
+    --ok: #1a7f37;
+    --ok-bg: #e6f6ea;
+    --warn: #b45309;
+    --warn-bg: #fff4e5;
+    --bad: #b91c1c;
+    --bad-bg: #fdeaea;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 24px;
+    background: var(--bg);
+    color: #1c1e21;
+  }
+  h1 { margin: 0 0 4px; font-size: 22px; }
+  .subtitle { color: #5f6368; margin-bottom: 20px; font-size: 14px; }
+  #summary {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .stat {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 16px;
+    min-width: 140px;
+  }
+  .stat .n { font-size: 22px; font-weight: 700; }
+  .stat .l { font-size: 12px; color: #5f6368; }
+  input#search {
+    width: 100%;
+    max-width: 420px;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  .product-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .product-header {
+    padding: 12px 16px;
+    background: #fafbfc;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .product-header h2 { margin: 0; font-size: 16px; }
+  .product-header .sku { color: #5f6368; font-size: 12px; font-family: monospace; }
+  .cheapest-badge {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ok);
+    background: var(--ok-bg);
+    padding: 4px 10px;
+    border-radius: 999px;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 10px 16px; border-bottom: 1px solid #eef0f2; vertical-align: top; }
+  th { font-size: 11px; text-transform: uppercase; letter-spacing: 0.03em; color: #5f6368; background: #fcfcfd; }
+  tr:last-child td { border-bottom: none; }
+  tr.cheapest { background: var(--ok-bg); }
+  .retailer { text-transform: capitalize; font-weight: 600; }
+  .price { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .price.cheapest-price { color: var(--ok); }
+  .price.null { color: #9aa0a6; font-weight: 400; }
+  .badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 999px;
+  }
+  .badge.in-stock { color: var(--ok); background: var(--ok-bg); }
+  .badge.out-of-stock { color: var(--bad); background: var(--bad-bg); }
+  .badge.other { color: var(--warn); background: var(--warn-bg); }
+  .rating { white-space: nowrap; }
+  .status-ok { color: var(--ok); }
+  .status-partial { color: var(--warn); }
+  .status-fail { color: var(--bad); }
+  a.link { color: #1a73e8; text-decoration: none; font-size: 12px; }
+  a.link:hover { text-decoration: underline; }
+  #error {
+    background: var(--bad-bg);
+    color: var(--bad);
+    border: 1px solid var(--bad);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    display: none;
+    font-size: 14px;
+  }
+  code { background: #eef0f2; padding: 1px 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<h1>Competitor Price Tracker</h1>
+<div class="subtitle">Loaded from <code>results.json</code>. Cheapest in-stock retailer per product is highlighted.</div>
+
+<div id="error"></div>
+
+<div id="summary"></div>
+
+<input id="search" type="text" placeholder="Filter by product or retailer name...">
+
+<div id="app"></div>
+
+<script>
+async function main() {
+  const errBox = document.getElementById('error');
+  let data;
+  try {
+    const res = await fetch('results.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    data = await res.json();
+  } catch (e) {
+    errBox.style.display = 'block';
+    errBox.innerHTML = 'Could not load <code>results.json</code> (' + e.message + '). ' +
+      'If you opened this file directly (file://), browsers block local fetches. ' +
+      'Serve this folder over HTTP instead, e.g.: <code>python3 -m http.server 8000</code> then open ' +
+      '<code>http://localhost:8000/dashboard.html</code>.';
+    return;
+  }
+
+  // Group by sku_id
+  const bySku = new Map();
+  for (const row of data) {
+    if (!bySku.has(row.sku_id)) bySku.set(row.sku_id, { product: row.product, rows: [] });
+    bySku.get(row.sku_id).rows.push(row);
+  }
+
+  // Summary stats
+  const total = data.length;
+  const fullyOk = data.filter(r => r.status === 'ok').length;
+  const withPrice = data.filter(r => r.price !== null && r.price !== undefined).length;
+  const summary = document.getElementById('summary');
+  summary.innerHTML = `
+    <div class="stat"><div class="n">${bySku.size}</div><div class="l">Products tracked</div></div>
+    <div class="stat"><div class="n">${total}</div><div class="l">Retailer pages tracked</div></div>
+    <div class="stat"><div class="n">${fullyOk} / ${total}</div><div class="l">Pages with all 4 fields</div></div>
+    <div class="stat"><div class="n">${withPrice} / ${total}</div><div class="l">Pages with a price</div></div>
+  `;
+
+  const app = document.getElementById('app');
+
+  function statusClass(status) {
+    if (status === 'ok') return 'status-ok';
+    if (status.startsWith('partial')) return 'status-partial';
+    return 'status-fail';
+  }
+
+  function availabilityBadge(av) {
+    if (!av) return '<span class="badge other">Unknown</span>';
+    const norm = av.toLowerCase();
+    if (norm.includes('in stock') && !norm.includes('out of')) return `<span class="badge in-stock">${av}</span>`;
+    if (norm.includes('out of stock')) return `<span class="badge out-of-stock">${av}</span>`;
+    return `<span class="badge other">${av}</span>`;
+  }
+
+  function render(filterText) {
+    app.innerHTML = '';
+    const f = (filterText || '').trim().toLowerCase();
+
+    for (const [skuId, group] of bySku) {
+      const matches = !f ||
+        group.product.toLowerCase().includes(f) ||
+        group.rows.some(r => r.retailer.toLowerCase().includes(f));
+      if (!matches) continue;
+
+      const rows = [...group.rows].sort((a, b) => a.retailer.localeCompare(b.retailer));
+      const pricedRows = rows.filter(r => typeof r.price === 'number' &&
+        (r.availability || '').toLowerCase().includes('in stock'));
+      const cheapest = pricedRows.length
+        ? pricedRows.reduce((min, r) => r.price < min.price ? r : min)
+        : null;
+
+      const card = document.createElement('div');
+      card.className = 'product-card';
+
+      const header = document.createElement('div');
+      header.className = 'product-header';
+      header.innerHTML = `
+        <h2>${group.product} <span class="sku">${skuId}</span></h2>
+        ${cheapest
+          ? `<span class="cheapest-badge">Cheapest: ${cheapest.retailer} — $${cheapest.price.toFixed(2)}</span>`
+          : `<span class="cheapest-badge" style="color:#5f6368;background:#eef0f2;">No in-stock price available</span>`}
+      `;
+      card.appendChild(header);
+
+      const table = document.createElement('table');
+      table.innerHTML = `
+        <thead>
+          <tr>
+            <th>Retailer</th>
+            <th>Product name</th>
+            <th>Price</th>
+            <th>Availability</th>
+            <th>Rating</th>
+            <th>Status</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows.map(r => {
+            const isCheapest = cheapest && r === cheapest;
+            const priceHtml = typeof r.price === 'number'
+              ? `$${r.price.toFixed(2)}`
+              : '&mdash;';
+            return `
+              <tr class="${isCheapest ? 'cheapest' : ''}">
+                <td class="retailer">${r.retailer}</td>
+                <td>${r.name || '<span style="color:#9aa0a6">unknown</span>'}</td>
+                <td class="price ${typeof r.price === 'number' ? (isCheapest ? 'cheapest-price' : '') : 'null'}">${priceHtml}</td>
+                <td>${availabilityBadge(r.availability)}</td>
+                <td class="rating">${r.rating !== null && r.rating !== undefined ? '★ ' + r.rating.toFixed(1) : '&mdash;'}</td>
+                <td class="${statusClass(r.status)}">${r.status}</td>
+                <td><a class="link" href="${r.url}" target="_blank" rel="noopener">visit</a></td>
+              </tr>
+            `;
+          }).join('')}
+        </tbody>
+      `;
+      card.appendChild(table);
+      app.appendChild(card);
+    }
+  }
+
+  render('');
+  document.getElementById('search').addEventListener('input', (e) => render(e.target.value));
+}
+
+main();
+</script>
+</body>
+</html>

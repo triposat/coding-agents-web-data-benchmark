@@ -1,0 +1,19 @@
+{
+  "encoder": "tiktoken cl100k_base",
+  "pages": 41,
+  "markdown_tokens_total": 636311,
+  "markdown_tokens_median": 2537,
+  "markdown_tokens_max": 103019,
+  "heaviest_page": "arm3__S10__amazon.md",
+  "structured_answer_tokens": 5080,
+  "tool_definition_tokens": 1007,
+  "waste_pct": 99.2,
+  "payload_vs_tooldefs": 632,
+  "by_retailer_median": {
+    "amazon": 63920,
+    "bestbuy": 1789,
+    "newegg": 5101,
+    "target": 1244,
+    "walmart": 2060
+  }
+}

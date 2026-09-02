@@ -1,0 +1,139 @@
+=== Scraping 41 product pages ===
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/1425654143
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/17835006350
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/5395277557
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/15853556239
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/731473988
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/1281151624
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/156019443
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/2353663889
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/790131533
+[walmart] requests fetch failed (no __NEXT_DATA__ block (possible bot block)), will retry via browser: https://www.walmart.com/ip/386006068
+[amazon] fetching https://www.amazon.com/dp/B09VPHVT2Z (attempt 1/3)
+[target] fetching https://www.target.com/p/-/A-85978609 (attempt 1/3)
+[amazon] fetching https://www.amazon.com/dp/B0D1XD1ZV3 (attempt 1/3)
+[target] fetching https://www.target.com/p/-/A-79673471 (attempt 1/3)
+[amazon] fetching https://www.amazon.com/dp/B0GJTXVN9Z (attempt 1/3)
+[amazon] fetching https://www.amazon.com/dp/B0CD2FSRDD (attempt 1/3)
+[newegg] fetching https://www.newegg.com/bose-896637-0030-earbud-deep-plum/p/N82E16826627172 (attempt 1/3)
+[target] fetching https://www.target.com/p/-/A-1008322060 (attempt 1/3)
+[amazon] fetching https://www.amazon.com/dp/B09HM94VDS (attempt 1/3)
+[newegg] fetching https://www.newegg.com/logitech-910-006558-mx-master-3s-usb-type-c-dual/p/N82E16826197552 (attempt 1/3)
+[target] fetching https://www.target.com/p/-/A-94720129 (attempt 1/3)
+[amazon] fetching https://www.amazon.com/dp/B0B6XTDJS1 (attempt 1/3)
+[newegg] fetching https://www.newegg.com/razer-deathadder-v3-usb-wired/p/N82E16826153342 (attempt 1/3)
+[target] fetching https://www.target.com/p/-/A-93111660 (attempt 1/3)
+[amazon] fetching https://www.amazon.com/dp/B0874XN4D8 (attempt 1/3)
+[newegg] fetching https://www.newegg.com/samsung-t7-1tb-usb-3-2-gen-2/p/N82E16820147767 (attempt 1/3)
+[target] fetching https://www.target.com/p/-/A-52908863 (attempt 1/3)
+[amazon] fetching https://www.amazon.com/dp/B09X7MPX8L (attempt 1/3)
+[target] fetching https://www.target.com/p/-/A-1004710383 (attempt 1/3)
+[amazon] fetching https://www.amazon.com/dp/B07CRG94G3 (attempt 1/3)
+[newegg] fetching https://www.newegg.com/seagate-model-stkm2000400-2tb/p/N82E16822184950 (attempt 1/3)
+[amazon] fetching https://www.amazon.com/dp/B09XS7JWHH (attempt 1/3)
+[amazon] fetching https://www.amazon.com/dp/B09XS7JWHH (attempt 2/3)
+[amazon] fetching https://www.amazon.com/dp/B09XS7JWHH (attempt 3/3)
+[walmart] fetching https://www.walmart.com/ip/1425654143 (attempt 1/3)
+[walmart] fetching https://www.walmart.com/ip/1425654143 (attempt 2/3)
+[walmart] fetching https://www.walmart.com/ip/1425654143 (attempt 3/3)
+[walmart] fetching https://www.walmart.com/ip/17835006350 (attempt 1/3)
+[walmart] fetching https://www.walmart.com/ip/17835006350 (attempt 2/3)
+[walmart] fetching https://www.walmart.com/ip/17835006350 (attempt 3/3)
+[walmart] fetching https://www.walmart.com/ip/5395277557 (attempt 1/3)
+[walmart] fetching https://www.walmart.com/ip/5395277557 (attempt 2/3)
+[walmart] fetching https://www.walmart.com/ip/5395277557 (attempt 3/3)
+[walmart] fetching https://www.walmart.com/ip/15853556239 (attempt 1/3)
+[walmart] fetching https://www.walmart.com/ip/15853556239 (attempt 2/3)
+[walmart] fetching https://www.walmart.com/ip/15853556239 (attempt 3/3)
+[walmart] fetching https://www.walmart.com/ip/731473988 (attempt 1/3)
+[walmart] fetching https://www.walmart.com/ip/731473988 (attempt 2/3)
+[walmart] fetching https://www.walmart.com/ip/731473988 (attempt 3/3)
+[walmart] fetching https://www.walmart.com/ip/1281151624 (attempt 1/3)
+[walmart] fetching https://www.walmart.com/ip/1281151624 (attempt 2/3)
+[walmart] fetching https://www.walmart.com/ip/1281151624 (attempt 3/3)
+[walmart] fetching https://www.walmart.com/ip/156019443 (attempt 1/3)
+[walmart] fetching https://www.walmart.com/ip/156019443 (attempt 2/3)
+[walmart] fetching https://www.walmart.com/ip/156019443 (attempt 3/3)
+[walmart] fetching https://www.walmart.com/ip/2353663889 (attempt 1/3)
+[walmart] fetching https://www.walmart.com/ip/2353663889 (attempt 2/3)
+[walmart] fetching https://www.walmart.com/ip/2353663889 (attempt 3/3)
+[walmart] fetching https://www.walmart.com/ip/790131533 (attempt 1/3)
+[walmart] fetching https://www.walmart.com/ip/790131533 (attempt 2/3)
+[walmart] fetching https://www.walmart.com/ip/790131533 (attempt 3/3)
+[walmart] fetching https://www.walmart.com/ip/386006068 (attempt 1/3)
+[walmart] fetching https://www.walmart.com/ip/386006068 (attempt 2/3)
+[walmart] fetching https://www.walmart.com/ip/386006068 (attempt 3/3)
+[bestbuy] fetching https://www.bestbuy.com/product/anker-power-bank-24000mah-140w-3-port-black/JJ85865GV2/sku/6553403 (attempt 1/3)
+[bestbuy] fetching https://www.bestbuy.com/product/apple-airpods-pro-2-wireless-active-noise-cancelling-earbuds-with-hearing-aid-feature-white/JJGCQ88C8X/sku/10129617 (attempt 1/3)
+[bestbuy] fetching https://www.bestbuy.com/product/apple-airtag-4-pack-2nd-generation-2026-white/JJGCQLTTF3/sku/6377586 (attempt 1/3)
+[bestbuy] fetching https://www.bestbuy.com/product/bose-quietcomfort-ultra-2nd-gen-true-wireless-noise-cancelling-in-ear-earbuds-midnight-violet/J7C5V6WCWL/sku/12333019 (attempt 1/3)
+[bestbuy] fetching https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199 (attempt 1/3)
+[bestbuy] fetching https://www.bestbuy.com/product/razer-deathadder-v3-lightweight-optical-gaming-mouse-with-8k-hz-hyperpolling-technology-wired-black/J39HWFQKZW/sku/10736128 (attempt 1/3)
+    got nothing useful on attempt 1, retrying...
+[bestbuy] fetching https://www.bestbuy.com/product/razer-deathadder-v3-lightweight-optical-gaming-mouse-with-8k-hz-hyperpolling-technology-wired-black/J39HWFQKZW/sku/10736128 (attempt 2/3)
+    got nothing useful on attempt 2, retrying...
+[bestbuy] fetching https://www.bestbuy.com/product/razer-deathadder-v3-lightweight-optical-gaming-mouse-with-8k-hz-hyperpolling-technology-wired-black/J39HWFQKZW/sku/10736128 (attempt 3/3)
+    still nothing after retries, giving up
+[bestbuy] fetching https://www.bestbuy.com/product/samsung-t7-1tb-external-usb-3-2-gen-2-portable-ssd-with-hardware-encryption-titan-gray/J3ZYGCQG8H/sku/6408299 (attempt 1/3)
+[bestbuy] fetching https://www.bestbuy.com/product/seagate-expansion-5tb-external-usb-3-0-portable-hard-drive-with-rescue-data-recovery-services-black/J37C5H48K5/sku/6461979 (attempt 1/3)
+[bestbuy] fetching https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-cancelling-over-the-ear-headphones-black/J7XSRH5CXG/sku/10890357 (attempt 1/3)
+    got nothing useful on attempt 1, retrying...
+[bestbuy] fetching https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-cancelling-over-the-ear-headphones-black/J7XSRH5CXG/sku/10890357 (attempt 2/3)
+    got nothing useful on attempt 2, retrying...
+[bestbuy] fetching https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-cancelling-over-the-ear-headphones-black/J7XSRH5CXG/sku/10890357 (attempt 3/3)
+    still nothing after retries, giving up
+  -> bestbuy  S01 status=ok
+  -> amazon   S01 status=out of stock (no featured offer / no seller currently)
+  -> walmart  S01 status=navigation failed: HTTPConnectionPool(host='localhost', port=64684): Max retries exceeded with url: /session/0f21721d85b68b8c367615a4ec73ec16/url (Caused by NewConnectionError('<urllib3.connection.HTT
+  -> bestbuy  S02 status=ok
+  -> target   S02 status=ok
+  -> amazon   S02 status=out of stock (no featured offer / no seller currently)
+  -> walmart  S02 status=navigation failed: HTTPConnectionPool(host='localhost', port=64684): Max retries exceeded with url: /session/0f21721d85b68b8c367615a4ec73ec16/url (Caused by NewConnectionError('<urllib3.connection.HTT
+  -> bestbuy  S03 status=ok
+  -> target   S03 status=ok
+  -> amazon   S03 status=out of stock (no featured offer / no seller currently)
+  -> walmart  S03 status=navigation failed: HTTPConnectionPool(host='localhost', port=64684): Max retries exceeded with url: /session/0f21721d85b68b8c367615a4ec73ec16/url (Caused by NewConnectionError('<urllib3.connection.HTT
+  -> bestbuy  S04 status=ok
+  -> amazon   S04 status=out of stock (no featured offer / no seller currently)
+  -> newegg   S04 status=ok
+  -> walmart  S04 status=navigation failed: HTTPConnectionPool(host='localhost', port=64684): Max retries exceeded with url: /session/0f21721d85b68b8c367615a4ec73ec16/url (Caused by NewConnectionError('<urllib3.connection.HTT
+  -> bestbuy  S05 status=ok
+  -> target   S05 status=ok
+  -> amazon   S05 status=out of stock (no featured offer / no seller currently)
+  -> newegg   S05 status=ok
+  -> walmart  S05 status=navigation failed: HTTPConnectionPool(host='localhost', port=64684): Max retries exceeded with url: /session/0f21721d85b68b8c367615a4ec73ec16/url (Caused by NewConnectionError('<urllib3.connection.HTT
+  -> bestbuy  S06 status=no product JSON-LD found
+  -> target   S06 status=ok
+  -> amazon   S06 status=ok
+  -> newegg   S06 status=ok
+  -> walmart  S06 status=navigation failed: HTTPConnectionPool(host='localhost', port=64684): Max retries exceeded with url: /session/0f21721d85b68b8c367615a4ec73ec16/url (Caused by NewConnectionError('<urllib3.connection.HTT
+  -> bestbuy  S07 status=ok
+  -> target   S07 status=ok
+  -> amazon   S07 status=ok
+  -> newegg   S07 status=ok
+  -> walmart  S07 status=navigation failed: HTTPConnectionPool(host='localhost', port=64684): Max retries exceeded with url: /session/0f21721d85b68b8c367615a4ec73ec16/url (Caused by NewConnectionError('<urllib3.connection.HTT
+  -> target   S08 status=ok
+  -> amazon   S08 status=out of stock (no featured offer / no seller currently)
+  -> walmart  S08 status=navigation failed: HTTPConnectionPool(host='localhost', port=64684): Max retries exceeded with url: /session/0f21721d85b68b8c367615a4ec73ec16/url (Caused by NewConnectionError('<urllib3.connection.HTT
+  -> bestbuy  S09 status=ok
+  -> target   S09 status=ok
+  -> amazon   S09 status=no single-seller buy box (see all buying options)
+  -> newegg   S09 status=ok
+  -> walmart  S09 status=navigation failed: HTTPConnectionPool(host='localhost', port=64684): Max retries exceeded with url: /session/0f21721d85b68b8c367615a4ec73ec16/url (Caused by NewConnectionError('<urllib3.connection.HTT
+  -> bestbuy  S10 status=no product JSON-LD found
+  -> amazon   S10 status=navigation failed: HTTPConnectionPool(host='localhost', port=64684): Max retries exceeded with url: /session/0f21721d85b68b8c367615a4ec73ec16/execute/sync (Caused by NewConnectionError('<urllib3.conne
+  -> walmart  S10 status=navigation failed: HTTPConnectionPool(host='localhost', port=64684): Max retries exceeded with url: /session/0f21721d85b68b8c367615a4ec73ec16/url (Caused by NewConnectionError('<urllib3.connection.HTT
+Wrote /Users/triposat/Desktop/Bdata Cursor/bench/runs_s5/cursor_nobd/results.json
+=== Searching for new retailer listings ===
+[search] S01 'Anker 737 power bank 24000mAh' -> 5 new listing(s)
+[search] S02 'Apple AirPods Pro 2' -> 4 new listing(s)
+[search] S03 'Apple AirTag 4 pack' -> 3 new listing(s)
+[search] S04 'Bose QuietComfort Ultra earbuds' -> 4 new listing(s)
+[search] S05 'Logitech MX Master 3S mouse' -> 3 new listing(s)
+[search] S06 'Razer DeathAdder V3 mouse' -> 2 new listing(s)
+[search] S07 'Samsung T7 1TB portable SSD' -> 3 new listing(s)
+[search] S08 'SanDisk Extreme Pro 1TB microSDXC' -> 5 new listing(s)
+[search] S09 'Seagate Expansion 2TB external hard drive' -> 2 new listing(s)
+[search] S10 'Sony WH-1000XM5 wireless headphones' -> 5 new listing(s)
+Wrote /Users/triposat/Desktop/Bdata Cursor/bench/runs_s5/cursor_nobd/new_listings.json
+=== Done: 21/41 pages fully collected (all 4 fields) ===

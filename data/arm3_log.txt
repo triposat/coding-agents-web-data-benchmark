@@ -1,0 +1,2 @@
+
+=== arm3 === Counter({'success': 38, 'partial_no_price': 2, 'blocked_empty': 1})

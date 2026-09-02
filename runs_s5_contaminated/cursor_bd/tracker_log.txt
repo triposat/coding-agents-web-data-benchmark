@@ -1,0 +1,78 @@
+[12:53:13] Loaded 10 products / 41 retailer pages from skus.json
+[12:53:13] Connecting to Bright Data MCP (first call can take a couple of minutes to warm up)...
+[12:53:15] MCP session ready: 7e26fa9a-773e-4fa3-8502-24015e649c1f
+[12:54:03]   retry 1/2 after status=blocked_empty (sleeping 4s)
+[12:54:28] [1/41] S01 bestbuy  status=ok               name=yes price=109.99 (73.1s)
+[12:54:37] [2/41] S01 amazon   status=ok               name=yes price=109.99 (8.0s)
+[12:54:42] [3/41] S01 walmart  status=ok               name=yes price=49.97 (4.8s)
+[12:55:37]   retry 1/2 after status=blocked_empty (sleeping 4s)
+[12:56:02] [4/41] S02 bestbuy  status=ok               name=yes price=599.99 (79.1s)
+[12:56:13] [5/41] S02 target   status=ok               name=yes price=249.99 (10.0s)
+[12:56:19] [6/41] S02 amazon   status=ok               name=yes price=537.00 (4.5s)
+[12:56:25] [7/41] S02 walmart  status=ok               name=yes price=225.00 (4.7s)
+[12:56:46] [8/41] S03 bestbuy  status=ok               name=yes price=157.49 (20.0s)
+[12:57:04] [9/41] S03 target   status=ok               name=yes price=99.99 (17.5s)
+[12:57:11] [10/41] S03 amazon   status=ok               name=yes price=79.99 (6.1s)
+[12:57:16] [11/41] S03 walmart  status=ok               name=yes price=98.97 (4.3s)
+[12:58:05]   retry 1/2 after status=blocked_empty (sleeping 4s)
+[12:59:00]   retry 2/2 after status=blocked_empty (sleeping 8s)
+[12:59:57]   retry 3/3 after status=blocked_empty (sleeping 12s)
+[13:00:09] [12/41] S04 bestbuy  status=blocked_empty    name=no  price=None (171.8s)
+[13:00:16] [13/41] S04 amazon   status=ok               name=yes price=299.00 (6.1s)
+[13:00:19] [14/41] S04 newegg   status=ok               name=yes price=299.00 (2.1s)
+[13:00:27] [15/41] S04 walmart  status=ok               name=yes price=299.00 (6.9s)
+[13:00:50] [16/41] S05 bestbuy  status=ok               name=yes price=249.99 (21.1s)
+[13:01:32] [17/41] S05 target   status=ok               name=yes price=114.99 (41.1s)
+[13:01:38] [18/41] S05 amazon   status=ok               name=yes price=117.68 (5.2s)
+[13:01:41] [19/41] S05 newegg   status=ok               name=yes price=114.00 (2.2s)
+[13:02:02] [20/41] S05 walmart  status=ok               name=yes price=119.99 (20.0s)
+[13:02:23] [21/41] S06 bestbuy  status=no_price_found   name=yes price=None (20.4s)
+[13:02:41] [22/41] S06 target   status=ok               name=yes price=24.99 (16.1s)
+[13:02:47] [23/41] S06 amazon   status=ok               name=yes price=48.99 (5.8s)
+[13:02:54] [24/41] S06 newegg   status=ok               name=yes price=71.99 (5.6s)
+[13:02:59] [25/41] S06 walmart  status=ok               name=yes price=149.99 (4.0s)
+[13:03:21] [26/41] S07 bestbuy  status=ok               name=yes price=269.99 (21.1s)
+[13:03:32] [27/41] S07 target   status=ok               name=yes price=449.99 (9.6s)
+[13:03:38] [28/41] S07 amazon   status=ok               name=yes price=234.99 (5.6s)
+[13:03:42] [29/41] S07 newegg   status=ok               name=yes price=386.10 (2.6s)
+[13:03:49] [30/41] S07 walmart  status=ok               name=yes price=149.99 (5.9s)
+[13:04:01] [31/41] S08 target   status=ok               name=yes price=29.99 (11.5s)
+[13:04:08] [32/41] S08 amazon   status=ok               name=yes price=199.99 (6.1s)
+[13:04:13] [33/41] S08 walmart  status=ok               name=yes price=256.03 (3.9s)
+[13:05:07]   retry 1/2 after status=blocked_empty (sleeping 4s)
+[13:06:10] [34/41] S09 bestbuy  status=ok               name=yes price=219.99 (115.7s)
+[13:06:47] [35/41] S09 target   status=ok               name=yes price=136.22 (36.0s)
+[13:06:55] [36/41] S09 amazon   status=ok               name=yes price=129.99 (6.9s)
+[13:06:58] [37/41] S09 newegg   status=ok               name=yes price=379.99 (2.3s)
+[13:07:04] [38/41] S09 walmart  status=ok               name=yes price=119.00 (4.5s)
+[13:07:07]   retry 1/2 after status=rate_limited (sleeping 4s)
+[13:07:31] [39/41] S10 bestbuy  status=no_price_found   name=yes price=None (26.2s)
+[13:07:39] [40/41] S10 amazon   status=ok               name=yes price=198.00 (6.7s)
+[13:07:46] [41/41] S10 walmart  status=ok               name=yes price=198.00 (6.3s)
+[13:07:47] Done scraping. status=ok: 38/41  all four fields present: 30/41
+[13:07:49] new_listings S01: found 0 candidate retailer(s)
+[13:07:54] new_listings S02: found 0 candidate retailer(s)
+[13:07:57] new_listings S03: found 0 candidate retailer(s)
+[13:08:00] new_listings S04: found 0 candidate retailer(s)
+[13:08:19] new_listings S05: found 0 candidate retailer(s)
+[13:08:22] new_listings S06: found 0 candidate retailer(s)
+[13:08:25] new_listings S07: found 0 candidate retailer(s)
+[13:08:28] new_listings S08: found 0 candidate retailer(s)
+[13:08:33] new_listings S09: found 0 candidate retailer(s)
+[13:08:36] new_listings S10: found 0 candidate retailer(s)
+[13:08:38] All done.
+[13:08:38] FINAL: 30/41 pages had all four fields collected (38/41 status=ok).
+[13:09:17] Connecting to Bright Data MCP (first call can take a couple of minutes to warm up)...
+[13:09:19] MCP session ready: 70d3685b-702e-4186-bd01-f111c33779fa
+[13:09:43] Connecting to Bright Data MCP (first call can take a couple of minutes to warm up)...
+[13:09:45] MCP session ready: 20058f0a-f5b2-4874-8492-ab7e85358bf2
+[13:10:52] Connecting to Bright Data MCP (first call can take a couple of minutes to warm up)...
+[13:10:54] MCP session ready: 9bd338f8-22a4-4796-b33b-b472cd1bc6da
+[13:12:04] Connecting to Bright Data MCP (first call can take a couple of minutes to warm up)...
+[13:12:06] MCP session ready: c0b9dfea-003e-4b49-98f9-a51108ab8646
+[13:12:23] Connecting to Bright Data MCP (first call can take a couple of minutes to warm up)...
+[13:12:25] MCP session ready: d976e943-6103-4ab4-a29c-6caee0e5209b
+[13:12:59] Connecting to Bright Data MCP (first call can take a couple of minutes to warm up)...
+[13:13:00] MCP session ready: 4856a22a-e92d-453c-b29c-a071c208e919
+[13:13:31] Connecting to Bright Data MCP (first call can take a couple of minutes to warm up)...
+[13:13:32] MCP session ready: 106bd24e-1e6d-48de-a8d9-6d4c4fc2dbaa

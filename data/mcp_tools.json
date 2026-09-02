@@ -1,0 +1,180 @@
+[
+  {
+    "annotations": {
+      "title": "Ask Bright Data Assistant",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Ask Bright Data's support assistant (Sophie) a question about Bright Data products, APIs, MCP usage, zones, scraping, or account setup. Use when the user asks \"how do I...\" about Bright Data, when you hit a Bright Data error you don't recognize, or when deciding between products (Web Unlocker vs. Scraping Browser vs. dataset tools). Supports threaded follow-ups via dialog_id.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "question": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20480,
+          "description": "The question to ask. Max 20480 chars."
+        },
+        "dialog_id": {
+          "type": "string",
+          "minLength": 24,
+          "maxLength": 24,
+          "description": "Optional 24-char dialog_id from a previous call to continue the same thread."
+        }
+      },
+      "required": [
+        "question"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "ask_brightdata_assistant"
+  },
+  {
+    "annotations": {
+      "title": "Search Engine",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Scrape search results from Google, Bing or Yandex. Returns SERP results in JSON or Markdown (URL, title, description), Ideal for gathering current information, news, and detailed search results.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string"
+        },
+        "engine": {
+          "type": "string",
+          "enum": [
+            "google",
+            "bing",
+            "yandex"
+          ],
+          "default": "google"
+        },
+        "cursor": {
+          "type": "string",
+          "description": "Pagination cursor for next page"
+        },
+        "geo_location": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 2,
+          "description": "2-letter country code for geo-targeted results (e.g., \"us\", \"uk\")"
+        }
+      },
+      "required": [
+        "query"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "search_engine"
+  },
+  {
+    "annotations": {
+      "title": "Scrape as Markdown",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Scrape a single webpage URL with advanced options for content extraction and get back the results in MarkDown language. This tool can unlock any webpage even if it uses bot detection or CAPTCHA.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scrape_as_markdown"
+  },
+  {
+    "annotations": {
+      "title": "Search Engine Batch",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Run multiple search queries simultaneously. Returns JSON for Google, Markdown for Bing/Yandex.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "queries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "query": {
+                "type": "string"
+              },
+              "engine": {
+                "type": "string",
+                "enum": [
+                  "google",
+                  "bing",
+                  "yandex"
+                ],
+                "default": "google"
+              },
+              "cursor": {
+                "type": "string"
+              },
+              "geo_location": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2,
+                "description": "2-letter country code for geo-targeted results (e.g., \"us\", \"uk\")"
+              }
+            },
+            "required": [
+              "query"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1,
+          "maxItems": 10
+        }
+      },
+      "required": [
+        "queries"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "search_engine_batch"
+  },
+  {
+    "annotations": {
+      "title": "Scrape Batch",
+      "readOnlyHint": true,
+      "openWorldHint": true
+    },
+    "description": "Scrape multiple webpages URLs with advanced options for content extraction and get back the results in MarkDown language. This tool can unlock any webpage even if it uses bot detection or CAPTCHA.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "urls": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          },
+          "minItems": 1,
+          "maxItems": 10,
+          "description": "Array of URLs to scrape (max 10)"
+        }
+      },
+      "required": [
+        "urls"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "name": "scrape_batch"
+  }
+]

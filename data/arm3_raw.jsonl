@@ -1,0 +1,51 @@
+SERVER: {"name": "brightdata-mcp", "version": "1.0.0"}
+SESSION: 9049a91f-7c03-4cca-8c74-fa97e6448698
+
+TOOL COUNT: 5
+
+  - ask_brightdata_assistant           req=['question']
+  - search_engine                      req=['query']
+  - scrape_as_markdown                 req=['url']
+  - search_engine_batch                req=['queries']
+  - scrape_batch                       req=['urls']
+{"sku_id": "S01", "retailer": "bestbuy", "outcome": "success", "elapsed_s": 31.31, "bytes": 6591}
+{"sku_id": "S01", "retailer": "amazon", "outcome": "success", "elapsed_s": 5.4, "bytes": 208413}
+{"sku_id": "S01", "retailer": "walmart", "outcome": "success", "elapsed_s": 4.59, "bytes": 8292}
+{"sku_id": "S02", "retailer": "bestbuy", "outcome": "success", "elapsed_s": 22.51, "bytes": 9189}
+{"sku_id": "S02", "retailer": "target", "outcome": "success", "elapsed_s": 15.46, "bytes": 10587}
+{"sku_id": "S02", "retailer": "amazon", "outcome": "success", "elapsed_s": 6.8, "bytes": 68393}
+{"sku_id": "S02", "retailer": "walmart", "outcome": "success", "elapsed_s": 4.4, "bytes": 6507}
+{"sku_id": "S03", "retailer": "bestbuy", "outcome": "success", "elapsed_s": 31.84, "bytes": 5547}
+{"sku_id": "S03", "retailer": "target", "outcome": "success", "elapsed_s": 17.43, "bytes": 3241}
+{"sku_id": "S03", "retailer": "amazon", "outcome": "success", "elapsed_s": 5.26, "bytes": 75986}
+{"sku_id": "S03", "retailer": "walmart", "outcome": "success", "elapsed_s": 6.92, "bytes": 6967}
+{"sku_id": "S04", "retailer": "bestbuy", "outcome": "blocked_empty", "elapsed_s": 26.69, "bytes": 0}
+{"sku_id": "S04", "retailer": "amazon", "outcome": "success", "elapsed_s": 5.95, "bytes": 225799}
+{"sku_id": "S04", "retailer": "newegg", "outcome": "success", "elapsed_s": 6.66, "bytes": 23405}
+{"sku_id": "S04", "retailer": "walmart", "outcome": "success", "elapsed_s": 4.06, "bytes": 9079}
+{"sku_id": "S05", "retailer": "bestbuy", "outcome": "success", "elapsed_s": 21.14, "bytes": 11369}
+{"sku_id": "S05", "retailer": "target", "outcome": "success", "elapsed_s": 7.83, "bytes": 3532}
+{"sku_id": "S05", "retailer": "amazon", "outcome": "success", "elapsed_s": 6.01, "bytes": 97445}
+{"sku_id": "S05", "retailer": "newegg", "outcome": "success", "elapsed_s": 5.22, "bytes": 16596}
+{"sku_id": "S05", "retailer": "walmart", "outcome": "success", "elapsed_s": 6.56, "bytes": 6632}
+{"sku_id": "S06", "retailer": "bestbuy", "outcome": "partial_no_price", "elapsed_s": 2.6, "bytes": 77}
+{"sku_id": "S06", "retailer": "target", "outcome": "success", "elapsed_s": 8.06, "bytes": 3933}
+{"sku_id": "S06", "retailer": "amazon", "outcome": "success", "elapsed_s": 6.98, "bytes": 169189}
+{"sku_id": "S06", "retailer": "newegg", "outcome": "success", "elapsed_s": 6.74, "bytes": 14370}
+{"sku_id": "S06", "retailer": "walmart", "outcome": "success", "elapsed_s": 5.45, "bytes": 7065}
+{"sku_id": "S07", "retailer": "bestbuy", "outcome": "success", "elapsed_s": 27.06, "bytes": 7527}
+{"sku_id": "S07", "retailer": "target", "outcome": "success", "elapsed_s": 8.65, "bytes": 4344}
+{"sku_id": "S07", "retailer": "amazon", "outcome": "success", "elapsed_s": 3.05, "bytes": 32915}
+{"sku_id": "S07", "retailer": "newegg", "outcome": "success", "elapsed_s": 5.05, "bytes": 17134}
+{"sku_id": "S07", "retailer": "walmart", "outcome": "success", "elapsed_s": 7.09, "bytes": 8101}
+{"sku_id": "S08", "retailer": "target", "outcome": "success", "elapsed_s": 29.0, "bytes": 4510}
+{"sku_id": "S08", "retailer": "amazon", "outcome": "success", "elapsed_s": 4.85, "bytes": 116760}
+{"sku_id": "S08", "retailer": "walmart", "outcome": "success", "elapsed_s": 5.07, "bytes": 6736}
+{"sku_id": "S09", "retailer": "bestbuy", "outcome": "success", "elapsed_s": 19.18, "bytes": 7372}
+{"sku_id": "S09", "retailer": "target", "outcome": "success", "elapsed_s": 12.28, "bytes": 5024}
+{"sku_id": "S09", "retailer": "amazon", "outcome": "success", "elapsed_s": 5.44, "bytes": 143273}
+{"sku_id": "S09", "retailer": "newegg", "outcome": "success", "elapsed_s": 4.12, "bytes": 20375}
+{"sku_id": "S09", "retailer": "walmart", "outcome": "success", "elapsed_s": 4.26, "bytes": 7982}
+{"sku_id": "S10", "retailer": "bestbuy", "outcome": "partial_no_price", "elapsed_s": 20.14, "bytes": 2041}
+{"sku_id": "S10", "retailer": "amazon", "outcome": "success", "elapsed_s": 6.52, "bytes": 234201}
+{"sku_id": "S10", "retailer": "walmart", "outcome": "success", "elapsed_s": 14.6, "bytes": 7415}
