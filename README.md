@@ -114,7 +114,7 @@ Three run directories.
 | Folder | What it is |
 |---|---|
 | **`runs_isolated/`** | **The measurement.** Every figure in the post comes from here. Same model across all four arms, each in a directory the agent could not read the experiment from. |
-| `runs/` | The original 2026-08-31 pass, on mixed models. Superseded, kept because the provenance finding comes from it. |
+| `runs/` | The original 2026-08-31 pass, on mixed models. Superseded; the provenance finding comes from it. |
 | `runs_s5_contaminated/` | Run directories that sat inside this repo, where one agent read this README, recognised the benchmark and stopped. No figure comes from it. |
 
 ## Layout
