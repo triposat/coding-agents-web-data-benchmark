@@ -200,11 +200,8 @@ write `results.json` in place and that file is the measurement.
 
 The article publishes a 24-hour checkpoint from this: 40 to 35 pages for A, 28 to 20 for
 the Control, with Best Buy the only retailer that moved in either arm. It labels that as
-the checkpoint it is.
-
-A longer re-run over 48 to 72 hours is planned, and its output will land in this repo when
-it runs. Until then nothing here is a settled durability number, and a 24-hour window
-catches the fastest-moving defence and nothing slower.
+the checkpoint it is. A 24-hour window catches the fastest-moving defence and nothing
+slower, so nothing here is a settled durability number.
 
 ## Known limitations
 
