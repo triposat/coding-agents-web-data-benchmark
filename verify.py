@@ -95,6 +95,30 @@ def score(arm, gt):
                         for p in (RUNS / arm).rglob("*.py")),
     }
 
+LABEL = {"cursor_bd": "A. Cursor + Bright Data",
+         "claude_bd_high": "B+. Claude Code + Bright Data, matched effort",
+         "claude_bd": "B+. Claude Code + Bright Data",
+         "cursor_nobd": "Control. Cursor, no data layer",
+         "claude_nobd": "B. Claude Code, no data layer"}
+
+def report():
+    """No article on hand? Print what the data says, so the figures on the
+    published page can be checked by eye. This is the path a reader who cloned
+    the repo takes: the post lives on the web, not in here."""
+    gt = json.load(open(ROOT / "data" / "ground_truth_hand.json"))["rows"]
+    values = sum(1 for r in gt.values() for f in FIELDS if r.get(f) is not None)
+    print(f"\n  Ground truth: {len(gt)} pages, {values} hand-adjudicated values.\n")
+    print(f"  {'arm':<46}{'name+price':>11}{'all four':>10}{'accuracy':>10}{'price':>8}")
+    for arm in ARMS:
+        s = score(arm, gt)
+        print(f"  {LABEL[arm]:<46}{str(s['name_price']) + ' / ' + str(s['rows']):>11}"
+              f"{s['all_four']:>10}{str(s['accuracy']) + '%':>10}"
+              f"{str(s['per_field']['price']) + '%':>8}")
+    print("\n  These are the numbers the post publishes. claims.json carries the same")
+    print("  set as data, each with the file it came from and the script that made it.")
+    print("  To check a copy of the post itself:  python3 verify.py <article.md>\n")
+    return 0
+
 def main(article_path):
     article = open(article_path, errors="ignore").read()
     gt_doc = json.load(open(ROOT / "data" / "ground_truth_hand.json"))
@@ -107,11 +131,7 @@ def main(article_path):
 
     # ---- per arm ----
     tabs = tables(article)
-    ROWLABEL = {"cursor_bd": "A. Cursor + Bright Data",
-                "claude_bd_high": "B+. Claude Code + Bright Data, matched effort",
-                "claude_bd": "B+. Claude Code + Bright Data",
-                "cursor_nobd": "Control. Cursor, no data layer",
-                "claude_nobd": "B. Claude Code, no data layer"}
+    ROWLABEL = LABEL
     results = {}
     for arm in ARMS:
         s = score(arm, gt); results[arm] = s
@@ -186,5 +206,13 @@ def main(article_path):
     return 0
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1] if len(sys.argv) > 1
-                  else ROOT.parent / "coding-agents-web-data-benchmark.md"))
+    if len(sys.argv) > 1:
+        given = pathlib.Path(sys.argv[1])
+        if not given.is_file():
+            sys.exit(f"  No such article: {given}\n"
+                     f"  Run with no argument to print the figures from the data instead.")
+        sys.exit(main(given))
+    # The post is published on the web; the repo ships the data behind it. With no
+    # article to diff against, print the figures rather than failing on a missing file.
+    default = ROOT.parent / "coding-agents-web-data-benchmark.md"
+    sys.exit(main(default) if default.is_file() else report())
