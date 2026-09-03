@@ -1,6 +1,6 @@
 # Coding agents and anti-bot: benchmark repo
 
-Everything behind the article, so the numbers can be re-derived rather than trusted.
+The data and scripts behind the article's published figures, so the numbers can be re-derived rather than trusted.
 
 ```bash
 python3 verify.py            # print the figures from the data
@@ -9,17 +9,21 @@ python3 verify.py post.md    # check a copy of the post against them
 
 With no argument it prints the figures it checks straight from the data. Given an
 article file it re-derives each one and checks the article still says it. No network
-and no credentials either way. It parses the article's tables and compares specific
-cells, so a wrong number fails even when that number appears correctly somewhere else,
-and it fails if a credential is present anywhere in the tree.
+and no credentials either way. For table figures it compares specific cells, so a wrong cell fails even when the right
+number appears elsewhere; prose figures are checked by presence. It also fails if any of
+the four credentials used during the benchmark appears in a `.py`, `.sh`, `.json`, `.md`,
+`.txt` or `.jsonl` file in the tree. It does not scan for other keys.
 
-`claims.json` is the same set of figures as data: 39 claims, each carrying the file it
-came from and the script that computed it, so an agent can check the post without
-parsing prose. Regenerate with `python3 scripts/emit_claims.py > claims.json`.
+`claims.json` carries the per-arm figures as data: 39 claims, each with the file it came
+from and the script that computed it, so an agent can check those figures in the post
+without parsing prose. The blocked counts, the Best Buy count and the line counts are
+checked by `verify.py` only. Regenerate with `python3 scripts/emit_claims.py > claims.json`.
 
-Measured on 2026-08-31 from a single machine in one location. Every measured figure in the
-article comes from a file in `data/` or `runs/`; the third-party statistics it cites are
-linked to their sources.
+The fetch arms were measured on 2026-08-31 and the agent runs on 2026-09-01 and
+2026-09-02, from a single machine in one location. Every measured figure in the article
+comes from a file in `data/` or `runs_isolated/`, except the provenance finding, which
+comes from `runs/claude_nobd_v2`; the third-party statistics it cites are linked to their
+sources.
 
 ## What was measured
 
@@ -161,14 +165,14 @@ Two probes ask *why* a site refuses rather than *whether* it did.
 
 The first two need no credentials. The third needs `BD_KEY`.
 
-Headline: three Chromium variants, default, hardened and headful, produce a byte-identical
+Headline: in this probe, three Chromium variants, default, hardened and headful, produced a byte-identical
 HTTP/2 fingerprint, and JA3 was not stable enough across those clients to serve as a key. Across 15
 sites, 11 treated all three local clients the same.
 
 ## Reproducing the fetch comparison
 
 Requires Python 3, the packages in `requirements.txt`, and a Bright Data API key.
-`verify.py` needs none of them.
+`verify.py` needs only Python 3: no packages and no key.
 
 ```bash
 pip install playwright && playwright install chromium
