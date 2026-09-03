@@ -7,9 +7,8 @@ python3 verify.py            # print the figures from the data
 python3 verify.py post.md    # check a copy of the post against them
 ```
 
-With no argument it prints every published figure straight from the data, which is the
-useful form if you cloned this repo and the post is open in a browser tab. Given an
-article file it re-derives each figure and checks the article still says it. No network
+With no argument it prints the figures it checks straight from the data. Given an
+article file it re-derives each one and checks the article still says it. No network
 and no credentials either way. It parses the article's tables and compares specific
 cells, so a wrong number fails even when that number appears correctly somewhere else,
 and it fails if a credential is present anywhere in the tree.
@@ -18,8 +17,9 @@ and it fails if a credential is present anywhere in the tree.
 came from and the script that computed it, so an agent can check the post without
 parsing prose. Regenerate with `python3 scripts/emit_claims.py > claims.json`.
 
-Measured on 2026-08-31 from a single machine in one location. Every figure in the
-article comes from a file in `data/` or `runs/`.
+Measured on 2026-08-31 from a single machine in one location. Every measured figure in the
+article comes from a file in `data/` or `runs/`; the third-party statistics it cites are
+linked to their sources.
 
 ## What was measured
 
@@ -48,15 +48,15 @@ the article. Data: `data/data_format_pairs.jsonl`, script: `scripts/probe_data_f
 
 **`arm6_raw.jsonl` records 18 of 29 and is superseded.** `web_data_*` calls start
 asynchronous collection jobs, and that pass capped the client at 180 seconds; three pages
-returned at 201, 234 and 308 seconds. With a 10-minute ceiling the same calls return
+returned at 201, 234 and 308 seconds. With a 10-minute ceiling the same calls returned
 **26 of 29, exactly what `scrape_as_markdown` read on the same retailers**, recorded in
 `data/web_data_retest.json`. The article uses the markdown path because it is one call
-with no polling, not because the structured path collects less.
+with no polling, not because the structured path collected less.
 
 `arm7` was capped the same way at 150 seconds. No figure from it appears in the article.
 
-**Comparison 2, the agent.** Four runs, two agents x two data-layer conditions, all on the
-same model (`claude-sonnet-5`), each in a directory containing only the prompt, the frozen
+**Comparison 2, the agent.** Four runs, two agents x two data-layer conditions, plus an
+effort-matched fifth, all on the same model (`claude-sonnet-5`), each in a directory containing only the prompt, the frozen
 SKU list and an `mcp.json`.
 
 | Run | Agent | Data layer | name+price | accuracy | Data |
@@ -69,14 +69,11 @@ SKU list and an `mcp.json`.
 
 Accuracy is scored against `data/ground_truth_hand.json`, 41 pages and 100 hand-adjudicated
 values. `python3 verify.py` prints this table from the data and fails if the rows above
-have drifted from it, so this table and the post cannot quietly disagree.
+have drifted from it, so a drift between this table and the post fails the check.
 
 **A control has to run where the agent cannot read the experiment.** An earlier set put
 the run directories inside this repo; one agent read this README, recognised the benchmark
 and stopped. That set is in `runs_s5_contaminated/` and no figure comes from it.
-
-`runs/` holds the original 2026-08-31 pass on mixed models. It is superseded for every
-figure in the post; the provenance finding comes from it.
 
 ---
 
@@ -91,8 +88,8 @@ figure in the post; the provenance finding comes from it.
 | `runs/claude_nobd` | Claude Code | **contaminated**, record only | `result.json` |
 | `runs/_attempt1_stdio` | Claude Code | **failed** local stdio MCP, record only | `result.json` |
 
-`cursor_bd` vs `cursor_nobd` is the clean comparison: same agent, same version, same
-prompt, same model setting, only the data layer differs.
+Within that superseded set, `cursor_bd` vs `cursor_nobd` is the like-for-like pair: same
+agent, same version, same prompt, same model setting, only the data layer differs.
 
 `runs/claude_nobd` is NOT the control. The machine's global agent instructions named a
 Bright Data CLI and the agent used it with no MCP server attached. The real Claude Code
@@ -113,7 +110,7 @@ Three run directories.
 
 | Folder | What it is |
 |---|---|
-| **`runs_isolated/`** | **The measurement.** Every figure in the post comes from here. Same model across all four arms, each in a directory the agent could not read the experiment from. |
+| **`runs_isolated/`** | **The measurement.** Every agent-run figure in the post comes from here. Same model across all four arms, each in a directory the agent could not read the experiment from. |
 | `runs/` | The original 2026-08-31 pass, on mixed models. Superseded; the provenance finding comes from it. |
 | `runs_s5_contaminated/` | Run directories that sat inside this repo, where one agent read this README, recognised the benchmark and stopped. No figure comes from it. |
 
@@ -165,7 +162,7 @@ Two probes ask *why* a site refuses rather than *whether* it did.
 The first two need no credentials. The third needs `BD_KEY`.
 
 Headline: three Chromium variants, default, hardened and headful, produce a byte-identical
-HTTP/2 fingerprint, and JA3 is not stable enough to be what anyone keys on. Across 15
+HTTP/2 fingerprint, and JA3 was not stable enough across those clients to serve as a key. Across 15
 sites, 11 treated all three local clients the same.
 
 ## Reproducing the fetch comparison
@@ -210,7 +207,7 @@ slower, so nothing here is a settled durability number.
   afternoon did not return an identical number.
 - On 5 of the 41 pages the retailer page is a different product variant from the one
   queried, including AirPods Pro 3 returned for an AirPods Pro 2 query. Building a SKU
-  list from `site:` search does not reliably resolve the same product across retailers.
+  list from `site:` search did not reliably resolve the same product across retailers here.
 - In the superseded `runs/` pass, the Control's third attempt was killed by a plan usage
   ceiling at page 2 of 41, so the 16 of 41 in `runs/cursor_nobd/` is a floor rather than a
   result. The article's Control is the isolated re-run, `runs_isolated/cursor_nobd`, at 28
@@ -219,6 +216,6 @@ slower, so nothing here is a settled durability number.
   the agent exited. The committed file is the final state.
 - The control's `final_patch.py` hardcodes one rating per product and applies it across
   retailers. Two rows in the committed output carry a rating its own comments attribute to
-  a different retailer. Score provenance, not completeness.
+  a different retailer.
 - No per-page artifact survives for the first Bright Data fetch pass, because the re-run
   overwrote it. The article therefore quotes no figure from it.
