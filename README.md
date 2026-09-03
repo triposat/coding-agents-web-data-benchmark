@@ -142,7 +142,7 @@ data/ground_truth.json      an early regex capture. SEE THE WARNING BELOW
 data/payloads/              raw response bodies for every arm and every page
 scripts/                    fetch arms, probes, scoring, evidence consolidation
 demo/, demo-control/        the IDE walkthrough behind the article's screenshots
-images/                     the screenshots themselves
+images/                     the eight screenshots the article publishes
 ```
 
 ## Warning about `ground_truth.json`
