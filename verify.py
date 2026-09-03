@@ -155,8 +155,9 @@ def main(article_path):
 
     # ---- new-listings feed ----
     nl = json.load(open(RUNS / "cursor_bd" / "new_listings.json"))
-    cand = sum(len(x.get("new_listings", [])) for x in nl)
-    check("new-listings candidates", cand, f"{cand} candidates", article)
+    KEYS = ("new_listings", "new_urls", "new_retailer_urls", "listings", "urls", "candidates")
+    cand = sum(next((len(x[k]) for k in KEYS if isinstance(x.get(k), list)), 0) for x in nl)
+    cell("new-listings candidates (table)", str(cand), "A. Cursor + Bright Data", 1, article, tabs)
 
     # ---- nothing sensitive ----
     # built from fragments so this file does not match its own scan
