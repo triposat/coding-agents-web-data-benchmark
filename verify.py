@@ -162,10 +162,9 @@ def main(article_path):
     # Published as "eleven more points" while the two arms it compares differ by six.
     # Nothing asserted on it, so it survived every pass.
     d = results["claude_bd"]["accuracy"] - results["claude_nobd"]["accuracy"]
-    w = {5: "five", 6: "six", 7: "seven", 8: "eight", 9: "nine", 10: "ten", 11: "eleven"}
     CHECKS.append(("B+ over B, effort section", d,
-                   f"{w.get(d, d)} more points of field accuracy" in article))
-    if f"{w.get(d, d)} more points of field accuracy" not in article:
+                   f"{d} more points of field accuracy" in article))
+    if f"{d} more points of field accuracy" not in article:
         FAIL.append(f"effort section: computed {d} points, article disagrees")
 
     # ---- the repo's own README ----
@@ -197,12 +196,11 @@ def main(article_path):
     # ---- the 2x2 that the argument rests on ----
     gap_cursor = results["cursor_bd"]["accuracy"] - results["cursor_nobd"]["accuracy"]
     gap_claude = results["claude_bd_high"]["accuracy"] - results["claude_nobd"]["accuracy"]
-    words = {14: "Fourteen", 15: "Fifteen", 16: "Sixteen", 17: "Seventeen"}
     check("data-layer gap, Cursor", gap_cursor,
-          f"{words.get(gap_cursor, gap_cursor)} and", article)
+          f"{gap_cursor} and", article)
     CHECKS.append(("data-layer gap, Claude Code", gap_claude,
-                   f"and {words.get(gap_claude, gap_claude).lower()} points" in article))
-    if f"and {words.get(gap_claude, gap_claude).lower()} points" not in article:
+                   f"and {gap_claude} points" in article))
+    if f"and {gap_claude} points" not in article:
         FAIL.append(f"data-layer gap Claude Code: computed {gap_claude}, article disagrees")
 
     # ---- per-retailer, Best Buy is the one the post leans on ----
