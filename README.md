@@ -39,24 +39,21 @@ once as HTML and once with `data_format=markdown`, to price the conversion. 31 U
 returned a body both ways and are comparable. This is the source for the format table in
 the article. Data: `data/data_format_pairs.jsonl`, script: `scripts/probe_data_format.py`.
 
-**Other Bright Data surfaces, run but not used for the article's numbers.** Recorded
-because the repo should show what was tried, not only what was published.
+**Other Bright Data surfaces, run but not used for the article's numbers.**
 
 | Arm | What it is | Data |
 |---|---|---|
 | `arm6` | `web_data_*` structured extractors via MCP `?pro=1` | `data/arm6_raw.jsonl`, retested in `data/web_data_retest.json` |
 | `arm7` | Scraping Browser, `-country-us` on the CDP username | `data/arm7_sb_country.jsonl` |
 
-**Read `arm6_raw.jsonl` with its retraction.** That first pass recorded 18 of 29 and we
-read it as a shortfall in the structured extractors. It was our harness. `web_data_*`
-calls start asynchronous collection jobs and we had capped the client at 180 seconds;
-three pages returned at 201, 234 and 308 seconds. Re-run with a 10-minute ceiling, the
-same calls returned **26 of 29, exactly what `scrape_as_markdown` read on the same
-retailers**. The article uses the markdown path because it is one call with no polling,
-not because the structured path collected less. `data/web_data_retest.json` is the re-run.
+**`arm6_raw.jsonl` records 18 of 29 and is superseded.** `web_data_*` calls start
+asynchronous collection jobs, and that pass capped the client at 180 seconds; three pages
+returned at 201, 234 and 308 seconds. With a 10-minute ceiling the same calls return
+**26 of 29, exactly what `scrape_as_markdown` read on the same retailers**, recorded in
+`data/web_data_retest.json`. The article uses the markdown path because it is one call
+with no polling, not because the structured path collects less.
 
-`arm7` was capped the same way at 150 seconds, so its shortfall is not a product result
-either and no figure from it appears in the article.
+`arm7` was capped the same way at 150 seconds. No figure from it appears in the article.
 
 **Comparison 2, the agent.** Four runs, two agents x two data-layer conditions, all on the
 same model (`claude-sonnet-5`), each in a directory containing only the prompt, the frozen
@@ -74,14 +71,12 @@ Accuracy is scored against `data/ground_truth_hand.json`, 41 pages and 100 hand-
 values. `python3 verify.py` prints this table from the data and fails if the rows above
 have drifted from it, so this table and the post cannot quietly disagree.
 
-**Isolation matters and we learned it the hard way.** An earlier attempt placed the run
-directories inside this repo. One agent read this README, recognised the benchmark, and
-stopped working rather than play the role it had just read about. That set is preserved,
-unused, in `runs_s5_contaminated/`. A control has to be run somewhere the agent cannot
-read the experiment.
+**A control has to run where the agent cannot read the experiment.** An earlier set put
+the run directories inside this repo; one agent read this README, recognised the benchmark
+and stopped. That set is in `runs_s5_contaminated/` and no figure comes from it.
 
 `runs/` holds the original 2026-08-31 pass on mixed models. It is superseded for every
-figure in the post but kept because the provenance finding comes from it.
+figure in the post; the provenance finding comes from it.
 
 ---
 
@@ -114,25 +109,25 @@ Score provenance, not completeness. `data/EVIDENCE.json` carries the per-run bre
 
 ## Which folder is which
 
-Three run directories, because the honest history needs all three.
+Three run directories.
 
 | Folder | What it is |
 |---|---|
 | **`runs_isolated/`** | **The measurement.** Every figure in the post comes from here. Same model across all four arms, each in a directory the agent could not read the experiment from. |
 | `runs/` | The original 2026-08-31 pass, on mixed models. Superseded, kept because the provenance finding comes from it. |
-| `runs_s5_contaminated/` | A discarded attempt whose run directories sat inside this repo. One agent read this README, recognised the benchmark and stopped working. Published unused, because the failure is the lesson. |
+| `runs_s5_contaminated/` | Run directories that sat inside this repo, where one agent read this README, recognised the benchmark and stopped. No figure comes from it. |
 
 ## Layout
 
 ```
-verify.py                   re-derives every published figure; run it first
+verify.py                   re-derives 40 published figures; run it first
 claims.json                 the same figures as data, 39 of them, with provenance
 TASK_PROMPT.md              the exact prompt, identical in every agent condition
 rerun.sh                    re-executes the trackers untouched, for durability
 
 runs_isolated/              THE MEASUREMENT. five arms, transcripts and results
 runs/                       the superseded 2026-08-31 pass on mixed models
-runs_s5_contaminated/       a discarded attempt, published as a lesson
+runs_s5_contaminated/       runs that could read the experiment; unused
 
 data/skus.json              the frozen 41-page target list
 data/ground_truth_hand.json 41 pages, 100 hand-adjudicated values, and the corrections
@@ -155,8 +150,6 @@ field was extracted by regex over rendered HTML, and on a retail page the first
 currency-shaped token is routinely a warranty, an accessory, a financing figure, or a
 struck-through "was" price. It recorded $32.99 for an Anker power bank on Amazon, which
 is the price of a 1-Year Protection Plan, against a real price of $109.99.
-
-It is published because the failure is instructive, not because the numbers are good.
 
 ## Measuring the refusal layer, not just the outcome
 
@@ -226,8 +219,7 @@ catches the fastest-moving defence and nothing slower.
   result. The article's Control is the isolated re-run, `runs_isolated/cursor_nobd`, at 28
   of 41. Don't read the two as the same arm.
 - The control's `results.json` was rewritten several times by its own patch scripts after
-  the agent exited. The committed file is the final stable state, verified by an unchanged
-  md5 over 45 seconds with no processes running.
+  the agent exited. The committed file is the final state.
 - The control's `final_patch.py` hardcodes one rating per product and applies it across
   retailers. Two rows in the committed output carry a rating its own comments attribute to
   a different retailer. Score provenance, not completeness.
