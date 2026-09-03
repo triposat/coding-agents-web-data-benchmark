@@ -123,6 +123,10 @@ def main(article_path):
     check("scored values per arm", results["cursor_bd"]["scored"],
           f"{results['cursor_bd']['scored']} comparisons", article)
 
+    # ---- headline pair, in the prose as well as the tables ----
+    a, b = results["cursor_bd"]["accuracy"], results["claude_nobd"]["accuracy"]
+    check("headline accuracy pair in prose", f"{a}% against {b}%",
+          f"{a}% against {b}%", article)
     # ---- headline pair ----
     check("A pages", results["cursor_bd"]["name_price"],
           f"{results['cursor_bd']['name_price']} of 41", article)
