@@ -21,23 +21,6 @@ parsing prose. Regenerate with `python3 scripts/emit_claims.py > claims.json`.
 Measured on 2026-08-31 from a single machine in one location. Every figure in the
 article comes from a file in `data/` or `runs/`.
 
-## Measuring the refusal layer, not just the outcome
-
-Two probes ask *why* a site refuses rather than *whether* it did.
-
-| Script | Question | Data |
-|---|---|---|
-| `scripts/probe_fingerprints.py` | what does a server actually see from each client | `data/fingerprints.json` |
-| `scripts/probe_refusal_layer.py` | at which layer do 15 sites refuse | `data/refusal_layer.json` |
-| `scripts/probe_ip_vs_fingerprint.py` | does changing the egress move what hardening could not | same file |
-| `scripts/probe_tool_groups.py` | what the MCP server's `GROUPS` selector exposes | — |
-
-The first two need no credentials. The third needs `BD_KEY`.
-
-Headline: three Chromium variants, default, hardened and headful, produce a byte-identical
-HTTP/2 fingerprint, and JA3 is not stable enough to be what anyone keys on. Across 15
-sites, 11 treated all three local clients the same.
-
 ## What was measured
 
 One task, a competitor price tracker over a frozen list of 41 retailer product
@@ -56,14 +39,24 @@ once as HTML and once with `data_format=markdown`, to price the conversion. 31 U
 returned a body both ways and are comparable. This is the source for the format table in
 the article. Data: `data/data_format_pairs.jsonl`, script: `scripts/probe_data_format.py`.
 
-**Arms that were run and are not in the article.** Recorded because the repo should show
-what was tried, not only what was published. Both lost to `scrape_as_markdown` on the same
-URLs, and the raw data for each is committed here so the comparison can be re-derived.
+**Other Bright Data surfaces, run but not used for the article's numbers.** Recorded
+because the repo should show what was tried, not only what was published.
 
-| Arm | What it is | Result | Data |
-|---|---|---|---|
-| `arm6` | `web_data_*` structured extractors via MCP `?pro=1` | 18/29 vs markdown 26/29 | `data/arm6_raw.jsonl` |
-| `arm7` | Scraping Browser, `-country-us` on the CDP username | 25/41 vs markdown 38/41 | `data/arm7_sb_country.jsonl` |
+| Arm | What it is | Data |
+|---|---|---|
+| `arm6` | `web_data_*` structured extractors via MCP `?pro=1` | `data/arm6_raw.jsonl`, retested in `data/web_data_retest.json` |
+| `arm7` | Scraping Browser, `-country-us` on the CDP username | `data/arm7_sb_country.jsonl` |
+
+**Read `arm6_raw.jsonl` with its retraction.** That first pass recorded 18 of 29 and we
+read it as a shortfall in the structured extractors. It was our harness. `web_data_*`
+calls start asynchronous collection jobs and we had capped the client at 180 seconds;
+three pages returned at 201, 234 and 308 seconds. Re-run with a 10-minute ceiling, the
+same calls returned **26 of 29 — exactly what `scrape_as_markdown` read on the same
+retailers**. The article uses the markdown path because it is one call with no polling,
+not because the structured path collected less. `data/web_data_retest.json` is the re-run.
+
+`arm7` was capped the same way at 150 seconds, so its shortfall is not a product result
+either and no figure from it appears in the article.
 
 **Comparison 2, the agent.** Four runs, two agents x two data-layer conditions, all on the
 same model (`claude-sonnet-5`), each in a directory containing only the prompt, the frozen
@@ -71,10 +64,14 @@ SKU list and an `mcp.json`.
 
 | Run | Agent | Data layer | name+price | accuracy | Data |
 |---|---|---|---|---|---|
-| **A** | Cursor CLI | Bright Data Web MCP | **40/41** | **84%** | `runs_isolated/cursor_bd` |
-| **B** | Claude Code | none | 34/41 | 67% | `runs_isolated/claude_nobd` |
-| Control | Cursor CLI | none | 28/41 | 70% | `runs_isolated/cursor_nobd` |
-| B+ | Claude Code | Bright Data Web MCP | 34/41 | 74% | `runs_isolated/claude_bd` |
+| **A** | Cursor CLI | Bright Data Web MCP | **40/41** | **89%** | `runs_isolated/cursor_bd` |
+| **B** | Claude Code | none | 34/41 | 72% | `runs_isolated/claude_nobd` |
+| Control | Cursor CLI | none | 28/41 | 74% | `runs_isolated/cursor_nobd` |
+| B+ | Claude Code | Bright Data Web MCP | 34/41 | 78% | `runs_isolated/claude_bd` |
+| B+ matched | Claude Code, `--effort high` | Bright Data Web MCP | 35/41 | 88% | `runs_isolated/claude_bd_high` |
+
+Accuracy is scored against `data/ground_truth_hand.json`, 41 pages and 100 hand-adjudicated
+values. `python3 verify.py` prints this table from the data; don't take it from here.
 
 **Isolation matters and we learned it the hard way.** An earlier attempt placed the run
 directories inside this repo. One agent read this README, recognised the benchmark, and
@@ -127,13 +124,24 @@ Three run directories, because the honest history needs all three.
 ## Layout
 
 ```
-TASK_PROMPT.md              the exact prompt, identical in both agent conditions
+verify.py                   re-derives every published figure; run it first
+claims.json                 the same figures as data, 39 of them, with provenance
+TASK_PROMPT.md              the exact prompt, identical in every agent condition
+rerun.sh                    re-executes the trackers untouched, for durability
+
+runs_isolated/              THE MEASUREMENT. five arms, transcripts and results
+runs/                       the superseded 2026-08-31 pass on mixed models
+runs_s5_contaminated/       a discarded attempt, published as a lesson
+
 data/skus.json              the frozen 41-page target list
-data/EVIDENCE.json          every figure the article cites, in one file
-data/ground_truth.json      Scraping Browser capture. SEE THE WARNING BELOW
+data/ground_truth_hand.json 41 pages, 100 hand-adjudicated values, and the corrections
+data/EVIDENCE_isolated.json per-arm rollup for the runs the article scores
+data/EVIDENCE.json          the same, for the superseded runs/ pass
+data/ground_truth.json      an early regex capture. SEE THE WARNING BELOW
 data/payloads/              raw response bodies for every arm and every page
-scripts/                    fetch arms, scoring, evidence consolidation
-runs/                       agent transcripts and their output files
+scripts/                    fetch arms, probes, scoring, evidence consolidation
+demo/, demo-control/        the IDE walkthrough behind the article's screenshots
+images/                     the screenshots themselves
 ```
 
 ## Warning about `ground_truth.json`
@@ -145,6 +153,23 @@ struck-through "was" price. It recorded $32.99 for an Anker power bank on Amazon
 is the price of a 1-Year Protection Plan, against a real price of $109.99.
 
 It is published because the failure is instructive, not because the numbers are good.
+
+## Measuring the refusal layer, not just the outcome
+
+Two probes ask *why* a site refuses rather than *whether* it did.
+
+| Script | Question | Data |
+|---|---|---|
+| `scripts/probe_fingerprints.py` | what does a server actually see from each client | `data/fingerprints.json` |
+| `scripts/probe_refusal_layer.py` | at which layer do 15 sites refuse | `data/refusal_layer.json` |
+| `scripts/probe_ip_vs_fingerprint.py` | does changing the egress move what hardening could not | same file |
+| `scripts/probe_tool_groups.py` | what the MCP server's `GROUPS` selector exposes | — |
+
+The first two need no credentials. The third needs `BD_KEY`.
+
+Headline: three Chromium variants, default, hardened and headful, produce a byte-identical
+HTTP/2 fingerprint, and JA3 is not stable enough to be what anyone keys on. Across 15
+sites, 11 treated all three local clients the same.
 
 ## Reproducing the fetch comparison
 
@@ -166,25 +191,32 @@ fetch counts as a success only when a product name and a price are both readable
 
 ## Durability re-run
 
-Scheduled for 2026-09-03, roughly 72 hours after the original runs. Both trackers are
-re-executed untouched against the same frozen `skus.json`.
+Both Cursor trackers are re-executed untouched against the same frozen `skus.json`.
 
 ```bash
 ./rerun.sh
 ```
 
-The article states no durability number until this has actually run.
+It snapshots each run directory first and restores it afterwards, because the trackers
+write `results.json` in place and that file is the measurement.
+
+The article publishes a 24-hour checkpoint from this — 40 to 35 pages for A, 28 to 20 for
+the Control, with Best Buy the only retailer that moved in either arm — and labels it as
+the checkpoint it is. A 48-hour re-run is scheduled for 2026-09-05 and the post will be
+updated with it. Nothing here is a settled durability number yet.
 
 ## Known limitations
 
-- One machine, one network location, one afternoon. The article treats 92.7% as an
-  observation, not a success rate. An earlier pass of the same arm returned more
-  zero-length payloads; see the last bullet.
+- One machine, one network location, one afternoon. Every figure here is an observation
+  from a single vantage point, not a success rate, and the same arm run twice on the same
+  afternoon did not return an identical number.
 - On 5 of the 41 pages the retailer page is a different product variant from the one
   queried, including AirPods Pro 3 returned for an AirPods Pro 2 query. Building a SKU
   list from `site:` search does not reliably resolve the same product across retailers.
-- Both Cursor CLI arms ran on a Pro plan. The Control's third pass was killed by the plan's
-  usage ceiling at page 2 of 41, so its 16 of 41 is a floor. See `runs/cursor_nobd/`.
+- In the superseded `runs/` pass, the Control's third attempt was killed by a plan usage
+  ceiling at page 2 of 41, so the 16 of 41 in `runs/cursor_nobd/` is a floor rather than a
+  result. The article's Control is the isolated re-run, `runs_isolated/cursor_nobd`, at 28
+  of 41. Don't read the two as the same arm.
 - The control's `results.json` was rewritten several times by its own patch scripts after
   the agent exited. The committed file is the final stable state, verified by an unchanged
   md5 over 45 seconds with no processes running.
