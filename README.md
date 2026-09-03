@@ -71,7 +71,8 @@ SKU list and an `mcp.json`.
 | B+ matched | Claude Code, `--effort high` | Bright Data Web MCP | 35/41 | 88% | `runs_isolated/claude_bd_high` |
 
 Accuracy is scored against `data/ground_truth_hand.json`, 41 pages and 100 hand-adjudicated
-values. `python3 verify.py` prints this table from the data; don't take it from here.
+values. `python3 verify.py` prints this table from the data and fails if the rows above
+have drifted from it, so this table and the post cannot quietly disagree.
 
 **Isolation matters and we learned it the hard way.** An earlier attempt placed the run
 directories inside this repo. One agent read this README, recognised the benchmark, and

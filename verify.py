@@ -143,6 +143,23 @@ def main(article_path):
     check("scored values per arm", results["cursor_bd"]["scored"],
           f"{results['cursor_bd']['scored']} comparisons", article)
 
+    # ---- the repo's own README ----
+    # It drifted once: it kept the accuracies from before the ground-truth
+    # corrections while the post carried the new ones, and nothing checked it.
+    readme = (ROOT / "README.md").read_text(errors="ignore")
+    for line in readme.splitlines():
+        if not (line.startswith("|") and "runs_isolated/" in line): continue
+        m = re.search(r"runs_isolated/(\w+)`", line)
+        if not m or m.group(1) not in results: continue
+        arm, c = m.group(1), [x.strip().strip("*").strip() for x in line.strip("|").split("|")]
+        s_ = results[arm]
+        want = (f"{s_['name_price']}/{s_['rows']}", f"{s_['accuracy']}%")
+        ok = len(c) > 4 and (c[3], c[4]) == want
+        CHECKS.append((f"README row, {arm}", " ".join(want), ok))
+        if not ok:
+            FAIL.append(f"README row {arm}: computed {want}, README says "
+                        f"{tuple(c[3:5]) if len(c) > 4 else c}")
+
     # ---- headline pair, in the prose as well as the tables ----
     a, b = results["cursor_bd"]["accuracy"], results["claude_nobd"]["accuracy"]
     check("headline accuracy pair in prose", f"{a}% against {b}%",
