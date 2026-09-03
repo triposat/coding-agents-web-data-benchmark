@@ -158,6 +158,16 @@ def main(article_path):
                 if any(b in str(r.get("status", "")) for b in BLOCKED))
         cell(f"{arm} blocked (table)", f"{n} / 41", ROWLAB[arm], 1, article, tabs)
 
+    # ---- the effort section's accuracy delta ----
+    # Published as "eleven more points" while the two arms it compares differ by six.
+    # Nothing asserted on it, so it survived every pass.
+    d = results["claude_bd"]["accuracy"] - results["claude_nobd"]["accuracy"]
+    w = {5: "five", 6: "six", 7: "seven", 8: "eight", 9: "nine", 10: "ten", 11: "eleven"}
+    CHECKS.append(("B+ over B, effort section", d,
+                   f"{w.get(d, d)} more points of field accuracy" in article))
+    if f"{w.get(d, d)} more points of field accuracy" not in article:
+        FAIL.append(f"effort section: computed {d} points, article disagrees")
+
     # ---- the repo's own README ----
     # It drifted once: it kept the accuracies from before the ground-truth
     # corrections while the post carried the new ones, and nothing checked it.
