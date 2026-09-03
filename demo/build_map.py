@@ -1,6 +1,11 @@
 import json, re, os
 
-TERMINAL_DIR = "/Users/triposat/.cursor/projects/Users-triposat-Desktop-Bdata-Cursor-bench-demo/agent-tools"
+# Where the Cursor CLI wrote this session's tool output. Override for your own
+# machine:  TERMINAL_DIR=/path/to/agent-tools python3 demo/build_map.py
+TERMINAL_DIR = os.environ.get(
+    "TERMINAL_DIR",
+    os.path.expanduser("~/.cursor/projects/<your-project-slug>/agent-tools"),
+)
 
 BATCHES = [
     ("9da1e05e-399f-4447-901c-b27a2dfb2b44.txt", "scraped/batch1"),

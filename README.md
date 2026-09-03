@@ -139,7 +139,9 @@ data/ground_truth_hand.json 41 pages, 100 hand-adjudicated values, and the corre
 data/EVIDENCE_isolated.json per-arm rollup for the runs the article scores
 data/EVIDENCE.json          the same, for the superseded runs/ pass
 data/ground_truth.json      an early regex capture. SEE THE WARNING BELOW
-data/payloads/              raw response bodies for every arm and every page
+data/payloads/              response bodies per arm and page. Full retailer page
+                            source is not republished; the collection scripts
+                            regenerate it against your own targets
 scripts/                    fetch arms, probes, scoring, evidence consolidation
 demo/, demo-control/        the IDE walkthrough behind the article's screenshots
 images/                     the eight screenshots the article publishes
