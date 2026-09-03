@@ -167,16 +167,6 @@ def main(article_path):
     if f"{d} more points of field accuracy" not in article:
         FAIL.append(f"effort section: computed {d} points, article disagrees")
 
-    # ---- account usage ----
-    # These came off a dashboard screenshot and were the only published figures
-    # with no committed source. Now recorded in data/account_usage.json.
-    u = json.load(open(ROOT / "data" / "account_usage.json"))
-    req, mb = u["web_unlocker"]["requests"], u["web_unlocker"]["data_mb"]
-    rate, free = u["published_rate_usd_per_1000"], u["free_tier_requests_per_month"]
-    check("account requests", req, f"**{req} requests and {mb}MB**", article)
-    check("account cost", round(req * rate / 1000, 2), f"**{round(req * rate / 1000 * 100)} cents**", article)
-    check("free tier consumed", round(req / free * 100), f"{round(req / free * 100)}% of one month's free tier", article)
-
     # ---- the repo's own README ----
     # It drifted once: it kept the accuracies from before the ground-truth
     # corrections while the post carried the new ones, and nothing checked it.

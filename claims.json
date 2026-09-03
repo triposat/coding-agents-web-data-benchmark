@@ -1,7 +1,7 @@
 {
   "$comment": "Every figure published in the accompanying article, with provenance. Run `python3 verify.py <article.md>` to check the article still matches.",
   "generated": "2026-09-03",
-  "commit": "5531970",
+  "commit": "eab29a3",
   "task": {
     "pages": 41,
     "retailers": 5,
@@ -288,38 +288,6 @@
       "unit": "seconds",
       "derived_from": "runs_isolated/claude_nobd/meta.json",
       "computed_by": "harness",
-      "note": ""
-    },
-    {
-      "id": "account.web_unlocker_requests",
-      "value": 532,
-      "unit": "count",
-      "derived_from": "data/account_usage.json",
-      "computed_by": "dashboard reading",
-      "note": "2026-08-03 to 2026-09-01"
-    },
-    {
-      "id": "account.data_transferred_mb",
-      "value": 430,
-      "unit": "megabytes",
-      "derived_from": "data/account_usage.json",
-      "computed_by": "dashboard reading",
-      "note": "2026-08-03 to 2026-09-01"
-    },
-    {
-      "id": "account.cost_usd",
-      "value": 0.8,
-      "unit": "usd",
-      "derived_from": "data/account_usage.json",
-      "computed_by": "requests x published rate",
-      "note": ""
-    },
-    {
-      "id": "account.free_tier_used_pct",
-      "value": 11,
-      "unit": "percent",
-      "derived_from": "data/account_usage.json",
-      "computed_by": "requests / free tier",
       "note": ""
     },
     {

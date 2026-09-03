@@ -145,7 +145,7 @@ data/payloads/              the captures the published figures are scored from:
                             republished; the collection scripts regenerate them
 scripts/                    fetch arms, probes, scoring, evidence consolidation
 demo/, demo-control/        the IDE walkthrough behind the article's screenshots
-images/                     the eight screenshots the article publishes
+images/                     the seven screenshots the article publishes
 ```
 
 ## Warning about `ground_truth.json`
