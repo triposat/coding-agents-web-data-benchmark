@@ -1,0 +1,166 @@
+{
+  "https://www.bestbuy.com/product/anker-power-bank-24000mah-140w-3-port-black/JJ85865GV2/sku/6553403": {
+    "file": "scraped/batch1/https_www_bestbuy_com_product_anker_power_bank_24000mah_140w_3_port_black_JJ85865GV2_sku_6553403.md",
+    "failed": false
+  },
+  "https://www.amazon.com/dp/B09VPHVT2Z": {
+    "file": "scraped/batch1/https_www_amazon_com_dp_B09VPHVT2Z.md",
+    "failed": false
+  },
+  "https://www.walmart.com/ip/1425654143": {
+    "file": "scraped/batch1/https_www_walmart_com_ip_1425654143.md",
+    "failed": false
+  },
+  "https://www.bestbuy.com/product/apple-airpods-pro-2-wireless-active-noise-cancelling-earbuds-with-hearing-aid-feature-white/JJGCQ88C8X/sku/10129617": {
+    "file": "scraped/batch1/https_www_bestbuy_com_product_apple_airpods_pro_2_wireless_active_noise_cancelling_earbuds_with_hearing_aid_feature_whit.md",
+    "failed": false
+  },
+  "https://www.target.com/p/-/A-85978609": {
+    "file": "scraped/batch1/https_www_target_com_p_A_85978609.md",
+    "failed": false
+  },
+  "https://www.amazon.com/dp/B0D1XD1ZV3": {
+    "file": "scraped/batch1/https_www_amazon_com_dp_B0D1XD1ZV3.md",
+    "failed": false
+  },
+  "https://www.walmart.com/ip/17835006350": {
+    "file": "scraped/batch1/https_www_walmart_com_ip_17835006350.md",
+    "failed": false
+  },
+  "https://www.bestbuy.com/product/apple-airtag-4-pack-2nd-generation-2026-white/JJGCQLTTF3/sku/6377586": {
+    "file": "scraped/batch1/https_www_bestbuy_com_product_apple_airtag_4_pack_2nd_generation_2026_white_JJGCQLTTF3_sku_6377586.md",
+    "failed": false
+  },
+  "https://www.target.com/p/-/A-79673471": {
+    "file": "scraped/batch1/https_www_target_com_p_A_79673471.md",
+    "failed": false
+  },
+  "https://www.amazon.com/dp/B0GJTXVN9Z": {
+    "file": "scraped/batch1/https_www_amazon_com_dp_B0GJTXVN9Z.md",
+    "failed": false
+  },
+  "https://www.bestbuy.com/product/bose-quietcomfort-ultra-2nd-gen-true-wireless-noise-cancelling-in-ear-earbuds-midnight-violet/J7C5V6WCWL/sku/12333019": {
+    "file": "scraped/batch2_retry/bose_bestbuy.md",
+    "failed": false
+  },
+  "https://www.amazon.com/dp/B0CD2FSRDD": {
+    "file": "scraped/batch2/https_www_amazon_com_dp_B0CD2FSRDD.md",
+    "failed": false
+  },
+  "https://www.newegg.com/bose-896637-0030-earbud-deep-plum/p/N82E16826627172": {
+    "file": "scraped/batch2/https_www_newegg_com_bose_896637_0030_earbud_deep_plum_p_N82E16826627172.md",
+    "failed": false
+  },
+  "https://www.walmart.com/ip/15853556239": {
+    "file": "scraped/batch2/https_www_walmart_com_ip_15853556239.md",
+    "failed": false
+  },
+  "https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199": {
+    "file": "scraped/batch2_retry/logitech_bestbuy.md",
+    "failed": false
+  },
+  "https://www.target.com/p/-/A-1008322060": {
+    "file": "scraped/batch3/https_www_target_com_p_A_1008322060.md",
+    "failed": false
+  },
+  "https://www.amazon.com/dp/B09HM94VDS": {
+    "file": "scraped/batch3/https_www_amazon_com_dp_B09HM94VDS.md",
+    "failed": false
+  },
+  "https://www.newegg.com/logitech-910-006558-mx-master-3s-usb-type-c-dual/p/N82E16826197552": {
+    "file": "scraped/batch3/https_www_newegg_com_logitech_910_006558_mx_master_3s_usb_type_c_dual_p_N82E16826197552.md",
+    "failed": false
+  },
+  "https://www.walmart.com/ip/731473988": {
+    "file": "scraped/batch3/https_www_walmart_com_ip_731473988.md",
+    "failed": false
+  },
+  "https://www.bestbuy.com/product/razer-deathadder-v3-lightweight-optical-gaming-mouse-with-8k-hz-hyperpolling-technology-wired-black/J39HWFQKZW/sku/10736128": {
+    "file": "scraped/batch3/https_www_bestbuy_com_product_razer_deathadder_v3_lightweight_optical_gaming_mouse_with_8k_hz_hyperpolling_technology_wi.md",
+    "failed": false
+  },
+  "https://www.target.com/p/-/A-94720129": {
+    "file": "scraped/batch4/https_www_target_com_p_A_94720129.md",
+    "failed": false
+  },
+  "https://www.amazon.com/dp/B0B6XTDJS1": {
+    "file": "scraped/batch4/https_www_amazon_com_dp_B0B6XTDJS1.md",
+    "failed": false
+  },
+  "https://www.newegg.com/razer-deathadder-v3-usb-wired/p/N82E16826153342": {
+    "file": "scraped/batch4/https_www_newegg_com_razer_deathadder_v3_usb_wired_p_N82E16826153342.md",
+    "failed": false
+  },
+  "https://www.walmart.com/ip/1281151624": {
+    "file": "scraped/batch4/https_www_walmart_com_ip_1281151624.md",
+    "failed": false
+  },
+  "https://www.bestbuy.com/product/samsung-t7-1tb-external-usb-3-2-gen-2-portable-ssd-with-hardware-encryption-titan-gray/J3ZYGCQG8H/sku/6408299": {
+    "file": "scraped/batch4/https_www_bestbuy_com_product_samsung_t7_1tb_external_usb_3_2_gen_2_portable_ssd_with_hardware_encryption_titan_gray_J3Z.md",
+    "failed": false
+  },
+  "https://www.target.com/p/-/A-93111660": {
+    "file": "scraped/batch5/https_www_target_com_p_A_93111660.md",
+    "failed": false
+  },
+  "https://www.amazon.com/dp/B0874XN4D8": {
+    "file": "scraped/batch5/https_www_amazon_com_dp_B0874XN4D8.md",
+    "failed": false
+  },
+  "https://www.newegg.com/samsung-t7-1tb-usb-3-2-gen-2/p/N82E16820147767": {
+    "file": "scraped/batch5/https_www_newegg_com_samsung_t7_1tb_usb_3_2_gen_2_p_N82E16820147767.md",
+    "failed": false
+  },
+  "https://www.walmart.com/ip/156019443": {
+    "file": "scraped/batch5/https_www_walmart_com_ip_156019443.md",
+    "failed": false
+  },
+  "https://www.target.com/p/-/A-52908863": {
+    "file": "scraped/batch5/https_www_target_com_p_A_52908863.md",
+    "failed": false
+  },
+  "https://www.amazon.com/dp/B09X7MPX8L": {
+    "file": "scraped/batch6/https_www_amazon_com_dp_B09X7MPX8L.md",
+    "failed": false
+  },
+  "https://www.walmart.com/ip/2353663889": {
+    "file": "scraped/batch6/https_www_walmart_com_ip_2353663889.md",
+    "failed": false
+  },
+  "https://www.bestbuy.com/product/seagate-expansion-5tb-external-usb-3-0-portable-hard-drive-with-rescue-data-recovery-services-black/J37C5H48K5/sku/6461979": {
+    "file": "scraped/batch6/https_www_bestbuy_com_product_seagate_expansion_5tb_external_usb_3_0_portable_hard_drive_with_rescue_data_recovery_servi.md",
+    "failed": false
+  },
+  "https://www.target.com/p/-/A-1004710383": {
+    "file": "scraped/batch6/https_www_target_com_p_A_1004710383.md",
+    "failed": false
+  },
+  "https://www.amazon.com/dp/B07CRG94G3": {
+    "file": "scraped/batch6/https_www_amazon_com_dp_B07CRG94G3.md",
+    "failed": false
+  },
+  "https://www.newegg.com/seagate-model-stkm2000400-2tb/p/N82E16822184950": {
+    "file": "scraped/batch7/https_www_newegg_com_seagate_model_stkm2000400_2tb_p_N82E16822184950.md",
+    "failed": false
+  },
+  "https://www.walmart.com/ip/790131533": {
+    "file": "scraped/batch7/https_www_walmart_com_ip_790131533.md",
+    "failed": false
+  },
+  "https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-cancelling-over-the-ear-headphones-black/J7XSRH5CXG/sku/10890357": {
+    "file": null,
+    "failed": true
+  },
+  "https://www.amazon.com/dp/B09XS7JWHH": {
+    "file": "scraped/batch7/https_www_amazon_com_dp_B09XS7JWHH.md",
+    "failed": false
+  },
+  "https://www.walmart.com/ip/386006068": {
+    "file": "scraped/batch7/https_www_walmart_com_ip_386006068.md",
+    "failed": false
+  },
+  "https://www.walmart.com/ip/5395277557": {
+    "file": null,
+    "failed": true
+  }
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "sku_id": "S01",
+    "product": "Anker 737 power bank 24000mAh",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/anker-power-bank-24000mah-140w-3-port-black/JJ85865GV2/sku/6553403",
+    "product_name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "blocked by bot protection (Akamai) — connection reset before any HTML delivered"
+  },
+  {
+    "sku_id": "S01",
+    "product": "Anker 737 power bank 24000mAh",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B09VPHVT2Z",
+    "product_name": "Anker 737 Power Bank, 140W 24,000mAh 3-Port Laptop Charger, Smart Display",
+    "price": "$109.99",
+    "availability": "In Stock",
+    "rating": "4.4",
+    "status": "scraped ok"
+  },
+  {
+    "sku_id": "S01",
+    "product": "Anker 737 power bank 24000mAh",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/1425654143",
+    "product_name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "blocked by bot protection — CAPTCHA page returned, no product data accessible"
+  },
+  {
+    "sku_id": "S02",
+    "product": "Apple AirPods Pro 2",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/apple-airpods-pro-2-wireless-active-noise-cancelling-earbuds-with-hearing-aid-feature-white/JJGCQ88C8X/sku/10129617",
+    "product_name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "blocked by bot protection (Akamai) — connection reset before any HTML delivered"
+  },
+  {
+    "sku_id": "S02",
+    "product": "Apple AirPods Pro 2",
+    "retailer": "target",
+    "url": "https://www.target.com/p/-/A-85978609",
+    "product_name": "Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation",
+    "price": "$249.99",
+    "availability": "In Stock",
+    "rating": "3.9",
+    "status": "scraped ok"
+  },
+  {
+    "sku_id": "S02",
+    "product": "Apple AirPods Pro 2",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B0D1XD1ZV3",
+    "product_name": "Apple AirPods Pro 2 Wireless Earbuds, Active Noise Cancellation, Hearing Aid Feature, Bluetooth Headphones, Transparency, Personalized Spatial Audio, High-Fidelity Sound, H2 Chip, USB-C Charging",
+    "price": null,
+    "availability": "Currently unavailable",
+    "rating": "4.6",
+    "status": "scraped ok; item currently unavailable — no price rendered in DOM"
+  },
+  {
+    "sku_id": "S02",
+    "product": "Apple AirPods Pro 2",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/17835006350",
+    "product_name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "blocked by bot protection — CAPTCHA page returned, no product data accessible"
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199",
+    "product_name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "blocked by bot protection (Akamai) — connection reset before any HTML delivered"
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "retailer": "target",
+    "url": "https://www.target.com/p/-/A-1008322060",
+    "product_name": "Logitech MX Master 3S Wireless Mouse with Quiet Clicks 910006581",
+    "price": "$114.99",
+    "availability": "Out of Stock",
+    "rating": "4.6",
+    "status": "scraped ok; rating based on 11 reviews"
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B09HM94VDS",
+    "product_name": "Logitech MX Master 3S Wireless Bluetooth Mouse, Ultra-Fast Scrolling 8K DPI",
+    "price": "$104.89",
+    "availability": "Only 1 left in stock - order soon",
+    "rating": "4.5",
+    "status": "scraped ok; low inventory notice present"
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "retailer": "newegg",
+    "url": "https://www.newegg.com/logitech-910-006558-mx-master-3s-usb-type-c-dual/p/N82E16826197552",
+    "product_name": "Logitech MX Master 3S - Wireless Performance Mouse with Ultra-fast Scrolling, Ergo, 8K DPI, Track on Glass, Quiet Clicks, USB-C, Bluetooth, Windows, Linux, Chrome - Pale Grey",
+    "price": "$114.00",
+    "availability": "In Stock",
+    "rating": null,
+    "status": "scraped ok; rating null — page states no customer reviews yet (4.7 shown is seller reputation, not product rating)"
+  },
+  {
+    "sku_id": "S05",
+    "product": "Logitech MX Master 3S mouse",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/731473988",
+    "product_name": null,
+    "price": null,
+    "availability": null,
+    "rating": null,
+    "status": "blocked by bot protection — CAPTCHA page returned, no product data accessible"
+  }
+]

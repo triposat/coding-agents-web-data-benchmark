@@ -138,7 +138,7 @@ def main(article_path):
     words = {14: "Fourteen", 15: "Fifteen", 16: "Sixteen", 17: "Seventeen"}
     check("data-layer gap, Cursor", gap_cursor,
           f"{words.get(gap_cursor, gap_cursor)} and", article)
-    CHECKS.append((f"data-layer gap, Claude Code = {gap_claude}", gap_claude,
+    CHECKS.append(("data-layer gap, Claude Code", gap_claude,
                    f"and {words.get(gap_claude, gap_claude).lower()} points" in article))
     if f"and {words.get(gap_claude, gap_claude).lower()} points" not in article:
         FAIL.append(f"data-layer gap Claude Code: computed {gap_claude}, article disagrees")
@@ -169,8 +169,10 @@ def main(article_path):
                 if p.is_file() and ".git" not in p.parts and p.resolve() != me
                 and p.suffix in (".py", ".sh", ".json", ".md", ".txt", ".jsonl")
                 and pat in p.read_text(errors="ignore")]
-        CHECKS.append((f"no credential {pat}", len(hits), not hits))
-        if hits: FAIL.append(f"credential {pat} present in {hits[0]}")
+        # label by position, never echo the secret itself: this output gets
+        # pasted into issues and screenshots
+        CHECKS.append((f"no credential #{SECRETS.index(pat)+1} in tree", len(hits), not hits))
+        if hits: FAIL.append(f"credential #{SECRETS.index(pat)+1} present in {hits[0]}")
 
     width = max(len(c[0]) for c in CHECKS)
     for label, computed, ok in CHECKS:

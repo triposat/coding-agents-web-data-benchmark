@@ -7,7 +7,10 @@ python3 verify.py ../coding-agents-web-data-benchmark.md
 ```
 
 Re-derives every figure the article cites from the data in this repo and checks the
-article still says them. No network, no credentials. It parses the article's tables and
+article still says them. `claims.json` is the same set of figures as data:
+39 claims, each with the file it came from and the script that computed it, so an
+agent can check the post without parsing prose. Regenerate with
+`python3 scripts/emit_claims.py > claims.json`. No network, no credentials. It parses the article's tables and
 compares specific cells, so a wrong number fails even when that number appears correctly
 somewhere else. It also fails if a credential is present anywhere in the tree.
 

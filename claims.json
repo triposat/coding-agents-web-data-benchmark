@@ -1,0 +1,326 @@
+{
+  "$comment": "Every figure published in the accompanying article, with provenance. Run `python3 verify.py <article.md>` to check the article still matches.",
+  "generated": "2026-09-03",
+  "commit": "65fe182",
+  "task": {
+    "pages": 41,
+    "retailers": 5,
+    "products": 10,
+    "model": "claude-sonnet-5",
+    "sku_list": "data/skus.json"
+  },
+  "claims": [
+    {
+      "id": "cursor_bd.field_accuracy",
+      "value": 89,
+      "unit": "percent",
+      "derived_from": "runs_isolated/cursor_bd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "A. Cursor CLI + Bright Data"
+    },
+    {
+      "id": "cursor_bd.values_correct",
+      "value": 86,
+      "unit": "count",
+      "derived_from": "runs_isolated/cursor_bd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "of 97 scored"
+    },
+    {
+      "id": "cursor_bd.pages_name_and_price",
+      "value": 40,
+      "unit": "count",
+      "derived_from": "runs_isolated/cursor_bd/results.json",
+      "computed_by": "verify.py",
+      "note": "of 41 pages"
+    },
+    {
+      "id": "cursor_bd.price_accuracy",
+      "value": 80,
+      "unit": "percent",
+      "derived_from": "runs_isolated/cursor_bd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "A. Cursor CLI + Bright Data"
+    },
+    {
+      "id": "cursor_bd.rating_accuracy",
+      "value": 93,
+      "unit": "percent",
+      "derived_from": "runs_isolated/cursor_bd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "A. Cursor CLI + Bright Data"
+    },
+    {
+      "id": "cursor_bd.availability_accuracy",
+      "value": 94,
+      "unit": "percent",
+      "derived_from": "runs_isolated/cursor_bd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "A. Cursor CLI + Bright Data"
+    },
+    {
+      "id": "cursor_bd.wall_clock_s",
+      "value": 3281,
+      "unit": "seconds",
+      "derived_from": "runs_isolated/cursor_bd/meta.json",
+      "computed_by": "harness",
+      "note": ""
+    },
+    {
+      "id": "claude_bd_high.field_accuracy",
+      "value": 88,
+      "unit": "percent",
+      "derived_from": "runs_isolated/claude_bd_high/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "B+. Claude Code + Bright Data, matched effort"
+    },
+    {
+      "id": "claude_bd_high.values_correct",
+      "value": 85,
+      "unit": "count",
+      "derived_from": "runs_isolated/claude_bd_high/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "of 97 scored"
+    },
+    {
+      "id": "claude_bd_high.pages_name_and_price",
+      "value": 35,
+      "unit": "count",
+      "derived_from": "runs_isolated/claude_bd_high/results.json",
+      "computed_by": "verify.py",
+      "note": "of 41 pages"
+    },
+    {
+      "id": "claude_bd_high.price_accuracy",
+      "value": 86,
+      "unit": "percent",
+      "derived_from": "runs_isolated/claude_bd_high/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "B+. Claude Code + Bright Data, matched effort"
+    },
+    {
+      "id": "claude_bd_high.rating_accuracy",
+      "value": 93,
+      "unit": "percent",
+      "derived_from": "runs_isolated/claude_bd_high/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "B+. Claude Code + Bright Data, matched effort"
+    },
+    {
+      "id": "claude_bd_high.availability_accuracy",
+      "value": 85,
+      "unit": "percent",
+      "derived_from": "runs_isolated/claude_bd_high/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "B+. Claude Code + Bright Data, matched effort"
+    },
+    {
+      "id": "claude_bd_high.wall_clock_s",
+      "value": 2577,
+      "unit": "seconds",
+      "derived_from": "runs_isolated/claude_bd_high/meta.json",
+      "computed_by": "harness",
+      "note": ""
+    },
+    {
+      "id": "claude_bd.field_accuracy",
+      "value": 78,
+      "unit": "percent",
+      "derived_from": "runs_isolated/claude_bd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "B+. Claude Code + Bright Data"
+    },
+    {
+      "id": "claude_bd.values_correct",
+      "value": 76,
+      "unit": "count",
+      "derived_from": "runs_isolated/claude_bd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "of 97 scored"
+    },
+    {
+      "id": "claude_bd.pages_name_and_price",
+      "value": 34,
+      "unit": "count",
+      "derived_from": "runs_isolated/claude_bd/results.json",
+      "computed_by": "verify.py",
+      "note": "of 41 pages"
+    },
+    {
+      "id": "claude_bd.price_accuracy",
+      "value": 74,
+      "unit": "percent",
+      "derived_from": "runs_isolated/claude_bd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "B+. Claude Code + Bright Data"
+    },
+    {
+      "id": "claude_bd.rating_accuracy",
+      "value": 90,
+      "unit": "percent",
+      "derived_from": "runs_isolated/claude_bd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "B+. Claude Code + Bright Data"
+    },
+    {
+      "id": "claude_bd.availability_accuracy",
+      "value": 73,
+      "unit": "percent",
+      "derived_from": "runs_isolated/claude_bd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "B+. Claude Code + Bright Data"
+    },
+    {
+      "id": "claude_bd.wall_clock_s",
+      "value": 1650,
+      "unit": "seconds",
+      "derived_from": "runs_isolated/claude_bd/meta.json",
+      "computed_by": "harness",
+      "note": ""
+    },
+    {
+      "id": "cursor_nobd.field_accuracy",
+      "value": 74,
+      "unit": "percent",
+      "derived_from": "runs_isolated/cursor_nobd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "Control. Cursor CLI, no data layer"
+    },
+    {
+      "id": "cursor_nobd.values_correct",
+      "value": 72,
+      "unit": "count",
+      "derived_from": "runs_isolated/cursor_nobd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "of 97 scored"
+    },
+    {
+      "id": "cursor_nobd.pages_name_and_price",
+      "value": 28,
+      "unit": "count",
+      "derived_from": "runs_isolated/cursor_nobd/results.json",
+      "computed_by": "verify.py",
+      "note": "of 41 pages"
+    },
+    {
+      "id": "cursor_nobd.price_accuracy",
+      "value": 66,
+      "unit": "percent",
+      "derived_from": "runs_isolated/cursor_nobd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "Control. Cursor CLI, no data layer"
+    },
+    {
+      "id": "cursor_nobd.rating_accuracy",
+      "value": 93,
+      "unit": "percent",
+      "derived_from": "runs_isolated/cursor_nobd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "Control. Cursor CLI, no data layer"
+    },
+    {
+      "id": "cursor_nobd.availability_accuracy",
+      "value": 67,
+      "unit": "percent",
+      "derived_from": "runs_isolated/cursor_nobd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "Control. Cursor CLI, no data layer"
+    },
+    {
+      "id": "cursor_nobd.wall_clock_s",
+      "value": 3183,
+      "unit": "seconds",
+      "derived_from": "runs_isolated/cursor_nobd/meta.json",
+      "computed_by": "harness",
+      "note": ""
+    },
+    {
+      "id": "claude_nobd.field_accuracy",
+      "value": 72,
+      "unit": "percent",
+      "derived_from": "runs_isolated/claude_nobd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "B. Claude Code, no data layer"
+    },
+    {
+      "id": "claude_nobd.values_correct",
+      "value": 70,
+      "unit": "count",
+      "derived_from": "runs_isolated/claude_nobd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "of 97 scored"
+    },
+    {
+      "id": "claude_nobd.pages_name_and_price",
+      "value": 34,
+      "unit": "count",
+      "derived_from": "runs_isolated/claude_nobd/results.json",
+      "computed_by": "verify.py",
+      "note": "of 41 pages"
+    },
+    {
+      "id": "claude_nobd.price_accuracy",
+      "value": 83,
+      "unit": "percent",
+      "derived_from": "runs_isolated/claude_nobd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "B. Claude Code, no data layer"
+    },
+    {
+      "id": "claude_nobd.rating_accuracy",
+      "value": 83,
+      "unit": "percent",
+      "derived_from": "runs_isolated/claude_nobd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "B. Claude Code, no data layer"
+    },
+    {
+      "id": "claude_nobd.availability_accuracy",
+      "value": 52,
+      "unit": "percent",
+      "derived_from": "runs_isolated/claude_nobd/results.json",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "B. Claude Code, no data layer"
+    },
+    {
+      "id": "claude_nobd.wall_clock_s",
+      "value": 1054,
+      "unit": "seconds",
+      "derived_from": "runs_isolated/claude_nobd/meta.json",
+      "computed_by": "harness",
+      "note": ""
+    },
+    {
+      "id": "ground_truth.rows",
+      "value": 41,
+      "unit": "count",
+      "derived_from": "data/ground_truth_hand.json",
+      "computed_by": "hand adjudication",
+      "note": ""
+    },
+    {
+      "id": "ground_truth.values",
+      "value": 100,
+      "unit": "count",
+      "derived_from": "data/ground_truth_hand.json",
+      "computed_by": "hand adjudication",
+      "note": ""
+    },
+    {
+      "id": "data_layer_gap.cursor",
+      "value": 15,
+      "unit": "percentage_points",
+      "derived_from": "runs_isolated/",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "same agent, data layer removed"
+    },
+    {
+      "id": "data_layer_gap.claude_code",
+      "value": 16,
+      "unit": "percentage_points",
+      "derived_from": "runs_isolated/",
+      "computed_by": "scripts/score_accuracy_iso.py",
+      "note": "same agent and effort, data layer removed"
+    }
+  ]
+}

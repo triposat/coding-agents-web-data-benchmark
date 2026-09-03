@@ -4,11 +4,11 @@
     "product": "Anker 737 power bank 24000mAh",
     "retailer": "bestbuy",
     "url": "https://www.bestbuy.com/product/anker-power-bank-24000mah-140w-3-port-black/JJ85865GV2/sku/6553403",
-    "product_name": null,
-    "price": null,
-    "availability": null,
-    "rating": null,
-    "status": "blocked by bot protection (Akamai) — connection reset before any HTML delivered"
+    "product_name": "Anker - Power Bank (24000mAh, 140W, 3-Port) - Black",
+    "price": "$109.99",
+    "availability": "Likely in stock (limited-stock / pickup-ready signals present); page content was truncated before the Add to Cart button could be confirmed",
+    "rating": "4.8 out of 5 stars (719 reviews)",
+    "status": "OK, but availability is inferred: the scraped page was cut off before the Add to Cart / stock status button"
   },
   {
     "sku_id": "S01",
@@ -18,30 +18,30 @@
     "product_name": "Anker 737 Power Bank, 140W 24,000mAh 3-Port Laptop Charger, Smart Display",
     "price": "$109.99",
     "availability": "In Stock",
-    "rating": "4.4",
-    "status": "scraped ok"
+    "rating": "4.4 out of 5 stars (17,514 ratings)",
+    "status": "OK"
   },
   {
     "sku_id": "S01",
     "product": "Anker 737 power bank 24000mAh",
     "retailer": "walmart",
     "url": "https://www.walmart.com/ip/1425654143",
-    "product_name": null,
-    "price": null,
-    "availability": null,
-    "rating": null,
-    "status": "blocked by bot protection — CAPTCHA page returned, no product data accessible"
+    "product_name": "Anker 737 Power Bank, 24,000mAh 3-Port Laptop Portable Charger with 140W Fast Charging, Smart Display",
+    "price": "$109.99",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.7 out of 5 stars (86 ratings)",
+    "status": "OK"
   },
   {
     "sku_id": "S02",
     "product": "Apple AirPods Pro 2",
     "retailer": "bestbuy",
     "url": "https://www.bestbuy.com/product/apple-airpods-pro-2-wireless-active-noise-cancelling-earbuds-with-hearing-aid-feature-white/JJGCQ88C8X/sku/10129617",
-    "product_name": null,
-    "price": null,
-    "availability": null,
-    "rating": null,
-    "status": "blocked by bot protection (Akamai) — connection reset before any HTML delivered"
+    "product_name": "Apple - AirPods Pro 2, Wireless Active Noise Cancelling Earbuds with Hearing Aid Feature - White",
+    "price": "$238.99",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.8 out of 5 stars (32322 reviews)",
+    "status": "OK"
   },
   {
     "sku_id": "S02",
@@ -49,10 +49,10 @@
     "retailer": "target",
     "url": "https://www.target.com/p/-/A-85978609",
     "product_name": "Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation",
-    "price": "$249.99",
-    "availability": "In Stock",
-    "rating": "3.9",
-    "status": "scraped ok"
+    "price": "$224.99 (was $249.99)",
+    "availability": "In stock (Add to cart available)",
+    "rating": "3.93 out of 5 stars (2,046 ratings)",
+    "status": "OK"
   },
   {
     "sku_id": "S02",
@@ -61,31 +61,119 @@
     "url": "https://www.amazon.com/dp/B0D1XD1ZV3",
     "product_name": "Apple AirPods Pro 2 Wireless Earbuds, Active Noise Cancellation, Hearing Aid Feature, Bluetooth Headphones, Transparency, Personalized Spatial Audio, High-Fidelity Sound, H2 Chip, USB-C Charging",
     "price": null,
-    "availability": "Currently unavailable",
-    "rating": "4.6",
-    "status": "scraped ok; item currently unavailable — no price rendered in DOM"
+    "availability": "No featured (Buy Box) offer available on Amazon directly; only third-party listings via 'See All Buying Options'",
+    "rating": "4.6 out of 5 stars (46,915 ratings)",
+    "status": "Partial extraction; missing: price (price not applicable: no active Amazon offer)"
   },
   {
     "sku_id": "S02",
     "product": "Apple AirPods Pro 2",
     "retailer": "walmart",
     "url": "https://www.walmart.com/ip/17835006350",
+    "product_name": "Apple AirPods Pro 3",
+    "price": "$225.00",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.4 out of 5 stars (16.2K ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S03",
+    "product": "Apple AirTag 4 pack",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/apple-airtag-4-pack-2nd-generation-2026-white/JJGCQLTTF3/sku/6377586",
+    "product_name": "Apple - AirTag 4 pack (2nd generation) - 2026 - White",
+    "price": "$89.00",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.9 out of 5 stars (231 reviews)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S03",
+    "product": "Apple AirTag 4 pack",
+    "retailer": "target",
+    "url": "https://www.target.com/p/-/A-79673471",
+    "product_name": "Apple AirTag (4 Pack) (1st generation)",
+    "price": "$99.99",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.6 out of 5 stars (3,466 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S03",
+    "product": "Apple AirTag 4 pack",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B0GJTXVN9Z",
+    "product_name": "Apple AirTag (2nd Generation) - 4 Pack: Tracker for Keychain, Wallet, and More; Locator with Sound; Simple One-Tap Setup with iPhone or iPad; Key Finder with up to 1.5X Precision Finding Range",
+    "price": "$79.99",
+    "availability": "In Stock",
+    "rating": "4.5 out of 5 stars (9,826 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S03",
+    "product": "Apple AirTag 4 pack",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/5395277557",
     "product_name": null,
     "price": null,
     "availability": null,
     "rating": null,
-    "status": "blocked by bot protection — CAPTCHA page returned, no product data accessible"
+    "status": "Scrape failed: source page returned empty/blocked response after repeated retries (likely anti-bot protection or a dropped connection)"
+  },
+  {
+    "sku_id": "S04",
+    "product": "Bose QuietComfort Ultra earbuds",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/bose-quietcomfort-ultra-2nd-gen-true-wireless-noise-cancelling-in-ear-earbuds-midnight-violet/J7C5V6WCWL/sku/12333019",
+    "product_name": "Bose - QuietComfort Ultra Earbuds (2nd Gen) True Wireless Noise Cancelling In-Ear Earbuds with Immersive Audio - Midnight Violet",
+    "price": "$299.00",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.6 out of 5 stars (811 reviews)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S04",
+    "product": "Bose QuietComfort Ultra earbuds",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B0CD2FSRDD",
+    "product_name": "Bose QuietComfort Ultra Bluetooth Earbuds, Wireless Earbuds with Spatial Audio and World-Class Active Noise Cancellation, Deep Bass, Up to 6 Hours of Playtime, Black",
+    "price": "$299.00",
+    "availability": "In Stock",
+    "rating": "3.8 out of 5 stars (10,038 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S04",
+    "product": "Bose QuietComfort Ultra earbuds",
+    "retailer": "newegg",
+    "url": "https://www.newegg.com/bose-896637-0030-earbud-deep-plum/p/N82E16826627172",
+    "product_name": "Bose QuietComfort Ultra Earbuds (2nd Gen) True Wireless Noise Cancelling In-Ear Headphones - Deep Plum",
+    "price": "$299.00",
+    "availability": "In stock (Add to cart available)",
+    "rating": null,
+    "status": "Partial extraction; missing: rating (rating shown only as image icons (eggs), not extractable as text; 1 written reviews listed)"
+  },
+  {
+    "sku_id": "S04",
+    "product": "Bose QuietComfort Ultra earbuds",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/15853556239",
+    "product_name": "Bose QuietComfort Ultra Earbuds II, Wireless Noise Cancelling Earbuds, Black",
+    "price": "$299.00",
+    "availability": "In stock (Add to cart available)",
+    "rating": null,
+    "status": "Partial extraction; missing: rating (no rating widget found (likely no reviews yet))"
   },
   {
     "sku_id": "S05",
     "product": "Logitech MX Master 3S mouse",
     "retailer": "bestbuy",
     "url": "https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559/sku/6633199",
-    "product_name": null,
-    "price": null,
-    "availability": null,
-    "rating": null,
-    "status": "blocked by bot protection (Akamai) — connection reset before any HTML delivered"
+    "product_name": "Logitech - MX Master 3S Bluetooth Edition Performance Wireless Optical Mouse with Ultra-fast Scrolling and Quiet Clicks - Wireless - Black",
+    "price": "$89.99",
+    "availability": "In stock (Add to cart available) (limited stock: only 1 left at nearby store)",
+    "rating": "4.8 out of 5 stars (349 reviews)",
+    "status": "OK"
   },
   {
     "sku_id": "S05",
@@ -93,10 +181,10 @@
     "retailer": "target",
     "url": "https://www.target.com/p/-/A-1008322060",
     "product_name": "Logitech MX Master 3S Wireless Mouse with Quiet Clicks 910006581",
-    "price": "$114.99",
-    "availability": "Out of Stock",
-    "rating": "4.6",
-    "status": "scraped ok; rating based on 11 reviews"
+    "price": "$109.99",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.64 out of 5 stars (11 ratings)",
+    "status": "OK"
   },
   {
     "sku_id": "S05",
@@ -104,10 +192,10 @@
     "retailer": "amazon",
     "url": "https://www.amazon.com/dp/B09HM94VDS",
     "product_name": "Logitech MX Master 3S Wireless Bluetooth Mouse, Ultra-Fast Scrolling 8K DPI",
-    "price": "$104.89",
-    "availability": "Only 1 left in stock - order soon",
-    "rating": "4.5",
-    "status": "scraped ok; low inventory notice present"
+    "price": null,
+    "availability": "Currently unavailable on Amazon (no restock date given)",
+    "rating": "4.5 out of 5 stars (8,656 ratings)",
+    "status": "Partial extraction; missing: price (price not applicable: no active Amazon offer)"
   },
   {
     "sku_id": "S05",
@@ -116,19 +204,250 @@
     "url": "https://www.newegg.com/logitech-910-006558-mx-master-3s-usb-type-c-dual/p/N82E16826197552",
     "product_name": "Logitech MX Master 3S - Wireless Performance Mouse with Ultra-fast Scrolling, Ergo, 8K DPI, Track on Glass, Quiet Clicks, USB-C, Bluetooth, Windows, Linux, Chrome - Pale Grey",
     "price": "$114.00",
-    "availability": "In Stock",
+    "availability": "In stock (Add to cart available)",
     "rating": null,
-    "status": "scraped ok; rating null — page states no customer reviews yet (4.7 shown is seller reputation, not product rating)"
+    "status": "Partial extraction; missing: rating (rating shown only as image icons (eggs), not extractable as text; 5 written reviews listed)"
   },
   {
     "sku_id": "S05",
     "product": "Logitech MX Master 3S mouse",
     "retailer": "walmart",
     "url": "https://www.walmart.com/ip/731473988",
+    "product_name": "Logitech MX Master 3S, Wireless Performance Mouse, Ergo, 8K DPI, Quiet Clicks, USB-C, Black",
+    "price": "$82.49",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.4 out of 5 stars (375 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/razer-deathadder-v3-lightweight-optical-gaming-mouse-with-8k-hz-hyperpolling-technology-wired-black/J39HWFQKZW/sku/10736128",
+    "product_name": "Razer - DeathAdder V3 Lightweight Optical Gaming Mouse with 8K Hz HyperPolling Technology - Wired - Black",
+    "price": null,
+    "availability": "Discontinued - no longer available in new condition (Best Buy)",
+    "rating": "4.6 out of 5 stars (339 reviews)",
+    "status": "Partial extraction; missing: price (no price shown for discontinued listing)"
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "retailer": "target",
+    "url": "https://www.target.com/p/-/A-94720129",
+    "product_name": "Razer DeathAdder Essential White Edition Ergonomic Wired Gaming Mouse",
+    "price": "$19.49 (was $24.99)",
+    "availability": "Out of stock / Sold out",
+    "rating": "4.61 out of 5 stars (33 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B0B6XTDJS1",
+    "product_name": "Razer DeathAdder V3 Wired Gaming Mouse, 8Khz, 59g, Black",
+    "price": "$48.99",
+    "availability": "In Stock",
+    "rating": "4.2 out of 5 stars (1,749 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "retailer": "newegg",
+    "url": "https://www.newegg.com/razer-deathadder-v3-usb-wired/p/N82E16826153342",
+    "product_name": "Razer DeathAdder V3 Wired Gaming Mouse: 59g Ultra Lightweight - Focus Pro 30K Optical Sensor - Fast Optical Switches Gen-3-8K Hz HyperPolling-6 Programmable Buttons -Ergonomic -Speedflex Cable- Black",
+    "price": "$71.99",
+    "availability": "In stock (Add to cart available)",
+    "rating": null,
+    "status": "Partial extraction; missing: rating (rating shown only as image icons (eggs), not extractable as text; 4 written reviews listed)"
+  },
+  {
+    "sku_id": "S06",
+    "product": "Razer DeathAdder V3 mouse",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/1281151624",
+    "product_name": "Razer DeathAdder V3 Pro Wireless Esports Gaming Mouse, 64g, 5 Buttons, 2.4GHz, Bluetooth, Black",
+    "price": "$96.99",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.4 out of 5 stars (89 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/samsung-t7-1tb-external-usb-3-2-gen-2-portable-ssd-with-hardware-encryption-titan-gray/J3ZYGCQG8H/sku/6408299",
+    "product_name": "Samsung - T7 1TB External USB 3.2 Gen 2 Portable SSD with Hardware Encryption - Titan Gray",
+    "price": "$269.99",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.8 out of 5 stars (4286 reviews)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "retailer": "target",
+    "url": "https://www.target.com/p/-/A-93111660",
+    "product_name": "SAMSUNG T7 Portable 1TB USB 3.2 External SSD MU-PC1T0T/AM",
+    "price": "$312.41",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.81 out of 5 stars (884 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B0874XN4D8",
+    "product_name": "Samsung T7 Portable SSD 1TB Titan Gray, USB 3.2 Gen 2, Up to 1,050MB/s",
+    "price": "$250.47",
+    "availability": "In Stock",
+    "rating": "4.7 out of 5 stars (21,183 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "retailer": "newegg",
+    "url": "https://www.newegg.com/samsung-t7-1tb-usb-3-2-gen-2/p/N82E16820147767",
+    "product_name": "SAMSUNG T7 Portable SSD 1TB - Up to 1050 MB/s - USB 3.2 Gen 2 External Solid State Drive, Gray (MU-PC1T0T/AM)",
+    "price": "$269.99",
+    "availability": "In stock (Add to cart available)",
+    "rating": null,
+    "status": "Partial extraction; missing: rating (rating shown only as image icons (eggs), not extractable as text; 1,032 written reviews listed)"
+  },
+  {
+    "sku_id": "S07",
+    "product": "Samsung T7 1TB portable SSD",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/156019443",
+    "product_name": "SAMSUNG T7 Shield MU-PE1T0S - 1TB Portable Encrypted SSD - USB 3.2 Gen 2 - USB-C connector - 256-bit AES - Black",
+    "price": "$275.00",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.8 out of 5 stars (1,405 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S08",
+    "product": "SanDisk Extreme Pro 1TB microSDXC",
+    "retailer": "target",
+    "url": "https://www.target.com/p/-/A-52908863",
+    "product_name": "SanDisk Extreme Plus 64GB microSD Class 10 Memory Card",
+    "price": "$26.99",
+    "availability": "Out of stock / Sold out",
+    "rating": "4.66 out of 5 stars (73 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S08",
+    "product": "SanDisk Extreme Pro 1TB microSDXC",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B09X7MPX8L",
+    "product_name": "SANDISK 1TB Extreme microSD Card + Adapter, Up to 190MB/s Read Speeds",
+    "price": "$209.99",
+    "availability": "In Stock",
+    "rating": "4.8 out of 5 stars (148,358 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S08",
+    "product": "SanDisk Extreme Pro 1TB microSDXC",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/2353663889",
+    "product_name": "SanDisk 1TB Extreme Pro microSDXC UHS-I Memory Card - SDSQXCD-1T00-GN6MA",
+    "price": "$256.03",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.2 out of 5 stars (165 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/seagate-expansion-5tb-external-usb-3-0-portable-hard-drive-with-rescue-data-recovery-services-black/J37C5H48K5/sku/6461979",
+    "product_name": "Seagate - Expansion 5TB External USB 3.0 Portable Hard Drive with Rescue Data Recovery Services - Black",
+    "price": "$219.99",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.8 out of 5 stars (334 reviews)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "retailer": "target",
+    "url": "https://www.target.com/p/-/A-1004710383",
+    "product_name": "Seagate Portable 2TB External Hard Drive HDD \u2014 USB 3.0 for PC, Mac, PlayStation, & Xbox -1-Year Rescue Service (STGX2000400)",
+    "price": "$143.30",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.34 out of 5 stars (18 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B07CRG94G3",
+    "product_name": "Seagate 2TB Portable Hard Drive | USB 3.0 (STGX2000400)",
+    "price": "$129.99",
+    "availability": "In Stock",
+    "rating": "4.6 out of 5 stars (272,773 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "retailer": "newegg",
+    "url": "https://www.newegg.com/seagate-model-stkm2000400-2tb/p/N82E16822184950",
+    "product_name": "Seagate Expansion Portable 2TB External Hard Drive HDD - 2.5 Inch USB 3.0, for Mac and PC with Rescue Services (STKM2000400)",
+    "price": "$198.00",
+    "availability": "In stock (Add to cart available)",
+    "rating": null,
+    "status": "Partial extraction; missing: rating (rating shown only as image icons (eggs), not extractable as text; 97 written reviews listed)"
+  },
+  {
+    "sku_id": "S09",
+    "product": "Seagate Expansion 2TB external hard drive",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/790131533",
+    "product_name": "Seagate Backup Plus Slim Portable 2TB External Hard Drive USB 3.0, Black",
+    "price": "$119.00",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.4 out of 5 stars (4,507 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S10",
+    "product": "Sony WH-1000XM5 wireless headphones",
+    "retailer": "bestbuy",
+    "url": "https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-cancelling-over-the-ear-headphones-black/J7XSRH5CXG/sku/10890357",
     "product_name": null,
     "price": null,
     "availability": null,
     "rating": null,
-    "status": "blocked by bot protection — CAPTCHA page returned, no product data accessible"
+    "status": "Scrape failed: source page returned empty/blocked response after repeated retries (likely anti-bot protection or a dropped connection)"
+  },
+  {
+    "sku_id": "S10",
+    "product": "Sony WH-1000XM5 wireless headphones",
+    "retailer": "amazon",
+    "url": "https://www.amazon.com/dp/B09XS7JWHH",
+    "product_name": "Sony WH-1000XM5 Premium Noise Cancelling Wireless Headphones, Black",
+    "price": "$198.00",
+    "availability": "In Stock",
+    "rating": "4.2 out of 5 stars (20,008 ratings)",
+    "status": "OK"
+  },
+  {
+    "sku_id": "S10",
+    "product": "Sony WH-1000XM5 wireless headphones",
+    "retailer": "walmart",
+    "url": "https://www.walmart.com/ip/386006068",
+    "product_name": "Sony WH-1000XM5 The Best Wireless Noise Canceling Headphones, Black",
+    "price": "$198.00",
+    "availability": "In stock (Add to cart available)",
+    "rating": "4.3 out of 5 stars (1,415 ratings)",
+    "status": "OK"
   }
 ]
