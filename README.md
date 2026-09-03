@@ -176,7 +176,8 @@ sites, 11 treated all three local clients the same.
 
 ## Reproducing the fetch comparison
 
-Requires Python 3, `playwright`, and a Bright Data API key.
+Requires Python 3, the packages in `requirements.txt`, and a Bright Data API key.
+`verify.py` needs none of them.
 
 ```bash
 pip install playwright && playwright install chromium

@@ -1,0 +1,16 @@
+# verify.py needs none of this. It runs on a stock Python 3 with no network
+# and no credentials:  python3 verify.py
+#
+# These are for re-running the collection arms against your own targets.
+
+requests            # arm 1, the plain-HTTP fetch, and the Web Unlocker calls
+beautifulsoup4      # field extraction in scripts/extract.py
+tiktoken            # token counting behind the cost model
+
+# arm 2, the local-browser fetch. playwright also needs a one-off browser
+# download:  playwright install chromium
+playwright
+playwright-stealth  # the hardened variant of arm 2
+patchright          # ditto
+seleniumbase        # ditto
+curl_cffi           # TLS-fingerprint probes in scripts/probe_fingerprints.py
