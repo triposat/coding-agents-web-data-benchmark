@@ -51,7 +51,7 @@ because the repo should show what was tried, not only what was published.
 read it as a shortfall in the structured extractors. It was our harness. `web_data_*`
 calls start asynchronous collection jobs and we had capped the client at 180 seconds;
 three pages returned at 201, 234 and 308 seconds. Re-run with a 10-minute ceiling, the
-same calls returned **26 of 29 — exactly what `scrape_as_markdown` read on the same
+same calls returned **26 of 29, exactly what `scrape_as_markdown` read on the same
 retailers**. The article uses the markdown path because it is one call with no polling,
 not because the structured path collected less. `data/web_data_retest.json` is the re-run.
 
@@ -205,10 +205,13 @@ Both Cursor trackers are re-executed untouched against the same frozen `skus.jso
 It snapshots each run directory first and restores it afterwards, because the trackers
 write `results.json` in place and that file is the measurement.
 
-The article publishes a 24-hour checkpoint from this — 40 to 35 pages for A, 28 to 20 for
-the Control, with Best Buy the only retailer that moved in either arm — and labels it as
-the checkpoint it is. A 48-hour re-run is scheduled for 2026-09-05 and the post will be
-updated with it. Nothing here is a settled durability number yet.
+The article publishes a 24-hour checkpoint from this: 40 to 35 pages for A, 28 to 20 for
+the Control, with Best Buy the only retailer that moved in either arm. It labels that as
+the checkpoint it is.
+
+A longer re-run over 48 to 72 hours is planned, and its output will land in this repo when
+it runs. Until then nothing here is a settled durability number, and a 24-hour window
+catches the fastest-moving defence and nothing slower.
 
 ## Known limitations
 
