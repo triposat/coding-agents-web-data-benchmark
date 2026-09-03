@@ -1,0 +1,14 @@
+{
+  "_source": "Read by eye from the Bright Data control panel, Web Access API > Usage overview. This is a dashboard reading, not an API export: the screenshot is the primary record and is committed alongside it.",
+  "_screenshot": "images/bright-data-web-unlocker-usage-dashboard.png",
+  "_read_on": "2026-09-01",
+  "filter": {
+    "date_range": "2026-08-03 to 2026-09-01",
+    "types": ["web_unlocker", "serp_api2"],
+    "note": "The durability re-run of 2026-09-02 falls outside this window and is not counted below."
+  },
+  "web_unlocker": { "requests": 532, "data_mb": 430, "bytes_per_request_kb": 808 },
+  "serp_api": { "requests": 0, "data_mb": 0 },
+  "published_rate_usd_per_1000": 1.5,
+  "free_tier_requests_per_month": 5000
+}

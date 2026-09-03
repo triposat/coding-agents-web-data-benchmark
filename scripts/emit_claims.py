@@ -57,6 +57,13 @@ for arm, label in ARMS.items():
         add(f"{arm}.{f}_accuracy", v, "percent", src, "scripts/score_accuracy_iso.py", label)
     add(f"{arm}.wall_clock_s", json.load(open(RUNS / arm / "meta.json"))["wall_clock_s"],
         "seconds", f"runs_isolated/{arm}/meta.json", "harness")
+u = json.load(open(ROOT / "data" / "account_usage.json"))
+req, mb = u["web_unlocker"]["requests"], u["web_unlocker"]["data_mb"]
+rate, free = u["published_rate_usd_per_1000"], u["free_tier_requests_per_month"]
+add("account.web_unlocker_requests", req, "count", "data/account_usage.json", "dashboard reading", u["filter"]["date_range"])
+add("account.data_transferred_mb", mb, "megabytes", "data/account_usage.json", "dashboard reading", u["filter"]["date_range"])
+add("account.cost_usd", round(req * rate / 1000, 2), "usd", "data/account_usage.json", "requests x published rate")
+add("account.free_tier_used_pct", round(req / free * 100), "percent", "data/account_usage.json", "requests / free tier")
 add("ground_truth.rows", len(gt), "count", "data/ground_truth_hand.json", "hand adjudication")
 add("ground_truth.values", sum(1 for r in gt.values() for f in FIELDS if r.get(f) is not None),
     "count", "data/ground_truth_hand.json", "hand adjudication")
