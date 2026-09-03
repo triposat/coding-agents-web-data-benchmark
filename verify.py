@@ -140,6 +140,11 @@ def main(article_path):
         cell(f"{arm} correct/scored (table)", f"{s['correct']} / {s['scored']}", lbl, 1, article, tabs)
         cell(f"{arm} accuracy (table)", f"{s['accuracy']}%", lbl, 2, article, tabs)
         cell(f"{arm} price accuracy (table)", f"{s['per_field']['price']}%", lbl, 3, article, tabs)
+    # ---- headline table, "All 4 fields" column ----
+    # Published and shown in both dashboard screenshots, but never asserted until now.
+    for arm in ("cursor_bd", "claude_nobd", "claude_bd", "cursor_nobd"):
+        cell(f"{arm} all four fields (table)", results[arm]["all_four"], ROWLABEL[arm], 2, article, tabs)
+
     check("scored values per arm", results["cursor_bd"]["scored"],
           f"{results['cursor_bd']['scored']} comparisons", article)
 
