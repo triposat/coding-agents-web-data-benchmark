@@ -9,13 +9,14 @@ python3 verify.py post.md    # check a copy of the post against them
 
 With no argument it prints every published figure straight from the data, which is the
 useful form if you cloned this repo and the post is open in a browser tab. Given an
-article file it re-derives every figure the article cites from the data in this repo and checks the
-and checks the article still says them. `claims.json` is the same set of figures as data:
-39 claims, each with the file it came from and the script that computed it, so an
-agent can check the post without parsing prose. Regenerate with
-`python3 scripts/emit_claims.py > claims.json`. No network, no credentials. It parses the article's tables and
-compares specific cells, so a wrong number fails even when that number appears correctly
-somewhere else. It also fails if a credential is present anywhere in the tree.
+article file it re-derives each figure and checks the article still says it. No network
+and no credentials either way. It parses the article's tables and compares specific
+cells, so a wrong number fails even when that number appears correctly somewhere else,
+and it fails if a credential is present anywhere in the tree.
+
+`claims.json` is the same set of figures as data: 39 claims, each carrying the file it
+came from and the script that computed it, so an agent can check the post without
+parsing prose. Regenerate with `python3 scripts/emit_claims.py > claims.json`.
 
 Measured on 2026-08-31 from a single machine in one location. Every figure in the
 article comes from a file in `data/` or `runs/`.
