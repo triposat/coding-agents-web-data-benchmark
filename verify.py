@@ -143,6 +143,21 @@ def main(article_path):
     check("scored values per arm", results["cursor_bd"]["scored"],
           f"{results['cursor_bd']['scored']} comparisons", article)
 
+    # ---- blocked-request rate ----
+    # A request that never produced a usable page, as distinct from a page that
+    # arrived short a field. Derived from each run's own status strings.
+    BLOCKED = ("blocked_by_bot_protection", "fetch error", "pending fetch",
+               "page_returned_empty_content")
+    ROWLAB = {"cursor_bd": "A. Cursor + Bright Data",
+              "claude_bd": "B+. Claude Code + Bright Data",
+              "claude_bd_high": "B+. Claude Code, matched effort",
+              "cursor_nobd": "Control. Cursor, no data layer",
+              "claude_nobd": "B. Claude Code, no data layer"}
+    for arm in ARMS:
+        n = sum(1 for r in load(arm, "results.json")
+                if any(b in str(r.get("status", "")) for b in BLOCKED))
+        cell(f"{arm} blocked (table)", f"{n} / 41", ROWLAB[arm], 1, article, tabs)
+
     # ---- the repo's own README ----
     # It drifted once: it kept the accuracies from before the ground-truth
     # corrections while the post carried the new ones, and nothing checked it.
